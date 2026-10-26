@@ -57,4 +57,5 @@ For the current thruster print parts, use the separate [R14 print kit](R14-Smoot
 
 All project revision folders are retained, including the old R4 native export package with two historical meshes absent from the loose-file collection. Local executable tools, Python caches, the unrelated NVIDIA folder, temporary meeting assets, and the repository invitation screenshot are not project deliverables and are excluded.
 
-Browse the original text sources and CAD images in [cad/](../cad/), and read the [motor and fan journal](../docs/journals/motor-and-fan-cad-development.md) for the history and current status.
+Browse the original text sources and selected CAD previews in [cad/](../cad/), and read the [motor and fan journal](../docs/journals/motor-and-fan-cad-development.md) for the history and current status. The archives include the full image collection.
+
