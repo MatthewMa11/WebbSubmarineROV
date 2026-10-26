@@ -1,5 +1,6 @@
 # Local tools, caches, and publishing staging
 .repo-upload/
+node_modules/
 .meeting-build/
 cad/.video-tools/
 **/__pycache__/

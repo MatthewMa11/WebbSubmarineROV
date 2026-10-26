@@ -37,3 +37,5 @@ Project import and journal date: **October 26, 2026**. Historical dates in the j
 ## Updating the website
 
 The public club website uses GitHub Pages, published from the root of the `main` branch. Edit `index.html` for content and `site-assets/site.css` for styling. The site uses the project’s existing CAD images and links to the journals and release downloads. Keep `.nojekyll` in place so GitHub serves the static files directly. Changes pushed to `main` are published automatically by GitHub Pages.
+
+The homepage opens dedicated journal pages at `journals/`. The Markdown files in `docs/journals/` remain the editable source. After changing a journal, run `npm install` once and `npm run build:site`, then commit the generated HTML and diagram SVGs with the source. This preserves the illustrated journal content without requiring JavaScript in the reader’s browser. Reader styling lives in `site-assets/journals.css`.

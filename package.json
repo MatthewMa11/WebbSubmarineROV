@@ -1,0 +1,7 @@
+{
+  "name": "webb-submarine-rov-site",
+  "private": true,
+  "type": "module",
+  "scripts": { "build:site": "node scripts/build-journals.mjs" },
+  "devDependencies": { "marked": "17.0.5" }
+}

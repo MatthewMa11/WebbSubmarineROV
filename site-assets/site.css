@@ -238,3 +238,15 @@ h3 { font-size: 30px; line-height: 1.16; font-weight: 500; letter-spacing: -.035
   .hero-grid { gap: 30px; }
   .hero-model, .download-row, .journal-entry { break-inside: avoid; }
 }
+
+.hero-journals { max-width: 435px; margin-top: 26px; }
+.hero-journals > p { margin-bottom: 8px; color: var(--muted); font: 10px/1.5 var(--mono); letter-spacing: .1em; }
+.hero-journals > a { display: flex; align-items: center; justify-content: space-between; gap: 18px; min-height: 44px; padding-block: 10px; border-bottom: 1px solid var(--line-light); color: var(--cyan); font-size: 15px; line-height: 1.5; }
+.hero-journals > a span:first-child { min-width: 0; }
+.hero-journals > a span:last-child { flex-shrink: 0; font-size: 21px; }
+.hero-journals > a:hover span:first-child { text-decoration: underline; text-underline-offset: 4px; }
+
+@media print {
+  .hero-journals > p, .hero-journals > a { color: #102c35; }
+  .hero-journals > a { border-color: #95a39e; }
+}

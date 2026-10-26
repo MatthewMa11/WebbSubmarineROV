@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="376" viewBox="0 0 940 376" role="img" aria-labelledby="journal-diagram-2-title journal-diagram-2-description" font-family="Arial, Helvetica, sans-serif">
+<title id="journal-diagram-2-title">R6 torque and axial retention</title>
+<desc id="journal-diagram-2-description">R6 torque and axial retention. Intended functions · not measured load capacity. Motor-face openings → Four solid fan keys; Four solid fan keys → Transmit torque to the fan; Two opposed M3x16 bolt stacks → External bell clamp; External bell clamp → Resist axial separation.</desc>
+<defs><marker id="journal-diagram-2-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#178396"/></marker></defs>
+<rect width="940" height="376" rx="18" fill="#f5f1e7"/>
+<rect x="32" y="28" width="5" height="51" rx="2.5" fill="#178396"/>
+<text x="50" y="48" fill="#153247" font-size="24" font-weight="700">R6 torque and axial retention</text>
+<text x="50" y="76" fill="#40586a" font-size="16">Intended functions · not measured load capacity</text>
+<path data-from="M" data-to="K" d="M 292 172 H 335" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-2-arrow)"/>
+<path data-from="K" data-to="T" d="M 600 172 H 643" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-2-arrow)"/>
+<path data-from="B" data-to="C" d="M 292 300 H 335" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-2-arrow)"/>
+<path data-from="C" data-to="A" d="M 600 300 H 643" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-2-arrow)"/>
+<g data-node="M"><title>Motor-face openings</title><rect x="32" y="126" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="162" y="178">Motor-face openings</tspan></text></g>
+<g data-node="K"><title>Four solid fan keys</title><rect x="340" y="126" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="470" y="178">Four solid fan keys</tspan></text></g>
+<g data-node="T"><title>Transmit torque to the fan</title><rect x="648" y="126" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="778" y="165.5">Transmit torque to</tspan><tspan x="778" y="190.5">the fan</tspan></text></g>
+<g data-node="B"><title>Two opposed M3x16 bolt stacks</title><rect x="32" y="254" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="162" y="293.5">Two opposed M3x16</tspan><tspan x="162" y="318.5">bolt stacks</tspan></text></g>
+<g data-node="C"><title>External bell clamp</title><rect x="340" y="254" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="470" y="306">External bell clamp</tspan></text></g>
+<g data-node="A"><title>Resist axial separation</title><rect x="648" y="254" width="260" height="92" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="778" y="293.5">Resist axial</tspan><tspan x="778" y="318.5">separation</tspan></text></g>
+</svg>

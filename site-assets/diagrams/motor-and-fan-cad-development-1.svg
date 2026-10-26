@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="794" viewBox="0 0 620 794" role="img" aria-labelledby="journal-diagram-1-title journal-diagram-1-description" font-family="Arial, Helvetica, sans-serif">
+<title id="journal-diagram-1-title">R4 cover joint stack</title>
+<desc id="journal-diagram-1-description">R4 cover joint stack. Schematic · not to scale · screw head to tip. M3x12 screw head → Front flat washer: 0.5 mm; Front flat washer: 0.5 mm → Cover tab: 5 mm; Cover tab: 5 mm → Nozzle seat: 3 mm; Nozzle seat: 3 mm → Rear flat washer: 0.5 mm; Rear flat washer: 0.5 mm → Captured M3 nut: 2.4 mm; Captured M3 nut: 2.4 mm → Nominal tip projection: 0.6 mm.</desc>
+<defs><marker id="journal-diagram-1-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#178396"/></marker></defs>
+<rect width="620" height="794" rx="18" fill="#f5f1e7"/>
+<rect x="32" y="28" width="5" height="51" rx="2.5" fill="#178396"/>
+<text x="50" y="48" fill="#153247" font-size="24" font-weight="700">R4 cover joint stack</text>
+<text x="50" y="76" fill="#40586a" font-size="16">Schematic · not to scale · screw head to tip</text>
+<path data-from="H" data-to="W1" d="M 310 174 V 201" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<path data-from="W1" data-to="C" d="M 310 266 V 293" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<path data-from="C" data-to="N" d="M 310 358 V 385" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<path data-from="N" data-to="W2" d="M 310 450 V 477" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<path data-from="W2" data-to="Nut" d="M 310 542 V 569" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<path data-from="Nut" data-to="Tip" d="M 310 634 V 661" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-1-arrow)"/>
+<g data-node="H"><title>M3x12 screw head</title><rect x="90" y="114" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="150">M3x12 screw head</tspan></text></g>
+<g data-node="W1"><title>Front flat washer: 0.5 mm</title><rect x="90" y="206" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="242">Front flat washer: 0.5 mm</tspan></text></g>
+<g data-node="C"><title>Cover tab: 5 mm</title><rect x="90" y="298" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="334">Cover tab: 5 mm</tspan></text></g>
+<g data-node="N"><title>Nozzle seat: 3 mm</title><rect x="90" y="390" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="426">Nozzle seat: 3 mm</tspan></text></g>
+<g data-node="W2"><title>Rear flat washer: 0.5 mm</title><rect x="90" y="482" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="518">Rear flat washer: 0.5 mm</tspan></text></g>
+<g data-node="Nut"><title>Captured M3 nut: 2.4 mm</title><rect x="90" y="574" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="610">Captured M3 nut: 2.4 mm</tspan></text></g>
+<g data-node="Tip"><title>Nominal tip projection: 0.6 mm</title><rect x="90" y="666" width="440" height="60" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="310" y="702">Nominal tip projection: 0.6 mm</tspan></text></g>
+</svg>

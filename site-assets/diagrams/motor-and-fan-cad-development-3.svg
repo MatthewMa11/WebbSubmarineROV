@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="574" viewBox="0 0 940 574" role="img" aria-labelledby="journal-diagram-3-title journal-diagram-3-description" font-family="Arial, Helvetica, sans-serif">
+<title id="journal-diagram-3-title">Current saved thruster assembly</title>
+<desc id="journal-diagram-3-description">Current saved thruster assembly. Arrows mean inclusion · not force or torque paths. R14 smooth housing → Current saved thruster assembly; R13 concave cone → Current saved thruster assembly; R11 fan and adapter interface → Current saved thruster assembly; Matching actual motor and metal adapter → Current saved thruster assembly.</desc>
+<defs><marker id="journal-diagram-3-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#178396"/></marker></defs>
+<rect width="940" height="574" rx="18" fill="#f5f1e7"/>
+<rect x="32" y="28" width="5" height="51" rx="2.5" fill="#178396"/>
+<text x="50" y="48" fill="#153247" font-size="24" font-weight="700">Current saved thruster assembly</text>
+<text x="50" y="76" fill="#40586a" font-size="16">Arrows mean inclusion · not force or torque paths</text>
+<path data-from="H" data-to="A" d="M 382 159 C 476 159, 490 294, 583 294" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-3-arrow)"/>
+<path data-from="C" data-to="A" d="M 382 269 C 476 269, 490 314, 583 314" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-3-arrow)"/>
+<path data-from="F" data-to="A" d="M 382 379 C 476 379, 490 334, 583 334" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-3-arrow)"/>
+<path data-from="M" data-to="A" d="M 382 489 C 476 489, 490 354, 583 354" fill="none" stroke="#178396" stroke-width="2.5" marker-end="url(#journal-diagram-3-arrow)"/>
+<g data-node="H"><title>R14 smooth housing</title><rect x="32" y="118" width="350" height="82" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="207" y="165">R14 smooth housing</tspan></text></g>
+<g data-node="C"><title>R13 concave cone</title><rect x="32" y="228" width="350" height="82" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="207" y="275">R13 concave cone</tspan></text></g>
+<g data-node="F"><title>R11 fan and adapter interface</title><rect x="32" y="338" width="350" height="82" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="207" y="385">R11 fan and adapter interface</tspan></text></g>
+<g data-node="M"><title>Matching actual motor and metal adapter</title><rect x="32" y="448" width="350" height="82" rx="12" fill="#fffdf7" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#153247"><tspan x="207" y="482.5">Matching actual motor and</tspan><tspan x="207" y="507.5">metal adapter</tspan></text></g>
+<g data-node="A"><title>Current saved thruster assembly</title><rect x="588" y="274" width="320" height="100" rx="12" fill="#153247" stroke="#178396" stroke-width="1.5"/><text text-anchor="middle" font-size="18" font-weight="600" fill="#ffffff"><tspan x="748" y="317.5">Current saved thruster</tspan><tspan x="748" y="342.5">assembly</tspan></text></g>
+</svg>
