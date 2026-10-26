@@ -24,6 +24,30 @@ function rewriteLink(href, image = false) {
   return `${repo}/blob/main/${target}`;
 }
 
+// Reserve the original image aspect ratio before lazy loading to keep section
+// navigation and nearby links stable. The journal source uses PNG and JPEG.
+function imageDimensions(href) {
+  const bytes = fs.readFileSync(path.join(root, href.slice(6)));
+  if (bytes.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]))) {
+    return { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) };
+  }
+  if (bytes[0] === 0xff && bytes[1] === 0xd8) {
+    let offset = 2;
+    const frames = new Set([0xc0,0xc1,0xc2,0xc3,0xc5,0xc6,0xc7,0xc9,0xca,0xcb,0xcd,0xce,0xcf]);
+    while (offset + 8 < bytes.length) {
+      if (bytes[offset++] !== 0xff) break;
+      while (bytes[offset] === 0xff) offset++;
+      const marker = bytes[offset++];
+      if (marker === 0xda || marker === 0xd9) break;
+      const length = bytes.readUInt16BE(offset);
+      if (length < 2 || offset + length > bytes.length) break;
+      if (frames.has(marker)) return { width: bytes.readUInt16BE(offset + 5), height: bytes.readUInt16BE(offset + 3) };
+      offset += length;
+    }
+  }
+  throw new Error(`Unsupported or unreadable image dimensions: ${href}`);
+}
+
 for (const journal of journals) {
   const source = fs.readFileSync(path.join(root, 'docs/journals', journal.slug + '.md'), 'utf8');
   const toc = [];
@@ -47,15 +71,18 @@ for (const journal of journals) {
   };
   renderer.image = function({ href, text }) {
     const src = rewriteLink(href, true);
-    return `<a class="journal-figure" href="${escape(src)}" aria-label="Open full-size image: ${escape(text)}"><img src="${escape(src)}" alt="${escape(text)}" loading="lazy" decoding="async"></a>`;
+    const { width, height } = imageDimensions(href);
+    return `<a class="journal-figure" href="${escape(src)}" aria-label="Open full-size image: ${escape(text)}"><img src="${escape(src)}" alt="${escape(text)}" width="${width}" height="${height}" loading="lazy" decoding="async"></a>`;
   };
   renderer.html = ({ text }) => escape(text);
   renderer.code = function({ text, lang }) {
     if (lang !== 'mermaid') return `<pre><code>${escape(text)}</code></pre>\n`;
     const { svg, alt } = renderJournalDiagram(text, diagramCount);
+    const dimensions = /viewBox="0 0 (\d+) (\d+)"/.exec(svg);
+    if (!dimensions) throw new Error('Diagram must declare its dimensions');
     const filename = `${journal.slug}-${++diagramCount}.svg`;
     fs.writeFileSync(path.join(root, 'site-assets/diagrams', filename), svg);
-    return `<figure class="journal-diagram${diagramCount > 1 ? ' diagram-wide' : ''}"><a href="../site-assets/diagrams/${filename}" aria-label="Open full-size diagram: ${escape(alt)}"><img src="../site-assets/diagrams/${filename}" alt="${escape(alt)}" loading="lazy"></a><figcaption>Explanatory schematic · Open diagram to view full size${diagramCount > 1 ? ' · Scroll sideways on smaller screens' : ''}</figcaption></figure>\n`;
+    return `<figure class="journal-diagram${diagramCount > 1 ? ' diagram-wide' : ''}"><a href="../site-assets/diagrams/${filename}" aria-label="Open full-size diagram: ${escape(alt)}"><img src="../site-assets/diagrams/${filename}" alt="${escape(alt)}" width="${dimensions[1]}" height="${dimensions[2]}" loading="lazy"></a><figcaption>Explanatory schematic · Open diagram to view full size${diagramCount > 1 ? ' · Scroll sideways on smaller screens' : ''}</figcaption></figure>\n`;
   };
   renderer.table = function(token) {
     return '<div class="table-scroll" tabindex="0" role="region" aria-label="Revision map table">' + Renderer.prototype.table.call(this, token) + '</div>\n';
