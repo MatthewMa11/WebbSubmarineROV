@@ -2,6 +2,8 @@
 
 The Webb Submarine ROV club is developing a remotely operated underwater vehicle while learning mechanical design, fabrication, electronics, programming, and testing. Our vision is to turn that work into useful science and engineering experiences for the museum and its community.
 
+**Club website:** [matthewma11.github.io/WebbSubmarineROV](https://matthewma11.github.io/WebbSubmarineROV/)
+
 ## Project journals
 
 - [Motor and fan CAD development journal](docs/journals/motor-and-fan-cad-development.md) — a detailed retrospective of the PLA baseline and R2–R14, including the reasons for changes, motor and adapter fit, retention mechanisms, housings, assembly access, and remaining physical checks.
@@ -31,3 +33,7 @@ The root `rov_*.fs` files and chassis progress notes preserve the earlier chassi
 Start from the instructions associated with the chosen revision, record real measurements and print settings, and keep the small fit-test results with the parts they describe. When a design changes, save the reason, the affected interfaces, and the evidence supporting the change. CAD interference results, mesh checks, and assembly animations should remain distinct from physical fit, retention, thrust, durability, and underwater tests.
 
 Project import and journal date: **October 26, 2026**. Historical dates in the journals come from the saved project records; this GitHub import does not recreate earlier Git commits.
+
+## Updating the website
+
+The public club website uses GitHub Pages, published from the root of the `main` branch. Edit `index.html` for content and `site-assets/site.css` for styling. The site uses the project’s existing CAD images and links to the journals and release downloads. Keep `.nojekyll` in place so GitHub serves the static files directly. Changes pushed to `main` are published automatically by GitHub Pages.
