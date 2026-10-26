@@ -1,0 +1,19 @@
+Fresh-context read-only review: r8_final_review, GPT-6 Astra.
+Reviewed native source/STEP, requirements, independent checks and instructions.
+
+One Important finding: 6.8 mm nut/head wells admitted bare hardware but
+obstructed an 8.4 mm OD nut driver by 36.06..37.85 mm3 at all four approaches.
+Fixed once: native well diameter increased to8.6 mm outside the unchanged
+Z+/-6.2 bearing faces. Final native STEP tool check: all four overlaps0.
+No Critical findings. No additional actionable Minor findings.
+
+The reviewer independently checked all36stationaryfasteners against the
+full-turn envelope: minimum gap4.82563 mm, all clear.
+
+Final Ruling on matters declined by review: clamp force, pull-off capacity,
+key-root strength, fatigue, tightening torque, PLA lifetime, operating speed
+and powered balance cannot be established by the available rigid geometry.
+Retain the design as a fit-test prototype with these physical validation
+requirements stated in the saved Onshape version and instructions. Cost if
+not validated: loss of grip, deformation, loosening, vibration or failure
+under load. No powered-performance guarantee is made.

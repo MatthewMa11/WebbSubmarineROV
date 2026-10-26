@@ -1,0 +1,26 @@
+[
+  {
+    "x": -16.8,
+    "side": -1,
+    "overlap_mm3": 0.0,
+    "passed": true
+  },
+  {
+    "x": -16.8,
+    "side": 1,
+    "overlap_mm3": 0.0,
+    "passed": true
+  },
+  {
+    "x": 16.8,
+    "side": -1,
+    "overlap_mm3": 0.0,
+    "passed": true
+  },
+  {
+    "x": 16.8,
+    "side": 1,
+    "overlap_mm3": 0.0,
+    "passed": true
+  }
+]

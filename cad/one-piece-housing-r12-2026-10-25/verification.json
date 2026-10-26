@@ -1,0 +1,100 @@
+[
+  {
+    "check": "47 solids after merging two housing parts into one",
+    "passed": true,
+    "detail": {
+      "count": 47
+    }
+  },
+  {
+    "check": "one continuous housing spans original frame and extension",
+    "passed": true,
+    "detail": {
+      "count": 1
+    }
+  },
+  {
+    "check": "all other46 solids retain geometry and placement",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "one closed connected printable housing",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "installed outside dimensions unchanged",
+    "passed": true,
+    "detail": {
+      "bounds_mm": [
+        [
+          -50.79554340972901,
+          -30.0000001,
+          -50.79554340972901
+        ],
+        [
+          50.79554340972901,
+          47.0000001,
+          50.79554340972901
+        ]
+      ]
+    }
+  },
+  {
+    "check": "finite seam reinforcement was added",
+    "passed": true,
+    "detail": {
+      "added_volume_mm3": 2511.669033747952
+    }
+  },
+  {
+    "check": "complete360 degree rotating envelope clears merged housing",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "clearance_mm": 3.229999999999997
+    }
+  },
+  {
+    "check": "old housing surfaces retained outside the modified mating joint",
+    "passed": true,
+    "detail": {
+      "samples": [
+        {
+          "source": "Nozzle-R6p1-flat-motor-boss.stl",
+          "samples": 783729,
+          "checked_outside_joint_samples": 668573,
+          "modified_joint_y_mm": [
+            17.9,
+            28.1
+          ],
+          "whole_source_max_outside_mm": 0.004102809222879464,
+          "max_outside_joint_mm": 0.0037881475409429033,
+          "percentile99_outside_joint_mm": 1.831026719408895e-15,
+          "passed": true
+        },
+        {
+          "source": "Duct-extension-R10-28mm.stl",
+          "samples": 131932,
+          "checked_outside_joint_samples": 69096,
+          "modified_joint_y_mm": [
+            17.9,
+            28.1
+          ],
+          "whole_source_max_outside_mm": 0.06369282592129107,
+          "max_outside_joint_mm": 0.010115956143465228,
+          "percentile99_outside_joint_mm": 4.432817373128051e-05,
+          "passed": true
+        }
+      ]
+    }
+  },
+  {
+    "check": "no housing interference with fan cap motor or40 fasteners",
+    "passed": true,
+    "detail": {
+      "contacts": []
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "revision": "R3 permanent stationary motor centering cup",
+  "checks": 34,
+  "all_passed": true,
+  "assembly_instances": 39,
+  "native_rotation_degrees": 360,
+  "physical_revision_tested": false,
+  "files": [
+    {
+      "file": "Gray-cover-UNCHANGED.stl",
+      "bytes": 723984,
+      "triangles": 14478,
+      "sha256": "4d7a4fbb6d5754e11af8d019e4b9f6f530618648694adb82dabc6a2ed07f0d29"
+    },
+    {
+      "file": "Motor-insert-22p6mm-R2.stl",
+      "bytes": 417384,
+      "triangles": 8346,
+      "sha256": "a77e0ec338c0f6c9d06c6556d7563f2e6d70d279cbdbdaddd671f1c6edd524db"
+    },
+    {
+      "file": "Nozzle-centering-cup-R3.stl",
+      "bytes": 26438884,
+      "triangles": 528776,
+      "sha256": "3097c08304e0eba309f94c4f188cd84b9a88da7e275e3f325f2e8232974ed14b"
+    },
+    {
+      "file": "Propeller-71mm-sweep-R2.stl",
+      "bytes": 9133484,
+      "triangles": 182668,
+      "sha256": "fa862713857d3e9912a157377875da191338fa5caa8a7a85414899f2bb6301d3"
+    }
+  ]
+}

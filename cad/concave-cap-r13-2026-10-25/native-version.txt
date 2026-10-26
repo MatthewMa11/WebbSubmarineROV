@@ -1,0 +1,8 @@
+R13 - concave cone - front M3x12 joints
+Document: 743ab214882a2e3f8cf7645e
+Workspace: 9692a2577c76c0b80fbde875
+Saved version: b026d3e43969875b68fe1d72
+Assembly: https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/b026d3e43969875b68fe1d72/e/7d8ed648695214607ccb8d84
+Parts: https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/b026d3e43969875b68fe1d72/e/8a2fcd997dae03e4071e7acc
+Preserved R12 version: 46cfeee110ebcedd02908155
+Saved view-only version confirmed, 47 assembly instances.

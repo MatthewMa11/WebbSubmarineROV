@@ -1,0 +1,52 @@
+R7 ENGINEERING NOTES - 25 October 2026
+
+Approved change: replace the two external bolt ears and their six metal parts
+with a compression collar and counter-tightened jam ring. Keep the four solid
+motor keys and leave the internal spacer region empty. Frame and cap preserved.
+
+Verified on exported final native geometry:
+29 geometry/interface/mesh checks, 4 thread/travel checks, 4 printable mesh
+checks and 6 structural checks pass. Native Onshape: 43 assembly instances,
+no interferences, and a 360-degree revolute animation with rotor, fan and both
+rings in one rotating group. The 36 stationary fasteners retain their poses.
+
+Design rulings and their consequences:
+1. Preserve existing blade-root material inside the conical sleeve. A smaller
+   cone would cut blade connections. Cost: a larger central hub.
+2. A solid rounded runout shoulder supports the last partial thread and stops
+   excessive nut travel. Cost: limited tightening travel; do not force it shut.
+3. Use explicit radial thread sections every 15 degrees after free and locked
+   sweeps failed the geometry checks. Cost: custom printed thread geometry,
+   rather than a standard fastener thread. Matching and further advance pass.
+4. Use a 43 mm central-sleeve envelope check for the 41.7 mm shoulder, replacing
+   the abandoned 40 mm target. This remains below the old 50.4 mm bolt-ear span.
+5. Ring OD46 retains approximately 2 mm minimum wall near forward flutes and
+   thread, rather than approximately 1 mm at OD44. Cost: 1 mm extra radius.
+   Its outside annular envelope clears blade roots by 0.3815 mm through the
+   estimated clamp travel. Nominal rotating clearances are checked separately.
+6. Preserve the two tiny inherited blade-tip STEP sliver faces instead of
+   changing blade geometry. Their invalid-face bounds match R6.1 exactly.
+   Edited sleeve faces and both complete rings pass B-rep checks; native STL
+   and print-oriented STL meshes are closed, manifold, and single-component.
+   The whole legacy STEP retains import validity limitations.
+7. Correct loading order: main collar FIRST from the smaller rear sleeve end,
+   then jam ring. Assemble and lock the coupling outside the frame for access,
+   then fit the motor/fan unit and tighten the existing motor-base screws.
+
+Fresh read-only review found no new concrete geometry defect. Its incorrect
+ring-loading instruction finding was corrected in both README copies. The
+planning-status metadata is updated, and STEP limitations are included in the
+print README. No remaining editorial review findings are deferred.
+
+What remains physically unverified:
+Actual bell diameter, printed thread feel, grip/pull-off force, elastic finger
+deflection and bell distortion, PLA creep/heating/fatigue, balance and operating
+speed. Practical tightening depends on the user's hand access and print. The
+coupling is tightened outside the frame to improve access. A 0.15 mm additional
+rigid screw advance is verified; the further 0.833 mm contact estimate is not an
+elastic simulation or a measured clamping force. These are prototype files,
+not a guarantee of secure powered operation. Test the coupon and actual motor.
+
+The coupon preserves the thread and bell-bore dimensions, but uses a shorter
+connecting ring. It tests diameters/thread fit only, not full-fan flexibility
+or retention strength. It is not installed in the final thruster.

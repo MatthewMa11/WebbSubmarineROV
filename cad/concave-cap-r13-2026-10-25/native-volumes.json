@@ -1,0 +1,11 @@
+{
+  "source": "Onshape Mass and section properties, mm^3",
+  "housing": 128520.263,
+  "housing_and_cone": 158800.661,
+  "cone": 30280.397999999986,
+  "cone_derivation": "combined minus housing; consistent with direct cone-only reading30280.398",
+  "evidence": [
+    "native-housing-volume.txt",
+    "native-cone-volume.txt"
+  ]
+}

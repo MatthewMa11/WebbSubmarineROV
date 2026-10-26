@@ -1,0 +1,7 @@
+{
+  "new_housing_step_reader_valid": false,
+  "legacy_shell_step_reader_valid": [
+    true,
+    false
+  ]
+}

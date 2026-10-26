@@ -1,0 +1,87 @@
+R13 - CONCAVE CONE AND M3x12 CAP JOINTS
+
+What changed
+The gold cone's inner flat face now has a smooth spherical recess, nominally
+24mm wide and8mm deep with a0.6mm rounded rim. The obsolete blind3.5mm passage
+is filled, leaving a continuous bowl. Exterior cone profile remains unchanged.
+Conservative metal-adapter rotation clearance increases from1.77 to6.09mm.
+The fan and actual motor, collet, collar and bullet nut retain their R11/R12
+geometry and positions. No internal printed motor spacer is added.
+
+Cone attachment now uses four M3x12 socket screws and real captured M3 nuts,
+in place of the previous M3x40 screws. Four0.8mm locating pilots fit6.8mm cone
+recesses around6.4mm pilots, with0.2mm radial/axial relief. This aligns the cap
+before tightening. Local3.6mm bolt-clearance holes ease printed assembly.
+
+Use the MATCHED R13 housing and cone. Reprint BOTH; their new mating and nut
+features differ from R12. Reuse the unchanged fan and metal hardware except
+for replacing the four long cap screws with M3x12 screws from your assortment.
+Do not use40mm screws in the new front nut seats. R12 remains saved separately.
+
+PRINT folder - millimetres,100% scale
+- Housing-R13-short-bolt.stl: new one-piece frame/duct with front nut pockets.
+  Approximately101.59mm square x77.8mm high, rear central flat boss down.
+- Cone-R13-concave.stl: new concave cap, mounting feet down; approximately
+  99mm square x31mm high. Support the inner bowl/central body and arm undersides
+  where needed. All bowl supports are accessible through its wide opening.
+- Fan-R11-actual-adapter.stl: unchanged, reuse an existing verified R11 fan.
+- TEST-FIRST-R11-5p1-bore.stl: unchanged motor-adapter hub fit-check if needed.
+- TEST-FIRST/Joint-Housing-R13.stl and Joint-Cone-R13.stl: small actual-geometry
+  extracts of one complete joint. Print BOTH before the full housing/cone.
+
+Joint fit check and cap installation
+1. Use one M3x12 socket screw, one M3 hex nut and TWO M3 FLAT washers, one under
+   the screw head and one behind the housing bearing roof. The CAD washer is
+   7mm OD x3.2mm ID x0.5mm thick; do not substitute a split spring washer here.
+2. Hold a nut with a flat washer on it, and slide the stack inward from the
+   OUTSIDE opening of the housing post. The wide upper slot carries the washer;
+   the narrower lower slot captures the nut's flats. The slot allows the loose
+   stack to sit about0.25mm below its final clamped position while loading.
+   Its surfaces must be free of support residue. The old deep rear pockets
+   are unused; do not put the cap nuts there.
+3. Place the cone's underside recesses over the housing pilots. Its four flat
+   feet must sit against the housing seats. The pilots locate the cap but must
+   not hold it up; nominal pilot-end relief is0.2mm. No forcing is needed.
+4. Put a front flat washer beneath each M3x12 screw head, insert from the cone
+   side and start it in the captured nut. The nut should remain held by its
+   pocket, without a wrench. Tighten the four screws gradually in a cross
+   pattern, only enough for firm seating. Do not crush the PLA.
+5. Check the joint coupons first: screw passes freely, nut/washer stack slides
+   in, pilots seat, nut cannot spin, and faces clamp without a gap. Expected
+   full nut engagement is2.4mm, with0.9mm tip protrusion (about two threads).
+   If your hardware or print differs, correct the fit before the full print.
+
+Motor/fan assembly remains R11/R12
+With cone removed and power disconnected, install the bench-assembled actual
+motor/collet/collar/fan/bullet nut through the front opening. The R11 fan uses
+5.1mm stud clearance and6.2mm shallow rear relief. Route wires through the
+existing rear ports and out of rotating parts. Keep FOUR M3x8 motor-base bolts
+with TWO0.5mm flat washers under EACH head; these base bolts are unchanged.
+External M4 mounting hardware also stays unchanged. Fit the cone last using
+the new front-loading joint procedure above.
+
+P1S / PLA Basic starting setup
+0.4mm nozzle,0.16mm layers,5 walls,6 top/bottom layers, solid bolt/motor bosses.
+Use supports under the floating outer housing rim, spokes, cone body, bowl and
+arm undersides as indicated by the slicer. Avoid supports inside the narrow
+nut/washer slots: they are short bridges and must remain clean. Inspect the
+small joint test first to check bridging and hardware fit. Use a brim if
+needed. Do not scale complete parts to fix a hole or pilot.
+
+Verification scope
+47 solids, fixed43 and rotating4. Other33 components retain geometry/poses.
+Independent clearance, full nut engagement, captive-nut rotation, roof material,
+washer contact, cap bearing, pilot relief, key access, continuous nut/washer
+loading and motor/fan insertion checks pass. Printed cone and housing are closed,
+manifold and one connected part each. Housing rotation clearance stays3.23mm.
+Outside surfaces away from modified bowl/bolt joints match earlier prints within
+0.02mm; measured deviations are substantially smaller. Main mesh volumes match
+Onshape's native geometry kernel within0.1%. Legacy STEP mass/topology limits
+are not certified; this kit supplies native Onshape links and verified STLs.
+Only two microscopic inherited housing export fragments (total3.1e-8mm3) are
+excluded; functional surface triangles are retained without resampling.
+
+Turn the fan through several full revolutions by hand before a restrained
+low-speed test, checking tips, metal adapter, wires and cone. CAD checks do not
+qualify physical collet grip, PLA creep/strength, balance, thrust, reversing
+performance, sealing or a rated speed. Recheck retention after the first run.

@@ -1,0 +1,27 @@
+Status: complete
+Fresh independent reviewer: /root/r14_final_review, GPT-6-astra/high.
+Critical: none. Important: none.
+The obsolete protrusions are actually subtracted and their recesses filled.
+Quintic fairing has zero first and second radial derivatives at endpoints;
+rounded roots end below active pockets, and restored bores retain tip clearance.
+Cleanup5/5 and interface21/21 pass; continuous insertion/loading pass. Reviewer
+independently recomputed all six print hashes and matched the report. New frame
+is one closed manifold component,511952triangles, native volume error0.02334%.
+
+Ruling: remove all four symmetric old lugs and shorten unused post tails into
+rounded roots while retaining active R13 front interfaces. This completes the
+requested surface cleanup. Cost if printed fit differs: a new frame print;
+small actual-geometry joint tests are supplied before the full print.
+
+Minor evidence limitation (deferred): the other46-part preservation test checks
+bounding boxes, volume and area, rather than proving full geometric identity.
+Implementation is frame-only, and signatures are consistent with preservation.
+Describe these as consistent signatures rather than independent exact identity.
+
+Native interference evidence covers frame/fan/cone, not47-part all-pairs native
+certification. Separate geometric clearance checks cover changed frame against
+the hardware. Native assembled poses were exported and compared independently.
+
+Declined physical judgments: load capacity, fatigue, physical print tolerances,
+hydrodynamic performance, actual surface finish and powered retention. Legacy
+STEP topology validity is unqualified; printable native STL route is retained.

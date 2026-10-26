@@ -1,0 +1,61 @@
+[
+  {
+    "check": "native assembly contains exactly the checked 48 solids in their checked poses",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native fixed group has 44 instances",
+    "passed": true,
+    "detail": {
+      "count": 44
+    }
+  },
+  {
+    "check": "native rotating group has 4 instances",
+    "passed": true,
+    "detail": {
+      "count": 4
+    }
+  },
+  {
+    "check": "native fan and housing interference result is clear",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native 0 to 360 degree revolute animation recorded",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "outer blade surfaces retained from R10",
+    "passed": true,
+    "detail": {
+      "tolerance_mm": 0.02,
+      "directions": [
+        {
+          "direction": "old-to-new",
+          "samples": 53202,
+          "max_distance_mm": 1.9042039489523999e-06,
+          "percentile99_mm": 1.156544939047577e-06,
+          "mean_distance_mm": 1.237874896741005e-07
+        },
+        {
+          "direction": "new-to-old",
+          "samples": 53202,
+          "max_distance_mm": 1.9050497506883435e-06,
+          "percentile99_mm": 1.1455427465509218e-06,
+          "mean_distance_mm": 1.2369179426093299e-07
+        }
+      ]
+    }
+  },
+  {
+    "check": "blade comparison detects an incorrect axial placement",
+    "passed": true,
+    "detail": {
+      "wrong_shift_mm": 0.5
+    }
+  }
+]

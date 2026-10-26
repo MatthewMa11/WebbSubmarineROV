@@ -1,0 +1,9 @@
+Function,Item,Quantity,Pitch_mm,Notes
+Propeller,M3x8 socket cap screw,4,0.5,2.5 mm Allen; no propeller washers
+Motor base,M3x8 socket cap screw,4,0.5,Use with 0.5 mm flat washer; 2.5 mm modeled engagement
+Cover retention,M3x8 socket cap screw,3,0.5,Locks in nozzle nut; tip stops before original blind floor
+Motor base and cover,M3 flat washer ID3.2 OD7 t0.5,7,,Flat washers only
+Cover retention,M3 hex nut AF5.5 H2.4,3,0.5,Captured in nozzle AF5.8 pocket
+Frame mounting,M4x12 socket cap bolt,4,0.7,Four corner positions on one pad
+Frame mounting,M4 flat washer ID4.3 OD9 t0.8,4,,Bracket thickness must be included in insertion calculation
+Frame mounting,M4 hex nut AF7 H3.2,4,0.7,Ordinary nuts; taller nyloc nuts not checked

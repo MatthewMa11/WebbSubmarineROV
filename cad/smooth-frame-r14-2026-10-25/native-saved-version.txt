@@ -1,0 +1,227 @@
+Browser tab: 5, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R14 thruster - smooth frame and concave cone", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/8bf42d2b29fd6d1247b16a59/e/7d8ed648695214607ccb8d84".
+1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R14 thruster - smooth frame and concave cone, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/8bf42d2b29fd6d1247b16a59/e/7d8ed648695214607ccb8d84
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			6 text A2212 R8 - M3 axle-clamp fan - separate design R14 - smooth frame - no obsolete crescent mounts
+			7 image
+			8 button Explore Onshape
+				9 image
+				10 text Explore Onshape
+			11 button Description: Notifications, ID: user-notification-status
+				12 container
+					13 image
+					14 container 9+ unread notifications
+						15 text 9+
+			16 link Navigates you to Action items page in a new window.
+			17 link Navigates you to Onshape app store in a new window.
+			18 link Navigates you to Onshape Learning Center in a new window.
+			19 button Share
+			20 container Help menu
+			21 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				22 text Matthew Ma
+		23 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 container
+					33 container
+						35 container
+							36 text Versions are view only. Viewing R14 - smooth frame - no obsolete crescent mounts.
+							37 link cad.onshape.com/help/index.htm#cshid=versionshistorymanager
+						34 container content-div
+							38 container
+								39 container assembly-tree
+									40 pop up button (collapsed) Secondary Actions: Expand
+									41 text field (settable)
+									42 button filter-flat-list-view
+										43 image
+									44 text Instances (47)
+									45 container
+										46 container
+											47 image
+											48 text R14 thruster - smooth frame and concave cone
+										49 container
+											50 image
+											51 image
+											52 text Origin
+										53 container
+											54 image
+											55 image
+											56 text R13 concave cone -24mm bowl - M3x12 joints <1>
+										57 container
+											58 image
+											59 image
+											60 text R14 smooth one-piece frame - obsolete lugs removed <1>
+										61 container
+											62 image
+											63 image
+											64 text R11 fan - actual adapter, 5.1 bore, 7.145 hub <1>
+										65 container
+											66 image
+											67 image
+											68 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										69 container
+											70 image
+											71 image
+											72 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										73 container
+											74 image
+											75 image
+											76 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										77 container
+											78 image
+											79 image
+											80 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										81 container
+											82 image
+											83 image
+											84 text M4 hex nut AF7x3.2 - 1 <1>
+										85 container
+											86 image
+											87 image
+											88 text M4 hex nut AF7x3.2 - 2 <1>
+										89 container
+											90 image
+											91 image
+											92 text M4 hex nut AF7x3.2 - 3 <1>
+										93 container
+											94 image
+											95 image
+											96 text M4 hex nut AF7x3.2 - 4 <1>
+										97 container
+											98 image
+											99 image
+											100 text M4x12 socket mounting bolt 1 <1>
+										101 container
+											102 image
+											103 image
+											104 text M4x12 socket mounting bolt 2 <1>
+										105 container
+											106 image
+											107 image
+											108 text M4x12 socket mounting bolt 3 <1>
+										109 container
+											110 image
+											111 image
+											112 text M4x12 socket mounting bolt 4 <1>
+										113 container
+											114 image
+											115 image
+											116 text M3 captured cover nut 1 <1>
+										117 container
+											118 image
+											119 image
+											120 text M3 captured cover nut 2 <1>
+										121 container
+											122 image
+											123 image
+											124 text M3 front washer cover 1 <1>
+										125 container
+											126 image
+											127 image
+											128 text M3 front washer cover 2 <1>
+										129 container
+											130 image
+											131 image
+											132 text M3 flat washer motor base 1 <1>
+										133 container
+											134 image
+											135 image
+											136 text M3 flat washer motor base 3 <1>
+										137 container
+											138 image
+											139 image
+											140 text R13 M3x12 cone bolt 1 <1>
+										141 container
+											142 image
+											143 image
+											144 text R13 M3x12 cone bolt 3 <1>
+										145 container
+											146 image
+											147 image
+											148 text M3x8 motor-base screw 2 <1>
+										149 container
+											150 image
+											151 image
+											152 text M3x8 motor-base screw 4 <1>
+										153 container
+											154 image
+											155 image
+											156 text M3 captured cover nut 3 <1>
+										157 container
+											158 image
+											159 image
+											160 text M3 front washer cover 3 <1>
+										161 container
+											162 image
+											163 image
+											164 text M3 flat washer motor base 2 <1>
+										165 container
+											166 image
+											167 image
+											168 text M3 flat washer motor base 4 <1>
+										169 container
+											170 image
+											171 image
+											172 text R13 M3x12 cone bolt 2 <1>
+								173 image
+								174 container viewerdiv
+									175 image canvas
+									176 container
+										177 button
+											178 image
+										179 button
+											180 image
+										181 button
+											182 image
+								183 container
+									184 image
+									185 image
+									186 image
+									187 image
+									188 image
+									189 image
+						190 container os-tab-bar
+							191 container
+								192 container
+									193 image
+									194 text Part Studio 1
+								195 container
+									196 image
+									197 text Thruster print fit
+								198 container
+									199 image
+									200 text Thruster-A2212-fit-check.step
+								201 container
+									202 image
+									203 text R14 thruster - smooth frame and concave cone
+								204 container
+									205 image
+									206 text R11-actual-Motor-source-stage
+								207 container
+									208 image
+									209 text Nozzle R5 - verified manifold print mesh
+								210 container
+									211 image
+									212 text Nozzle R5 - verified manifold print mesh.stl
+								213 container
+									214 image
+									215 text R14 parts - smooth frame and concave cone
+								216 container
+									217 image
+									218 text R11 native Motor source - linked originals
+								219 container
+									220 image
+									221 text Assembly 1
+								222 container
+									223 image
+									224 text CAD Imports
+
+The focused UI element is 1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R14 thruster - smooth frame and concave cone, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/8bf42d2b29fd6d1247b16a59/e/7d8ed648695214607ccb8d84

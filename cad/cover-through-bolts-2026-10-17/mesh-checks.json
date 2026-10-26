@@ -1,0 +1,78 @@
+[
+  {
+    "check": "nozzle STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "triangles": 555174,
+      "bad_edges": 0,
+      "components": 1
+    }
+  },
+  {
+    "check": "cover STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "triangles": 131200,
+      "bad_edges": 0,
+      "components": 1
+    }
+  },
+  {
+    "check": "propeller STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "triangles": 182668,
+      "bad_edges": 0,
+      "components": 1
+    }
+  },
+  {
+    "check": "insert STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "triangles": 8346,
+      "bad_edges": 0,
+      "components": 1
+    }
+  },
+  {
+    "check": "four M3 paths are open through both exported meshes",
+    "passed": true,
+    "detail": {
+      "blocked_probes": {
+        "nozzle": 0,
+        "cover": 0
+      },
+      "probes_per_part": 1476
+    }
+  },
+  {
+    "check": "front and rear flat washer seats survive STL export",
+    "passed": true,
+    "detail": {
+      "solid_probes": 256,
+      "expected": 256
+    }
+  },
+  {
+    "check": "four mating clamping lands survive STL export",
+    "passed": true,
+    "detail": {
+      "solid_probes": 256,
+      "expected": 256
+    }
+  },
+  {
+    "check": "protected rotating print dimensions are retained",
+    "passed": true,
+    "detail": {
+      "blade_sweep_mm": 71.00000652914042,
+      "insert_envelope_mm": 22.600001142360416
+    }
+  },
+  {
+    "check": "rear wire route remains open at every angle",
+    "passed": true,
+    "detail": {}
+  }
+]

@@ -1,0 +1,241 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R9 thruster - cap fan motor rear support", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R9 thruster - cap fan motor rear support, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			281 text A2212 R8 - M3 axle-clamp fan - separate design R9 - sketch layout - forward fan
+			282 image
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			283 button Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				284 image
+				285 image
+				27 image
+				28 image
+				286 image
+				30 image
+				31 image
+				278 container
+					279 container
+						936 container osToolbar
+							937 container
+								1012 container
+									1013 image
+									1014 text Insert
+								941 button Search tools… alt/⌥ c
+									942 text Search tools… 
+									943 text alt/⌥
+									944 text c
+						280 container content-div
+							871 container
+								1015 container assembly-tree
+									1016 pop up button (collapsed) Secondary Actions: Expand
+									1017 text field (settable)
+									1018 button filter-flat-list-view
+										1019 image
+									1020 text Instances (46)
+									1023 container
+										1024 container
+											1025 image
+											1026 text R9 thruster - cap fan motor rear support
+										1027 container
+											1028 image
+											1029 image
+											1030 text Origin
+										1031 container
+											1032 image
+											1033 image
+											1034 text A2212 reference rotor <1>
+										1035 container
+											1036 image
+											1037 image
+											1038 text A2212 reference stator base <1>
+										1039 container
+											1040 image
+											1041 image
+											1042 text Front cover - four M3 through-bolt tabs (R4) <1>
+										1043 container
+											1044 image
+											1045 image
+											1046 text R6.1 nozzle - flatter rear motor boss <1>
+										1047 container
+											1048 image
+											1049 image
+											1050 text R9 forward fan - flat hub, M3 axle clamp, four drive keys <1>
+										1051 container
+											1052 image
+											1053 image
+											1054 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										1055 container
+											1056 image
+											1057 image
+											1058 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										1059 container
+											1060 image
+											1061 image
+											1062 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										1063 container
+											1064 image
+											1065 image
+											1066 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										1067 container
+											1068 image
+											1069 image
+											1070 text M4 hex nut AF7x3.2 - 1 <1>
+										1071 container
+											1072 image
+											1073 image
+											1074 text M4 hex nut AF7x3.2 - 2 <1>
+										1075 container
+											1076 image
+											1077 image
+											1078 text M4 hex nut AF7x3.2 - 3 <1>
+										1079 container
+											1080 image
+											1081 image
+											1082 text M4 hex nut AF7x3.2 - 4 <1>
+										1083 container
+											1084 image
+											1085 image
+											1086 text M4x12 socket mounting bolt 1 <1>
+										1087 container
+											1088 image
+											1089 image
+											1090 text M4x12 socket mounting bolt 2 <1>
+										1091 container
+											1092 image
+											1093 image
+											1094 text M4x12 socket mounting bolt 3 <1>
+										1095 container
+											1096 image
+											1097 image
+											1098 text M4x12 socket mounting bolt 4 <1>
+										1099 container
+											1100 image
+											1101 image
+											1102 text M3 captured cover nut 1 <1>
+										1103 container
+											1104 image
+											1105 image
+											1106 text M3 captured cover nut 2 <1>
+										1107 container
+											1108 image
+											1109 image
+											1110 text M3 front washer cover 1 <1>
+										1111 container
+											1112 image
+											1113 image
+											1114 text M3 front washer cover 2 <1>
+										1115 container
+											1116 image
+											1117 image
+											1118 text M3 flat washer motor base 1 <1>
+										1119 container
+											1120 image
+											1121 image
+											1122 text M3 flat washer motor base 3 <1>
+										1123 container
+											1124 image
+											1125 image
+											1126 text M3x12 cover through-bolt 1 <1>
+										1127 container
+											1128 image
+											1129 image
+											1130 text M3x12 cover through-bolt 3 <1>
+										1131 container
+											1132 image
+											1133 image
+											1134 text M3x8 motor-base screw 2 <1>
+										1135 container
+											1136 image
+											1137 image
+											1138 text M3x8 motor-base screw 4 <1>
+										1139 container
+											1140 image
+											1141 image
+											1142 text M3 captured cover nut 3 <1>
+										1143 container
+											1144 image
+											1145 image
+											1146 text M3 front washer cover 3 <1>
+										1147 container
+											1148 image
+											1149 image
+											1150 text M3 flat washer motor base 2 <1>
+								1151 image
+								920 container viewerdiv
+									1011 image canvas
+									1164 button
+										1165 image
+								928 container
+									1158 image
+									1159 image
+									1160 image
+									1161 image
+									1162 image
+									1163 image
+							1166 container interference-detection-dialog
+								1167 container
+									1168 text Interference detection
+									1169 button
+								1170 content list
+									1171 container
+										1172 text Instances to analyze
+										1173 content list
+											1174 container
+												1175 text R9 thruster - cap fan motor rear support ×
+									1176 container
+										1177 checkbox (settable, integer) Description: Include standard content, Value: 0
+										1178 text Include standard content
+									1179 container
+										1180 checkbox (settable, integer) Description: Show top level only, Value: 0
+										1181 text Show top level only
+									1182 container
+										1183 text Interferences
+										1184 content list
+											1185 text No interferences
+								1186 link cad.onshape.com/help/index.htm#cshid=interference_detection
+						459 container os-tab-bar
+							460 container
+								846 container
+									847 image
+									848 text Part Studio 1
+								849 container
+									850 image
+									851 text Thruster print fit
+								852 container
+									853 image
+									854 text Thruster-A2212-fit-check.step
+								855 container
+									856 image
+									857 text R9 thruster - cap fan motor rear support
+								858 container
+									859 image
+									860 text Nozzle R5 - verified manifold print mesh
+								861 container
+									862 image
+									863 text Nozzle R5 - verified manifold print mesh.stl
+								864 container
+									865 image
+									866 text R9 parts - forward fan flat hub
+								867 container
+									868 image
+									869 text Assembly 1
+
+The focused UI element is 0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R9 thruster - cap fan motor rear support, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84

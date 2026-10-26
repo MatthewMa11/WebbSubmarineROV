@@ -1,0 +1,4 @@
+R11 - actual Motor models - 5.1mm fan
+Version: 75c1dcfd63b352df99b31e2f
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/75c1dcfd63b352df99b31e2f/e/7d8ed648695214607ccb8d84
+Native source: a1aec6c523ece1f6e49fbec2; four external Derived references plus rigid staging transform.

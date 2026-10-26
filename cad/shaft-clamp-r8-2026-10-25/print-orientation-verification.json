@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Fan-R8-M3-axle-clamp.stl",
+    "angle_x_deg": 90,
+    "print_bounds_mm": [
+      -20.799999237060547,
+      20.799999237060547,
+      -35.498958587646484,
+      35.498958587646484,
+      0.0,
+      22.30000114440918
+    ],
+    "bad_edges": 0,
+    "components": 1
+  },
+  {
+    "file": "Upper-jaw-R8-M3-axle-clamp.stl",
+    "angle_x_deg": -90,
+    "print_bounds_mm": [
+      -20.799999237060547,
+      20.799999237060547,
+      -2.950000047683716,
+      2.950000047683716,
+      0.0,
+      7.100001335144043
+    ],
+    "bad_edges": 0,
+    "components": 1
+  },
+  {
+    "file": "TEST-FIRST-R8-lower-jaw.stl",
+    "angle_x_deg": 0,
+    "print_bounds_mm": [
+      -20.799999237060547,
+      20.799999237060547,
+      -3.555000066757202,
+      3.555000066757202,
+      0.0,
+      6.210000038146973
+    ],
+    "bad_edges": 0,
+    "components": 1
+  },
+  {
+    "file": "Frame-R6p1-UNCHANGED.stl",
+    "unchanged_sha256": "0d9866d5c0fba995940eb6acb3e8a7ea5b8976e32f85214dd8e5b9661a76956a"
+  },
+  {
+    "file": "Cap-R4-UNCHANGED.stl",
+    "unchanged_sha256": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287"
+  }
+]

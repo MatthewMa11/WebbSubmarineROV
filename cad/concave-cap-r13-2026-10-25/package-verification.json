@@ -1,0 +1,16 @@
+{
+  "file": "R13-Concave-Cone-Print-Kit.zip",
+  "bytes": 15265239,
+  "entries": 27,
+  "crc_valid": true,
+  "all_entries_match_verified_sources": true,
+  "print_files": [
+    "Housing-R13-short-bolt.stl",
+    "Cone-R13-concave.stl",
+    "TEST-FIRST/Joint-Housing-R13.stl",
+    "TEST-FIRST/Joint-Cone-R13.stl",
+    "Fan-R11-actual-adapter.stl",
+    "TEST-FIRST-R11-5p1-bore.stl"
+  ],
+  "sha256": "7ef885df8a5d75d900d352b762db749f70442831d38afdead474de7033533aa1"
+}

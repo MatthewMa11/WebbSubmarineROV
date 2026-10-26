@@ -1,0 +1,90 @@
+Group 1
+Instances
+R6.1 nozzle - flatter rear motor boss <1>
+×
+Front cover - four M3 through-bolt tabs (R4) <1>
+×
+M4x12 socket mounting bolt 1 <1>
+×
+M4 flat washer 9x4.3x0.8 - 1 <1>
+×
+M4 hex nut AF7x3.2 - 1 <1>
+×
+M4x12 socket mounting bolt 2 <1>
+×
+M4 flat washer 9x4.3x0.8 - 2 <1>
+×
+M4 hex nut AF7x3.2 - 2 <1>
+×
+M4x12 socket mounting bolt 3 <1>
+×
+M4 flat washer 9x4.3x0.8 - 3 <1>
+×
+M4 hex nut AF7x3.2 - 3 <1>
+×
+M4x12 socket mounting bolt 4 <1>
+×
+M4 flat washer 9x4.3x0.8 - 4 <1>
+×
+M4 hex nut AF7x3.2 - 4 <1>
+×
+M3 captured cover nut 1 <1>
+×
+M3 captured cover nut 2 <1>
+×
+M3 captured cover nut 3 <1>
+×
+M3 front washer cover 1 <1>
+×
+M3 front washer cover 2 <1>
+×
+M3 front washer cover 3 <1>
+×
+M3 flat washer motor base 1 <1>
+×
+M3 flat washer motor base 2 <1>
+×
+M3 flat washer motor base 3 <1>
+×
+M3 flat washer motor base 4 <1>
+×
+M3x40 cover-extension through-bolt 1 <1>
+×
+M3x40 cover-extension through-bolt 2 <1>
+×
+M3x40 cover-extension through-bolt 3 <1>
+×
+M3x8 motor-base screw 1 <1>
+×
+M3x8 motor-base screw 2 <1>
+×
+M3x8 motor-base screw 3 <1>
+×
+M3x8 motor-base screw 4 <1>
+×
+M3 captured cover nut 4 <1>
+×
+M3 front washer cover 4 <1>
+×
+M3 rear washer cover 1 <1>
+×
+M3 rear washer cover 2 <1>
+×
+M3 rear washer cover 3 <1>
+×
+M3 rear washer cover 4 <1>
+×
+M3x40 cover-extension through-bolt 4 <1>
+×
+R10 duct extension - 28 mm, four M3x40 through-bolts <1>
+×
+M3 second motor-base washer 1 (R11) <1>
+×
+M3 second motor-base washer 2 (R11) <1>
+×
+M3 second motor-base washer 3 (R11) <1>
+×
+M3 second motor-base washer 4 (R11) <1>
+×
+ACTUAL A2212 motor - original fused CAD reference <1>
+×

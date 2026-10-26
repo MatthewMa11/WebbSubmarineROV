@@ -1,0 +1,32 @@
+R9 DRAWING LAYOUT - 25 OCTOBER 2026
+
+User request: "design it like this" with a side sketch placing a stationary
+front cap, then the fan on the motor axle, then the motor and rear support,
+all within the surrounding frame. This is the selected arrangement. Earlier
+requirements still apply: separate design document, M3 bolt/nut axle clamp,
+matching drive keys, no motor insert, no threaded collar or jam ring.
+
+Retain the frame, cap, motor and stationary hardware geometry and poses.
+Replace the cup around the motor bell with a flat front fan hub. Reuse the
+existing blade profile outside its old root, move it8.0 mm forward, and join
+it to a flat R20 front disk with1 mm radial root overlap,0.35 mm root rounds
+and a motor-cleared1.4 mm rear rim. Its front is coplanar with the clamp at
+Y19.3. The inner blade fronts taper into the disk. Every root-trimming tool
+is confined insideR26.9 so complete outer surfaces beyondR27.01 are retained.
+The blade plane is ahead of the motor's faceY14; pitched leading edges may
+extend alongside that face while remaining radially clear of the motor.
+Keep the four solid keys
+Y11.5..14.2 and the R8 axle clamp, two M3x16 bolts and two M3 nuts.
+
+Approaches: extending the frame and moving the cap would give a longer grip
+but change the retained main parts. Reusing the deep motor cup would keep
+the old blade position, contrary to the sketch. The selected forward-blade
+and flat-hub arrangement implements the user's drawing within the existing
+frame/cap. The exact8.0 mm translation, root taper and blend are engineering
+calls. Verify the whole turn using a stepped radial envelope (R22.27 core to
+Y19.301, R21.93..35.57 outer annulusY13.0..19.61), including0.0625 mm take-up.
+
+The available3.05 mm shaft grip remains a fit-test prototype. Geometry and
+rigid motion do not prove retention force, structural life or powered balance.
+R8 is preserved; implement in workspace f840c75829657ff4af820013 of the
+separate document743ab214882a2e3f8cf7645e.

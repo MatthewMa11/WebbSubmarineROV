@@ -1,0 +1,63 @@
+R14 - SMOOTH FRAME, OBSOLETE CRESCENT MOUNTS REMOVED
+
+Only the frame needs a new full print. Reuse the R13 concave cone, R11 fan,
+actual motor/metal prop adapter, four M3x12 cone bolts, nuts and flat washers.
+No motor spacer or printed fan clamp is added. R13 is preserved separately.
+
+The four old crescent mounts and unused slot recesses were removed in CAD.
+The stepped duct exterior now has a gradual quintic curved transition, tangent
+and curvature-continuous at its cylinder endpoints. The four working cone-bolt
+posts have R5 rounded roots with0.6mm blend fillets. Current front nut pockets,
+washers, bearing roofs, pilots and bolt access remain functional.
+
+PRINT folder - millimetres,100% scale
+- Housing-R14-smooth-frame.stl: updated frame/duct,101.59mm square x77.8mm tall.
+  Rear central flat boss goes down; use support under the floating rim/spokes.
+- Cone-R13-concave.stl: unchanged; reuse your R13 cone. Included for completeness.
+- Fan-R11-actual-adapter.stl: unchanged; reuse existing verified fan.
+- TEST-FIRST/Joint-Housing-R14.stl and Joint-Cone-R13.stl: small actual-geometry
+  extracts of one joint. Print both if checking your printer/hardware fit.
+- TEST-FIRST-R11-5p1-bore.stl: unchanged adapter fit coupon, included if needed.
+
+P1S / PLA Basic finish
+Use0.12mm layers for a smoother curved surface,0.4mm nozzle,5 walls and6 solid
+top/bottom layers. Keep bolt and motor bosses solid. Fine STL is supplied; it
+does not remove layer lines or support marks. Inspect the slicer preview, remove
+all support residue and deburr mating surfaces. Avoid support inside nut/washer
+slots; use the small joint test to check their short bridges. Do not scale the
+entire part to correct a hole. A brim can help bed adhesion where needed.
+
+Assembly - same working R13 joints
+1. Keep power disconnected. Install the actual motor/fan/metal adapter through
+   the front opening before fitting the cone. Use the existing four M3x8 motor-
+   base bolts with TWO0.5mm flat washers beneath each head. External mounting
+   hardware remains unchanged. Keep wires out of rotating parts.
+2. At each cone joint, slide an M3 nut plus its rear flat washer into the housing
+   post from the OUTSIDE. Washer:7mm OD x3.2mm ID x0.5mm thick. Use a flat washer,
+   not a split spring washer. Nut flats must be captured by the narrower slot.
+3. Seat the cone sockets over the four pilots; the flat feet must bear on the
+   housing seats. Nominal radial and end pilot relief is0.2mm. Do not force it.
+4. Put one front flat washer under each M3x12 screw head. Start all four screws
+   into their captured nuts, then tighten gradually in a cross pattern, only
+   enough to seat the parts firmly. Do not crush the PLA. Do not use M3x40 here.
+5. The four old deep nut locations and C-shaped lugs are gone. Use only the front
+   nut seats described above. Expected full nut engagement is2.4mm and screw
+   tip projection0.9mm. Verify your real hardware with the small joint prints.
+6. Rotate the fan through several full turns by hand and inspect all clearances
+   before a restrained low-speed test. Recheck retention after the first run.
+
+Checks
+Cleanup5/5, current-interface21/21, continuous insertion and all four nut/washer
+loading paths pass. Modeled rotating clearance stays3.23mm to frame and6.09mm
+to cone. Native Onshape interference analysis of frame/fan/cone is clear.
+The47 native assembly solids have matching checked shape signatures and poses.
+All other46 bodies have consistent geometric signatures; implementation edits
+only the frame. Cone and fan printable files are byte-identical to their prior
+verified files. New frame STL is closed, manifold and one connected component,
+511952 triangles. Its volume differs0.02334% from native Onshape mass properties.
+Legacy STEP conversion limits remain; no STEP is included as a deliverable.
+
+These checks do not establish physical load capacity, fatigue, actual printed
+fit/finish, collet grip, balance, hydrodynamic performance, sealing or rated
+speed. Those require physical evidence. CAD smoothing improves the model's
+surface shape; print settings and support cleanup control the final finish.

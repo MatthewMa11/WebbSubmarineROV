@@ -1,0 +1,83 @@
+R8 M3 AXLE-CLAMP FAN - 25 OCTOBER 2026
+
+Separate Onshape design:
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/bc0473dfaa69abe9537b29fe/e/7d8ed648695214607ccb8d84
+Saved version: R8 - M3 axle clamp - fit test prototype
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/08ca331c2c6a742a5f519f05/e/7d8ed648695214607ccb8d84
+
+WHAT CHANGED
+The fan now has an integral lower shaft jaw and a removable upper jaw.
+Two M3x16 socket cap screws and two ordinary M3 nuts close the jaws on the
+motor axle. Four existing 5.5 mm drive keys on the 18 mm pattern still engage
+the reference motor face and transmit torque. The former internal motor
+spacer, external threaded compression collar and jam ring are absent.
+The main frame, cap, motor references and 36 stationary fasteners retain
+their original geometry and placement. Existing blade geometry is preserved.
+
+NEW CLAMP HARDWARE (NOT PRINTED)
+2 x M3x16 socket cap screws, nominal 5.68 mm head diameter, 3 mm head height.
+2 x M3 hex nuts, 5.5 mm across flats, 2.4 mm thick.
+Use one screw from each side, as modeled. Each has about 1.2 mm nominal
+thread protrusion beyond its nut. The new clamp does not use washers.
+All existing frame, cap and motor-base hardware stays as before.
+
+ASSEMBLY ORDER
+1. Leave the cap off while installing the fan. Keep the upper jaw and the
+   two new screws loose/off the fan. Secure the motor base to the frame.
+2. Align all four solid drive keys with the motor face pattern. Slide the
+   fan onto the projecting axle until the keys are fully seated in their
+   matching openings. Do not force a key into a mismatched opening.
+3. Place the upper jaw in its matching rectangular seat. Its larger
+   semicircular pilot relief faces the motor; the smaller shaft groove
+   faces the cap/shaft tip. The stepped groove must sit around the axle.
+4. Install the two M3x16 screws in opposite directions. Put a nut on each
+   exposed end, outside its flat bearing pad. This matches the Onshape model.
+   The 8.6 mm access wells admit an assumed 8.4 mm OD nut driver. Check your
+   tool diameter; install the clamp with the cap removed.
+5. Tighten alternately in small increments until the axle is gripped and
+   the fan resists a firm hand pull and hand twist. Keep the keys seated.
+   A small split gap must remain. If the faces close before the axle grips,
+   or plastic bends/cracks, stop: the printed fit needs revision.
+6. Rotate the fan by hand through a complete turn and check pull-off again.
+   Then reinstall the unchanged cap with its existing through-bolts/nuts.
+   Rotate by hand again with the cap fitted. Nothing should scrape or bind.
+
+PRINT THE SMALL TEST FIRST
+Print TEST-FIRST-R8-lower-jaw.stl and Upper-jaw-R8-M3-axle-clamp.stl first.
+The coupon reproduces the real lower jaw's bore and clamp bolt locations
+without the fan blades. Use the same printer, material and profile intended
+for the complete fan. Check the actual shaft grip, jaw travel and hardware.
+The coupon does not test key engagement, dynamic balance or powered thrust.
+
+PRINT FILES / ORIENTATION
+All STL dimensions are millimetres; import at 100% without scaling.
+Native STL files retain the Onshape assembly coordinates. The PRINT folder
+contains the same meshes rotated and placed on Z=0 for printing:
+- Fan: motor-facing open cup down, motor axis vertical. Blade overhangs need
+  support. Remove support carefully and smooth any blade-tip burrs.
+- Upper jaw: flat shaft-tip-facing end down, axis vertical.
+- Lower-jaw coupon: flat split face orientation as supplied, base at Z=0.
+- Frame and cap files are unchanged reference copies; orient/support them
+  as in the previous successful prints.
+For P1S/PLA Basic, start with 0.16 mm layers, 6 walls and 100% upper-jaw
+infill. These are starting settings, not a validated production profile.
+Do not drill or sand the shaft clamp bore until checking the coupon fit.
+
+VERIFIED CAD LIMITS
+Reference shaft: diameter 3.175 mm. Unloaded bore: diameter 3.30 mm.
+Available straight gripping length: 3.05 mm (Y16.25..19.30).
+Nominal split gap: 0.30 mm. Geometric closing travel: about 0.125 mm.
+Reference pilot: diameter 9 mm; printed relief: diameter 9.6 mm.
+Conservative full-turn envelope including 0.0625 mm radial take-up allowance:
+minimum frame clearance 2.3796 mm; cap clearance 0.699 mm.
+Native assembly: 46 bodies, rigid rotor group of 7, one revolute mate;
+Onshape interference detection: no interferences; 360-degree motion completed.
+New print meshes are single closed manifold bodies.
+STEP retains two microscopic inherited blade-tip sliver faces; no new edited
+fan faces are invalid, and the exported fan STL is closed and manifold.
+
+This is a testable prototype, not a guaranteed retention mechanism. The
+short available grip, actual motor dimensions, PLA creep, nut loosening,
+dynamic balance and operating speed/load need physical checks. Passing CAD
+clearance checks cannot establish powered retention. Recheck after the first
+controlled run before treating it as ready for use.

@@ -1,0 +1,36 @@
+Status: complete
+Fresh independent review: /root/r13_final_review, GPT-6-astra/high.
+No Critical or Important implementation findings.
+
+Requirements met within CAD qualification: inward bowl, increased metal-envelope
+clearance, outside-loading captured nuts/washers, short M3x12 fasteners, pilots,
+no motor spacer, and retained fan/motor/adapter geometry. Reviewer independently
+matched all six PRINT-file hashes. Geometry21/21 and assembly5/5 checks pass;
+continuous loading and insertion pass. Parent confirmed saved native version.
+
+Design ruling
+Use short M3x12 screws with front captured nuts and locating pilots to implement
+the requested attachment optimization. This uses real nuts and the user's screw
+assortment. Cost if printed fit differs: rework/reprint a joint; two small actual-
+geometry joint coupons are supplied before committing to full prints.
+
+Deferred minor regression-test improvement
+Axial pilot relief is supported by FeatureScript dimensions but the regression
+test currently asserts cylinder radii/counts and aggregate seat contact. It does
+not independently derive the pilot endpoints or assert four separate seat areas.
+Stronger endpoint/per-seat regression assertions would catch future edits better.
+This is a test-coverage limit, not an observed dimensional defect in R13.
+
+Interference evidence scope
+Native Onshape No interferences covered cone, housing and fan. It is not native
+47-part all-pairs interference certification. The independent geometry suite
+also checks cap and housing against the other45 bodies; the retained other33
+components have matching geometry/poses. All47 native assembly solids match
+the verified part poses. Full rotating conservative envelope remains clear.
+
+Qualification boundary
+Physical PLA strength/creep, tightening torque, actual printed fit, collet grip,
+balance, thrust, reversing performance, sealing and rated speed require bench
+validation. The reviewer did not rerun expensive geometry or inspect live UI;
+the parent collected native evidence and ran checks. Legacy interchange STEP
+validity is not qualified; STEP is excluded from this printable kit.

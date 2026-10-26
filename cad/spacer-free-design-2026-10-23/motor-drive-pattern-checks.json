@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "check": "four motor openings and four propeller keys have identical axes",
+      "passed": true,
+      "detail": {
+        "motor_vent_axes_mm": [
+          [
+            0.0,
+            9.0
+          ],
+          [
+            9.0,
+            0.0
+          ],
+          [
+            -9.0,
+            0.0
+          ],
+          [
+            0.0,
+            -9.0
+          ]
+        ],
+        "propeller_key_axes_mm": [
+          [
+            9.0,
+            0.0
+          ],
+          [
+            -9.0,
+            0.0
+          ],
+          [
+            0.0,
+            9.0
+          ],
+          [
+            0.0,
+            -9.0
+          ]
+        ]
+      }
+    },
+    {
+      "check": "motor openings are on 18 mm pitch circle at 90 degree spacing",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "5.5 mm keys have 0.25 mm radial assembly clearance in 6 mm openings",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "all four keys engage the rotating bell by at least 2 mm",
+      "passed": true,
+      "detail": {
+        "engagement_mm": [
+          2.473205439789698,
+          2.473205439739699,
+          2.4732052807568987,
+          2.473205332563099
+        ]
+      }
+    },
+    {
+      "check": "isolated native drive-key material matches all four solid cylinders",
+      "passed": true,
+      "detail": {
+        "actual_mm3": 199.56967331926245,
+        "expected_mm3": 199.56967331929164
+      }
+    },
+    {
+      "check": "aligned propeller keys fit without penetrating the bell",
+      "passed": true,
+      "detail": {
+        "clearance_mm": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      }
+    },
+    {
+      "check": "one degree assembly play is clear in both directions",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "all four drive keys stop independent rotation in both directions before two degrees",
+      "passed": true,
+      "detail": {
+        "signed_radial_clearances_at_minus_2_deg_mm": [
+          -0.06414331587110322,
+          -0.06414331587110322,
+          -0.06414331587110322,
+          -0.06414331587110322
+        ],
+        "signed_radial_clearances_at_plus_2_deg_mm": [
+          -0.06414331587110322,
+          -0.06414331587110322,
+          -0.06414331587110322,
+          -0.06414331587110322
+        ]
+      }
+    }
+  ],
+  "reference_only": true,
+  "physical_motor_measured": false,
+  "clamp_grip_tested": false,
+  "retention": "opposed integral external bell clamp with two M3x16 bolts, two captured M3 nuts and two washers",
+  "important": "A rigid assembly mate and interference-free rotation do not prove mechanical retention or a torque rating."
+}

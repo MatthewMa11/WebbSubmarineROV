@@ -1,0 +1,236 @@
+Browser tab: 1, Title: "Frame Structure | R7 thruster - bolt-free collar and jam ring", URL: "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553".
+1 AXWebArea Frame Structure | R7 thruster - bolt-free collar and jam ring, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			19 text Frame Structure R7 - bolt-free collar and jam ring
+			20 image
+			6 button Explore Onshape
+				7 image
+				21 text Explore Onshape
+			8 button Description: Notifications, ID: user-notification-status
+				9 container
+					10 image
+					11 container 9+ unread notifications
+						22 text 9+
+			12 link Navigates you to Action items page in a new window.
+			13 link Navigates you to Onshape app store in a new window.
+			14 link Navigates you to Onshape Learning Center in a new window.
+			23 button (disabled) Share
+			15 container Help menu
+			16 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				17 text Matthew Ma
+		18 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 image
+				33 container
+					34 container
+						35 container content-div
+							36 container
+								37 image
+								38 container
+									39 image
+									40 image
+									41 image
+									42 image
+									43 image
+									44 image
+								45 container
+									46 text Exploded views
+									47 container
+										48 container
+											49 image
+											50 text R7 assembly order - both LARGE ring openings face FAN
+										51 container
+											52 image
+											234 text 1 COLLAR 5 mm FIRST - large bore toward FAN
+										54 container
+											55 image
+											235 text 2 JAM 3 mm SECOND - large bore toward FAN
+										57 container
+											58 image
+											236 text 3 MOTOR - 4 keys; tighten collar, then jam
+									60 button Add exploded view
+									61 link cad.onshape.com/help/index.htm#cshid=exploded_views
+						62 container os-tab-bar
+							63 container
+								64 container
+									65 image
+									66 text Part Studio 1
+								67 container
+									68 image
+									69 text Part Studio 2
+								70 container
+									71 image
+									72 text A2212 corrected parts
+								73 container
+									74 image
+									75 text Jam-ring-R7-final.stl
+								76 container
+									77 image
+									78 text Compression-collar-R7-final.stl
+								79 container
+									80 image
+									81 text Jam-ring-R7.stl
+								82 container
+									83 image
+									84 text Compression-collar-R7.stl
+								85 container
+									86 image
+									87 text Propeller-R7-bolt-free-final.stl
+								88 container
+									89 image
+									90 text Propeller-R7-bolt-free.stl
+								91 container
+									92 image
+									93 text Nozzle-R6p1-flat-motor-boss.stl
+								94 container
+									95 image
+									96 text Propeller-R6-FINAL-integral-M3-clamp.stl
+								97 container
+									98 image
+									99 text DRAFT superseded - Propeller-R6-trial.stl
+								100 container
+									101 image
+									102 text Nozzle R5 - verified manifold print mesh.stl
+								103 container
+									104 image
+									105 text Nozzle R5 - verified manifold print mesh
+								106 container
+									107 image
+									108 text Nozzle-no-wire-holder-R5.stl
+								109 container
+									110 image
+									111 text ROV - easy assembly - five panels
+								112 container
+									113 image
+									114 text Thruster R3
+								115 container
+									116 image
+									117 text Easy frame and removable electronics pod
+								118 container
+									119 image
+									120 text ROV-easy-assembly parts
+								121 container
+									122 image
+									123 text A2212-R4-final-print-parts.zip
+								124 container
+									125 image
+									126 text Thruster-R4-native-parts.step
+								127 container
+									128 image
+									129 text A2212-R4-nozzle-and-cover.zip
+								130 container
+									131 image
+									132 text Nozzle-centering-cup-R3.stl
+								133 container
+									134 image
+									135 text A2212-physical-revision-2026-10-17.zip
+								136 container
+									137 image
+									138 text Nozzle-PLA-complete.stl
+								139 container
+									140 image
+									141 text R7 thruster - bolt-free collar and jam ring
+								142 container
+									143 image
+									144 text Thruster-R7-bolt-free-final.step
+								145 container
+									146 image
+									147 text Thruster-R7-bolt-free.step
+								148 container
+									149 image
+									150 text DRAFT-R7-thread-diagnostic.step
+								151 container
+									152 image
+									153 text Thruster-R6p1-flat-motor-boss.step
+								154 container
+									155 image
+									156 text Thruster-R6-FINAL-spacer-free-assembly.step
+								157 container
+									158 image
+									159 text DRAFT superseded - Thruster-R6-trial.step
+								160 container
+									161 image
+									162 text Thruster-no-wire-holder-R5.step
+								163 container
+									164 image
+									165 text Thruster-cover-through-bolts-R4-verified.step
+								166 container
+									167 image
+									168 text Thruster-cover-through-bolts-R4.step
+								169 container
+									170 image
+									171 text ROV - 8 thrusters - 4 diagonal + 4 vertical
+								172 container
+									173 image
+									174 text ROV - laser-cut frame and electronics cylinder
+								175 container
+									176 image
+									177 text A2212 R3 - 3 mm frame mounts
+								178 container
+									179 image
+									180 text Laser-cut frame and electronics pod
+								181 container
+									182 image
+									183 text ROV-frame-and-cylinder parts
+								184 container
+									185 image
+									186 text A2212 complete thruster - R3
+								187 container
+									188 image
+									189 text ROV8-native parts
+								190 container
+									191 image
+									192 text Thruster-centering-cup-R3.step
+								193 container
+									194 image
+									195 text Thruster-physical-fit-R2-2026-10-17.step
+								196 container
+									197 image
+									198 text Thruster-A2212-PLA-complete.step
+								199 container
+									200 image
+									201 text T200.STEP (1)
+								202 container
+									203 image
+									204 text T200-CORE_T200-CORE-STD.STEP
+								205 container
+									206 image
+									207 text T200-ASM-STATOR-POTTED-R1B.STEP
+								208 container
+									209 image
+									210 text T200-ASM-STATOR-BASE-ORING_Pubilc .STEP
+								211 container
+									212 image
+									213 text T200-NOZZLE.STEP
+								214 container
+									215 image
+									216 text T200 parts
+								217 container
+									218 image
+									219 text Part Studio 3
+								220 container
+									221 image
+									222 text Assembly 1
+								223 container
+									224 image
+									225 text CAD 导入
+								226 container
+									227 image
+									228 text Thruster print fit
+								229 container
+									230 image
+									231 text R6 source geometry - frame and cap
+						232 text Editing R7 assembly order - both LARGE ring openings face FAN
+						233 button Done
+
+The focused UI element is 1 AXWebArea Frame Structure | R7 thruster - bolt-free collar and jam ring, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553

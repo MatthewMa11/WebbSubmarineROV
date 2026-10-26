@@ -1,0 +1,152 @@
+{
+  "prints": [
+    {
+      "file": "Housing-R13-short-bolt.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 607518,
+      "print_bounds_mm": [
+        -50.7955436706543,
+        50.7955436706543,
+        -50.7955436706543,
+        50.7955436706543,
+        0.0,
+        77.80000305175781
+      ],
+      "relative_volume_error": 0.00013821795201176607,
+      "volume_comparison_basis": "native Onshape",
+      "reference_volume_mm3": 128520.263,
+      "step_reader_volume_mm3": 128528.01204952545,
+      "discarded_export_fragments": [
+        {
+          "region": 0,
+          "triangles": 4,
+          "volume_mm3": 1.5471383080093907e-08,
+          "bounds_mm": [
+            43.554744720458984,
+            43.616615295410156,
+            18.99987030029297,
+            19.0,
+            -4.412539005279541,
+            -4.399601459503174
+          ]
+        },
+        {
+          "region": 1,
+          "triangles": 4,
+          "volume_mm3": 1.5471383080106612e-08,
+          "bounds_mm": [
+            43.554744720458984,
+            43.616615295410156,
+            18.99987030029297,
+            19.0,
+            4.399601459503174,
+            4.412539005279541
+          ]
+        }
+      ],
+      "sha256": "26325cbb432a9f8861d398b50524ea0da778d36cd6ceb515badb9a1d53e735b2"
+    },
+    {
+      "file": "Cone-R13-concave.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 111536,
+      "print_bounds_mm": [
+        -49.5,
+        49.5,
+        -49.5,
+        49.5,
+        0.0,
+        31.0
+      ],
+      "relative_volume_error": 0.0004785836921092978,
+      "volume_comparison_basis": "native Onshape",
+      "reference_volume_mm3": 30280.397999999986,
+      "step_reader_volume_mm3": 30164.21356800392,
+      "discarded_export_fragments": [],
+      "sha256": "a8aba833ef5c70b416086634b4c0abc7d45f71af9884c593a329bc8229e7ef89"
+    },
+    {
+      "file": "TEST-FIRST/Joint-Housing-R13.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 24770,
+      "print_bounds_mm": [
+        -5.698118686676025,
+        5.698118686676025,
+        -5.369718551635742,
+        5.369718551635742,
+        0.0,
+        8.299999237060547
+      ],
+      "relative_volume_error": 0.0004279784676668091,
+      "volume_comparison_basis": "local clipped CAD",
+      "reference_volume_mm3": 438.9127585554855,
+      "step_reader_volume_mm3": 438.9127585554855,
+      "discarded_export_fragments": [],
+      "sha256": "b24e887619ee11bb8b24f5e1406774cc6b275d6b37f31992b9b01ce883c85c54"
+    },
+    {
+      "file": "TEST-FIRST/Joint-Cone-R13.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 19716,
+      "print_bounds_mm": [
+        -4.9987921714782715,
+        4.9987921714782715,
+        -5.499444961547852,
+        5.499444961547852,
+        0.0,
+        5.0
+      ],
+      "relative_volume_error": 0.00037505740997466526,
+      "volume_comparison_basis": "local clipped CAD",
+      "reference_volume_mm3": 342.8938867554076,
+      "step_reader_volume_mm3": 342.8938867554076,
+      "discarded_export_fragments": [],
+      "sha256": "f94979d80b4383a220ea7ca1a7f7e394feb1ce3d23b1e85ed7afee7519673310"
+    },
+    {
+      "file": "Fan-R11-actual-adapter.stl",
+      "unchanged": true,
+      "sha256": "bad4e6196bbbfd704405ea4daf8c71f2abcb2b76505d2cc10d342edf1cfc8daa"
+    },
+    {
+      "file": "TEST-FIRST-R11-5p1-bore.stl",
+      "unchanged": true,
+      "sha256": "1c2672885aa54a778e59318c7eb1b6de5e9a7541aac81b44d14d00542da1bc4b"
+    }
+  ],
+  "retained_surface_checks": [
+    {
+      "part": "house",
+      "direction": "old-to-new",
+      "samples": 801483,
+      "max_distance_mm": 0.0008635661295231313,
+      "passed": true
+    },
+    {
+      "part": "house",
+      "direction": "new-to-old",
+      "samples": 801499,
+      "max_distance_mm": 0.0007835549481069046,
+      "passed": true
+    },
+    {
+      "part": "cone",
+      "direction": "old-to-new",
+      "samples": 129680,
+      "max_distance_mm": 7.47583388822833e-06,
+      "passed": true
+    },
+    {
+      "part": "cone",
+      "direction": "new-to-old",
+      "samples": 130340,
+      "max_distance_mm": 7.402451794346112e-06,
+      "passed": true
+    }
+  ],
+  "retained_surface_tolerance_mm": 0.02
+}

@@ -1,0 +1,56 @@
+R11: use the actual motor and metal CAD from the user's Motor document.
+
+User instruction: use the actual models already in Onshape, replacing R10's
+generic reference envelopes. Preserve frame/cap shapes; no motor insert.
+Source Motor document:
+https://cad.onshape.com/documents/0ff4892958a7b27bdfa13caa/w/1f7c20273f2399a89a8462fd/e/10199497d26cbfa5205bde9c
+
+Measured source assembly has8 solids: motor fused body, three flexible leads,
+collet threaded body, collar/backplate, bullet nut and optional cross mount.
+Use the exact motor body and three adapter solids. The cross mount collides
+with the existing frame (551.868mm3); the frame itself replaces that mount.
+Straight source lead solids are not a routed wire model and are omitted from
+the installed assembly; physical flexible wires use the existing cable ports.
+Source motor is fused into one solid; keep it unchanged as a fixed reference.
+The fan and3 adapter pieces rotate together about its shaft axis.
+
+Pose: rotate source CAD +45deg aboutY, translate +15.67mm alongY. This places
+actual base planeY=-26.67 at frame seatY=-11. Exact motor fits the unchanged
+frame. Mount hole offsets from the existing16/19mm axes are under0.065mm.
+Keep metal/source relative positions unchanged, including threaded-nut phase.
+Collar seating faceY24.5346; bullet nut back faceY31.6796595848951.
+Fan flat hub thickness7.1450595848951mm, matching that existing source gap.
+Nominal clear prop bore5.1mm; source male thread envelope about4.828mm.
+Rear neck recess6.2mm diameter x0.35mm deep clears the5.7912mm shoulder that
+projects0.0254mm beyond the collar seating face. Round bore/shoulder edges.
+Retain outer blade profiles and radius35.5; shift blades/hub +0.2346mm fromR10.
+Keep28mm duct extension, frame, cap placement and M3x40 cover hardware.
+
+Source CAD has pre-existing modeled collet clamping overlaps:9.29286mm3
+shaft/collet and2.47698mm3 collet/collar. Preserve actual metal geometry and
+record these contacts; do not alter metal solids to make a false zero-clash
+claim. Thread engagement with motor-base screws is likewise not a free-running
+clearance test. Check the fan against all motor/adapter surfaces and check
+continuous rotation against all fixed structure.
+
+Native strategy: isolated R11 workspace from saved R10. Four native Derived
+features link the actual motor and adapter Part Studios at their saved source
+versions, followed by one rigid staging transform Y+200. No STEP conversion is
+used for the delivered geometry. Supersedes the initial unused STEP snapshot.
+Derive those4 solids immediately before Four side mount finishing. R11's final
+feature removes old5 motor/adapter envelopes, transforms the actual solids,
+updates fan bore/hub, and adds explicit fan/frame shaft-axis mate connectors.
+Add a second0.5mm M3 washer under each motor-base bolt; move its head back0.5mm
+to leave2mm engagement and0.3876mm clearance before the modeled blind bottom.
+Recenter motor bolts/washers on the actual CAD hole axes (within0.065mm of the
+unchanged frame's clearance holes). Final assembly48 solids: fixed44, rotating4.
+Native source provenance records the exact Onshape source IDs and preserves
+all metal thread detail. Raw PS collar is flipped X180 before Y8.8646; nut
+source phase is -96.73356114112303degY and Y16.0096595848951; then the whole
+source assembly pose maps by Y45deg / Y+15.67.
+
+Checks: unchanged frame/cap/duct/hardware; actual4 source geometry preserved
+under only the stated rigid pose; fan contact faces and new bore/recess; source
+clamp contacts reported separately; no new fan/structure penetration; full-turn
+envelope; actual48-solid assembly matches PartStudio; print STL closure/units;
+updated adapter coupon/instructions, source provenance and final version.

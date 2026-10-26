@@ -1,0 +1,36 @@
+Status: complete
+Reviewer: fresh independent r11_final_review (read-only).
+Verdict: Ready for final packaging and delivery as the R11 CAD and print-fit
+revision. No critical, important or minor user-facing defects found.
+
+Reviewed requirements, plan, native source provenance, FeatureScript, geometry
+and assembly verifiers/results, STL source hashes, instructions and package gate.
+Source transforms, source geometry preservation, shoulder relief, hub seating,
+fused motor fixed/adapter rotating membership and retained source contacts are
+consistent. Source geometry comparisons pass volume, area, bounds and per-face
+fingerprints. Frame/cap/extension preserve shape and placement. Print meshes are
+closed and single-piece. Coupon comes from the actual fan hub. Independent
+blade samples and hashes agree, while wrong-shift negative control fails.
+
+Evidence: 29/29 geometry checks and 7/7 assembly checks passed in this session.
+Native saved version75c1dcfd63b352df99b31e2f was opened and visibly confirmed by
+implementer after the review (48 instances; view-only R11 version banner).
+
+Declined to judge / implementer rulings
+1. Physical grip, torque, creep, balance, thrust, reversal and water sealing:
+   hardware testing is required. CAD delivery stands, with test-first coupon
+   and retention checks; these physical properties are not guaranteed.
+2. Reviewer did not operate the live saved Onshape version: implementer opened
+   that exact saved version and recorded native-saved-version.txt / screenshot.
+3. Final ZIP integrity was pending review: package gate must pass before delivery.
+
+Implementation decisions recorded for user
+- Four direct native source links supersede the STEP conversion snapshot;
+  native source shape/appearances are preserved.
+- Fused source motor remains fixed reference; fan and three adapter solids rotate.
+- Source straight wire solids and optional cross mount plate are omitted from
+  installed assembly: wires require physical routing, frame replaces the plate.
+- Existing clamp/thread contacts remain recorded separately from free rotation.
+- Outer blade fidelity uses measured surface comparison with negative control;
+  coincident-loft OCP CSG diagnostic is retained but not misrepresented as passing.
+See DESIGN.txt, ASSEMBLY-AND-PRINT.txt and progress.md for geometry and costs.

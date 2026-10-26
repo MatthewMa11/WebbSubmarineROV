@@ -1,0 +1,389 @@
+Browser tab: 1, Title: "Frame Structure | Thruster assembly - A2212 fit check", URL: "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553".
+1 AXWebArea Frame Structure | Thruster assembly - A2212 fit check, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			6 text Frame Structure Main
+			7 image
+			427 text M
+			8 button Explore Onshape
+				9 image
+				10 text Explore Onshape
+			11 button Description: Notifications, ID: user-notification-status
+				12 container
+					13 image
+					14 container 9+ unread notifications
+						15 text 9+
+			16 link Navigates you to Action items page in a new window.
+			17 link Navigates you to Onshape app store in a new window.
+			18 link Navigates you to Onshape Learning Center in a new window.
+			19 button (disabled) Share
+			20 container Help menu
+			21 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				22 text Matthew Ma
+		23 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 image
+				33 container
+					34 container
+						1075 container osToolbar
+							1076 container
+								1077 container
+									1078 image
+									1079 text Insert
+								1080 button Search tools… alt/⌥ c
+									1081 text Search tools… 
+									1082 text alt/⌥
+									1083 text c
+						35 container content-div
+							1084 container
+								1085 container assembly-tree
+									1086 pop up button (collapsed) Secondary Actions: Expand
+									1087 text field (settable)
+									1088 button filter-flat-list-view
+										1089 image
+									1751 text Instances (46)
+									1093 container
+										1094 container
+											1095 image
+											1096 text Thruster assembly - A2212 fit check
+										1153 container
+											1154 image
+											1155 image
+											1156 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										1157 container
+											1158 image
+											1159 image
+											1160 text M4 hex nut AF7x3.2 - 1 <1>
+										1161 container
+											1162 image
+											1163 image
+											1164 text M4 hex nut AF7x3.2 - 2 <1>
+										1165 container
+											1166 image
+											1167 image
+											1168 text M4 hex nut AF7x3.2 - 3 <1>
+										1169 container
+											1170 image
+											1171 image
+											1172 text M4 hex nut AF7x3.2 - 4 <1>
+										1173 container
+											1174 image
+											1175 image
+											1176 text M4x12 socket mounting bolt 1 <1>
+										1177 container
+											1178 image
+											1179 image
+											1180 text M4x12 socket mounting bolt 2 <1>
+										1181 container
+											1182 image
+											1183 image
+											1184 text M4x12 socket mounting bolt 3 <1>
+										1185 container
+											1186 image
+											1187 image
+											1188 text M4x12 socket mounting bolt 4 <1>
+										1189 container
+											1190 image
+											1191 image
+											1192 text M3 captured cover nut 1 <1>
+										1193 container
+											1194 image
+											1195 image
+											1196 text M3 captured cover nut 2 <1>
+										1197 container
+											1198 image
+											1199 image
+											1200 text M3 front washer cover 1 <1>
+										1201 container
+											1202 image
+											1203 image
+											1204 text M3 front washer cover 2 <1>
+										1205 container
+											1206 image
+											1207 image
+											1208 text M3 flat washer motor base 1 <1>
+										1209 container
+											1210 image
+											1211 image
+											1212 text M3 flat washer motor base 3 <1>
+										1213 container
+											1214 image
+											1215 image
+											1216 text M3x12 cover through-bolt 1 <1>
+										1217 container
+											1218 image
+											1219 image
+											1220 text M3x12 cover through-bolt 3 <1>
+										1221 container
+											1222 image
+											1223 image
+											1224 text M3x8 motor-base screw 2 <1>
+										1225 container
+											1226 image
+											1227 image
+											1228 text M3x8 motor-base screw 4 <1>
+										1229 container
+											1230 image
+											1231 image
+											1232 text M3 captured cover nut 3 <1>
+										1233 container
+											1234 image
+											1235 image
+											1236 text M3 front washer cover 3 <1>
+										1237 container
+											1238 image
+											1239 image
+											1240 text M3 flat washer motor base 2 <1>
+										1241 container
+											1242 image
+											1243 image
+											1244 text M3 flat washer motor base 4 <1>
+										1524 container
+											1525 image
+											1526 image
+											1527 text M3x12 cover through-bolt 2 <1>
+										1528 container
+											1529 image
+											1530 image
+											1531 text M3x8 motor-base screw 1 <1>
+										1532 container
+											1533 image
+											1534 image
+											1535 text M3x8 motor-base screw 3 <1>
+										1536 container
+											1537 image
+											1538 image
+											1539 text M3 captured cover nut 4 <1>
+										1540 container
+											1541 image
+											1542 image
+											1543 text M3 front washer cover 4 <1>
+										1544 container
+											1545 image
+											1546 image
+											1547 text M3 rear washer cover 1 <1>
+										1548 container
+											1549 image
+											1550 image
+											1551 text M3 rear washer cover 2 <1>
+										1552 container
+											1553 image
+											1554 image
+											1555 text M3x12 cover through-bolt 4 <1>
+										1747 container
+											1748 image
+											1749 image
+											1750 text M3 rear washer cover 3 <1>
+										1752 container
+											1753 image
+											1754 image
+											1755 text M3 rear washer cover 4 <1>
+										1556 container
+											1557 image
+											1558 text Mate features (3)
+										1559 container
+											1560 image
+											1561 image
+											1562 text Group 1
+										1563 container
+											1564 image
+											1565 image
+											1566 text Group 2
+										1756 container
+											1757 image
+											1758 image
+											1759 text Revolute 1
+								1245 image
+								1246 container viewerdiv
+									1247 image canvas
+									1932 button
+										1933 image
+								1255 container
+									1256 image
+									1257 image
+									1258 image
+									1259 image
+									1260 image
+									1261 image
+							1071 container
+								1072 image
+								1262 text A2212-R4-nozzle-and-cover.zip
+								1263 text Zip file
+								1264 text File size: 12 MB
+								1265 text Uploaded 5:02 pm Oct 17 2026
+								1073 button Update…, ID: updateBlobButton
+								1074 button Download, ID: downloadBlobButton
+							1762 container feature-dialog
+								1763 container
+									1764 text Group 1
+									1765 image
+									1766 image
+								1767 content list
+									1768 container Instances Nozzle - M3 through-bolt joints, cup and wire ring (R4) <1> × Front cover - four M3 through-bolt tabs (R4) <1> × A2212 reference stator base <1> × M4x12 socket mounting bolt 1 <1> × M4 flat washer 9x4.3x0.8 - 1 <1> × M4 hex nut AF7x3.2 - 1 <1> × M4x12 socket mounting bolt 2 <1> × M4 flat washer 9x4.3x0.8 - 2 <1> × M4 hex nut AF7x3.2 - 2 <1> × M4x12 socket mounting bolt 3 <1> × M4 flat washer 9x4.3x0.8 - 3 <1> × M4 hex nut AF7x3.2 - 3 <1> × M4x12 socket mounting bolt 4 <1> × M4 flat washer 9x4.3x0.8 - 4 <1> × M4 hex nut AF7x3.2 - 4 <1> × M3 captured cover nut 1 <1>
+										1839 container
+											1840 text Instances
+											1841 content list
+												1842 container
+													1843 text Nozzle - M3 through-bolt joints, cup and wire ring (R4) <1> ×
+												1844 container
+													1845 text Front cover - four M3 through-bolt tabs (R4) <1> ×
+												1846 container
+													1847 text A2212 reference stator base <1> ×
+												1848 container
+													1849 text M4x12 socket mounting bolt 1 <1> ×
+												1850 container
+													1851 text M4 flat washer 9x4.3x0.8 - 1 <1> ×
+												1852 container
+													1853 text M4 hex nut AF7x3.2 - 1 <1> ×
+												1854 container
+													1855 text M4x12 socket mounting bolt 2 <1> ×
+												1856 container
+													1857 text M4 flat washer 9x4.3x0.8 - 2 <1> ×
+												1858 container
+													1859 text M4 hex nut AF7x3.2 - 2 <1> ×
+												1860 container
+													1861 text M4x12 socket mounting bolt 3 <1> ×
+												1862 container
+													1863 text M4 flat washer 9x4.3x0.8 - 3 <1> ×
+												1864 container
+													1865 text M4 hex nut AF7x3.2 - 3 <1> ×
+												1866 container
+													1867 text M4x12 socket mounting bolt 4 <1> ×
+												1868 container
+													1869 text M4 flat washer 9x4.3x0.8 - 4 <1> ×
+												1870 container
+													1871 text M4 hex nut AF7x3.2 - 4 <1> ×
+												1872 container
+													1873 text M3 captured cover nut 1 <1> ×
+												1874 container
+													1875 text M3 captured cover nut 2 <1> ×
+												1876 container
+													1877 text M3 captured cover nut 3 <1> ×
+												1878 container
+													1879 text M3 front washer cover 1 <1> ×
+												1880 container
+													1881 text M3 front washer cover 2 <1> ×
+												1882 container
+													1883 text M3 front washer cover 3 <1> ×
+												1884 container
+													1885 text M3 flat washer motor base 1 <1> ×
+												1886 container
+													1887 text M3 flat washer motor base 2 <1> ×
+												1888 container
+													1889 text M3 flat washer motor base 3 <1> ×
+												1890 container
+													1891 text M3 flat washer motor base 4 <1> ×
+												1892 container
+													1893 text M3x12 cover through-bolt 1 <1> ×
+												1894 container
+													1895 text M3x12 cover through-bolt 2 <1> ×
+												1896 container
+													1897 text M3x12 cover through-bolt 3 <1> ×
+												1898 container
+													1899 text M3x8 motor-base screw 1 <1> ×
+												1900 container
+													1901 text M3x8 motor-base screw 2 <1> ×
+												1902 container
+													1903 text M3x8 motor-base screw 3 <1> ×
+												1904 container
+													1905 text M3x8 motor-base screw 4 <1> ×
+												1908 container
+													1909 text M3 captured cover nut 4 <1> ×
+												1912 container
+													1913 text M3 front washer cover 4 <1> ×
+												1916 container
+													1917 text M3 rear washer cover 1 <1> ×
+												1920 container
+													1921 text M3 rear washer cover 2 <1> ×
+												1924 container
+													1925 text M3 rear washer cover 3 <1> ×
+												1928 container
+													1929 text M3 rear washer cover 4 <1> ×
+												1934 container
+													1935 text M3x12 cover through-bolt 4 <1> ×
+								1836 link cad.onshape.com/help/index.htm#cshid=mategroup
+						62 container os-tab-bar
+							63 container
+								1266 container
+									1267 image
+									1268 text Part Studio 1
+								1269 container
+									1270 image
+									1271 text Part Studio 2
+								1272 container
+									1273 image
+									1274 text A2212 corrected parts
+								1275 container
+									1276 image
+									1277 text Thruster-R4-native-parts.step
+								1278 container
+									1279 image
+									1280 text A2212-R4-nozzle-and-cover.zip
+								1281 container
+									1282 image
+									1283 text Nozzle-centering-cup-R3.stl
+								1284 container
+									1285 image
+									1286 text A2212-physical-revision-2026-10-17.zip
+								1287 container
+									1288 image
+									1289 text Nozzle-PLA-complete.stl
+								1290 container
+									1291 image
+									1292 text Thruster assembly - A2212 fit check
+								1293 container
+									1294 image
+									1295 text ROV - 8 thrusters (4 diagonal + 4 vertical)
+									1296 text M
+								1297 container
+									1298 image
+									1299 text Thruster-centering-cup-R3.step
+								1300 container
+									1301 image
+									1302 text Thruster-physical-fit-R2-2026-10-17.step
+								1303 container
+									1304 image
+									1305 text Thruster-A2212-PLA-complete.step
+								1306 container
+									1307 image
+									1308 text T200.STEP (1)
+								1309 container
+									1310 image
+									1311 text T200-CORE_T200-CORE-STD.STEP
+								1312 container
+									1313 image
+									1314 text T200-ASM-STATOR-POTTED-R1B.STEP
+								1315 container
+									1316 image
+									1317 text T200-ASM-STATOR-BASE-ORING_Pubilc .STEP
+								1318 container
+									1319 image
+									1320 text T200-NOZZLE.STEP
+								1321 container
+									1322 image
+									1323 text T200 parts
+								1324 container
+									1325 image
+									1326 text Part Studio 3
+								1327 container
+									1328 image
+									1329 text Assembly 1
+								1330 container
+									1331 image
+									1332 text CAD 导入
+								1333 container
+									1334 image
+									1335 text Thruster print fit
+		1930 container M3x12 cover through-bolt 4 <1>, ID: tooltip790173
+			1931 text M3x12 cover through-bolt 4 <1>
+
+The focused UI element is 1768 container Instances Nozzle - M3 through-bolt joints, cup and wire ring (R4) <1> × Front cover - four M3 through-bolt tabs (R4) <1> × A2212 reference stator base <1> × M4x12 socket mounting bolt 1 <1> × M4 flat washer 9x4.3x0.8 - 1 <1> × M4 hex nut AF7x3.2 - 1 <1> × M4x12 socket mounting bolt 2 <1> × M4 flat washer 9x4.3x0.8 - 2 <1> × M4 hex nut AF7x3.2 - 2 <1> × M4x12 socket mounting bolt 3 <1> × M4 flat washer 9x4.3x0.8 - 3 <1> × M4 hex nut AF7x3.2 - 3 <1> × M4x12 socket mounting bolt 4 <1> × M4 flat washer 9x4.3x0.8 - 4 <1> × M4 hex nut AF7x3.2 - 4 <1> × M3 captured cover nut 1 <1>

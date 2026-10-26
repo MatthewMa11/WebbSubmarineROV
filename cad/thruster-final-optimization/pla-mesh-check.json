@@ -1,0 +1,212 @@
+[
+  {
+    "name": "full-print-parts/Front-cover-original-final-audit.stl",
+    "triangles": 14478,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 31368.79375219888,
+    "bounds_mm": [
+      [
+        -43.754002,
+        18.0,
+        -43.754002
+      ],
+      [
+        43.754002,
+        50.0,
+        43.754002
+      ]
+    ]
+  },
+  {
+    "name": "full-print-parts/Motor-insert-M3-pilots.stl",
+    "triangles": 5642,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 577.0154163148815,
+    "bounds_mm": [
+      [
+        -11.599999,
+        5.599,
+        -11.599999
+      ],
+      [
+        11.599999,
+        10.001,
+        11.599999
+      ]
+    ]
+  },
+  {
+    "name": "full-print-parts/Nozzle-PLA-complete.stl",
+    "triangles": 456886,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 108195.04873599092,
+    "bounds_mm": [
+      [
+        -50.795544,
+        -41.0,
+        -50.795544
+      ],
+      [
+        50.795544,
+        26.5,
+        50.795544
+      ]
+    ]
+  },
+  {
+    "name": "full-print-parts/Propeller-M3x8-socket-head.stl",
+    "triangles": 179724,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 11872.349314279076,
+    "bounds_mm": [
+      [
+        -18.0,
+        -3.0,
+        -36.0
+      ],
+      [
+        18.0,
+        19.0,
+        36.0
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/A-motor-guide-drive-keys.stl",
+    "triangles": 167572,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 10326.772270476524,
+    "bounds_mm": [
+      [
+        -18.0,
+        -18.200001,
+        0.0
+      ],
+      [
+        18.0,
+        18.200001,
+        22.0
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/B-motor-insert.stl",
+    "triangles": 5642,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 577.0154163148848,
+    "bounds_mm": [
+      [
+        -11.599999,
+        -11.599999,
+        0.0
+      ],
+      [
+        11.599999,
+        11.599999,
+        4.402
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/C-M4-mount-pad.stl",
+    "triangles": 62440,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 4939.58115677649,
+    "bounds_mm": [
+      [
+        -20.0,
+        -12.0,
+        0.0
+      ],
+      [
+        20.0,
+        12.0,
+        8.795544
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/D-shaft-bore-3p5mm.stl",
+    "triangles": 1024,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 1551.5199173524163,
+    "bounds_mm": [
+      [
+        -6.0,
+        -6.0,
+        0.0
+      ],
+      [
+        6.0,
+        6.0,
+        15.0
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/E-cover-captive-nut-seat.stl",
+    "triangles": 13056,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 881.8719183085885,
+    "bounds_mm": [
+      [
+        -5.997314,
+        -5.999329,
+        0.0
+      ],
+      [
+        6.0,
+        5.999329,
+        10.25
+      ]
+    ]
+  },
+  {
+    "name": "fit-check-first/F-motor-base-washer-seats.stl",
+    "triangles": 3388,
+    "watertight_and_consistently_oriented": true,
+    "bad_edges": 0,
+    "components": 1,
+    "degenerate_triangles": 0,
+    "volume_mm3": 7131.776896592795,
+    "bounds_mm": [
+      [
+        -15.0,
+        -15.0,
+        0.0
+      ],
+      [
+        15.0,
+        15.0,
+        8.9
+      ]
+    ]
+  }
+]

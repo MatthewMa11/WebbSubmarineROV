@@ -1,0 +1,104 @@
+[
+  {
+    "file": "A-motor-guide-drive-keys.stl",
+    "triangles": 167572,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 10326.772543582363,
+    "bounds_mm": [
+      -18.0,
+      18.0,
+      -18.200000762939453,
+      18.200000762939453,
+      0.0,
+      22.0
+    ],
+    "scale": 1,
+    "note": "Native hub mating geometry; two short blade-root stubs remain."
+  },
+  {
+    "file": "B-motor-insert.stl",
+    "triangles": 5642,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 577.0154217699555,
+    "bounds_mm": [
+      -11.59999942779541,
+      11.59999942779541,
+      -11.59999942779541,
+      11.59999942779541,
+      0.0,
+      4.402000427246094
+    ],
+    "scale": 1,
+    "note": "Actual unchanged motor insert; prepare its four M3 pilots."
+  },
+  {
+    "file": "C-M4-mount-pad.stl",
+    "triangles": 62440,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 4939.581030499283,
+    "bounds_mm": [
+      -20.0,
+      20.0,
+      -12.0,
+      12.0,
+      0.0,
+      8.795543670654297
+    ],
+    "scale": 1,
+    "note": "Actual mounting pad crop; use the four corner bolt positions."
+  },
+  {
+    "file": "D-shaft-bore-3p5mm.stl",
+    "triangles": 1024,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 1551.519885767767,
+    "bounds_mm": [
+      -6.0,
+      6.0,
+      -6.0,
+      6.0,
+      0.0,
+      15.0
+    ],
+    "scale": 1,
+    "note": "Nominal 3.5 mm x 15 mm bore gauge; not a redesigned gray cover."
+  },
+  {
+    "file": "E-cover-captive-nut-seat.stl",
+    "triangles": 13056,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 881.8719100401736,
+    "bounds_mm": [
+      -5.997314453125,
+      6.0,
+      -5.99932861328125,
+      5.99932861328125,
+      0.0,
+      10.25
+    ],
+    "scale": 1,
+    "note": "Nominal replica of the nozzle retention pocket: exact AF5.8 nut seat, washer seat and 0.15 mm rounds; outside shell omitted."
+  },
+  {
+    "file": "F-motor-base-washer-seats.stl",
+    "triangles": 3388,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_mm3": 7131.7765535372855,
+    "bounds_mm": [
+      -15.0,
+      15.0,
+      -15.0,
+      15.0,
+      0.0,
+      8.899999618530273
+    ],
+    "scale": 1,
+    "note": "Nominal seating gauge: exact four motor axes, washer seats and mount thickness; curved access tunnel omitted."
+  }
+]

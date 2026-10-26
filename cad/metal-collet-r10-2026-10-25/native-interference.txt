@@ -1,0 +1,241 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84".
+1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			21 text A2212 R8 - M3 axle-clamp fan - separate design R10 - metal collet adapter
+			22 image
+			6 button Explore Onshape
+				7 image
+				8 text Explore Onshape
+			9 button Description: Notifications, ID: user-notification-status
+				10 container
+					11 image
+					12 container 9+ unread notifications
+						13 text 9+
+			14 link Navigates you to Action items page in a new window.
+			15 link Navigates you to Onshape app store in a new window.
+			16 link Navigates you to Onshape Learning Center in a new window.
+			23 button Share
+			17 container Help menu
+			18 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				19 text Matthew Ma
+		20 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 image
+				110 container
+					111 container
+						1069 container osToolbar
+							1070 container
+								1215 container
+									1216 image
+									1217 text Insert
+								1074 button Search tools… alt/⌥ c
+									1075 text Search tools… 
+									1076 text alt/⌥
+									1077 text c
+						121 container content-div
+							1005 container
+								1145 container assembly-tree
+									1146 pop up button (collapsed) Secondary Actions: Expand
+									1147 text field (settable)
+									1148 button filter-flat-list-view
+										1149 image
+									1150 text Instances (45)
+									1218 container
+										1219 container
+											1220 image
+											1221 text R10 thruster - metal collet and extended duct
+										1222 container
+											1223 image
+											1224 image
+											1225 text Origin
+										1226 container
+											1227 image
+											1228 image
+											1229 text A2212 reference rotor <1>
+										1230 container
+											1231 image
+											1232 image
+											1233 text A2212 reference stator base <1>
+										1234 container
+											1235 image
+											1236 image
+											1237 text Front cover - four M3 through-bolt tabs (R4) <1>
+										1238 container
+											1239 image
+											1240 image
+											1241 text R6.1 nozzle - flatter rear motor boss <1>
+										1242 container
+											1243 image
+											1244 image
+											1245 text R10 fan - 6.2 bore, 6.5 flat hub, metal collet <1>
+										1246 container
+											1247 image
+											1248 image
+											1249 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										1250 container
+											1251 image
+											1252 image
+											1253 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										1254 container
+											1255 image
+											1256 image
+											1257 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										1258 container
+											1259 image
+											1260 image
+											1261 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										1262 container
+											1263 image
+											1264 image
+											1265 text M4 hex nut AF7x3.2 - 1 <1>
+										1266 container
+											1267 image
+											1268 image
+											1269 text M4 hex nut AF7x3.2 - 2 <1>
+										1270 container
+											1271 image
+											1272 image
+											1273 text M4 hex nut AF7x3.2 - 3 <1>
+										1274 container
+											1275 image
+											1276 image
+											1277 text M4 hex nut AF7x3.2 - 4 <1>
+										1278 container
+											1279 image
+											1280 image
+											1281 text M4x12 socket mounting bolt 1 <1>
+										1282 container
+											1283 image
+											1284 image
+											1285 text M4x12 socket mounting bolt 2 <1>
+										1286 container
+											1287 image
+											1288 image
+											1289 text M4x12 socket mounting bolt 3 <1>
+										1290 container
+											1291 image
+											1292 image
+											1293 text M4x12 socket mounting bolt 4 <1>
+										1294 container
+											1295 image
+											1296 image
+											1297 text M3 captured cover nut 1 <1>
+										1298 container
+											1299 image
+											1300 image
+											1301 text M3 captured cover nut 2 <1>
+										1302 container
+											1303 image
+											1304 image
+											1305 text M3 front washer cover 1 <1>
+										1306 container
+											1307 image
+											1308 image
+											1309 text M3 front washer cover 2 <1>
+										1310 container
+											1311 image
+											1312 image
+											1313 text M3 flat washer motor base 1 <1>
+										1314 container
+											1315 image
+											1316 image
+											1317 text M3 flat washer motor base 3 <1>
+										1318 container
+											1319 image
+											1320 image
+											1321 text M3x40 cover-extension through-bolt 1 <1>
+										1322 container
+											1323 image
+											1324 image
+											1325 text M3x40 cover-extension through-bolt 3 <1>
+										1326 container
+											1327 image
+											1328 image
+											1329 text M3x8 motor-base screw 2 <1>
+										1330 container
+											1331 image
+											1332 image
+											1333 text M3x8 motor-base screw 4 <1>
+										1334 container
+											1335 image
+											1336 image
+											1337 text M3 captured cover nut 3 <1>
+										1338 container
+											1339 image
+											1340 image
+											1341 text M3 front washer cover 3 <1>
+										1342 container
+											1343 image
+											1344 image
+											1345 text M3 flat washer motor base 2 <1>
+								1153 image
+								1054 container viewerdiv
+									1144 image canvas
+									1356 button
+										1357 image
+								1062 container
+									1160 image
+									1161 image
+									1162 image
+									1163 image
+									1164 image
+									1165 image
+							1358 container interference-detection-dialog
+								1359 container
+									1360 text Interference detection
+									1361 button
+								1362 content list
+									1363 container
+										1364 text Instances to analyze
+										1365 content list
+											1366 container
+												1367 text R10 thruster - metal collet and extended duct ×
+									1368 container
+										1369 checkbox (settable, integer) Description: Include standard content, Value: 0
+										1370 text Include standard content
+									1371 container
+										1372 checkbox (settable, integer) Description: Show top level only, Value: 0
+										1373 text Show top level only
+									1374 container
+										1375 text Interferences
+										1377 content list
+											1378 text No interferences
+								1376 link cad.onshape.com/help/index.htm#cshid=interference_detection
+						978 container os-tab-bar
+							979 container
+								980 container
+									981 image
+									982 text Part Studio 1
+								983 container
+									984 image
+									985 text Thruster print fit
+								986 container
+									987 image
+									988 text Thruster-A2212-fit-check.step
+								989 container
+									990 image
+									991 text R10 thruster - metal collet and extended duct
+								992 container
+									993 image
+									994 text Nozzle R5 - verified manifold print mesh
+								995 container
+									996 image
+									997 text Nozzle R5 - verified manifold print mesh.stl
+								998 container
+									999 image
+									1000 text R10 parts - metal collet and duct extension
+								1001 container
+									1002 image
+									1003 text Assembly 1
+
+The focused UI element is 1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84

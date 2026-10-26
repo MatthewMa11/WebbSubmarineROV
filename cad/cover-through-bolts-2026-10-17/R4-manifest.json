@@ -1,0 +1,72 @@
+{
+  "revision": "R4 four cover through-bolt joints",
+  "date": "2026-10-17",
+  "units": "mm",
+  "scale_percent": 100,
+  "passed_checks": 30,
+  "native_solids": 46,
+  "stationary_group": 39,
+  "rotating_group": 7,
+  "full_rotation_degrees": 360,
+  "native_interference": "Four intentional propeller-screw / printed-spacer pilot contacts only",
+  "reprint": [
+    "Nozzle-M3-through-bolts-R4.stl",
+    "Front-cover-M3-through-tabs-R4.stl"
+  ],
+  "cover_hardware": {
+    "M3x12_socket_cap": 4,
+    "M3_flat_washer_OD7_ID3p2_t0p5": 8,
+    "M3_hex_nut_AF5p5_h2p4": 4
+  },
+  "physical_validation": "Pending print and fit on actual motor",
+  "files": {
+    "printable-STLs\\Front-cover-M3-through-tabs-R4.stl": {
+      "bytes": 6560084,
+      "sha256": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287"
+    },
+    "printable-STLs\\Motor-insert-22p6mm-R2.stl": {
+      "bytes": 417384,
+      "sha256": "a77e0ec338c0f6c9d06c6556d7563f2e6d70d279cbdbdaddd671f1c6edd524db"
+    },
+    "printable-STLs\\Nozzle-M3-through-bolts-R4.stl": {
+      "bytes": 27758784,
+      "sha256": "99013def62fb11dad5a2b00597194b5a57688afa15ccd05e2cdeb08d16faf5da"
+    },
+    "printable-STLs\\Propeller-71mm-sweep-R2.stl": {
+      "bytes": 9133484,
+      "sha256": "fa862713857d3e9912a157377875da191338fa5caa8a7a85414899f2bb6301d3"
+    },
+    "READ-ME-THROUGH-BOLTS.txt": {
+      "bytes": 3606,
+      "sha256": "0c9cabf66b1ddfdce5eb3ad478ebacf87a06adb409f4790899466016a1f5ffa2"
+    },
+    "Thruster-cover-through-bolts-R4-verified.step": {
+      "bytes": 3245398,
+      "sha256": "a7fe4644d40c235025e3542bf30f95d67e9ebd614b255944d2845be9ead852eb"
+    },
+    "native-after.fs": {
+      "bytes": 53580,
+      "sha256": "67fdbff86fe4986d7aaa729d603bc4fe1c01a956acd632b040a6cf2d01016c75"
+    },
+    "joint-checks.json": {
+      "bytes": 6935,
+      "sha256": "9e830e68b73b7d48a6e3c979f18e3f205652a96719094c65262e392da8f5729a"
+    },
+    "mesh-checks.json": {
+      "bytes": 1653,
+      "sha256": "112a393bc4ff9a3a9d9efe29b60b9ac7e9d335e6d318d5b6eba05968b88a6cd8"
+    },
+    "native-bolted-cover.png": {
+      "bytes": 129227,
+      "sha256": "ca641482a167fa6f52ce7792cf2223d3eef6e741f2a042f8e0c0d4f4a63d5221"
+    },
+    "native-360.jpg": {
+      "bytes": 113107,
+      "sha256": "a75ca9d05068b17b0ab8af6f0e6c2b34dd282f52dba8a836d8ccb5c34e7fba20"
+    },
+    "native-interference.jpg": {
+      "bytes": 108363,
+      "sha256": "6d7b1e975a0317df164a6fef1eced3b314c1eb453eca0c1ef9f7ec999696c2f1"
+    }
+  }
+}

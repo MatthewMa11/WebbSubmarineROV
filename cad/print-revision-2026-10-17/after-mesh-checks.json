@@ -1,0 +1,87 @@
+[
+  {
+    "check": "blade swept diameter is at most 71 mm",
+    "passed": true,
+    "detail": {
+      "swept_diameter_mm": 71.00000652914042
+    }
+  },
+  {
+    "check": "spacer fits inside a 22.6 mm cylindrical envelope",
+    "passed": true,
+    "detail": {
+      "envelope_diameter_mm": 22.600001142360416
+    }
+  },
+  {
+    "check": "blade-to-duct allowance remains above 0.75 mm under stated error budget",
+    "passed": true,
+    "detail": {
+      "nominal_radial_gap_mm": 2.4504967354297875,
+      "allowance_remaining_mm": 0.9269245423112822,
+      "assumptions_mm": {
+        "axis_offset": 0.5,
+        "duct_error": 0.3,
+        "blade_growth": 0.2,
+        "tilt_reach": 30
+      },
+      "tilt_degrees": 1
+    }
+  },
+  {
+    "check": "annular wire exit is open all around the motor at the rear ring",
+    "passed": true,
+    "detail": {
+      "obstructed_probes": 0,
+      "probe_count": 8640,
+      "opening_radial_span_mm": [
+        16,
+        27.4
+      ]
+    }
+  },
+  {
+    "check": "wire guide has a continuous surrounding rim",
+    "passed": true,
+    "detail": {
+      "solid_probes": 720,
+      "probe_count": 720
+    }
+  },
+  {
+    "check": "cover is one closed printable mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 14478
+    }
+  },
+  {
+    "check": "insert is one closed printable mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 8346
+    }
+  },
+  {
+    "check": "nozzle is one closed printable mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 484252
+    }
+  },
+  {
+    "check": "propeller is one closed printable mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 182668
+    }
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "Propeller-R7-bolt-free.stl",
+    "triangles": 79834,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_before_mm3": 15327.654548779039,
+    "volume_after_mm3": 15327.654386580825,
+    "bounds_mm": [
+      -20.850000381469727,
+      20.850000381469727,
+      -35.498958587646484,
+      35.498958587646484,
+      0.0,
+      24.399999618530273
+    ],
+    "rotation_x_deg": -90,
+    "passed": true
+  },
+  {
+    "file": "Compression-collar-R7.stl",
+    "triangles": 82414,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_before_mm3": 2384.4918154929114,
+    "volume_after_mm3": 2384.491819162035,
+    "bounds_mm": [
+      -22.98764991760254,
+      22.98764991760254,
+      -22.98764991760254,
+      22.98764991760254,
+      0.0,
+      5.0
+    ],
+    "rotation_x_deg": 90,
+    "passed": true
+  },
+  {
+    "file": "Jam-ring-R7.stl",
+    "triangles": 79988,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_before_mm3": 1848.6122702778475,
+    "volume_after_mm3": 1848.6122702778457,
+    "bounds_mm": [
+      -22.98764991760254,
+      22.98764991760254,
+      -22.98764991760254,
+      22.98764991760254,
+      0.0,
+      3.0
+    ],
+    "rotation_x_deg": 90,
+    "passed": true
+  },
+  {
+    "file": "TEST-FIRST-external-sleeve-R7.stl",
+    "triangles": 24160,
+    "bad_edges": 0,
+    "components": 1,
+    "volume_before_mm3": 5760.92217326892,
+    "volume_after_mm3": 5760.92217326892,
+    "bounds_mm": [
+      -20.850000381469727,
+      20.850000381469727,
+      -20.850000381469727,
+      20.850000381469727,
+      0.0,
+      11.0
+    ],
+    "rotation_x_deg": 0,
+    "passed": true
+  }
+]

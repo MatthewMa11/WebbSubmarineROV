@@ -1,0 +1,28 @@
+[
+  {
+    "check": "five original mechanical components retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "two external printed locking rings exist",
+    "passed": false,
+    "detail": {
+      "ring_count": 0
+    }
+  },
+  {
+    "check": "six external clamp fasteners removed, thirty-six stationary fasteners retained",
+    "passed": false,
+    "detail": {
+      "metal_hardware_count": 42
+    }
+  },
+  {
+    "check": "complete bolt-free assembly has forty-three solids",
+    "passed": false,
+    "detail": {
+      "solid_count": 47
+    }
+  }
+]

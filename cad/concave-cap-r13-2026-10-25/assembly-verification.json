@@ -1,0 +1,31 @@
+[
+  {
+    "check": "native assembly has all47 checked solids in checked poses",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native fixed group contains 43 instances",
+    "passed": true,
+    "detail": {
+      "count": 43
+    }
+  },
+  {
+    "check": "native rotating group contains 4 instances",
+    "passed": true,
+    "detail": {
+      "count": 4
+    }
+  },
+  {
+    "check": "native fan cap and merged housing have no interference",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native0..360 degree motion remains available",
+    "passed": true,
+    "detail": {}
+  }
+]

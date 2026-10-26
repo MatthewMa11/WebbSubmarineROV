@@ -1,0 +1,53 @@
+SIMPLIFIED ROV - FIVE FRAME PANELS, EIGHT FRAME JOINTS
+18 October 2026
+
+WHAT CHANGED
+Frame panels: 8 -> 5. Unique cutting shapes: 3. Frame joint bolts: 24 -> 8.
+The upper deck and tall uprights are removed. Two identical short side plates
+carry the four vertical thrusters. Two identical open saddles replace the
+closed tube bulkheads. Two adjustable straps allow the pod to lift out.
+The added frame/pod/retention assembly drops from 103 to 56 solid references.
+The complete vehicle STEP contains 368 solid instances, including the original
+312 thruster bodies. These counts include fastener reference geometry.
+
+The eight thruster positions and directions stay unchanged. The 3 mm aluminum
+sheet, 160 OD x 148 ID x 200 mm body-length electronics tube, end caps and
+pod tie rods are retained. There is approximately 3.44 litres inside the tube.
+The frame footprint remains 520 x 500 mm. Removing the upper deck gives direct
+access to the cylinder and thrusters. The frame joints use M4x16 bolts, M4
+washers and M4 hex nuts, with accessible nut pockets and underside bolt heads.
+Thruster-internal M3 hardware is unchanged.
+
+CUTTING FILES - laser-cut-unique/
+A-base-QTY1.dxf: cut ONE, nominal flat envelope 520 x 500 mm.
+B-side-plate-QTY2.dxf: cut TWO identical pieces, about 240 x 84 mm.
+C-open-saddle-QTY2.dxf: cut TWO identical pieces, about 190 x 79 mm.
+All use 3 mm aluminum, millimetres and 100 percent scale. Paths are nominal,
+without kerf compensation or text engraving. Set the laser's compensation and
+check a stock/slot/nut fit coupon before cutting the full set. The base needs
+a usable cutting area of at least 520 x 500 mm. No stock nesting is supplied.
+The duplicate files are intentionally consolidated into three unique profiles.
+
+Read ASSEMBLY-4-STEPS.txt for the assembly order. Start joints loosely before
+final tightening. The strap/buckle envelopes are references for purchased
+adjustable 25 mm straps, not production drawings for a buckle mechanism.
+
+VERIFICATION AND LIMITS
+All five panels and 56 added components are valid single solids. New parts do
+not have unintended solid intersections and clear all eight thrusters. DXF
+lines/arcs/circles form closed CUT paths in mm. Four vertical thruster paths
+retain a 76 mm clear passage. Conservative continuous envelopes check a
+200 mm upward lift of the released pod, including its caps and tie rods.
+
+This is an assembly simplification, not a structural or pressure qualification.
+Removing the upper deck changes stiffness; real loads and joint retention
+need physical validation. Tube seals, cable glands and a working-depth rating
+are not designed or validated. The R3 source cover/propeller already carried
+imported geometry faults; those surfaces are preserved and not repaired here.
+
+ONSHAPE ASSEMBLY
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/8dd2c85b68aa3eb7864be61e
+The simplified frame/pod imports without instance faults. All nine root
+subassemblies are grouped, with the frame anchored at its checked position.
+Thruster references H1-H4 and V1 UP/V2 DOWN/V3 UP/V4 DOWN identify the eight
+motor positions. The earlier eight-panel design is retained as a reference.

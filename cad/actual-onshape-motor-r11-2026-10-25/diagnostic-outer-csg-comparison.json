@@ -1,0 +1,41 @@
+[
+  {
+    "check": "native assembly contains exactly the checked 48 solids in their checked poses",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native fixed group has 44 instances",
+    "passed": true,
+    "detail": {
+      "count": 44
+    }
+  },
+  {
+    "check": "native rotating group has 4 instances",
+    "passed": true,
+    "detail": {
+      "count": 4
+    }
+  },
+  {
+    "check": "native fan and housing interference result is clear",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "native 0 to 360 degree revolute animation recorded",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "outer blade geometry retained from R10",
+    "passed": false,
+    "detail": {
+      "symmetric_difference_mm3": [
+        747.6909221563121,
+        747.6954366395848
+      ]
+    }
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "revision": "R2 - physical print feedback, 2026-10-17",
+  "mesh_checks": 9,
+  "native_geometry_checks": 13,
+  "native_rotation_degrees": 360,
+  "native_assembly_instances": 39,
+  "native_interferences": "Only the four intentional M3-to-insert pilot contacts",
+  "physical_revision_tested": false,
+  "files": [
+    {
+      "name": "Gray-cover-UNCHANGED.stl",
+      "bytes": 723984,
+      "triangles": 14478,
+      "sha256": "4d7a4fbb6d5754e11af8d019e4b9f6f530618648694adb82dabc6a2ed07f0d29"
+    },
+    {
+      "name": "Motor-insert-22p6mm-R2.stl",
+      "bytes": 417384,
+      "triangles": 8346,
+      "sha256": "a77e0ec338c0f6c9d06c6556d7563f2e6d70d279cbdbdaddd671f1c6edd524db"
+    },
+    {
+      "name": "Nozzle-360-wire-ring-R2.stl",
+      "bytes": 24212684,
+      "triangles": 484252,
+      "sha256": "e300df59fad2ad08f592b3d89e4a7d3ebcf7bc3e21f1c385c480a87c61168049"
+    },
+    {
+      "name": "Propeller-71mm-sweep-R2.stl",
+      "bytes": 9133484,
+      "triangles": 182668,
+      "sha256": "fa862713857d3e9912a157377875da191338fa5caa8a7a85414899f2bb6301d3"
+    }
+  ]
+}

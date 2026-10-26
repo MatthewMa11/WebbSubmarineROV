@@ -1,0 +1,9 @@
+Check,Status,Actual_measurement_mm,Observation
+A motor bell and drive pattern,NOT TESTED,,Motor unavailable until after printing
+B insert seats level and rotor turns freely,NOT TESTED,,Check actual windings and screw tip clearance
+C M4 corner bolts and nuts fit,NOT TESTED,,Use actual kit hardware
+D shaft passes and spins freely,NOT TESTED,,Nominal bore 3.5 and shaft 3.175
+E captured M3 nut and washer fit,NOT TESTED,,Nut must seat without cracking pocket
+F motor base screws with washers fit,NOT TESTED,,Confirm actual blind thread depth
+Complete assembly hand-spin with secured cover,NOT TESTED,,Several full revolutions without rub or cover movement
+Guarded low-throttle water test,NOT TESTED,,Record vibration current and loosening before increasing load

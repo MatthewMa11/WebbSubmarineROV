@@ -1,0 +1,142 @@
+[
+  {
+    "check": "native assembly retains six mechanical bodies and 33 fasteners",
+    "passed": true,
+    "detail": {
+      "solids": 39
+    }
+  },
+  {
+    "check": "cover geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_difference_mm3": 0.0,
+      "area_difference_mm2": 0.0,
+      "bounds_difference_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_difference_mm3": 0.0,
+      "area_difference_mm2": 0.0,
+      "bounds_difference_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_difference_mm3": 0.0,
+      "area_difference_mm2": 0.0,
+      "bounds_difference_mm": 0.0
+    }
+  },
+  {
+    "check": "propeller hub, drive keys and all four screw seats unchanged",
+    "passed": true,
+    "detail": {
+      "hub_volume_difference_mm3": 2.0796869648620486e-07,
+      "hub_area_difference_mm2": 1.062462615664117e-07
+    }
+  },
+  {
+    "check": "all four spacer pilot axes stay at the original 18 mm pitch circle",
+    "passed": true,
+    "detail": {
+      "blocked_probe_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "continuous rotation envelope encloses the complete native propeller",
+    "passed": true,
+    "detail": {
+      "outside_volume_mm3": 0.0
+    }
+  },
+  {
+    "check": "continuous full-turn blade envelope clears all fixed mechanical bodies",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.449484762212245,
+        "cover": 0.9999000000000002,
+        "stator": 2.9999
+      }
+    }
+  },
+  {
+    "check": "blade error envelope retains clearance after 0.3 mm inward duct error",
+    "passed": true,
+    "detail": {
+      "gap_before_duct_error_mm": 1.2068549015203842,
+      "gap_after_duct_error_mm": 0.9068549015203842,
+      "assumptions": "0.5 mm eccentricity + 0.2 mm blade growth + 1 degree tilt over 30 mm; not measured printer tolerances"
+    }
+  },
+  {
+    "check": "continuous 360 degree annular wire window is unobstructed",
+    "passed": true,
+    "detail": {
+      "obstruction_volume_mm3": 0.0,
+      "radial_window_mm": [
+        15.6,
+        27.9
+      ],
+      "axial_window_mm": [
+        -27,
+        -25
+      ]
+    }
+  },
+  {
+    "check": "continuous outer wire ring is solid through every angle",
+    "passed": true,
+    "detail": {
+      "missing_material_mm3": 0.0
+    }
+  },
+  {
+    "check": "existing motor and cover hardware still clears the nozzle",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": {
+        "motor_screw_head_0": 0.0,
+        "motor_screw_shaft_0": 0.0,
+        "motor_washer_0": 0.0,
+        "motor_screw_head_1": 0.0,
+        "motor_screw_shaft_1": 0.0,
+        "motor_washer_1": 0.0,
+        "motor_screw_head_2": 0.0,
+        "motor_screw_shaft_2": 0.0,
+        "motor_washer_2": 0.0,
+        "motor_screw_head_3": 0.0,
+        "motor_screw_shaft_3": 0.0,
+        "motor_washer_3": 0.0,
+        "cover_screw_head_0": 0.0,
+        "cover_screw_shaft_0": 0.0,
+        "cover_washer_0": 0.0,
+        "cover_nut_0": 0.0,
+        "cover_screw_head_1": 0.0,
+        "cover_screw_shaft_1": 0.0,
+        "cover_washer_1": 0.0,
+        "cover_nut_1": 0.0,
+        "cover_screw_head_2": 0.0,
+        "cover_screw_shaft_2": 0.0,
+        "cover_washer_2": 0.0,
+        "cover_nut_2": 0.0
+      }
+    }
+  },
+  {
+    "check": "all 33 hardware geometries and positions are retained",
+    "passed": true,
+    "detail": {}
+  }
+]

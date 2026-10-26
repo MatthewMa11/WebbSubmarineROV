@@ -1,0 +1,76 @@
+[
+  {
+    "check": "47 solids after merging two housing parts into one",
+    "passed": true,
+    "detail": {
+      "count": 47
+    }
+  },
+  {
+    "check": "one continuous housing spans original frame and extension",
+    "passed": true,
+    "detail": {
+      "count": 1
+    }
+  },
+  {
+    "check": "all other46 solids retain geometry and placement",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "new housing is a valid solid",
+    "passed": false,
+    "detail": {}
+  },
+  {
+    "check": "installed outside dimensions unchanged",
+    "passed": true,
+    "detail": {
+      "bounds_mm": [
+        [
+          -50.79554340972901,
+          -30.0000001,
+          -50.79554340972901
+        ],
+        [
+          50.79554340972901,
+          47.0000001,
+          50.79554340972901
+        ]
+      ]
+    }
+  },
+  {
+    "check": "finite seam reinforcement was added",
+    "passed": true,
+    "detail": {
+      "added_volume_mm3": 2511.669033747952
+    }
+  },
+  {
+    "check": "complete360 degree rotating envelope clears merged housing",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "clearance_mm": 3.229999999999997
+    }
+  },
+  {
+    "check": "old frame and extension geometry retained inside merged body",
+    "passed": false,
+    "detail": {
+      "lost_volume_mm3": [
+        0.0,
+        0.09759122847299295
+      ]
+    }
+  },
+  {
+    "check": "no housing interference with fan cap motor or40 fasteners",
+    "passed": true,
+    "detail": {
+      "contacts": []
+    }
+  }
+]

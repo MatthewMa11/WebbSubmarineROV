@@ -1,0 +1,264 @@
+[
+  {
+    "check": "seven mechanical parts and thirty-six metal fasteners",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all edited sleeve faces and both complete rings pass B-rep validity checks",
+    "passed": true,
+    "detail": {
+      "invalid_edited_faces": []
+    }
+  },
+  {
+    "check": "no new invalid exported faces; two inherited blade-tip STEP slivers match baseline",
+    "passed": true,
+    "detail": {
+      "inherited_faces": [
+        [
+          -9.79521,
+          10.01898,
+          -34.00799,
+          -9.79521,
+          10.01899,
+          -34.00788
+        ],
+        [
+          9.79521,
+          10.01898,
+          34.00788,
+          9.79521,
+          10.01899,
+          34.00799
+        ]
+      ]
+    }
+  },
+  {
+    "check": "nozzle geometry and placement unchanged from flat-boss R6.1",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 5.384208634495735e-10,
+      "area_delta_mm2": 1.0913936421275139e-10,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "cover geometry and placement unchanged from flat-boss R6.1",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement unchanged from flat-boss R6.1",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement unchanged from flat-boss R6.1",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "all thirty-six stationary fasteners retain their original geometry and poses",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "four 5.5 mm drive keys retain the exact 18 mm motor pattern",
+    "passed": true,
+    "detail": {
+      "key_axes_mm": [
+        [
+          -9.0,
+          0.0
+        ],
+        [
+          0.0,
+          -9.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          9.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  {
+    "check": "no printed part enters the former internal motor-spacer region",
+    "passed": true,
+    "detail": {
+      "obstruction_mm3": 0.0
+    }
+  },
+  {
+    "check": "no propeller ears remain beyond the 43 mm central sleeve envelope",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "ring 0 thread clears the unloaded sleeve",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "minimum_gap_mm": 0.08929064284810632
+    }
+  },
+  {
+    "check": "ring 0 clears rotor",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.6353438626902776
+    }
+  },
+  {
+    "check": "ring 0 clears stator",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.757089964320772
+    }
+  },
+  {
+    "check": "ring 0 clears nozzle",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 0.7499999999991154
+    }
+  },
+  {
+    "check": "ring 0 clears cover",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 22.4999999999908
+    }
+  },
+  {
+    "check": "ring 1 thread clears the unloaded sleeve",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "minimum_gap_mm": 0.0886214491058345
+    }
+  },
+  {
+    "check": "ring 1 clears rotor",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 4.535000000000004
+    }
+  },
+  {
+    "check": "ring 1 clears stator",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 6.014043980550861
+    }
+  },
+  {
+    "check": "ring 1 clears nozzle",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 3.8076375517611805
+    }
+  },
+  {
+    "check": "ring 1 clears cover",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "gap_mm": 17.50318743892681
+    }
+  },
+  {
+    "check": "collar and jam ring meet without penetrating",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "rotating propeller does not penetrate the motor or stationary frame",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "full-turn envelope contains fan and both printed rings",
+    "passed": true,
+    "detail": {
+      "escaped_volumes_mm3": {
+        "propeller": 0.0,
+        "jam": 0.0,
+        "collar": 0.0
+      }
+    }
+  },
+  {
+    "check": "continuous 360-degree envelope clears all stationary mechanical parts",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 0.7499000000000002,
+        "cover": 0.9999000000000002,
+        "stator": 0.49990000000000023
+      }
+    }
+  },
+  {
+    "check": "blade tips and front motor-coupling geometry outside the sleeve revision are unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.008192614313884405,
+      "area_delta_mm2": 0.009711459619211382
+    }
+  },
+  {
+    "check": "Propeller-R7-bolt-free.stl is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 79834
+    }
+  },
+  {
+    "check": "Compression-collar-R7.stl is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 82414
+    }
+  },
+  {
+    "check": "Jam-ring-R7.stl is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 79988
+    }
+  }
+]

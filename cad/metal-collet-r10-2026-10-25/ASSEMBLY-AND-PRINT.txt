@@ -1,0 +1,88 @@
+R10 — NORMAL METAL COLLET PROPELLER ADAPTER
+
+Buy these additional metal parts
+- Innov8tive Designs CPA-317-N complete collet prop adapter: 3.17 mm motor
+  input, M6x1 threaded prop stud, supplied backplate, washer and hex nut.
+  https://innov8tivedesigns.com/collet-style-prop-adapter-with-hex-nut-for-3-17mm-motor-shafts.html
+- Four M3x40 socket-head cover bolts (40 mm length measured under the head).
+  These longer bolts are not in the pictured 6..20 mm assortment.
+Reuse the existing M3 cover washers/captive nuts and motor-base hardware.
+The metal adapter, washer, nut and motor reference bodies are NOT for printing.
+This fan is for a 6 mm prop stud; a generic 5 mm-stud adapter is a different fit.
+
+What changed
+The fan has a flat 6.5 mm hub with a 6.2 mm clearance bore, clamped between the
+metal backplate and washer. There are no printed shaft-clamp jaws, motor vent
+keys, collar, jam ring or internal motor spacer. The unchanged cap moves
+28 mm forward on a separate duct extension. The frame stays unchanged in
+shape and position. Existing prints of these same R6.1 frame / R4 cap revisions
+can be reused; older physical revisions may have different cover joints.
+
+Check the bought adapter BEFORE printing the full fan
+1. Confirm that the actual motor shaft is the 3.17 mm / 1/8 inch size.
+2. Measure the adapter's usable input-bore depth; this is not published on
+   the product page. Check that the collet fully engages the actual shaft.
+   Do not substitute partial engagement just to make the cap fit.
+3. The CAD assumes the metal backplate's fan seating face is 10.3 mm forward
+   of the motor's front bell face, nominally Y24.3 versus bell face Y14.
+   The clearance study accepts this distance from 10.3 through 13.3 mm
+   (Y24.3..27.3) with the WHOLE adapter/fan stack shifted together.
+   Measure the installed seating face with the collet fully engaged.
+   Outside that range, stop and revise the CAD; do not force the parts.
+4. Print TEST-FIRST-R10-6p2-bore.stl and check it slips onto the M6 prop stud
+   and seats flat against the metal backplate. The same 6.5 mm thickness and
+   6.2 mm bore are used in the fan. A printed hole can shrink or be rough.
+
+Assembly order (power disconnected, cap removed)
+1. On the bench, place the correct metal collet adapter on the motor shaft.
+   Keep it clear of stationary motor parts and follow the adapter maker's
+   engagement/tightening instructions. Verify the measured seating-face range.
+2. Slide the fan's flat rear face against the metal backplate. The 6.2 mm
+   bore is a clearance hole, not a printed thread. Put the supplied metal
+   washer on the other hub face, then install the supplied M6 nut.
+3. Hold the metal motor bell, not the blades, while tightening the nut.
+   Nut pressure clamps the hub and draws the collet onto the shaft.
+   There is no verified tightening torque for this PLA hub: do not crush it.
+   Confirm the fan cannot slip or pull off by hand. The washer must bear
+   flat on the hub; the nut must fully engage the metal thread.
+4. Fit the motor/fan assembly into the unchanged frame from the front,
+   route the motor wires through the existing rear openings, and secure
+   the motor base using its four existing M3 screws and washers. Check
+   the rotating bell is clear and the wires stay out of the blade sweep.
+5. Install the four captive M3 nuts and rear washers into the frame first.
+   Slide the new 28 mm duct extension over the fan. Align its four holes
+   with the frame's existing four axial cover holes. Position the unchanged
+   cap on the extension, then insert the four M3x40 bolts through the
+   front washers, cap, extension and frame into the existing rear
+   washers/captive M3 nuts. Tighten evenly in a cross pattern.
+   New locating pockets include print relief checked at 0.2 mm side offsets;
+   remove support residue and dry-fit before tightening. Do not force a joint.
+6. Turn the fan slowly by hand through several full revolutions, checking
+   every blade tip, the motor bell, hub, adapter stud and all wires. Check
+   axial play as well. There must be no rubbing at any angle.
+7. Recheck the nut and hub retention after the first brief controlled run.
+   Qualification must include the intended rotation/reversal direction.
+   CAD clearance does not verify collet grip, rotor balance or PLA creep.
+
+PRINT folder — millimetres, import at 100% scale
+- Fan-R10-metal-collet.stl: new fan, flat rear hub face down.
+- Duct-extension-R10-28mm.stl: new extension, frame mating face down.
+- TEST-FIRST-R10-6p2-bore.stl: print this first with your bought adapter.
+- OPTIONAL-unchanged-frame-cap: old frame and cap, byte-for-byte unchanged;
+  reprinting them is unnecessary if your existing prints are usable.
+
+Bambu P1S / PLA Basic starting settings, subject to slicer inspection
+0.4 mm nozzle, 0.16 mm layers, 5 walls, 6 top/bottom layers. Use solid infill
+in the hub and extension bolt bosses. Inspect blade undersides and enable
+build-plate supports where needed; do not put supports inside the prop bore.
+Use no whole-model scaling or hole compensation that changes blade size.
+Remove all support residue from the blade tips and inner duct surfaces.
+
+Verification scope
+Native assembly: 45 modeled solids, stationary group40 and rotating group5;
+full revolution and no nominal interferences. Independent envelope includes
+0.07 mm allowance plus the complete 0..3 mm forward installation range.
+The metal adapter is a published-dimension clearance reference, not exact
+manufacturer collet-taper CAD. Actual fit/engagement must pass the checks above.
+No guarantee of clamp force, dynamic balance, thrust, PLA service life or
+water sealing follows from the CAD model or mesh checks.

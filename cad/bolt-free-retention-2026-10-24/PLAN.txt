@@ -1,0 +1,56 @@
+R7 bolt-free external compression collar — approved 24 October 2026
+
+SPEC
+Remove both clamp-bolt ears and all six metal clamp fasteners. Keep the four
+solid 5.5 mm drive keys on the existing 18 mm pitch circle. No component goes
+in the old internal motor-spacer region. User approved two external printed
+rings: a tapered compression collar and a jam ring. Preserve the R6.1 frame,
+flat rear boss, cap, motor placement and 36 stationary fasteners.
+
+IMPLEMENTATION
+1. Create a separate R7 Onshape workspace from saved R6.1 version
+   da7c2535cd1e6a3484508358. Keep R6.1 untouched.
+2. Replace only the rear part of the propeller cage with a four-finger tapered
+   threaded sleeve. Retain the existing filled drive keys and front hub.
+   Model mating external compression collar and jam ring with true threads.
+3. Verify native regeneration before changing the assembly. Expected solids:
+   7 mechanical (frame, cap, motor rotor/base, propeller, collar, jam ring) and
+   36 metal fasteners = 43 solids. Delete six stale clamp-hardware instances,
+   insert two rings and include them in the existing rotor group (4 parts).
+4. Export native STEP and individual millimetre STL files. Verify preservation,
+   empty internal spacer region, motor/drive-key fit, thread clearance, nut
+   travel, tool/hand access, static clashes, continuous rotation envelopes,
+   manifold meshes and native assembly motion. Provide a small thread fit
+   coupon before a full PLA print if thread tolerances need physical tuning.
+5. Save R7 version and deliver printable files with fitting/assembly instructions.
+
+DESIGN CALLS
+Collar threads compress the OUTSIDE of the rotating bell; matching keys carry
+torque. A second counter-tightened ring resists back-off. No shaft adapter,
+adhesive, drilled motor holes, internal insert or motor modifications.
+Thread/elastic dimensions are builder choices subject to actual CAD checks.
+CAD verifies geometry only. Actual PLA clamping, fatigue, pull-off force and
+operating speed are not certified and need physical testing.
+
+VERIFICATION
+First run audit_r7.py on the R6.1 baseline: ring-count and fastener-count checks
+must FAIL. Run again on exported R7 until all structural/clearance/mesh checks
+pass. Check actual native assembly independently of any grouped mate.
+
+ENVIRONMENT
+Onshape MCP yearly API allocation is exhausted. Use the native Feature Studio
+through CUA MCP without changing account allocation. Preserve FS3095.
+Onshape's isolated workspace is the CAD branch; no Git checkout is required.
+
+PROGRESS
+User approved collar + jam ring. Baseline source saved as native-before.fs.
+Ruling: preserve original blade-root material inside the collet instead of cutting the hub down to a smaller thread root. Cone root is R18 at Y=-3; collar OD44 mm. This retains the existing blade connections and stays below the old bolt-ear span.
+Diagnostic: original transient propeller query became empty after the flex-slot Boolean; use named body-role attributes through subsequent Boolean and transform operations, with one-body guards and total-solid-count guard.
+Native diagnostic identified a 0.043 mm-high fragment at the final thread runout (Y3.957..4.0). Add a solid annular stop shoulder at Y3.6..4.2, R20.85, to support the interrupted thread end and prevent excessive collar travel. No drive-key or blade-tip change.
+Task 2: native regeneration passes with Parts(44), including the extra unused Derived body. The eight fill cylinders now union into four drive keys before adding the sleeve. Ring and propeller connectivity guards and 43-solid count pass. Ruling: central envelope check uses 43 mm to contain the 41.7 mm runout shoulder; original bolt ears spanned 50.4 mm. The original 40 mm test described the abandoned smaller cone and would reject the preserved blade-root design.
+Thread RED: native assembly interference reported ring/propeller clashes. Independent STEP checks found the propeller invalid under BRepCheck, while both rings were valid. Default swept profile orientation did not preserve the tapered radial section. Corrected with a conical lock face and taper-sheared profile; keep all validity and interference gates.
+Ruling: conical-face locked sweeps failed native generation, so the custom thread is lofted through explicit radial cross-sections every 15 degrees. This fixes the geometric orientation at each pitch station rather than relying on sweep transport. Cost if wrong: matching/advance checks will fail; no printable release until those checks pass.
+Ruling: increase both ring outside diameters from 44 to 46 mm to retain about 2 mm wall at the forward thread/flutes instead of about 1 mm. Independent annular envelope R21.05..23, Y-5.5..3.35 has zero propeller overlap and 0.3815 mm blade clearance at the maximum estimated clamp travel; fixed frame clearance exceeds 2.75 mm. Cost: 1 mm greater radial ring span, still less than the old clamp ears.
+Validity finding: the full propeller STEP has the same two sub-micron-width invalid blade-tip sliver faces as R6.1, at X +/-9.795, Y10.019, Z +/-34.008. These are outside the edited hub. Ruling: preserve the blade geometry and verify the edited sleeve region and both rings as valid B-reps, require unchanged invalid-face signatures, and verify the delivered STL is one closed manifold. Do not claim the entire legacy STEP is kernel-valid. The preserved cap/nozzle also retain baseline STEP import validity flags.
+Final review correction: main collar must load from the free rear sleeve end FIRST, then jam ring behind it. Both README copies corrected and inspected. The prior jam-first instruction was impossible because the rings cannot pass one another. Documentation-only correction; no geometry mutation or redundant text-matching test.
+COMPLETE: saved native R7 version 9eea26e83ee0486d05561043. Final verify_r7.py exit 0, 29/29; check_thread_travel.py exit 0, 4/4; prepare_prints.py exit 0, 4/4; audit_r7.py exit 0, 6/6. Native 43 instances, four rotating group members, no interferences, 360-degree motion. Coupon valid and printable; 17,656,758-byte ZIP integrity and 15 payload SHA256 checks pass. Fresh review completed: loading-order correction applied; stale metadata updated; STEP limitation documented. No deferred editorial minors. Physical clamping/elastic deflection/PLA lifetime/balance/speed remain unverified. Ruling on practical hand access: lock the motor/fan coupling outside the frame before installing the unit; do not infer actual counter-tightening success from static clearances. Full rigid 0.833 mm advance is not asserted because it intentionally leads to elastic contact; retain geometric estimate and physical test requirement. Files and full rulings/costs are in ENGINEERING-NOTES.txt.

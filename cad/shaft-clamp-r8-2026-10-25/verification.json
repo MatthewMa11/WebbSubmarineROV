@@ -1,0 +1,222 @@
+[
+  {
+    "check": "six mechanical parts and forty fasteners",
+    "passed": true,
+    "detail": {
+      "total": 46,
+      "parts": [
+        "fan",
+        "cover",
+        "stator",
+        "rotor",
+        "nozzle",
+        "jaw"
+      ],
+      "hardware": 40
+    }
+  },
+  {
+    "check": "nozzle geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 2.473825588822365e-10,
+      "area_delta_mm2": 2.9103830456733704e-11,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "cover geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "all thirty-six original stationary fasteners preserved",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "exactly four new clamp fasteners",
+    "passed": true,
+    "detail": {
+      "dimensions": [
+        [
+          6.350852961085927,
+          5.500000000000028,
+          2.400000199999999
+        ],
+        [
+          6.350852961085927,
+          5.500000000000028,
+          2.400000199999999
+        ],
+        [
+          5.6800002,
+          5.6800002,
+          19.0000002
+        ],
+        [
+          5.6800002,
+          5.6800002,
+          19.0000002
+        ]
+      ]
+    }
+  },
+  {
+    "check": "two M3x16 bolts and two AF5.5 nuts",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "four solid 5.5 mm keys preserve 18 mm motor pattern",
+    "passed": true,
+    "detail": {
+      "axes_mm": [
+        [
+          -9.0,
+          0.0
+        ],
+        [
+          0.0,
+          -9.0
+        ],
+        [
+          0.0,
+          9.0
+        ],
+        [
+          9.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  {
+    "check": "3.3 mm shaft bore provides 3.05 mm nominal grip",
+    "passed": true,
+    "detail": {
+      "bore_bounds": [
+        [
+          [
+            -1.65,
+            16.25,
+            -1.65
+          ],
+          [
+            1.65,
+            19.3,
+            1.0103336092965664e-16
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "check": "3.175 mm reference shaft clears both unloaded jaws",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "jaw split retains 0.3 mm nominal closing gap",
+    "passed": true,
+    "detail": {
+      "minimum_peripheral_gap_mm": 0.1999999999999993
+    }
+  },
+  {
+    "check": "no printed spacer in motor interior",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "edited fan faces valid; only two inherited blade-tip STEP slivers remain",
+    "passed": true,
+    "detail": {
+      "invalid_face_bounds": [
+        [
+          -9.79521,
+          10.01898,
+          -34.00799,
+          -9.79521,
+          10.01899,
+          -34.00788
+        ],
+        [
+          9.79521,
+          10.01898,
+          34.00788,
+          9.79521,
+          10.01899,
+          34.00799
+        ]
+      ]
+    }
+  },
+  {
+    "check": "upper jaw and four new fasteners pass complete B-rep validity",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all new rotating geometry has zero nominal penetration",
+    "passed": true,
+    "detail": {
+      "clashes_mm3": []
+    }
+  },
+  {
+    "check": "360-degree conservative envelope contains all rotating parts",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": {
+        "fan": 0.0,
+        "jaw": 0.0,
+        "new hardware 0": 0.0,
+        "new hardware 1": 0.0,
+        "new hardware 2": 0.0,
+        "new hardware 3": 0.0
+      }
+    }
+  },
+  {
+    "check": "continuous full-turn envelope clears unchanged stationary structure",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.3795921445886523,
+        "cover": 0.6990000000000016,
+        "stator": 2.999
+      }
+    }
+  },
+  {
+    "check": "blade tips outside central revision retain original geometry",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 8.414667718170676e-08,
+      "area_delta_mm2": 3.445848051342182e-10
+    }
+  }
+]

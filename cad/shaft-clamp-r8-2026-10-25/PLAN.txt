@@ -1,0 +1,68 @@
+R8 M3 AXLE CLAMP - DESIGN AND IMPLEMENTATION PLAN
+25 October 2026
+
+USER SPEC
+Create a separate Onshape part document. Redesign the fan hub to clamp the
+motor axle with the user's M3 bolts and nuts. Preserve the main frame and cap.
+Remove the R7 compression collar and jam ring; do not restore the internal
+motor spacer. The user selected this approach from the alternatives and
+explicitly requested implementation, so another mechanism approval is not
+needed. Use the previously authorized A2212 reference dimensions.
+
+DESIGN
+Two-piece external shaft clamp: the fan carries the lower jaw; a separate
+rounded upper strap closes around the exposed shaft with two opposed M3x16
+socket screws and two M3 nuts. Bolt/nut orientations oppose each other for
+hardware symmetry. The four existing solid drive keys continue carrying torque;
+the shaft clamp provides axial retention. Nothing enters the former insert
+region. Main frame, cap and motor geometry and poses are preserved.
+
+REFERENCE GEOMETRY / CONSTRAINT
+Measured native reference shaft: diameter3.175, straight Y16..25, tip25.5 mm.
+Motor pilot boss: diameter9, Y14..16. Existing center clearance diameter9.6.
+Stationary cap begins at Y20 near the hub. Clamp shaft contact Y16.25..19.3
+is only3.05 mm long. This is a short prototype grip; do not certify retention.
+Nominal clamp bore diameter3.3, joint gap0.3. Upper bridge X+/-13.5,
+Y15.4..19.3,Z0.3..6.2; lower jaw integral to fan. Bolt ears at X+/-16.8,
+Y12.2..19.3. Counterbore diameter9.6 untilY16.25. All new material behind
+Y14.2 clears a conservative motor envelope R14.25. Bolt holes diameter3.4,
+Y15.8. Opposed M3x16 heads sit at Z+/-6.2; M3 nuts AF5.5x2.4 are outside.
+Use outer rounds0.4 and bore lead-ins0.15 where valid. Keep R5 blade geometry
+and original drive keys; omit all R6/R7 bell-clamp additions.
+Final review correction: external head/nut access wells diameter8.6 to admit
+an assumed8.4 mm OD nutdriver while the cap is removed. Bearing faces remain
+at Z+/-6.2; screw locations and nut engagement remain unchanged.
+
+APPROACHES
+The preceding discussion offered metal collet adapter, metal set-screw adapter,
+and printed M3 split hub. User chose the printed M3 hub. A detachable strap is
+preferred to an integral thin flex hinge under the cap's limited axial space.
+The shaft, exposed length and print fit remain to be checked on the real motor.
+
+WORK
+1.Copy only the R7 assembly and referenced source tabs into a new document,
+  named A2212 R8 - M3 axle-clamp fan - separate design. Do not modify R7 source.
+2.Replace the old bell-clamp helper in the copied Feature Studio. Keep filled
+  drive keys and root relief, add fan lower jaw, removable strap and four metal
+  fasteners. Expected46 native assembly solids;47 PS parts including unused
+  derived print body. Use one-body guards.
+3.Update copied assembly: remove2 stale ring instances, insert strap and4 clamp
+  hardware instances. Rotor group7; stationary group39. Rename R8 tabs/parts.
+  Remove copied obsolete exploded display steps only if necessary/recoverable.
+4.Export native STEP and both new printable STLs. Check preserved frame/cap and
+  motor geometry/poses,46 solids,36 original stationary hardware+4 new fasteners,
+  shaft fit and axial grip length, motor-pilot clearance, original key pattern,
+  empty internal spacer region, tool access, loaded-jaw travel, full rotation
+  envelope and nominal pairwise interference. The two tiny inherited blade-tip
+  STEP sliver faces are tracked separately from new faces; closed manifold STL
+  required. No physical retention, PLA creep, speed or balance guarantee.
+5.Make a small shaft-clamp coupon from the same geometry for P1S/PLA testing.
+  Fresh final review, save version, show actual new document, package STLs and
+  give the exact hardware/assembly order and remaining physical checks.
+
+TEST GATE
+First audit R7 STEP and observe missing jaw/shaft bore/fasteners and leftover
+rings as RED. Native regeneration and exported geometry establish GREEN.
+Do not remove a failed geometric guard to hide disconnected pieces or clashes.
+Onshape API allocation is exhausted/connector unavailable; native UI via CUA
+remains the execution route. Do not alter API allocation.

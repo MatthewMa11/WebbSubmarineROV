@@ -1,0 +1,219 @@
+[
+  {
+    "check": "five mechanical bodies and forty-two hardware bodies",
+    "passed": true,
+    "detail": {
+      "mechanical": [
+        "propeller",
+        "cover",
+        "stator",
+        "rotor",
+        "nozzle"
+      ],
+      "hardware": 42
+    }
+  },
+  {
+    "check": "nozzle geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "cover geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "all thirty-six stationary fasteners retained",
+    "passed": true,
+    "detail": {
+      "missing": []
+    }
+  },
+  {
+    "check": "four old propeller screws removed",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "no propeller plastic occupies the old internal insert region",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "complete rotor and new clamp have clearance",
+    "passed": true,
+    "detail": {
+      "minimum_gap_mm": 0.1499999999999598
+    }
+  },
+  {
+    "check": "new clamp bore clears a 27.998 mm gauge",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "four solid drive keys retain 5.5 mm diameter and 18 mm pitch circle",
+    "passed": true,
+    "detail": {
+      "missing_key_material_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "exactly six external clamp fasteners added",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "new fasteners clear all five mechanical parts",
+    "passed": true,
+    "detail": {
+      "unexpected": []
+    }
+  },
+  {
+    "check": "clamp 1 washer and nut at their bearing seats",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp 1 closure stops have 0.6 mm initial gap",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp 1 bolt has 3.4 mm clearance passage",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp 1 L-key insertion and handle path clear",
+    "passed": true,
+    "detail": {
+      "blocked_parts": []
+    }
+  },
+  {
+    "check": "clamp -1 washer and nut at their bearing seats",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp -1 closure stops have 0.6 mm initial gap",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp -1 bolt has 3.4 mm clearance passage",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "clamp -1 L-key insertion and handle path clear",
+    "passed": true,
+    "detail": {
+      "blocked_parts": []
+    }
+  },
+  {
+    "check": "entire new propeller and clamp hardware stay inside full-turn envelope",
+    "passed": true,
+    "detail": {
+      "outside_volumes_mm3": {
+        "propeller": 0.0,
+        "newhardware0": 0.0,
+        "newhardware1": 0.0,
+        "newhardware2": 0.0,
+        "newhardware3": 0.0,
+        "newhardware4": 0.0,
+        "newhardware5": 0.0
+      }
+    }
+  },
+  {
+    "check": "continuous 360-degree envelope clears stationary geometry",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.449484762212245,
+        "cover": 0.9999000000000002,
+        "stator": 2.9999
+      }
+    }
+  },
+  {
+    "check": "M3x16 threads pass through 2.4 mm nuts with 1.1 mm protrusion",
+    "passed": true,
+    "detail": {
+      "nominal_protrusion_mm": 1.1
+    }
+  },
+  {
+    "check": "Propeller-R6-integral-M3-clamp.stl is one closed manifold component",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 182898
+    }
+  },
+  {
+    "check": "Nozzle-R5-unchanged.stl is one closed manifold component",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 507342
+    }
+  },
+  {
+    "check": "Front-cap-R4-unchanged.stl is one closed manifold component",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 131200
+    }
+  },
+  {
+    "check": "Nozzle-R5-unchanged.stl is byte-identical to preserved print",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "Front-cap-R4-unchanged.stl is byte-identical to preserved print",
+    "passed": true,
+    "detail": {}
+  }
+]

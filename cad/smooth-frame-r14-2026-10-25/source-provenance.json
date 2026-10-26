@@ -1,0 +1,21 @@
+{
+  "method": "Native Onshape Derived references; no STEP conversion in delivered source geometry",
+  "target_document": "743ab214882a2e3f8cf7645e",
+  "target_workspace": "190d11a3b29f4ed46f4284fa",
+  "native_source_PS": "a1aec6c523ece1f6e49fbec2",
+  "source_motor": {
+    "document": "e9378d61974ba56cdbc5a682",
+    "version": "5c01672258b8dd37b174a197",
+    "part_studio": "44bd5137a633a0393f072e66"
+  },
+  "source_adapter": {
+    "document": "0ff4892958a7b27bdfa13caa",
+    "version": "5118b626e64f625b172818f8",
+    "collet_part_studio": "41395be9c93b16fb0a259429",
+    "collar_part_studio": "49b0f0b0739f8b8437009f02",
+    "bullet_nut_part_studio": "692582a588d627f766b2030c"
+  },
+  "omitted": "Optional cross mount plate conflicts with unchanged frame; three straight flexible wire solids require actual routing",
+  "superseded_snapshot": "R11-actual-Motor-source-stage.step is unused; native links supersede it",
+  "revision": "R14 smooth frame; cone, fan and actual source metal retained from R13"
+}

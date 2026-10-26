@@ -1,0 +1,25 @@
+{
+  "check": "outer blade sampled surfaces agree within 0.02 mm after specified translation",
+  "passed": false,
+  "shift_mm": 0.5,
+  "tolerance_mm": 0.02,
+  "minimum_sample_radius_mm": 27.05,
+  "directions": [
+    {
+      "direction": "old-to-new",
+      "samples": 53202,
+      "max_distance_mm": 0.26502929599210434,
+      "percentile99_mm": 0.2646644312093714,
+      "mean_distance_mm": 0.14186437859970116
+    },
+    {
+      "direction": "new-to-old",
+      "samples": 53202,
+      "max_distance_mm": 0.26502850268269335,
+      "percentile99_mm": 0.2647712676828307,
+      "mean_distance_mm": 0.14221567199220322
+    }
+  ],
+  "candidate_sha256": "d8312260e3aa55f8ebd20b43c2f1a95b0fed10e6d8cc74d91051e79d77aa1bdf",
+  "reference_sha256": "5e52edd5ac6798ce37048905ba4de11d119b9a7dea3007f751f09c22ec5ddada"
+}

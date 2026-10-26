@@ -1,0 +1,36 @@
+Status: complete — CAD revision and export verification.
+Physical qualification of the purchased adapter and printed parts is required.
+
+Fresh independent reviewer: r10_final_review, 25 October 2026.
+No Critical issue found. Two Important findings were corrected:
+1. Unpublished collet bore depth: cap/extension increased to28 mm, common
+   M3x40 bolts preserve the old bolt tip/nut engagement. A continuous full-turn
+   envelope covers the entire0..3mm forward installation range. Instructions
+   require measuring actual bore/grip and installed backplate datum before
+   printing/final assembly; partial shaft engagement is not accepted.
+2. Zero-clearance mating pocket: enlarged new-extension locating pockets,
+   added R40 rear-mouth relief and tapered lead-in, preserving four full
+   bolt-bearing columns. All24 independent0.2mm lateral fit probes pass.
+
+Final checks
+-45 modeled solids; constrained assembly/Part Studio signatures match.
+-Frame and motor geometry/placement preserved; cap shape preserved at+28mm.
+ Face fingerprints, mass/bounds and0.1mm placement negative controls checked.
+-Fan6.2mm bore,6.5mm flat hub; no printed clamp, old rotor vent keys,
+ internal motor spacer, collar or jam ring.
+-Native no interferences; fixed group40 and rotating group5;360deg completed.
+-Continuous envelope includes0.07mm allowance and0..3mm forward adapter range.
+ Minimum gaps: frame3.573mm, cap3.630mm, duct3.230mm, stator22.592mm.
+-Four M3x40 bolts clear through-bores and fully span the existing M3 nuts.
+-Bench assembly/insertion corridor and straight tool access pass.
+-Fan, extension and coupon are one-piece closed manifold meshes in millimetres;
+ oriented onZ=0 and fit the P1S build volume. Native mesh/STEP volume agreement
+ better than0.1%. Optional frame/cap STLs are byte-for-byte unchanged.
+-107278 outer-blade surface samples agree with the previous blade profile
+ within0.02mm after translation; an incorrect1mm shift fails the check.
+
+Limits
+The adapter is a published-dimension reference envelope, not supplier taper
+machining CAD. Actual shaft fit/full collet engagement, nut retention under
+the intended direction/reversal, rotor balance, PLA creep/fatigue, thrust and
+wet-running performance are not established by geometric CAD checks.

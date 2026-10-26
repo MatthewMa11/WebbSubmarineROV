@@ -1,0 +1,88 @@
+{
+  "housing": {
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 577950,
+    "print_bounds_mm": [
+      -50.7955436706543,
+      50.7955436706543,
+      -50.7955436706543,
+      50.7955436706543,
+      0.0,
+      77.0
+    ],
+    "discarded_export_fragments": [
+      {
+        "region": 0,
+        "cells": 4,
+        "bounds_mm": [
+          43.554744720458984,
+          43.616615295410156,
+          18.99987030029297,
+          19.0,
+          -4.412539005279541,
+          -4.399601459503174
+        ],
+        "volume_mm3": 1.5471383080093907e-08
+      },
+      {
+        "region": 1,
+        "cells": 4,
+        "bounds_mm": [
+          43.554744720458984,
+          43.616615295410156,
+          18.99987030029297,
+          19.0,
+          4.399601459503174,
+          4.412539005279541
+        ],
+        "volume_mm3": 1.5471383080106612e-08
+      }
+    ],
+    "removed_volume_mm3": 3.094276616020052e-08,
+    "sha256": "0df3201330e6c03bdc61df05db025d1cc2beee0e452453df30f96be476ac93c2"
+  },
+  "unchanged_prints": [
+    {
+      "file": "Fan-R11-actual-adapter.stl",
+      "sha256": "bad4e6196bbbfd704405ea4daf8c71f2abcb2b76505d2cc10d342edf1cfc8daa"
+    },
+    {
+      "file": "TEST-FIRST-R11-5p1-bore.stl",
+      "sha256": "1c2672885aa54a778e59318c7eb1b6de5e9a7541aac81b44d14d00542da1bc4b"
+    },
+    {
+      "file": "Cap-R4-UNCHANGED.stl",
+      "sha256": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287"
+    }
+  ],
+  "retained_source_surfaces": [
+    {
+      "source": "Nozzle-R6p1-flat-motor-boss.stl",
+      "samples": 783729,
+      "checked_outside_joint_samples": 668573,
+      "modified_joint_y_mm": [
+        17.9,
+        28.1
+      ],
+      "whole_source_max_outside_mm": 0.004102809222879464,
+      "max_outside_joint_mm": 0.0037881475409429033,
+      "percentile99_outside_joint_mm": 1.831026719408895e-15,
+      "passed": true
+    },
+    {
+      "source": "Duct-extension-R10-28mm.stl",
+      "samples": 131932,
+      "checked_outside_joint_samples": 69096,
+      "modified_joint_y_mm": [
+        17.9,
+        28.1
+      ],
+      "whole_source_max_outside_mm": 0.06369282592129107,
+      "max_outside_joint_mm": 0.010115956143465228,
+      "percentile99_outside_joint_mm": 4.432817373128051e-05,
+      "passed": true
+    }
+  ],
+  "source_surface_tolerance_mm": 0.02
+}

@@ -1,0 +1,15 @@
+# Local tools, caches, and publishing staging
+.repo-upload/
+.meeting-build/
+cad/.video-tools/
+**/__pycache__/
+*.pyc
+NVIDIA Corporation/
+WebbSubmarineROV-invitations.png
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key

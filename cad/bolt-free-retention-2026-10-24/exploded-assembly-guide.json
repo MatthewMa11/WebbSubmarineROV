@@ -1,0 +1,26 @@
+{
+  "url": "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553",
+  "view": "R7 assembly order - both LARGE ring openings face FAN",
+  "steps": [
+    {
+      "order": 1,
+      "part": "5 mm main collar",
+      "orientation": "Larger bore toward fan; smaller bore toward motor base",
+      "display_translation_y_mm": -30
+    },
+    {
+      "order": 2,
+      "part": "3 mm jam ring",
+      "orientation": "Larger bore toward fan; smaller bore toward motor base",
+      "display_translation_y_mm": -65
+    },
+    {
+      "order": 3,
+      "part": "Motor rotor and stator together",
+      "instruction": "Seat four printed keys in rotating bell, tighten collar then jam ring",
+      "display_translation_y_mm": -110
+    }
+  ],
+  "geometry_changed": false,
+  "notes": "Exploded presentation offsets only. Frame, cap and stationary hardware hidden for clarity."
+}

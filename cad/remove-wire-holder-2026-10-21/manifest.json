@@ -1,0 +1,20 @@
+{
+  "revision": "R5 wire holder removed",
+  "date": "2026-10-21",
+  "units": "mm",
+  "passed_checks": 12,
+  "files": {
+    "Nozzle-no-wire-holder-R5.stl": {
+      "bytes": 25367184,
+      "sha256": "b9fe4473ef77007dd10fd56153224a78ebe120c7411e82a2bc90d60d37ea3c98"
+    },
+    "Thruster-no-wire-holder-R5.step": {
+      "bytes": 3159271,
+      "sha256": "31368889e5ec71bafabeef350479fc6cde1cfcfdd9f0c9b523ffb4947b1e5d31"
+    },
+    "native-after.fs": {
+      "bytes": 52706,
+      "sha256": "38ac26e9833dd1071e2de2972e2d8c206b3461bcbe12f27dc097bb2a0116d149"
+    }
+  }
+}

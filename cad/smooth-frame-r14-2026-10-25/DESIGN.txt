@@ -1,0 +1,21 @@
+R14 smooth frame cleanup
+Remove the four obsolete crescent-shaped mounts visible in the user's image.
+Replace the frame-to-extension outer step with a curvature-continuous revolved
+transition, retaining the frame as one solid. Keep the R13 cone and all real
+motor/fan/adapter/fastener geometry and poses, including working front nut seats,
+pilots and bolt access. No motor spacer.
+
+Builder choice: outer profile from R46.2977716548645 at Y12 to R43 at Y30,
+quintic Bezier with radial controls A,A,A,B,B,B and uniformly spaced axial
+controls. It is tangent and curvature-continuous to cylinders at both ends.
+Fill the obsolete old slots within the annular shell (minimum inner R38.8).
+Trim obsolete exterior material Y12..35.5 to the new profile; retain four rounded
+post roots as R5 hemispheres centered on bolt axes R44.5 at Y35.5. Working M3x12
+joint features above Y39.9 remain; restore their3.6mm clearance bores after fill.
+Try0.6mm concave root fillets; retain only if they regenerate and preserve fits.
+This smooths the CAD shape; actual print finish still depends on layer/support
+settings. Export fine STL, one manifold connected housing; reuse R13 cone/fan.
+
+Alternative: merely cut the visible old ears leaves grooves and abrupt steps.
+Rebuilding the entire frame risks moving motor/mount references unnecessarily.
+Local skin and obsolete-mount cleanup meets the user's specified change.

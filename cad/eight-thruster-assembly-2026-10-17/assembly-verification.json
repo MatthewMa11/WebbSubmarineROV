@@ -1,0 +1,467 @@
+{
+  "source_file": "C:\\Users\\ROG\\OneDrive\\Documents\\ChatGPT\\Submarine ROV\\cad\\motor-centering-cover-2026-10-17\\Thruster-centering-cup-R3.step",
+  "source_solids": 39,
+  "source_passes_strict_occt_brep_check": false,
+  "source_check_note": "Saved R3 contains pre-existing strict OCCT check flags; placement does not alter or heal source geometry.",
+  "thruster_instances": 8,
+  "total_solids": 312,
+  "horizontal": 4,
+  "vertical_up": 2,
+  "vertical_down": 2,
+  "units": "mm",
+  "layout_bounds_mm": [
+    [
+      -243.9597853842877,
+      -222.7500001,
+      -55.595543409729
+    ],
+    [
+      243.9597853842877,
+      222.7500001,
+      52.7500001
+    ]
+  ],
+  "source_bounds_mm": [
+    [
+      -52.7500001,
+      -41.025000135679,
+      -55.595543409729
+    ],
+    [
+      50.79554340972901,
+      50.0250001356785,
+      52.7500001
+    ]
+  ],
+  "minimum_conservative_thruster_clearance_mm": 18.78674950249116,
+  "pairwise_envelope_checks": [
+    {
+      "a": "H1",
+      "b": "H2",
+      "conservative_clearance_mm": 248.73968744837296
+    },
+    {
+      "a": "H1",
+      "b": "H3",
+      "conservative_clearance_mm": 298.21698291853573
+    },
+    {
+      "a": "H1",
+      "b": "H4",
+      "conservative_clearance_mm": 18.78674950249116
+    },
+    {
+      "a": "H1",
+      "b": "V1",
+      "conservative_clearance_mm": 19.106413286479736
+    },
+    {
+      "a": "H1",
+      "b": "V2",
+      "conservative_clearance_mm": 151.10717911461393
+    },
+    {
+      "a": "H1",
+      "b": "V3",
+      "conservative_clearance_mm": 244.34545718599105
+    },
+    {
+      "a": "H1",
+      "b": "V4",
+      "conservative_clearance_mm": 142.37346693640555
+    },
+    {
+      "a": "H2",
+      "b": "H3",
+      "conservative_clearance_mm": 18.78674950249116
+    },
+    {
+      "a": "H2",
+      "b": "H4",
+      "conservative_clearance_mm": 298.990234349461
+    },
+    {
+      "a": "H2",
+      "b": "V1",
+      "conservative_clearance_mm": 152.74779810191674
+    },
+    {
+      "a": "H2",
+      "b": "V2",
+      "conservative_clearance_mm": 21.060869976750737
+    },
+    {
+      "a": "H2",
+      "b": "V3",
+      "conservative_clearance_mm": 141.84907861001932
+    },
+    {
+      "a": "H2",
+      "b": "V4",
+      "conservative_clearance_mm": 244.34545718599108
+    },
+    {
+      "a": "H3",
+      "b": "H4",
+      "conservative_clearance_mm": 248.739687448373
+    },
+    {
+      "a": "H3",
+      "b": "V1",
+      "conservative_clearance_mm": 244.34545718599102
+    },
+    {
+      "a": "H3",
+      "b": "V2",
+      "conservative_clearance_mm": 142.37346693640558
+    },
+    {
+      "a": "H3",
+      "b": "V3",
+      "conservative_clearance_mm": 19.106413286479746
+    },
+    {
+      "a": "H3",
+      "b": "V4",
+      "conservative_clearance_mm": 151.10717911461393
+    },
+    {
+      "a": "H4",
+      "b": "V1",
+      "conservative_clearance_mm": 141.84907861001932
+    },
+    {
+      "a": "H4",
+      "b": "V2",
+      "conservative_clearance_mm": 244.34545718599102
+    },
+    {
+      "a": "H4",
+      "b": "V3",
+      "conservative_clearance_mm": 152.74779810191677
+    },
+    {
+      "a": "H4",
+      "b": "V4",
+      "conservative_clearance_mm": 21.06086997675073
+    },
+    {
+      "a": "V1",
+      "b": "V2",
+      "conservative_clearance_mm": 48.388913180542
+    },
+    {
+      "a": "V1",
+      "b": "V3",
+      "conservative_clearance_mm": 233.85006673748808
+    },
+    {
+      "a": "V1",
+      "b": "V4",
+      "conservative_clearance_mm": 228.788913180542
+    },
+    {
+      "a": "V2",
+      "b": "V3",
+      "conservative_clearance_mm": 228.788913180542
+    },
+    {
+      "a": "V2",
+      "b": "V4",
+      "conservative_clearance_mm": 233.85006673748808
+    },
+    {
+      "a": "V3",
+      "b": "V4",
+      "conservative_clearance_mm": 48.388913180542
+    }
+  ],
+  "placements": [
+    {
+      "tag": "H1",
+      "name": "H1 - diagonal",
+      "origin_mm": [
+        190,
+        75,
+        0
+      ],
+      "axis": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "transform_3x4": [
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          190.0
+        ],
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "H2",
+      "name": "H2 - diagonal",
+      "origin_mm": [
+        -190,
+        75,
+        0
+      ],
+      "axis": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "transform_3x4": [
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0,
+          -190.0
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          75.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "H3",
+      "name": "H3 - diagonal",
+      "origin_mm": [
+        -190,
+        -75,
+        0
+      ],
+      "axis": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "transform_3x4": [
+        [
+          -0.7071067811865477,
+          -0.7071067811865475,
+          0.0,
+          -190.0
+        ],
+        [
+          0.7071067811865475,
+          -0.7071067811865477,
+          0.0,
+          -75.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "H4",
+      "name": "H4 - diagonal",
+      "origin_mm": [
+        190,
+        -75,
+        0
+      ],
+      "axis": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "transform_3x4": [
+        [
+          -0.7071067811865475,
+          0.7071067811865476,
+          0.0,
+          190.0
+        ],
+        [
+          -0.7071067811865476,
+          -0.7071067811865475,
+          0.0,
+          -75.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "V1",
+      "name": "V1 - UP",
+      "origin_mm": [
+        75,
+        170,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "transform_3x4": [
+        [
+          -1.0,
+          -1.359631073446891e-32,
+          1.2246467991473532e-16,
+          75.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.1102230246251565e-16,
+          1.0,
+          170.0
+        ],
+        [
+          0.0,
+          1.0,
+          1.1102230246251565e-16,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "V2",
+      "name": "V2 - DOWN",
+      "origin_mm": [
+        -75,
+        170,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "transform_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -75.0
+        ],
+        [
+          0.0,
+          1.1102230246251565e-16,
+          1.0,
+          170.0
+        ],
+        [
+          0.0,
+          -1.0,
+          1.1102230246251565e-16,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "V3",
+      "name": "V3 - UP",
+      "origin_mm": [
+        -75,
+        -170,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "transform_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -75.0
+        ],
+        [
+          0.0,
+          1.1102230246251565e-16,
+          -1.0,
+          -170.0
+        ],
+        [
+          0.0,
+          1.0,
+          1.1102230246251565e-16,
+          0.0
+        ]
+      ]
+    },
+    {
+      "tag": "V4",
+      "name": "V4 - DOWN",
+      "origin_mm": [
+        75,
+        -170,
+        0
+      ],
+      "axis": [
+        0,
+        0,
+        -1
+      ],
+      "transform_3x4": [
+        [
+          -1.0,
+          -1.359631073446891e-32,
+          -1.2246467991473532e-16,
+          75.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.1102230246251565e-16,
+          -1.0,
+          -170.0
+        ],
+        [
+          0.0,
+          -1.0,
+          1.1102230246251565e-16,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "source_geometry_modified": false,
+  "includes_vehicle_frame": false,
+  "includes_mounting_brackets": false,
+  "validation": "312 solids and 8 subassemblies confirmed by STEP read-back; all 28 conservative envelopes separate by >=10 mm",
+  "native_preserving_step": "ROV8-native.step",
+  "original_step_entities_preserved": 50100,
+  "onshape_url": "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/26220555ff84e0d8bfb7ef07",
+  "onshape_imported_thruster_instances": 8,
+  "onshape_rigid_group_instances": 8,
+  "onshape_H1_locked": true,
+  "onshape_inherited_faults": [
+    "Front cover - original geometry",
+    "Propeller - A2212 drive keys, 18 mm M3 pattern"
+  ]
+}

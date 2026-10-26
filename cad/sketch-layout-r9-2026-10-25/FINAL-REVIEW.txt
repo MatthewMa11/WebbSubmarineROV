@@ -1,0 +1,54 @@
+R9 FRESH-CONTEXT FINAL REVIEW AND FIX RECORD
+Reviewer: r9_final_review, GPT-6 Astra; read-only. No geometry mutations.
+
+No Critical findings. Two Important findings, both resolved in one fix pass:
+
+1.Long straight nutdriver blocked by frame after motor mounting.
+  RED:70 mm/8.4 mm OD nutdriver approaches intersect frame by about152 mm3.
+  Fix: instructions now require fan/motor clamp preassembly on the bench.
+  GREEN: all four full70 mm approaches clear fan,jaw,rotor,stator outside
+  frame. A monotone continuous insertion corridor contains all8preassembled
+  parts at final and80 mm-forward positions and clears the frame and28
+  remaining stationary fastener models. The8motor-base screws/washers are
+  withdrawn and cap is removed during insertion. Motor is secured from rear
+  afterward. Wires remain a physical routing check.
+
+2.Outerprofile preservation assertion used unreliable old STEP integrals.
+  Old reference contains invalid microscopic tip faces; final fan is fully
+  valid. Independent bidirectional Boolean differences against the old STEP
+  failed numerically. Keep volume/area differences as diagnostics and use
+  a dense bidirectional surface check on the valid exported STL meshes.
+  Root-cut tools are bounded insideR26.9; R20rootfillets and all other
+  cutters cannot reach the outer blades (access cutters minabsX12.5 versus
+  blade maxabsX9.805). At107,278points beyondR27.05, maximum surface
+  distance after8 mm backtranslation is0.016965 mm, within the stated
+  0.02 mm mesh tolerance. Negative control with1 mm wrong translation
+  fails at about1.006 mm. No mass tolerance was silently increased.
+
+Minor items reconciled as required deliverable work: screenshots refreshed
+after final STEP; active values are8.0 mm; tool language says CAD clearance;
+print settings remain unvalidated starting settings.
+
+ACTIVE ENGINEERING RULINGS
+-Keep frame/cap/motor geometry and poses. A flat hub and8 mm blade relocation
+ implement the user's component order. Cost: available3.05 mm axle grip is
+ unchanged and remains a physical retention-test requirement.
+-Use a stepped radial envelope for pitched blade fronts, with explicit
+ zero-escape containment and direct clearance checks. Cost if incorrect:
+ collision. Final nominal clearances are cap0.699 mm and frame3.249 mm.
+-Judge outer-profile mesh fidelity within0.02 mm, rather than claim exact
+ equality from invalid old STEP mass integrals. This is a CAD mesh check,
+ not a guaranteed physical printing tolerance.
+-Clamp fan/motor outside frame, insert together with cap off and motor-base
+ fasteners withdrawn. This requires following the supplied assembly order;
+ physical wire and tool dimensions still need checking.
+
+DECLINED PHYSICAL CERTIFICATION / PARENT RULING
+Clamp force, pull-off capacity, torque, key/root strength, fatigue, PLA creep,
+loosening, balance, speed, thrust and lifetime need physical tests or validated
+models. Actual printer/motor/hardware/tool tolerances and wire routing are
+not measured. Keep this a fit-test prototype; possible costs are lost grip,
+deformation, vibration, rubbing or failure under load. No powered guarantee.
+The user's sketch defines layout rather than dimensions; existing stationary
+dimensions were retained. Saved version, animation, screenshots and ZIP are
+verified by the parent after the review, with artifact checks recorded.

@@ -1,0 +1,14 @@
+Item,Quantity,Specification,Notes
+LC01 lower deck,1,"3 mm aluminum, 520 x 500 mm envelope",Laser cut
+LC02 upper deck,1,"3 mm aluminum, 520 x 500 mm envelope",Laser cut
+LC03-LC04 pod bulkheads,2,"3 mm aluminum, 230 x 216.796 mm envelope",Laser cut
+LC05-LC08 vertical supports,4,"3 mm aluminum, 60 x 216.796 mm envelope",Laser cut
+Electronics tube,1,160 OD x 148 ID x 200 long mm,Reference enclosure body; real stock/sealing must be selected
+Pod end plate,2,"196 OD x 8 thick mm, four 4.3 mm holes on 178 PCD",Sealing design not complete
+M3 socket-head bolt,24,M3x16,Added frame tab joints
+M3 flat washer,24,7 OD x 3.2 ID x 0.5 thick mm,Added frame tab joints
+M3 hex nut,24,5.5 AF x 2.4 thick mm,Captured in frame T slots
+M4 threaded tie rod,4,230 mm model length,External pod retention
+M4 flat washer,8,9 OD x 4.3 ID x 0.8 thick mm,Pod end retention
+M4 hex nut,8,7 AF x 3.2 thick mm,Pod end retention
+Existing complete R3 thruster,8,39 bodies per unit,Existing M4 mounting bolt/washer positions adapted for 3 mm sheet

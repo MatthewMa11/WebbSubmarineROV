@@ -1,0 +1,21 @@
+[
+  {
+    "file": "Fan-R9-forward-fan.stl",
+    "native_volume_mm3": 6664.432650670654,
+    "mesh_volume_mm3": 6662.519831687059,
+    "relative_delta": 0.000287019028304258,
+    "passed": true
+  },
+  {
+    "file": "Upper-jaw-R9-M3-axle-clamp.stl",
+    "native_volume_mm3": 1077.1840687895758,
+    "mesh_volume_mm3": 1077.239480867972,
+    "relative_delta": 5.1441605944254894e-05,
+    "passed": true
+  },
+  {
+    "check": "all ZIP entries match final local deliverables, CRC valid",
+    "passed": true,
+    "files": 17
+  }
+]

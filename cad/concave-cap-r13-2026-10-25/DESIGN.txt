@@ -1,0 +1,31 @@
+R13 - concave inner cone and short-bolt attachment
+User requests a concave flat inner cone face for metal-adapter tolerance, and
+optimized cone-to-frame bolting. This authorizes cap and local housing changes.
+Preserve R12 in its saved version; retain one-piece frame/duct and actual motor,
+collet, collar, nut, fan and mounting arrangement. No internal motor spacer.
+
+Measured cone: flat inner diskY48, radius20, cylinder toY57, exterior noseY78.025.
+Metal bullet nut endsY46.15766; conservative rotating envelope endsY46.22766.
+Fill the obsolete blind3.5mm center passage, then cut spherical bowlR13 centered
+atY43: nominal24mm mouth atY48,8mm depth toY56. Round its rimR0.6. Exterior
+shape and arms remain, with at least8mm radial material before rim rounding.
+Target conservative metal rotation clearance>=5mm, compared with1.772mm before.
+
+Approaches: retaining40mm screws keeps deep rear nut loading. Short front-access
+M3x12 through-bolts with captured real nuts simplify assembly and use the user's
+assortment. Printed threads are excluded by the user's bolt/nut preference.
+Builder's choice: M3x12, unchanged bolt heads/front washers atY52.5; tipsY40.5.
+Move four M3 nuts fromY13.1..15.5 to41.4..43.8, rear washers15.5..16 to43.8..44.3.
+Stack engages full2.4mm nut and projects0.9mm (about2 threads) past it.
+Cut AF5.9 nut pocketsY40.9..44.0 and7.4mm washer seatsY43.3..44.3, with outward
+radial loading slots. Leave2.7mm housing roof under cap seatY47. Side flats
+prevent nuts turning. Add four6.4mm locating pilots0.8mm high and matching cap
+recesses6.8mm x1.0mm, giving0.2mm side and axial relief. Use3.6mm printed bolt-clearance bores locally for easier assembly.
+Keep gold cone removable and motor/fan insertion through the open housing.
+
+Count remains47 solids: fixed43, rotating4. Only cap, local housing and12 cover
+hardware bodies change; other33 bodies retain exact geometry and pose. Export
+new housing and cap, reuse exact fan/coupon. Include a small male/female joint
+fit test before the full prints. Verify bowl, outside shape, clearances, hardware
+stack, loading/tool paths, native interference/motion and connected print meshes.
+Physical strength/PLA creep/grip and hardware tolerances remain bench tests.

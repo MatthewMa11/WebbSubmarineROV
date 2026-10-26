@@ -1,0 +1,10 @@
+[
+  {
+    "check": "native assembly retains47 solids with matching checked shape signatures and poses",
+    "passed": true
+  },
+  {
+    "check": "native cone frame and fan interference check is clear",
+    "passed": true
+  }
+]

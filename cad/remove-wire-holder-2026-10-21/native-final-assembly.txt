@@ -1,0 +1,365 @@
+Browser tab: 1, Title: "Frame Structure | Thruster assembly - A2212 fit check", URL: "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553".
+0 AXWebArea Frame Structure | Thruster assembly - A2212 fit check, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			5 text Frame Structure Main
+			6 image
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			18 button (disabled) Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 container
+					33 container
+						362 container osToolbar
+							363 container
+								364 container
+									365 image
+									366 text Insert
+								367 button Search tools… alt/⌥ c
+									368 text Search tools… 
+									369 text alt/⌥
+									370 text c
+						43 container content-div
+							371 container
+								372 container assembly-tree
+									373 pop up button (collapsed) Secondary Actions: Expand
+									374 text field (settable)
+									375 button filter-flat-list-view
+										376 image
+									377 text Instances (46)
+									378 button new-folder-button
+										379 image
+									380 container
+										381 container
+											382 image
+											383 text Thruster assembly - A2212 fit check
+										384 container
+											385 image
+											386 image
+											387 text Origin
+										388 container
+											389 image
+											390 image
+											391 text A2212 reference rotor <1>
+										392 container
+											393 image
+											394 image
+											395 text A2212 reference stator base <1>
+										396 container
+											397 image
+											398 image
+											399 text Front cover - four M3 through-bolt tabs (R4) <1>
+										400 container
+											401 image
+											402 image
+											403 text Motor insert - 22.6 mm slip-fit envelope, M3 pilots <1>
+										404 container
+											405 image
+											406 image
+											407 text Nozzle - motor cup and M3 bolt joints, no wire holder (R5) <1>
+										408 container
+											409 image
+											410 image
+											411 text Propeller - A2212 drive keys, 18 mm M3 pattern <1>
+										412 container
+											413 image
+											414 image
+											415 text M3x8 socket propeller screw 1 <1>
+										416 container
+											417 image
+											418 image
+											419 text M3x8 socket propeller screw 2 <1>
+										420 container
+											421 image
+											422 image
+											423 text M3x8 socket propeller screw 3 <1>
+										424 container
+											425 image
+											426 image
+											427 text M3x8 socket propeller screw 4 <1>
+										428 container
+											429 image
+											430 image
+											431 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										432 container
+											433 image
+											434 image
+											435 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										436 container
+											437 image
+											438 image
+											439 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										440 container
+											441 image
+											442 image
+											443 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										444 container
+											445 image
+											446 image
+											447 text M4 hex nut AF7x3.2 - 1 <1>
+										448 container
+											449 image
+											450 image
+											451 text M4 hex nut AF7x3.2 - 2 <1>
+										452 container
+											453 image
+											454 image
+											455 text M4 hex nut AF7x3.2 - 3 <1>
+										456 container
+											457 image
+											458 image
+											459 text M4 hex nut AF7x3.2 - 4 <1>
+										460 container
+											461 image
+											462 image
+											463 text M4x12 socket mounting bolt 1 <1>
+										464 container
+											465 image
+											466 image
+											467 text M4x12 socket mounting bolt 2 <1>
+										468 container
+											469 image
+											470 image
+											471 text M4x12 socket mounting bolt 3 <1>
+										472 container
+											473 image
+											474 image
+											475 text M4x12 socket mounting bolt 4 <1>
+										476 container
+											477 image
+											478 image
+											479 text M3 captured cover nut 1 <1>
+										480 container
+											481 image
+											482 image
+											483 text M3 captured cover nut 2 <1>
+										484 container
+											485 image
+											486 image
+											487 text M3 front washer cover 1 <1>
+										488 container
+											489 image
+											490 image
+											491 text M3 front washer cover 2 <1>
+										492 container
+											493 image
+											494 image
+											495 text M3 flat washer motor base 1 <1>
+										496 container
+											497 image
+											498 image
+											499 text M3 flat washer motor base 3 <1>
+										500 container
+											501 image
+											502 image
+											503 text M3x12 cover through-bolt 1 <1>
+										504 container
+											505 image
+											506 image
+											507 text M3x12 cover through-bolt 3 <1>
+										508 container
+											509 image
+											510 image
+											511 text M3x8 motor-base screw 2 <1>
+										512 container
+											513 image
+											514 image
+											515 text M3x8 motor-base screw 4 <1>
+										516 container
+											517 image
+											518 image
+											519 text M3 captured cover nut 3 <1>
+										520 container
+											521 image
+											522 image
+											523 text M3 front washer cover 3 <1>
+										524 container
+											525 image
+											526 image
+											527 text M3 flat washer motor base 2 <1>
+										528 container
+											529 image
+											530 image
+											531 text M3 flat washer motor base 4 <1>
+								532 image
+								533 container viewerdiv
+									534 image canvas
+									535 container
+										536 button
+											537 image
+										538 button
+											539 image
+										540 button
+											541 image
+								542 container
+									543 image
+									544 image
+									545 image
+									546 image
+									547 image
+									548 image
+							224 container
+								225 image
+								226 text Nozzle-no-wire-holder-R5.stl
+								227 text STL file
+								228 pop up button (collapsed, settable) Value: Millimeter, ID: import-units, Secondary Actions: Expand
+									229 menu
+										230 Centimeter
+										231 Foot
+										232 Inch
+										233 Meter
+										234 (selected) Millimeter
+										235 Yard
+								236 text File size: 24 MB
+								237 text Uploaded 9:09 pm Oct 21 2026
+								238 button Update…, ID: updateBlobButton
+								239 button Download, ID: downloadBlobButton
+							354 container
+								355 image
+								356 text Thruster-no-wire-holder-R5.step
+								357 text STEP file
+								358 text File size: 3 MB
+								359 text Uploaded 9:10 pm Oct 21 2026
+								360 button Update…, ID: updateBlobButton
+								361 button Download, ID: downloadBlobButton
+						222 container os-tab-bar
+							223 container
+								240 container
+									241 image
+									242 text Part Studio 1
+								243 container
+									244 image
+									245 text Part Studio 2
+								246 container
+									247 image
+									248 text A2212 corrected parts
+								249 container
+									250 image
+									251 text Nozzle-no-wire-holder-R5.stl
+								252 container
+									253 image
+									254 text ROV - easy assembly - five panels
+								255 container
+									256 image
+									257 text Thruster R3
+								258 container
+									259 image
+									260 text Easy frame and removable electronics pod
+								261 container
+									262 image
+									263 text ROV-easy-assembly parts
+								264 container
+									265 image
+									266 text A2212-R4-final-print-parts.zip
+								267 container
+									268 image
+									269 text Thruster-R4-native-parts.step
+								270 container
+									271 image
+									272 text A2212-R4-nozzle-and-cover.zip
+								273 container
+									274 image
+									275 text Nozzle-centering-cup-R3.stl
+								276 container
+									277 image
+									278 text A2212-physical-revision-2026-10-17.zip
+								279 container
+									280 image
+									281 text Nozzle-PLA-complete.stl
+								282 container
+									283 image
+									284 text Thruster assembly - A2212 fit check
+								285 container
+									286 image
+									287 text Thruster-no-wire-holder-R5.step
+								288 container
+									289 image
+									290 text Thruster-cover-through-bolts-R4-verified.step
+								291 container
+									292 image
+									293 text Thruster-cover-through-bolts-R4.step
+								294 container
+									295 image
+									296 text ROV - 8 thrusters - 4 diagonal + 4 vertical
+								297 container
+									298 image
+									299 text ROV - laser-cut frame and electronics cylinder
+								300 container
+									301 image
+									302 text A2212 R3 - 3 mm frame mounts
+								303 container
+									304 image
+									305 text Laser-cut frame and electronics pod
+								306 container
+									307 image
+									308 text ROV-frame-and-cylinder parts
+								309 container
+									310 image
+									311 text A2212 complete thruster - R3
+								312 container
+									313 image
+									314 text ROV8-native parts
+								315 container
+									316 image
+									317 text Thruster-centering-cup-R3.step
+								318 container
+									319 image
+									320 text Thruster-physical-fit-R2-2026-10-17.step
+								321 container
+									322 image
+									323 text Thruster-A2212-PLA-complete.step
+								324 container
+									325 image
+									326 text T200.STEP (1)
+								327 container
+									328 image
+									329 text T200-CORE_T200-CORE-STD.STEP
+								330 container
+									331 image
+									332 text T200-ASM-STATOR-POTTED-R1B.STEP
+								333 container
+									334 image
+									335 text T200-ASM-STATOR-BASE-ORING_Pubilc .STEP
+								336 container
+									337 image
+									338 text T200-NOZZLE.STEP
+								339 container
+									340 image
+									341 text T200 parts
+								342 container
+									343 image
+									344 text Part Studio 3
+								345 container
+									346 image
+									347 text Assembly 1
+								348 container
+									349 image
+									350 text CAD 导入
+								351 container
+									352 image
+									353 text Thruster print fit
+
+The focused UI element is 0 AXWebArea Frame Structure | Thruster assembly - A2212 fit check, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553

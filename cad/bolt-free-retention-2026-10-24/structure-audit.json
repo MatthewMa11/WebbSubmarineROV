@@ -1,0 +1,40 @@
+[
+  {
+    "check": "five original mechanical components retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "two external printed locking rings exist",
+    "passed": true,
+    "detail": {
+      "ring_count": 2
+    }
+  },
+  {
+    "check": "six external clamp fasteners removed, thirty-six stationary fasteners retained",
+    "passed": true,
+    "detail": {
+      "metal_hardware_count": 36
+    }
+  },
+  {
+    "check": "complete bolt-free assembly has forty-three solids",
+    "passed": true,
+    "detail": {
+      "solid_count": 43
+    }
+  },
+  {
+    "check": "no printed material in former internal spacer region",
+    "passed": true,
+    "detail": {
+      "obstruction_mm3": 0.0
+    }
+  },
+  {
+    "check": "integral propeller stays within the original envelope of old clamp ears",
+    "passed": true,
+    "detail": {}
+  }
+]

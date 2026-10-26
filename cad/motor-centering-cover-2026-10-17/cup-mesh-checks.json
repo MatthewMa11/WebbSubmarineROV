@@ -1,0 +1,49 @@
+[
+  {
+    "check": "four tapered guide sectors surround the motor base",
+    "passed": true,
+    "detail": {
+      "solid_probes": 12,
+      "count": 12
+    }
+  },
+  {
+    "check": "motor locator throat is present with a clear bore",
+    "passed": true,
+    "detail": {
+      "locator_probes": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "bore_probes": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  },
+  {
+    "check": "all four cable windows pass the stated bundle envelope",
+    "passed": true,
+    "detail": {
+      "obstruction_count": 0,
+      "probe_count": 144,
+      "bundle_envelope_mm": [
+        9,
+        2.6
+      ]
+    }
+  },
+  {
+    "check": "nozzle and centering cup are one closed printable body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 528776
+    }
+  }
+]

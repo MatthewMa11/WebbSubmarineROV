@@ -1,0 +1,250 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R8 thruster - M3 axle clamp", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/bc0473dfaa69abe9537b29fe/e/7d8ed648695214607ccb8d84".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R8 thruster - M3 axle clamp, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/bc0473dfaa69abe9537b29fe/e/7d8ed648695214607ccb8d84
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			55 text A2212 R8 - M3 axle-clamp fan - separate design Main
+			56 image
+			53 button Explore Onshape
+				54 image
+				57 text Explore Onshape
+			8 button Description: Notifications, ID: user-notification-status
+				9 container
+					10 image
+					11 container 9+ unread notifications
+						52 text 9+
+			12 link Navigates you to Action items page in a new window.
+			13 link Navigates you to Onshape app store in a new window.
+			14 link Navigates you to Onshape Learning Center in a new window.
+			58 button Share
+			15 container Help menu
+			16 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				17 text Matthew Ma
+		59 container model-body
+			60 container
+				61 image
+				62 image
+				63 image
+				64 image
+				65 image
+				66 image
+				67 image
+				68 image
+				69 container
+					70 container
+						319 container osToolbar
+							320 container
+								321 container
+									322 image
+									323 text Insert
+								324 button Search tools… alt/⌥ c
+									325 text Search tools… 
+									326 text alt/⌥
+									327 text c
+						80 container content-div
+							254 container
+								278 container assembly-tree
+									279 pop up button (collapsed) Secondary Actions: Expand
+									280 text field (settable)
+									281 button filter-flat-list-view
+										282 image
+									717 text Instances (46)
+									331 container
+										332 container
+											333 image
+											865 text R8 thruster - M3 axle clamp
+										360 container
+											361 image
+											362 image
+											363 text M3 front washer cover 1 <1>
+										364 container
+											365 image
+											366 image
+											367 text M3 front washer cover 2 <1>
+										368 container
+											369 image
+											370 image
+											371 text M3 flat washer motor base 1 <1>
+										372 container
+											373 image
+											374 image
+											375 text M3 flat washer motor base 3 <1>
+										376 container
+											377 image
+											378 image
+											379 text M3x12 cover through-bolt 1 <1>
+										380 container
+											381 image
+											382 image
+											383 text M3x12 cover through-bolt 3 <1>
+										384 container
+											385 image
+											386 image
+											387 text M3x8 motor-base screw 2 <1>
+										388 container
+											389 image
+											390 image
+											391 text M3x8 motor-base screw 4 <1>
+										392 container
+											393 image
+											394 image
+											395 text M3 captured cover nut 3 <1>
+										396 container
+											397 image
+											398 image
+											399 text M3 front washer cover 3 <1>
+										400 container
+											401 image
+											402 image
+											403 text M3 flat washer motor base 2 <1>
+										404 container
+											405 image
+											406 image
+											407 text M3 flat washer motor base 4 <1>
+										408 container
+											409 image
+											410 image
+											411 text M3x12 cover through-bolt 2 <1>
+										412 container
+											413 image
+											414 image
+											415 text M3x8 motor-base screw 1 <1>
+										416 container
+											417 image
+											418 image
+											419 text M3x8 motor-base screw 3 <1>
+										799 container
+											800 image
+											801 image
+											802 text M3 captured cover nut 4 <1>
+										803 container
+											804 image
+											805 image
+											806 text M3 front washer cover 4 <1>
+										807 container
+											808 image
+											809 image
+											810 text M3 rear washer cover 1 <1>
+										811 container
+											812 image
+											813 image
+											814 text M3 rear washer cover 2 <1>
+										815 container
+											816 image
+											817 image
+											818 text M3x12 cover through-bolt 4 <1>
+										819 container
+											820 image
+											821 image
+											822 text M3 rear washer cover 3 <1>
+										823 container
+											824 image
+											825 image
+											826 text M3 rear washer cover 4 <1>
+										827 container
+											828 image
+											829 image
+											830 text R8 removable axle clamp upper jaw - 3.175 mm shaft <1>
+										831 container
+											832 image
+											833 image
+											834 text R8 M3x16 axle clamp bolt 1 <1>
+										835 container
+											836 image
+											837 image
+											838 text R8 M3x16 axle clamp bolt 2 <1>
+										839 container
+											840 image
+											841 image
+											842 text R8 M3 axle clamp nut AF5.5x2.4 - 1 <1>
+										843 container
+											844 image
+											845 image
+											846 text R8 M3 axle clamp nut AF5.5x2.4 - 2 <1>
+										847 container
+											848 image
+											849 text Mate features (3)
+										850 container
+											851 image
+											852 image
+											853 text Group 1
+										854 container
+											855 image
+											856 image
+											857 text Group 2
+										858 container
+											859 image
+											860 image
+											861 text Revolute 1
+								283 image
+								268 container viewerdiv
+									462 image canvas
+									896 button
+										897 image
+								276 container
+									290 image
+									291 image
+									469 image
+									292 image
+									293 image
+									294 image
+							898 container operation-dialog
+								899 container
+									900 text Animate mate
+									901 button
+								902 content list
+									903 container
+										904 text Mate DOF to animate
+										905 content list
+											906 container
+												907 text ⟳ - z - Revolute 1 ×
+									908 container
+										909 text Start value
+										910 text field (settable) 0 deg
+									911 container
+										912 text End value
+										913 text field (settable) 360 deg
+									914 container
+										915 text Steps
+										916 text field (settable) 300
+									926 container
+										927 text Playback type
+										928 container Select box activate
+											929 text Single
+										930 pop up button Description: Select box focus, ID: focusser-1
+									922 image
+									923 container
+										924 text Current value
+										931 text field (disabled) 360 deg
+								925 link cad.onshape.com/help/index.htm#cshid=animate_mate
+						126 container os-tab-bar
+							127 container
+								872 container
+									873 image
+									874 text Part Studio 1
+								875 container
+									876 image
+									877 text Thruster print fit
+								878 container
+									879 image
+									880 text Thruster-A2212-fit-check.step
+								881 container
+									882 image
+									883 text R8 thruster - M3 axle clamp
+								884 container
+									885 image
+									886 text Nozzle R5 - verified manifold print mesh
+								887 container
+									888 image
+									889 text Nozzle R5 - verified manifold print mesh.stl
+								890 container
+									891 image
+									892 text R8 parts - M3 axle clamp
+								893 container
+									894 image
+									895 text Assembly 1
+		932 container Play, ID: tooltip954441
+			933 text Play
+
+The focused UI element is 0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R8 thruster - M3 axle clamp, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/bc0473dfaa69abe9537b29fe/e/7d8ed648695214607ccb8d84

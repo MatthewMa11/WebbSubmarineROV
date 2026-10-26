@@ -1,0 +1,71 @@
+ROV LASER-CUT FRAME AND ELECTRONICS CYLINDER
+17 October 2026
+
+WHAT WAS ADDED
+Eight flat 3 mm aluminum frame pieces attach the existing eight thrusters:
+two decks, two electronics-tube bulkheads, and four vertical-thruster supports.
+The upper deck has large access windows; both decks have four 96 mm openings
+on the vertical thruster axes. Tab joints use modeled M3 bolts, washers and
+captured nuts. All four horizontal thrusters mount to the lower deck. The
+vertical supports carry the other four thrusters and join both decks.
+
+The central horizontal electronics tube has 160 mm OD, 148 mm ID, 6 mm wall
+and 200 mm body length. Its axis is X and its centre is (0,0,55) mm. Two 8 mm
+end plates make a 216 mm cap-to-cap length. End plates are 196 mm diameter;
+four external M4 rods secure them through the two frame bulkheads. The hollow
+body has about 3.44 litres before electronics are installed. No electronics
+are assumed, and internal equipment mounts can be designed around the actual
+boards, battery and wiring later.
+
+The tube and end plates are an enclosure layout. O-rings, sealing features,
+cable glands and a working-depth pressure rating have not been selected or
+validated. Do not treat this CAD cylinder as a qualified waterproof housing.
+Frame strength, material grade and physical fits also require verification.
+
+LASER-CUT FILES
+Use laser-cut-DXF/ at 100 percent scale, in millimetres. Cut one of each LC01
+through LC08 from 3 mm aluminum. DXFs contain CUT geometry only; labels in the
+profile preview are not engraving instructions. Profiles have no kerf offset.
+Use the cutter's compensation and verify a stock/slot/nut fit coupon first.
+Slots are nominally 3.2 mm for 3 mm sheet. The two decks each need at least
+a 520 x 500 mm usable cutting area; profiles have not been nested on stock.
+LC03 and LC04 are the two bulkheads; LC05-LC08 are the four upright supports.
+
+End plates, cylindrical tube and purchased fasteners are separate from these
+3 mm laser-cut parts. The end plates are reference solid disks with four
+4.3 mm rod holes on a 178 mm pitch circle, at 45,135,225 and 315 degrees.
+Any final sealing faces/grooves need a separately completed enclosure design.
+
+THRUSTER MOUNTING
+The motor, nozzle, propeller and all eight shaft positions/directions are kept.
+Each thruster's four M4 mounting bolts and four washers move outward by 3 mm
+to make room for the sheet between washer and nozzle pad. Original M4 nuts
+stay in place. The existing M4x12 shafts still pass through the full nut;
+check the actual printed seats and hardware during assembly. Access holes
+clear the nearby cover-retention screw heads. Other source parts stay put.
+
+The R3 source already had imported cover and propeller geometry faults. Their
+surfaces are preserved here; this task does not repair those inherited faults.
+
+ADDITIONAL HARDWARE
+24 M3x16 socket-head bolts, 24 M3 washers (7 OD x 3.2 ID x 0.5 mm), and
+24 M3 hex nuts (5.5 AF x 2.4 mm) fasten the sheet tab joints.
+4 M4 threaded tie rods, nominal model length 230 mm; 8 M4 washers
+(9 OD x 4.3 ID x 0.8 mm) and 8 M4 hex nuts (7 AF x 3.2 mm) retain the pod.
+These are extra to the existing eight complete thruster assemblies.
+
+VERIFICATION
+All eight new sheet pieces and 103 added components are valid single solids.
+The new parts have no unintended solid intersections. All eight thrusters
+clear the added frame, cylinder and new hardware. Exported DXFs have closed
+paths, and all four vertical axes retain an unobstructed 76 mm diameter
+passage through the new frame. Native STEP read-back confirms 415 solids.
+The complete frame envelope is approximately 520 x 500 x 225 mm including
+fastener heads. Details are recorded in frame-pod-verification.json.
+
+ONSHAPE ASSEMBLY
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/7ec29ea7ea8ef5f6e0f76e1a
+The imported frame/pod subassembly contains no Onshape instance faults. The
+eight thrusters are labelled H1-H4 and V1 UP, V2 DOWN, V3 UP, V4 DOWN. All
+nine root subassemblies are in one rigid group, with the frame anchored at
+its current position. The older eight-thruster-only layout is retained.

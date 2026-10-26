@@ -1,0 +1,20 @@
+R12 - one-piece outer housing
+Request: merge the blue piece and gray piece, with freedom to change design.
+Interpretation stated to user: blue outer 28mm duct extension + gray main frame;
+fan and gold cap remain separate. R11 is preserved in its saved version.
+
+Combine the two outer polymer bodies into one connected printable shell. Fill
+the old mating seam with a continuous annular web, with actual bolt/washer
+access clearance. Preserve installed dimensions, shaft axis, fan, cap, actual
+metal source geometry and all fastener positions. No internal motor spacer.
+Keep the cap detachable for installing/removing the motor and fan.
+
+Simple union of contact-only mating surfaces leaves legacy seam pockets, so
+add finite overlap web outside the R35.57 full-turn envelope. Proposed web:
+R38.8..43mm, Y18..28mm, clearance relief at four bolt axes R44.5. New material
+must not overlap existing hardware or obstruct assembly. Round new practical
+exposed transitions where robust, avoiding changes to working motor interfaces.
+Final part count47 solids (fixed43, rotating4); actual motor source remains fixed.
+Export the new housing as one closed manifold STL; reuse exact R11 fan/coupon
+and cap files. Old separate extension/frame files are not included in R12 PRINT.
+Physical fit/retention qualification remains as in R11.

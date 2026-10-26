@@ -1,0 +1,26 @@
+{
+  "source_clamp_contacts_mm3": {
+    "motor/collet": 9.29285953868959,
+    "collet/collar": 2.4794121317943207,
+    "collet/nut": 0.0
+  },
+  "motor_screw_thread_contacts": [
+    {
+      "total_thread_contact_mm3": 5.498337401051908,
+      "outside_engagement_mm3": 0.0
+    },
+    {
+      "total_thread_contact_mm3": 5.498337401020454,
+      "outside_engagement_mm3": 0.0
+    },
+    {
+      "total_thread_contact_mm3": 5.498337401020419,
+      "outside_engagement_mm3": 0.0
+    },
+    {
+      "total_thread_contact_mm3": 5.498337401052126,
+      "outside_engagement_mm3": 0.0
+    }
+  ],
+  "note": "These are retained source clamp / intended thread engagements, not free-running clearance pairs."
+}

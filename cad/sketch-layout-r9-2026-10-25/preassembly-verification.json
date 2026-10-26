@@ -1,0 +1,56 @@
+[
+  {
+    "check": "bench 70 mm driver path X-16.8, side-1",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "bench 70 mm driver path X-16.8, side1",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "bench 70 mm driver path X16.8, side-1",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "bench 70 mm driver path X16.8, side1",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "preassembly has eight components and eight motor-base fasteners are withdrawn",
+    "passed": true,
+    "detail": {
+      "assembly_parts": 8,
+      "withdrawn_fasteners": 8
+    }
+  },
+  {
+    "check": "continuous insertion corridor clears frame and remaining stationary fasteners",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "fixed_parts": 29
+    }
+  },
+  {
+    "check": "eight-piece preassembly stays inside the monotone insertion corridor",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": {
+        "0": 0.0,
+        "80": 0.0
+      }
+    }
+  }
+]

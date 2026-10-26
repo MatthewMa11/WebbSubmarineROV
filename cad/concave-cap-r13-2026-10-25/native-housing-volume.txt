@@ -1,0 +1,314 @@
+Browser tab: 5, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			5 text A2212 R8 - M3 axle-clamp fan - separate design R13 - concave cone and short-bolt joints
+			6 image
+			35 text M
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			18 button Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 container
+					33 container
+						36 container osToolbar
+							37 container
+								38 container
+									39 image
+									40 text Insert
+								41 button Search tools… alt/⌥ c
+									42 text Search tools… 
+									43 text alt/⌥
+									44 text c
+						34 container content-div
+							45 container
+								46 container assembly-tree
+									47 pop up button (collapsed) Secondary Actions: Expand
+									48 text field (settable)
+									49 button filter-flat-list-view
+										50 image
+									51 text Instances (47)
+									52 button new-folder-button
+										53 image
+									54 container
+										55 container
+											56 image
+											57 text R13 thruster - concave cone and M3x12 joints
+										58 container
+											59 image
+											60 image
+											61 text Origin
+										62 container
+											63 image
+											64 image
+											65 text R13 concave cone -24mm bowl - M3x12 joints <1>
+										66 container
+											67 image
+											68 image
+											69 text R13 one-piece housing - front captive nuts and pilots <1>
+										70 container
+											71 image
+											72 image
+											73 text R11 fan - actual adapter, 5.1 bore, 7.145 hub <1>
+										74 container
+											75 image
+											76 image
+											77 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										78 container
+											79 image
+											80 image
+											81 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										82 container
+											83 image
+											84 image
+											85 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										86 container
+											87 image
+											88 image
+											89 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										90 container
+											91 image
+											92 image
+											93 text M4 hex nut AF7x3.2 - 1 <1>
+										94 container
+											95 image
+											96 image
+											97 text M4 hex nut AF7x3.2 - 2 <1>
+										98 container
+											99 image
+											100 image
+											101 text M4 hex nut AF7x3.2 - 3 <1>
+										102 container
+											103 image
+											104 image
+											105 text M4 hex nut AF7x3.2 - 4 <1>
+										106 container
+											107 image
+											108 image
+											109 text M4x12 socket mounting bolt 1 <1>
+										110 container
+											111 image
+											112 image
+											113 text M4x12 socket mounting bolt 2 <1>
+										114 container
+											115 image
+											116 image
+											117 text M4x12 socket mounting bolt 3 <1>
+										118 container
+											119 image
+											120 image
+											121 text M4x12 socket mounting bolt 4 <1>
+										122 container
+											123 image
+											124 image
+											125 text M3 captured cover nut 1 <1>
+										126 container
+											127 image
+											128 image
+											129 text M3 captured cover nut 2 <1>
+										130 container
+											131 image
+											132 image
+											133 text M3 front washer cover 1 <1>
+										134 container
+											135 image
+											136 image
+											137 text M3 front washer cover 2 <1>
+										138 container
+											139 image
+											140 image
+											141 text M3 flat washer motor base 1 <1>
+										142 container
+											143 image
+											144 image
+											145 text M3 flat washer motor base 3 <1>
+										146 container
+											147 image
+											148 image
+											149 text R13 M3x12 cone bolt 1 <1>
+										150 container
+											151 image
+											152 image
+											153 text R13 M3x12 cone bolt 3 <1>
+										154 container
+											155 image
+											156 image
+											157 text M3x8 motor-base screw 2 <1>
+										158 container
+											159 image
+											160 image
+											161 text M3x8 motor-base screw 4 <1>
+										162 container
+											163 image
+											164 image
+											165 text M3 captured cover nut 3 <1>
+										166 container
+											167 image
+											168 image
+											169 text M3 front washer cover 3 <1>
+										170 container
+											171 image
+											172 image
+											173 text M3 flat washer motor base 2 <1>
+										174 container
+											175 image
+											176 image
+											177 text M3 flat washer motor base 4 <1>
+										178 container
+											179 image
+											180 image
+											181 text R13 M3x12 cone bolt 2 <1>
+								182 image
+								183 container viewerdiv
+									184 image canvas
+									185 container
+										235 button
+											236 image
+										237 button
+											238 image
+										239 button
+											240 image
+								192 container
+									193 image
+									194 image
+									195 image
+									196 image
+									197 image
+									198 image
+							241 container operation-dialog
+								242 container
+									243 text Mass and section properties
+									244 image
+									245 image
+								246 content list
+									247 container
+										248 text Part Face
+									249 container
+										250 text Instances to measure
+										251 content list
+											252 container
+												253 text R13 one-piece housing - front captive nuts and pilots <1> ×
+									254 container
+										255 text Mate connector for reference frame
+									256 container
+										257 checkbox (settable, integer) Description: Show calculation variance, Value: 0
+										258 text Show calculation variance
+									259 container
+										260 text Mass
+										261 checkbox (disabled, settable, integer) Description: Override, Value: 0
+										262 text Override
+									263 text field
+									264 container
+										265 text Volume
+										266 text field 128520.263 mm³
+									267 container
+										268 text Surface area
+										269 text field 60211.685 mm²
+									270 container
+										271 text Center of mass
+										272 checkbox (disabled, settable, integer) Description: Override, Value: 0
+										273 text Override
+									274 container
+										275 image
+										276 text field
+									277 container
+										278 image
+										279 text field
+									280 container
+										281 image
+										282 text field
+									283 container
+										284 text Mass moments of inertia (g mm²)
+										285 checkbox (disabled, settable, integer) Description: Override, Value: 0
+										286 text Override
+									287 container
+										288 text Lxx
+										289 text field
+									290 container
+										291 text Lxy
+										292 text field
+									293 container
+										294 text Lxz
+										295 text field
+									296 container
+										297 text Lyx
+										298 text field
+									299 container
+										300 text Lyy
+										301 text field
+									302 container
+										303 text Lyz
+										304 text field
+									305 container
+										306 text Lzx
+										307 text field
+									308 container
+										309 text Lzy
+										310 text field
+									311 container
+										312 text Lzz
+										313 text field
+								314 link cad.onshape.com/help/index.htm#cshid=massprops_assembly
+						199 container os-tab-bar
+							200 container
+								201 container
+									202 image
+									203 text Part Studio 1
+								204 container
+									205 image
+									206 text Thruster print fit
+								207 container
+									208 image
+									209 text Thruster-A2212-fit-check.step
+								210 container
+									211 image
+									212 text R13 thruster - concave cone and M3x12 joints
+									213 text M
+								214 container
+									215 image
+									216 text R11-actual-Motor-source-stage
+								217 container
+									218 image
+									219 text Nozzle R5 - verified manifold print mesh
+								220 container
+									221 image
+									222 text Nozzle R5 - verified manifold print mesh.stl
+								223 container
+									224 image
+									225 text R13 parts - concave cone and short-bolt joints
+								226 container
+									227 image
+									228 text R11 native Motor source - linked originals
+								229 container
+									230 image
+									231 text Assembly 1
+								232 container
+									233 image
+									234 text CAD Imports
+		319 container Display mass and section properties, ID: tooltip429745
+			320 text Display mass and section properties
+
+The focused UI element is 0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84

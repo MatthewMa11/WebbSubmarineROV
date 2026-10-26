@@ -1,0 +1,72 @@
+[
+  {
+    "check": "other46 parts including cone fan actual metal and bolts are unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all four obsolete crescent tips removed in actual geometry",
+    "passed": true,
+    "detail": {
+      "probes": [
+        {
+          "old": 0.09817477042468103,
+          "new": 0.0
+        },
+        {
+          "old": 0.09817477042468095,
+          "new": 0.0
+        },
+        {
+          "old": 0.09817477042468106,
+          "new": 0.0
+        },
+        {
+          "old": 0.09817477042468098,
+          "new": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "check": "smooth quintic fairing follows designed profile at28 points",
+    "passed": true,
+    "detail": {
+      "count": 28
+    }
+  },
+  {
+    "check": "four necessary bolt posts have rounded5mm roots",
+    "passed": true,
+    "detail": {
+      "root_axes": [
+        [
+          -44.5,
+          0.0
+        ],
+        [
+          0.0,
+          -44.5
+        ],
+        [
+          0.0,
+          44.5
+        ],
+        [
+          44.5,
+          0.0
+        ]
+      ]
+    }
+  },
+  {
+    "check": "working R13 nut pockets roof seats and pilots retained",
+    "passed": true,
+    "detail": {
+      "symmetric_difference_mm3": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

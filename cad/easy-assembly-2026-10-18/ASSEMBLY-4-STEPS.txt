@@ -1,0 +1,32 @@
+EASY-ASSEMBLY ROV - 18 October 2026
+
+1. BUILD THE FIVE-PANEL FRAME
+   Cut A once, B twice, and C twice from 3 mm aluminum. Insert the tabs of
+   the two identical side plates and two identical open saddles into base A.
+   Put one M4 nut into each of the eight accessible cross pockets. Fit the
+   eight M4x16 bolts with washers from underneath. Start all eight loosely,
+   square the panels to the base, then tighten evenly. No upper deck is fitted.
+
+2. FIT THE EIGHT PREASSEMBLED THRUSTERS
+   Bolt the four horizontal units to the four diagonal mounting patterns on
+   the base, pointing outward toward the corners. Bolt the four vertical
+   units to the two short side plates. Follow labels H1-H4 and V1 UP,
+   V2 DOWN, V3 UP, V4 DOWN in the CAD assembly. Retain the existing M4
+   thruster mounting hardware; all thruster internal parts are unchanged.
+
+3. PLACE THE ELECTRONICS POD
+   Thread two 25 mm release straps through the paired base slots beside the
+   saddles. Lower the complete cylinder, caps and tie rods into the open
+   saddles. The two small open notches in each saddle clear the lower rods.
+   Use a suitable thin liner between the saddle and real tube; the CAD has
+   0.5 mm nominal radial saddle clearance. The pod is not threaded through rings.
+
+4. CLOSE TWO BUCKLES
+   Close and adjust the two straps from above. To remove the pod, disconnect
+   its leads and release the two straps, then lift it straight out. The CAD
+   checks a continuous 200 mm lift with the straps released. The pod's end-cap
+   nuts need not be removed to take the complete pod out of the frame.
+
+The strap and buckle shapes are purchased-part layout references. Select
+actual wet-service straps and retention capacity for the real loads. Physical
+strength, joint fit, sealing and cable glands remain to be validated.

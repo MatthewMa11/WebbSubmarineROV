@@ -1,0 +1,299 @@
+[
+  {
+    "check": "48 solids with actual source motor and adapter",
+    "passed": true,
+    "detail": {
+      "total": 48
+    }
+  },
+  {
+    "check": "actual fused motor model replaces both generic motor references",
+    "passed": true,
+    "detail": {
+      "count": 1
+    }
+  },
+  {
+    "check": "fan has 5.1 mm stud bore and 6.2 mm shoulder relief",
+    "passed": true,
+    "detail": {
+      "radii_mm": [
+        2.55,
+        3.1,
+        20.0,
+        26.9,
+        35.5
+      ]
+    }
+  },
+  {
+    "check": "eight mechanical bodies and forty standard hardware bodies",
+    "passed": true,
+    "detail": {
+      "parts": [
+        "motor",
+        "fan",
+        "cap",
+        "extension",
+        "collar",
+        "collet",
+        "nut",
+        "frame"
+      ],
+      "hardware": 40
+    }
+  },
+  {
+    "check": "actual motor source geometry preserved under rigid pose",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 1.8189894035458565e-12,
+      "area_delta_mm2": 1.8189894035458565e-12,
+      "bounds_delta_mm": 0.0,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "actual collet source geometry preserved under rigid pose",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 9.15179043659009e-12,
+      "area_delta_mm2": 5.854872142663226e-11,
+      "bounds_delta_mm": 7.105427357601002e-15,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "actual collar source geometry preserved under rigid pose",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 3.979039320256561e-13,
+      "area_delta_mm2": 2.2737367544323206e-13,
+      "bounds_delta_mm": 1.865174681370263e-14,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "actual nut source geometry preserved under rigid pose",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 2.1600499167107046e-12,
+      "area_delta_mm2": 3.000195647473447e-10,
+      "bounds_delta_mm": 3.375077994860476e-14,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "frame shape and placement unchanged from R10",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "cap shape and placement unchanged from R10",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "extension shape and placement unchanged from R10",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all actual source solids and the edited fan are valid",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "hub seats in exact source collar-to-nut gap",
+    "passed": true,
+    "detail": {
+      "axial_bounds_mm": [
+        24.5345999,
+        31.679659684895103
+      ]
+    }
+  },
+  {
+    "check": "fan has no unintended nominal overlap",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": {
+        "motor": 0.0,
+        "collet": 0.0,
+        "collar": 0.0,
+        "nut": 0.0,
+        "frame": 0.0,
+        "cap": 0.0,
+        "extension": 0.0
+      }
+    }
+  },
+  {
+    "check": "both metal clamping faces contact the flat hub",
+    "passed": true,
+    "detail": {
+      "contact_area_mm2": {
+        "collar": 80.1139309737801,
+        "nut": 86.27627488812345
+      },
+      "separation_mm": {
+        "collar": 0.0,
+        "nut": 0.0
+      },
+      "comparison_tolerance_mm": 1e-05
+    }
+  },
+  {
+    "check": "actual shoulder demonstrates the need for rear relief",
+    "passed": true,
+    "detail": {
+      "otherwise_overlap_mm3": 0.15017687423124723
+    }
+  },
+  {
+    "check": "existing source contact retained: motor/collet",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 9.29285953868959,
+      "source_mm3": 9.292859538689598
+    }
+  },
+  {
+    "check": "existing source contact retained: collet/collar",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 2.4794121317943207,
+      "source_mm3": 2.4769787588808834
+    }
+  },
+  {
+    "check": "existing source contact retained: collet/nut",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0,
+      "source_mm3": 0.0
+    }
+  },
+  {
+    "check": "four M3x8 bolts and eight M3 washers at motor base",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "base screws align with actual motor CAD holes",
+    "passed": true,
+    "detail": {
+      "actual_axes_mm": [
+        [
+          0.0,
+          8.0137
+        ],
+        [
+          -9.4361,
+          0.0
+        ],
+        [
+          9.4361,
+          0.0
+        ],
+        [
+          0.0,
+          -8.0137
+        ]
+      ]
+    }
+  },
+  {
+    "check": "base bolt tips stop 0.3876 mm before modeled blind bottom",
+    "passed": true,
+    "detail": {
+      "engagement_mm": 2,
+      "blind_bottom_margin_mm": 0.3876
+    }
+  },
+  {
+    "check": "all twenty-eight other mounting and cover fasteners preserved",
+    "passed": true,
+    "detail": {
+      "count": 28
+    }
+  },
+  {
+    "check": "recentered base hardware clears unchanged frame",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "motor screw contacts confined to intended threaded engagement",
+    "passed": true,
+    "detail": {
+      "contacts": [
+        {
+          "total_thread_contact_mm3": 5.498337401051908,
+          "outside_engagement_mm3": 0.0
+        },
+        {
+          "total_thread_contact_mm3": 5.498337401020454,
+          "outside_engagement_mm3": 0.0
+        },
+        {
+          "total_thread_contact_mm3": 5.498337401020419,
+          "outside_engagement_mm3": 0.0
+        },
+        {
+          "total_thread_contact_mm3": 5.498337401052126,
+          "outside_engagement_mm3": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "check": "continuous full-turn envelope contains fan and actual adapter",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "full-turn envelope clears all fixed structure",
+    "passed": true,
+    "detail": {
+      "clearance_mm": {
+        "frame": 3.6603348208716104,
+        "cap": 1.7723405151049008,
+        "extension": 3.229999999999997,
+        "motor body excluding rotating axle": 1.834999999999999
+      }
+    }
+  },
+  {
+    "check": "full-turn envelope clears all forty standard fasteners",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "no printed motor spacer or printed clamp",
+    "passed": true,
+    "detail": {}
+  }
+]

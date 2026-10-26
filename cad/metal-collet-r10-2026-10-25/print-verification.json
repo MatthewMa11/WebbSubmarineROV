@@ -1,0 +1,61 @@
+[
+  {
+    "file": "Fan-R10-metal-collet.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 35668,
+    "stl_step_volume_relative_error": 0.0004232247441527291,
+    "print_bounds_mm": [
+      -20.0,
+      20.0,
+      -35.498958587646484,
+      35.498958587646484,
+      0.0,
+      6.588136672973633
+    ],
+    "orientation_x_deg": 90,
+    "sha256": "a7564568d5adcea29a29e279947f0732e9ca1cf190c5badbe641f8b181413c66"
+  },
+  {
+    "file": "Duct-extension-R10-28mm.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 87960,
+    "stl_step_volume_relative_error": 0.0004991039348620856,
+    "print_bounds_mm": [
+      -49.5,
+      49.5,
+      -49.5,
+      49.5,
+      0.0,
+      28.0
+    ],
+    "orientation_x_deg": 90,
+    "sha256": "9ac7aa1b180c174c7096db863724cccc0142ec94638893272a111cb41457443d"
+  },
+  {
+    "file": "TEST-FIRST-R10-6p2-bore.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 1008,
+    "stl_step_volume_relative_error": 0.0004143776015794981,
+    "print_bounds_mm": [
+      -11.0,
+      11.0,
+      -10.996581077575684,
+      10.996581077575684,
+      0.0,
+      6.5
+    ],
+    "orientation_x_deg": 0,
+    "sha256": "088c4ca60d301064e9cbe2902739f8dc9e7fa0a1486984bc7874260524a8a220"
+  },
+  {
+    "file": "OPTIONAL-unchanged-frame-cap\\Frame-R6p1-UNCHANGED.stl",
+    "unchanged_sha256": "0d9866d5c0fba995940eb6acb3e8a7ea5b8976e32f85214dd8e5b9661a76956a"
+  },
+  {
+    "file": "OPTIONAL-unchanged-frame-cap\\Cap-R4-UNCHANGED.stl",
+    "unchanged_sha256": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287"
+  }
+]

@@ -1,0 +1,18 @@
+Group 2
+Instances
+A2212 reference rotor <1>
+×
+R6 propeller - integral M3 bell clamp, no motor insert <1>
+×
+R6 M3 captured clamp nut 1 <1>
+×
+R6 M3 captured clamp nut 2 <1>
+×
+R6 M3 external clamp washer 1 <1>
+×
+R6 M3 external clamp washer 2 <1>
+×
+R6 M3x16 external clamp bolt 1 <1>
+×
+R6 M3x16 external clamp bolt 2 <1>
+×

@@ -1,0 +1,244 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R9 thruster - cap fan motor rear support", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R9 thruster - cap fan motor rear support, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			281 text A2212 R8 - M3 axle-clamp fan - separate design R9 - sketch layout - forward fan
+			282 image
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			283 button Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				284 image
+				285 image
+				27 image
+				28 image
+				286 image
+				30 image
+				31 image
+				278 container
+					279 container
+						936 container osToolbar
+							937 container
+								1017 container
+									1018 image
+									1019 text Insert
+								941 button Search tools… alt/⌥ c
+									942 text Search tools… 
+									943 text alt/⌥
+									944 text c
+						280 container content-div
+							871 container
+								1020 container assembly-tree
+									1021 pop up button (collapsed) Secondary Actions: Expand
+									1022 text field (settable)
+									1023 button filter-flat-list-view
+										1024 image
+									1025 text Instances (46)
+									1028 container
+										1029 container
+											1030 image
+											1031 text R9 thruster - cap fan motor rear support
+										1112 container
+											1113 image
+											1114 image
+											1115 text M3 front washer cover 1 <1>
+										1116 container
+											1117 image
+											1118 image
+											1119 text M3 front washer cover 2 <1>
+										1120 container
+											1121 image
+											1122 image
+											1123 text M3 flat washer motor base 1 <1>
+										1124 container
+											1125 image
+											1126 image
+											1127 text M3 flat washer motor base 3 <1>
+										1128 container
+											1129 image
+											1130 image
+											1131 text M3x12 cover through-bolt 1 <1>
+										1132 container
+											1133 image
+											1134 image
+											1135 text M3x12 cover through-bolt 3 <1>
+										1136 container
+											1137 image
+											1138 image
+											1139 text M3x8 motor-base screw 2 <1>
+										1140 container
+											1141 image
+											1142 image
+											1143 text M3x8 motor-base screw 4 <1>
+										1144 container
+											1145 image
+											1146 image
+											1147 text M3 captured cover nut 3 <1>
+										1148 container
+											1149 image
+											1150 image
+											1151 text M3 front washer cover 3 <1>
+										1152 container
+											1153 image
+											1154 image
+											1155 text M3 flat washer motor base 2 <1>
+										1178 container
+											1179 image
+											1180 image
+											1181 text M3 flat washer motor base 4 <1>
+										1182 container
+											1183 image
+											1184 image
+											1185 text M3x12 cover through-bolt 2 <1>
+										1186 container
+											1187 image
+											1188 image
+											1189 text M3x8 motor-base screw 1 <1>
+										1190 container
+											1191 image
+											1192 image
+											1193 text M3x8 motor-base screw 3 <1>
+										1194 container
+											1195 image
+											1196 image
+											1197 text M3 captured cover nut 4 <1>
+										1198 container
+											1199 image
+											1200 image
+											1201 text M3 front washer cover 4 <1>
+										1202 container
+											1203 image
+											1204 image
+											1205 text M3 rear washer cover 1 <1>
+										1206 container
+											1207 image
+											1208 image
+											1209 text M3 rear washer cover 2 <1>
+										1210 container
+											1211 image
+											1212 image
+											1213 text M3x12 cover through-bolt 4 <1>
+										1214 container
+											1215 image
+											1216 image
+											1217 text M3 rear washer cover 3 <1>
+										1218 container
+											1219 image
+											1220 image
+											1221 text M3 rear washer cover 4 <1>
+										1222 container
+											1223 image
+											1224 image
+											1225 text R8 removable axle clamp upper jaw - 3.175 mm shaft <1>
+										1226 container
+											1227 image
+											1228 image
+											1229 text R8 M3x16 axle clamp bolt 1 <1>
+										1230 container
+											1231 image
+											1232 image
+											1233 text R8 M3x16 axle clamp bolt 2 <1>
+										1234 container
+											1235 image
+											1236 image
+											1237 text R8 M3 axle clamp nut AF5.5x2.4 - 1 <1>
+										1238 container
+											1239 image
+											1240 image
+											1241 text R8 M3 axle clamp nut AF5.5x2.4 - 2 <1>
+										1242 container
+											1243 image
+											1244 text Mate features (3)
+										1245 container
+											1246 image
+											1247 image
+											1248 text Group 1
+										1249 container
+											1250 image
+											1251 image
+											1252 text Group 2
+										1253 container
+											1254 image
+											1255 image
+											1256 text Revolute 1
+								1156 image
+								920 container viewerdiv
+									1011 image canvas
+									1257 button
+										1258 image
+								928 container
+									1163 image
+									1164 image
+									1165 image
+									1166 image
+									1167 image
+									1168 image
+							1259 container feature-dialog
+								1260 container
+									1261 text Group 2
+									1262 image
+									1263 image
+								1264 content list
+									1265 container Instances A2212 reference rotor <1> × R9 forward fan - flat hub, M3 axle clamp, four drive keys <1> × R8 removable axle clamp upper jaw - 3.175 mm shaft <1> × R8 M3x16 axle clamp bolt 1 <1> × R8 M3x16 axle clamp bolt 2 <1> × R8 M3 axle clamp nut AF5.5x2.4 - 1 <1> × R8 M3 axle clamp nut AF5.5x2.4 - 2 <1> ×
+										1266 container
+											1267 text Instances
+											1268 content list
+												1269 container
+													1270 text A2212 reference rotor <1> ×
+												1271 container
+													1272 text R9 forward fan - flat hub, M3 axle clamp, four drive keys <1> ×
+												1273 container
+													1274 text R8 removable axle clamp upper jaw - 3.175 mm shaft <1> ×
+												1275 container
+													1276 text R8 M3x16 axle clamp bolt 1 <1> ×
+												1277 container
+													1278 text R8 M3x16 axle clamp bolt 2 <1> ×
+												1279 container
+													1280 text R8 M3 axle clamp nut AF5.5x2.4 - 1 <1> ×
+												1281 container
+													1282 text R8 M3 axle clamp nut AF5.5x2.4 - 2 <1> ×
+								1283 link cad.onshape.com/help/index.htm#cshid=mategroup
+						459 container os-tab-bar
+							460 container
+								846 container
+									847 image
+									848 text Part Studio 1
+								849 container
+									850 image
+									851 text Thruster print fit
+								852 container
+									853 image
+									854 text Thruster-A2212-fit-check.step
+								855 container
+									856 image
+									857 text R9 thruster - cap fan motor rear support
+								858 container
+									859 image
+									860 text Nozzle R5 - verified manifold print mesh
+								861 container
+									862 image
+									863 text Nozzle R5 - verified manifold print mesh.stl
+								864 container
+									865 image
+									866 text R9 parts - forward fan flat hub
+								867 container
+									868 image
+									869 text Assembly 1
+
+The focused UI element is 1265 container Instances A2212 reference rotor <1> × R9 forward fan - flat hub, M3 axle clamp, four drive keys <1> × R8 removable axle clamp upper jaw - 3.175 mm shaft <1> × R8 M3x16 axle clamp bolt 1 <1> × R8 M3x16 axle clamp bolt 2 <1> × R8 M3 axle clamp nut AF5.5x2.4 - 1 <1> × R8 M3 axle clamp nut AF5.5x2.4 - 2 <1> ×

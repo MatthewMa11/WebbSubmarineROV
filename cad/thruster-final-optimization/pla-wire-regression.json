@@ -1,0 +1,38 @@
+{
+  "file": "cad/thruster-final-optimization/Thruster-A2212-PLA-complete.step",
+  "checks": [
+    {
+      "check": "enclosed 10 mm wire passage remains unobstructed",
+      "pass": true,
+      "details": {
+        "obstruction_mm3": 0.0
+      }
+    },
+    {
+      "check": "wire route retains 0.5 mm minimum motor-base clearance",
+      "pass": true,
+      "details": {
+        "gap_mm": 0.5954364826300614
+      }
+    },
+    {
+      "check": "continuous nominal 4 mm wire sleeve remains intact",
+      "pass": true,
+      "details": {
+        "missing_material_mm3": 0.0
+      }
+    },
+    {
+      "check": "four propeller screw heads retain 2 mm cover clearance",
+      "pass": true,
+      "details": {
+        "gaps_mm": [
+          2.0,
+          2.0,
+          2.0,
+          2.0
+        ]
+      }
+    }
+  ]
+}

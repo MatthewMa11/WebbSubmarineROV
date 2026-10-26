@@ -1,2 +1,33 @@
 # WebbSubmarineROV
-Code, designs, and documentation for the Webb Submarine ROV club.
+
+The Webb Submarine ROV club is developing a remotely operated underwater vehicle while learning mechanical design, fabrication, electronics, programming, and testing. Our vision is to turn that work into useful science and engineering experiences for the museum and its community.
+
+## Project journals
+
+- [Motor and fan CAD development journal](docs/journals/motor-and-fan-cad-development.md) — a detailed retrospective of the PLA baseline and R2–R14, including the reasons for changes, motor and adapter fit, retention mechanisms, housings, assembly access, and remaining physical checks.
+- [Club mission and museum vision](docs/journals/club-mission-and-museum-vision.md) — what the club does, what we are learning, and how the project could serve museum education and future staff-directed work.
+
+## Start with the current design
+
+The latest recorded thruster configuration is **R14 housing + R13 concave cone + R11 fan**, fitted to the actual motor and metal adapter used in the R11 source model. It is a CAD and fabrication development configuration; the saved records do not establish successful powered-water operation.
+
+- [R14 assembly and print instructions](cad/smooth-frame-r14-2026-10-25/ASSEMBLY-AND-PRINT.txt)
+- [Download the R14 print kit](archives/R14-Smooth-Frame-Print-Kit.zip) — current housing, retained fan/cone, fit coupons, and instructions.
+- [R14 design decisions](cad/smooth-frame-r14-2026-10-25/DESIGN.txt) and [verification limits](cad/smooth-frame-r14-2026-10-25/FINAL-REVIEW.txt)
+- [Latest whole-vehicle assembly notes](cad/easy-assembly-2026-10-18/READ-ME.txt) — the October 18 chassis/electronics-tube assembly is a separate snapshot; it has not been represented as a complete R14 vehicle integration.
+
+Earlier revision folders are historical snapshots. Their hardware stacks and print files are not automatically interchangeable with the current design.
+
+## Files and downloads
+
+FeatureScript, Python scripts, design notes, verification reports, bills of materials, cutting outlines, and CAD screenshots are browsable in their original project paths. The [CAD archive index](archives/README.md) provides every original CAD revision file, including STL, STEP, BREP, and original print ZIP packages, in ordinary ZIP downloads. Each archive preserves the original `cad/` paths; extract all archives for a revision into the same project root to restore that revision completely.
+
+Large geometry is packaged into downloads rather than displayed as individual GitHub files. This preserves historical exports and duplicate print bundles while keeping the repository useful to browse. [The file inventory](archives/file-inventory.csv) maps each original CAD file to its archive and SHA-256 checksum. [The archive manifest](archives/archive-manifest.json) records download sizes and checksums.
+
+The root `rov_*.fs` files and chassis progress notes preserve the earlier chassis and thruster-holder work. `docs/superpowers/` contains the existing design and implementation records. The journals connect those technical artifacts to the project's development story.
+
+## Continuing the work
+
+Start from the instructions associated with the chosen revision, record real measurements and print settings, and keep the small fit-test results with the parts they describe. When a design changes, save the reason, the affected interfaces, and the evidence supporting the change. CAD interference results, mesh checks, and assembly animations should remain distinct from physical fit, retention, thrust, durability, and underwater tests.
+
+Project import and journal date: **October 26, 2026**. Historical dates in the journals come from the saved project records; this GitHub import does not recreate earlier Git commits.

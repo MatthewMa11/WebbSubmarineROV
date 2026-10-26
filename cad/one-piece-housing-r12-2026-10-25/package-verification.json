@@ -1,0 +1,14 @@
+{
+  "file": "R12-One-Piece-Housing-Print-Kit.zip",
+  "bytes": 14230428,
+  "entries": 21,
+  "crc_valid": true,
+  "all_entries_match_verified_sources": true,
+  "print_files": [
+    "Housing-R12-one-piece.stl",
+    "Fan-R11-actual-adapter.stl",
+    "TEST-FIRST-R11-5p1-bore.stl",
+    "Cap-R4-UNCHANGED.stl"
+  ],
+  "sha256": "b791aacf2ed5d855f395b3083a863b88ef2d9c87f99bf8f07d55121b9ab06221"
+}

@@ -1,0 +1,7 @@
+R14 - smooth frame - no obsolete crescent mounts
+Document: 743ab214882a2e3f8cf7645e
+Workspace: 190d11a3b29f4ed46f4284fa
+Saved version: 8bf42d2b29fd6d1247b16a59
+Assembly: https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/8bf42d2b29fd6d1247b16a59/e/7d8ed648695214607ccb8d84
+Parts: https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/8bf42d2b29fd6d1247b16a59/e/8a2fcd997dae03e4071e7acc
+Preserved R13 version: b026d3e43969875b68fe1d72

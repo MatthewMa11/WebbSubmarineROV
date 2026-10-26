@@ -1,0 +1,125 @@
+{
+  "prints": [
+    {
+      "file": "Housing-R14-smooth-frame.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 511952,
+      "print_bounds_mm": [
+        -50.7955436706543,
+        50.7955436706543,
+        -50.7955436706543,
+        50.7955436706543,
+        0.0,
+        77.80000305175781
+      ],
+      "relative_volume_error": 0.00023342318882743317,
+      "volume_comparison_basis": "native Onshape",
+      "reference_volume_mm3": 125083.529,
+      "step_reader_volume_mm3": 124563.32650764931,
+      "discarded_export_fragments": [],
+      "sha256": "677dcd02e7af0fe5ddfd05d0b205c3cfbcac028793d912fce852482047b7a5b8"
+    },
+    {
+      "file": "Cone-R13-concave.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 111536,
+      "print_bounds_mm": [
+        -49.5,
+        49.5,
+        -49.5,
+        49.5,
+        0.0,
+        31.0
+      ],
+      "relative_volume_error": 0.00047858369210977816,
+      "volume_comparison_basis": "native Onshape",
+      "reference_volume_mm3": 30280.398,
+      "step_reader_volume_mm3": 30164.21356800392,
+      "discarded_export_fragments": [],
+      "sha256": "a8aba833ef5c70b416086634b4c0abc7d45f71af9884c593a329bc8229e7ef89"
+    },
+    {
+      "file": "TEST-FIRST/Joint-Housing-R14.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 24256,
+      "print_bounds_mm": [
+        -5.698118686676025,
+        5.698118686676025,
+        -5.369718551635742,
+        5.369718551635742,
+        0.0,
+        8.299999237060547
+      ],
+      "relative_volume_error": 0.00041341828371193907,
+      "volume_comparison_basis": "local clipped CAD",
+      "reference_volume_mm3": 442.54444013404077,
+      "step_reader_volume_mm3": 442.54444013404077,
+      "discarded_export_fragments": [],
+      "sha256": "9ba86868385a0d5bb1778f974fa580e559795bd9e38e7f1d82090d029815f146"
+    },
+    {
+      "file": "TEST-FIRST/Joint-Cone-R13.stl",
+      "closed_manifold": true,
+      "components": 1,
+      "triangles": 19716,
+      "print_bounds_mm": [
+        -4.9987921714782715,
+        4.9987921714782715,
+        -5.499444961547852,
+        5.499444961547852,
+        0.0,
+        5.0
+      ],
+      "relative_volume_error": 0.00037505740997466526,
+      "volume_comparison_basis": "local clipped CAD",
+      "reference_volume_mm3": 342.8938867554076,
+      "step_reader_volume_mm3": 342.8938867554076,
+      "discarded_export_fragments": [],
+      "sha256": "f94979d80b4383a220ea7ca1a7f7e394feb1ce3d23b1e85ed7afee7519673310"
+    },
+    {
+      "file": "Fan-R11-actual-adapter.stl",
+      "unchanged": true,
+      "sha256": "bad4e6196bbbfd704405ea4daf8c71f2abcb2b76505d2cc10d342edf1cfc8daa"
+    },
+    {
+      "file": "TEST-FIRST-R11-5p1-bore.stl",
+      "unchanged": true,
+      "sha256": "1c2672885aa54a778e59318c7eb1b6de5e9a7541aac81b44d14d00542da1bc4b"
+    }
+  ],
+  "retained_surface_checks": [
+    {
+      "part": "house",
+      "direction": "old-to-new",
+      "samples": 665162,
+      "max_distance_mm": 0.006511101633920086,
+      "passed": true
+    },
+    {
+      "part": "house",
+      "direction": "new-to-old",
+      "samples": 665374,
+      "max_distance_mm": 0.0046407211135882625,
+      "passed": true
+    },
+    {
+      "part": "cone",
+      "direction": "old-to-new",
+      "samples": 129680,
+      "max_distance_mm": 7.47583388822833e-06,
+      "passed": true
+    },
+    {
+      "part": "cone",
+      "direction": "new-to-old",
+      "samples": 130340,
+      "max_distance_mm": 7.402451794346112e-06,
+      "passed": true
+    }
+  ],
+  "retained_surface_tolerance_mm": 0.02
+}

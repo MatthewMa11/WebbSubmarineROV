@@ -1,0 +1,42 @@
+[
+  {
+    "check": "collar and jam ring removed",
+    "passed": true,
+    "detail": {
+      "count": 0
+    }
+  },
+  {
+    "check": "one removable upper axle jaw",
+    "passed": true,
+    "detail": {
+      "count": 1
+    }
+  },
+  {
+    "check": "46 assembly bodies",
+    "passed": true,
+    "detail": {
+      "count": 46
+    }
+  },
+  {
+    "check": "nominal shaft passes through fan and jaw",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "fan lower jaw surrounds the axle",
+    "passed": true,
+    "detail": {
+      "material_mm3": 1.5943582716968177
+    }
+  },
+  {
+    "check": "upper jaw surrounds the axle",
+    "passed": true,
+    "detail": {
+      "material_mm3": 1.4169513986984297
+    }
+  }
+]

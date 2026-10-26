@@ -1,0 +1,58 @@
+PERMANENT MOTOR CENTERING COVER - R3
+17 October 2026
+
+WHAT TO PRINT
+Nozzle-centering-cup-R3.stl replaces the R2 nozzle. The centering cup is part of
+the nozzle, so there is no separate cover, clip or extra fastener to install.
+Keep the R2 71 mm propeller and 22.6 mm spacer, original gray front cover and
+existing hardware. The complete package includes these unchanged STL files.
+All STLs use millimetres at 100% scale and retain the native assembly axes.
+
+HOW IT HELPS ASSEMBLY
+A fixed centering cup now partially covers the exposed stationary motor base.
+Its tapered entrance guides the motor base toward the existing mounting face
+while the four motor-base screws are being aligned. Four rounded cable windows
+between the support sectors let the three motor wires exit toward the rear ring.
+The slots intentionally leave openings for wiring and water circulation.
+
+The guide has a 37 mm outside diameter, 28.5 mm nominal locator throat, and a
+33.5 mm nominal entrance diameter. The entrance edges are rounded 0.35 mm and
+the cable-window edges 0.25 mm. The new cup's forward end is at Y=-6.25 mm.
+The four mounting screws still provide the motor's final location and retention.
+The guide is an assembly aid; it is not a rotor bearing or a waterproof seal.
+
+CAD VERIFICATION
+The nozzle and cup are one closed, connected native STL body. All 34 mesh and
+native geometry checks pass. The reference rotating hub clears the added cup
+by 3.25 mm and the motor-bell continuous rotation envelope by about 3.106 mm.
+The fixed reference motor base also clears the added guide. Four complete
+9 by 2.6 mm cable-bundle gauges pass through the four wire windows.
+
+All moving components, the motor references, original gray cover and 33 hardware
+bodies retain their R2 geometry and positions. The blade-tip clearance remains
+about 2.45 mm nominal. The 360 degree rear wire ring remains open and connected.
+The native 39-part assembly completed 360 degrees of motion. Its interference
+analysis reports only the four intentional M3-to-printed-insert pilot contacts.
+
+PRINT AND ASSEMBLY
+Use the same P1S/PLA Basic settings as the R2 nozzle: with a 0.4 mm nozzle,
+0.16 mm layers and six walls are prototype starting settings. Preview supports
+inside the new cup, beneath the wire slots, and around the rear guide ring.
+Remove all support residue and strings from the taper, mounting face and slots.
+Orient the STL before slicing; do not apply global scaling to adjust motor fit.
+
+Route the wires through a rounded slot between the fixed guide sectors and
+then through the rear ring. Lower the motor base into the taper and onto its
+original flat mounting face. It should seat without force. Start all four base
+screws loosely, then tighten evenly in a diagonal sequence with their washers.
+Check the real motor's blind thread depths before tightening the M3x8 screws.
+Install the R2 propeller and spacer as before, ensuring the hub sits level.
+
+Hand-turn several full revolutions with the motor secured, first without and
+then with the unchanged gray front cover installed. Confirm that the bell,
+propeller, shaft and wires do not rub. The reference stator omits windings and
+real lead details, so these physical checks remain necessary before power.
+The R3 guide has not yet been printed or tested on the user's actual motor.
+
+Native assembly:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553

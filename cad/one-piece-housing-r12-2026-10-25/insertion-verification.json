@@ -1,0 +1,21 @@
+{
+  "check": "continuous axial motor-fan insertion with cap and installation fasteners removed",
+  "passed": true,
+  "moving_parts": 5,
+  "retained_fasteners": 20,
+  "escaped_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "housing_overlap_mm3": 0.0,
+  "largest_retained_fastener_overlap_mm3": 0.0,
+  "envelope_radii_mm": {
+    "motor": 13.92,
+    "rear_pilot": 3.84,
+    "rear_axle": 1.58,
+    "fan": 35.57
+  }
+}

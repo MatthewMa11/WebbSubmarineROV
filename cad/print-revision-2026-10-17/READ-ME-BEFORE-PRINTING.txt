@@ -1,0 +1,78 @@
+A2212 THRUSTER - PHYSICAL PRINT REVISION R2
+17 October 2026
+
+REPRINT THESE THREE PARTS
+1. Propeller-71mm-sweep-R2.stl
+2. Motor-insert-22p6mm-R2.stl (the small four-hole spacer)
+3. Nozzle-360-wire-ring-R2.stl
+Reuse the original gray cover and the same hardware. An unchanged cover STL is
+provided separately in the complete folder if another copy is needed.
+Use millimetres and 100% scale. Do not globally shrink the assembly.
+
+WHAT CHANGED AFTER YOUR PRINT
+The previous design left only about 0.55 mm conservative blade-tip clearance.
+Your photos show rough inner duct material and your video shows the rubbing
+problem. The photos cannot establish whether the motor is also tilted or the
+hub is seated unevenly. The earlier CAD checks did not establish printed fit.
+
+The new propeller's complete swept diameter is 71 mm. Only the blade tips were
+trimmed and their new edges rounded. The hub, motor guide, drive keys, screw
+centers and screw seats are unchanged. Nominal conservative tip clearance to
+the existing duct increases to approximately 2.45 mm per side.
+
+The spacer's outside envelope reduces from 23.2 to 22.6 mm, with rounded 0.2 mm
+outer lead-ins. Its thickness, 18 mm screw pitch circle and four M3 pilots stay
+unchanged. This removes 0.3 mm radially at the outer tips. Actual motor inside
+diameter was not supplied, so print this small part first and check its fit.
+
+The single side wire collar is removed. The nozzle now has a centered, rounded
+rear guide ring: 66 mm outside diameter, 56 mm inside diameter, 6 mm thickness,
+0.8 mm lip rounds, and four 5 mm support posts outside the opening. The central
+pod is limited to 31 mm diameter at this exit. This leaves a 12.5 mm-wide annular
+wire window all around it. Route wires between the fixed forward ribs and out
+through any rear sector; keep them clear of the rotating bell and blades.
+The guide is not a substitute for securing the cable against movement.
+
+PRINT AND ASSEMBLE
+Use your P1S, actual nozzle/plate preset and PLA Basic preset. With a 0.4 mm
+nozzle, 0.16 mm layers, six walls, six top/bottom layers and solid propeller/
+spacer infill are starting settings. Start the nozzle at 50% gyroid infill.
+These are prototype settings, not tested strength values.
+The native STL files retain the assembly axes; orient parts before slicing.
+Preview the rear guide ring, its posts and the inner duct for supports and
+unsupported islands. Clean support residue, strings and blobs from the duct
+and seating faces. Avoid supports damaging the motor guide and screw seats.
+
+Before attaching the propeller, confirm the spacer slips fully into the real
+bell and sits level without being forced. Do not hammer or pull it into place
+with screws. Prepare its M3 pilots gently; excessive screw force can split PLA.
+Seat the motor base flat and tighten all four base screws evenly in a diagonal
+sequence, using the original M3x8 and 0.5 mm washers. Check real thread depth.
+The propeller must sit level on the motor guide with all four drive keys seated.
+Tighten its four M3x8 screws evenly without washers, avoiding distortion.
+
+HAND-SPIN BEFORE POWER
+Turn several full revolutions with the motor fixed, first without and then
+with the original gray cover installed. There must be no contact, visible
+wobble, wire drag, or cover movement. Inspect the tip gap at several angles.
+The gray cover's shaft bore is unchanged and remains a close fit; make sure
+the real shaft turns freely. Correct uneven seating before applying power.
+After that passes, perform a restrained, guarded low-power water test, checking
+for rubbing, imbalance, excessive current and loosening before increasing load.
+
+VERIFICATION SCOPE
+Fresh native STEP and STL exports were used for the R2 checks. Checks cover the
+continuous blade envelope, stated blade-to-duct error allowance, unbroken ring
+opening, closed meshes, unchanged hub/fastener geometry and cover preservation.
+The reference stator is a base-only model; real windings are not modeled.
+The native 39-part assembly completed a full 360-degree mate animation. Native
+interference analysis reports only the four intended M3-to-printed-pilot contacts.
+
+The blade allowance calculation assumes 0.5 mm eccentricity, 0.3 mm inward duct
+print error, 0.2 mm blade growth and 1 degree tilt over 30 mm. These are explicit
+design allowances, not measurements of your print. They do not prove the close
+shaft bore, motor winding clearance, dynamic balance, strength or thrust.
+The new parts have not yet been physically tested. Do the hand-spin check above.
+
+The authoritative native assembly is:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553

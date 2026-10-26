@@ -1,0 +1,21 @@
+[
+  {
+    "file": "Fan-R8-M3-axle-clamp.stl",
+    "native_volume_mm3": 11396.715593321236,
+    "mesh_volume_mm3": 11392.324782267679,
+    "relative_delta": 0.00038526986284809575,
+    "passed": true
+  },
+  {
+    "file": "Upper-jaw-R8-M3-axle-clamp.stl",
+    "native_volume_mm3": 1077.1840687895758,
+    "mesh_volume_mm3": 1077.239480867972,
+    "relative_delta": 5.1441605944254894e-05,
+    "passed": true
+  },
+  {
+    "check": "all ZIP entries match final local deliverables, CRC valid",
+    "passed": true,
+    "files": 14
+  }
+]

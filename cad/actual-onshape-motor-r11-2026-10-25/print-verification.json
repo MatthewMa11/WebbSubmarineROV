@@ -1,0 +1,61 @@
+[
+  {
+    "file": "Fan-R11-actual-adapter.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 49780,
+    "stl_step_volume_relative_error": 0.0004111128831440876,
+    "print_bounds_mm": [
+      -20.0,
+      20.0,
+      -35.498958587646484,
+      35.498958587646484,
+      0.0,
+      7.145061492919922
+    ],
+    "orientation_x_deg": 90,
+    "sha256": "bad4e6196bbbfd704405ea4daf8c71f2abcb2b76505d2cc10d342edf1cfc8daa"
+  },
+  {
+    "file": "Duct-extension-R10-28mm.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 87960,
+    "stl_step_volume_relative_error": 0.0004991039348646955,
+    "print_bounds_mm": [
+      -49.5,
+      49.5,
+      -49.5,
+      49.5,
+      0.0,
+      28.0
+    ],
+    "orientation_x_deg": 90,
+    "sha256": "9ac7aa1b180c174c7096db863724cccc0142ec94638893272a111cb41457443d"
+  },
+  {
+    "file": "TEST-FIRST-R11-5p1-bore.stl",
+    "closed_manifold": true,
+    "components": 1,
+    "triangles": 34272,
+    "stl_step_volume_relative_error": 0.00041455572381463794,
+    "print_bounds_mm": [
+      -10.996581077575684,
+      10.996581077575684,
+      -11.0,
+      11.0,
+      0.0,
+      7.145059585571289
+    ],
+    "orientation_x_deg": 90,
+    "sha256": "1c2672885aa54a778e59318c7eb1b6de5e9a7541aac81b44d14d00542da1bc4b"
+  },
+  {
+    "file": "OPTIONAL-unchanged-frame-cap\\Frame-R6p1-UNCHANGED.stl",
+    "unchanged_sha256": "0d9866d5c0fba995940eb6acb3e8a7ea5b8976e32f85214dd8e5b9661a76956a"
+  },
+  {
+    "file": "OPTIONAL-unchanged-frame-cap\\Cap-R4-UNCHANGED.stl",
+    "unchanged_sha256": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287"
+  }
+]

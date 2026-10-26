@@ -1,0 +1,30 @@
+[
+  {
+    "check": "in-frame 70 mm driver path X-16.8, side-1",
+    "passed": false,
+    "detail": {
+      "overlap_mm3": 152.19842858305086
+    }
+  },
+  {
+    "check": "in-frame 70 mm driver path X-16.8, side1",
+    "passed": false,
+    "detail": {
+      "overlap_mm3": 152.19842849158144
+    }
+  },
+  {
+    "check": "in-frame 70 mm driver path X16.8, side-1",
+    "passed": false,
+    "detail": {
+      "overlap_mm3": 152.19842849158331
+    }
+  },
+  {
+    "check": "in-frame 70 mm driver path X16.8, side1",
+    "passed": false,
+    "detail": {
+      "overlap_mm3": 152.19842858325927
+    }
+  }
+]

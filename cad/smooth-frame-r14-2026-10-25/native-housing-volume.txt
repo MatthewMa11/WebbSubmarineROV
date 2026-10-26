@@ -1,0 +1,289 @@
+Browser tab: 5, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R14 parts - smooth frame and concave cone", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/190d11a3b29f4ed46f4284fa/e/8a2fcd997dae03e4071e7acc".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R14 parts - smooth frame and concave cone, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/190d11a3b29f4ed46f4284fa/e/8a2fcd997dae03e4071e7acc
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			5 text A2212 R8 - M3 axle-clamp fan - separate design R14 - smooth frame - obsolete mounts removed
+			365 image
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			366 button Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				367 image
+				368 image
+				27 image
+				28 image
+				369 image
+				30 image
+				31 image
+				372 container
+					373 container
+						595 container osToolbar
+							596 container
+								669 container
+									670 image
+									671 text Sketch
+								597 button Search tools… alt/⌥ c
+									598 text Search tools… 
+									599 text alt/⌥
+									600 text c
+						374 container content-div
+							601 container
+								602 container
+									603 container feature-list
+										604 pop up button (collapsed) Secondary Actions: Expand
+										605 text field (settable)
+										606 text Features (23)
+										607 button new-folder-button
+											608 image
+										609 button enter-delayed-regen-button
+											610 image
+										611 button regen-info-button
+											612 image
+										672 container
+											677 container
+												678 image
+												679 text Top
+											680 container
+												681 image
+												682 text Front
+											683 container
+												684 image
+												685 text Right
+											686 container
+												687 image
+												688 text Import 1
+											689 container
+												690 image
+												691 text Transform 1
+											692 container
+												693 text Pf PDF fit corrections 1
+											694 container
+												695 image
+												696 text Fr Free rotation clearance 1
+											697 container
+												698 text Rs Rounded strength and motor drive 1
+											699 container
+												700 image
+												701 text Plane 1
+											702 container
+												703 image
+												704 image
+												705 text Sketch 1
+											706 container
+												707 image
+												708 text Extrude 1
+											709 container
+												710 image
+												711 text Sketch 2
+											712 container
+												713 image
+												714 text Ø 4.5 mm
+											715 container
+												716 text Mb M4 bolt nut seats 1
+											717 container
+												718 text Rb Repaired blade rounds 1
+											719 container
+												720 text KM Kit M3x8 screw seats 1
+											721 container
+												722 text Fk Fgruh kit hardware 1
+											723 container
+												724 image
+												725 text Circular pattern 1
+											726 container
+												727 image
+												728 text Derived 2
+											729 container
+												730 image
+												731 text Fs Four side mount finishing 1
+											732 container
+												733 image
+												734 image
+												735 text DRAFT - 10 mm wire notch - placement unverified
+											788 container
+												789 image
+												790 text Derived 1
+									613 container
+										614 text Parts (48)
+										615 image
+										616 text R13 concave cone -24mm bowl - M3x12 joints
+										617 image
+										618 text R11 fan - actual adapter, 5.1 bore, 7.145 hub
+										619 image
+										777 text R14 smooth one-piece frame - obsolete lugs removed
+										621 image
+										622 text M4x12 socket mounting bolt 1
+										623 image
+										624 text M4 flat washer 9x4.3x0.8 - 1
+										625 image
+										626 text M4 hex nut AF7x3.2 - 1
+										627 image
+										628 text M4x12 socket mounting bolt 2
+										629 image
+										630 text M4 flat washer 9x4.3x0.8 - 2
+										631 image
+										632 text M4 hex nut AF7x3.2 - 2
+										633 image
+										634 text M4x12 socket mounting bolt 3
+										635 image
+										636 text M4 flat washer 9x4.3x0.8 - 3
+										637 image
+										638 text M4 hex nut AF7x3.2 - 3
+										639 image
+										640 text M4x12 socket mounting bolt 4
+										641 image
+										642 text M4 flat washer 9x4.3x0.8 - 4
+										643 image
+										644 text M4 hex nut AF7x3.2 - 4
+										645 image
+										646 text ACTUAL motor collet thread - Motor source
+										647 image
+										648 text ACTUAL motor prop collar - Motor source
+										649 image
+										650 text ACTUAL motor bullet nut - Motor source
+								651 image
+								652 container viewerdiv
+									653 image canvas
+									654 container
+										791 button
+											792 image
+										793 button
+											794 image
+										795 button
+											796 image
+								661 container
+									662 image
+									663 image
+									664 image
+									665 image
+									666 image
+									667 image
+									668 image
+							797 container operation-dialog
+								798 container
+									799 text Mass and section properties
+									800 image
+									801 image
+								802 content list
+									803 container
+										804 text Part Face
+									805 container
+										806 text Parts to measure
+										807 content list
+											808 container
+												809 text R14 smooth one-piece frame - obsolete lugs removed ×
+									810 container
+										811 text Mate connector for reference frame
+									812 container
+										813 checkbox (settable, integer) Description: Show calculation variance, Value: 0
+										814 text Show calculation variance
+									815 container
+										816 text Mass
+										817 checkbox (settable, integer) Description: Override, Value: 0
+										818 text Override
+									819 text field
+									820 container
+										821 text Volume
+										822 text field 125083.529 mm³
+									823 container
+										824 text Surface area
+										825 text field 55047.199 mm²
+									826 container
+										827 text Center of mass
+										828 checkbox (disabled, settable, integer) Description: Override, Value: 0
+										829 text Override
+									830 container
+										831 image
+										832 text field
+									833 container
+										834 image
+										835 text field
+									836 container
+										837 image
+										838 text field
+									839 container
+										840 text Mass moments of inertia (g mm²)
+										841 checkbox (disabled, settable, integer) Description: Override, Value: 0
+										842 text Override
+									843 container
+										844 text Lxx
+										845 text field
+									846 container
+										847 text Lxy
+										848 text field
+									849 container
+										850 text Lxz
+										851 text field
+									852 container
+										853 text Lyx
+										854 text field
+									855 container
+										856 text Lyy
+										857 text field
+									858 container
+										859 text Lyz
+										860 text field
+									861 container
+										862 text Lzx
+										863 text field
+									864 container
+										865 text Lzy
+										866 text field
+									867 container
+										868 text Lzz
+										869 text field
+								870 link cad.onshape.com/help/index.htm#cshid=massprops_ps
+						742 container os-tab-bar
+							743 container
+								744 container
+									745 image
+									746 text Part Studio 1
+								747 container
+									748 image
+									749 text Thruster print fit
+								750 container
+									751 image
+									752 text Thruster-A2212-fit-check.step
+								753 container
+									754 image
+									755 text R13 thruster - concave cone and M3x12 joints
+								756 container
+									757 image
+									758 text R11-actual-Motor-source-stage
+								759 container
+									760 image
+									761 text Nozzle R5 - verified manifold print mesh
+								762 container
+									763 image
+									764 text Nozzle R5 - verified manifold print mesh.stl
+								765 container
+									766 image
+									767 text R14 parts - smooth frame and concave cone
+								768 container
+									769 image
+									770 text R11 native Motor source - linked originals
+								771 container
+									772 image
+									773 text Assembly 1
+								774 container
+									775 image
+									776 text CAD Imports
+		873 container Display mass and section properties, ID: tooltip658518
+			874 text Display mass and section properties
+
+The focused UI element is 0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R14 parts - smooth frame and concave cone, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/190d11a3b29f4ed46f4284fa/e/8a2fcd997dae03e4071e7acc

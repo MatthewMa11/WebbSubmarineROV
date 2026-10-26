@@ -1,0 +1,250 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84".
+1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			21 text A2212 R8 - M3 axle-clamp fan - separate design R10 - metal collet adapter
+			22 image
+			6 button Explore Onshape
+				7 image
+				8 text Explore Onshape
+			9 button Description: Notifications, ID: user-notification-status
+				10 container
+					11 image
+					12 container 9+ unread notifications
+						13 text 9+
+			14 link Navigates you to Action items page in a new window.
+			15 link Navigates you to Onshape app store in a new window.
+			16 link Navigates you to Onshape Learning Center in a new window.
+			23 button Share
+			17 container Help menu
+			18 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				19 text Matthew Ma
+		20 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 image
+				110 container
+					111 container
+						1080 container osToolbar
+							1081 container
+								1168 container
+									1169 image
+									1170 text Insert
+								1085 button Search tools… alt/⌥ c
+									1086 text Search tools… 
+									1087 text alt/⌥
+									1088 text c
+						121 container content-div
+							1005 container
+								1171 container assembly-tree
+									1172 pop up button (collapsed) Secondary Actions: Expand
+									1173 text field (settable)
+									1174 button filter-flat-list-view
+										1175 image
+									1176 text Instances (45)
+									1193 container
+										1194 container
+											1195 image
+											1196 text R10 thruster - metal collet and extended duct
+										1273 container
+											1274 image
+											1275 image
+											1276 text M3 captured cover nut 2 <1>
+										1277 container
+											1278 image
+											1279 image
+											1280 text M3 front washer cover 1 <1>
+										1281 container
+											1282 image
+											1283 image
+											1284 text M3 front washer cover 2 <1>
+										1285 container
+											1286 image
+											1287 image
+											1288 text M3 flat washer motor base 1 <1>
+										1289 container
+											1290 image
+											1291 image
+											1292 text M3 flat washer motor base 3 <1>
+										1293 container
+											1294 image
+											1295 image
+											1296 text M3x40 cover-extension through-bolt 1 <1>
+										1297 container
+											1298 image
+											1299 image
+											1300 text M3x40 cover-extension through-bolt 3 <1>
+										1301 container
+											1302 image
+											1303 image
+											1304 text M3x8 motor-base screw 2 <1>
+										1305 container
+											1306 image
+											1307 image
+											1308 text M3x8 motor-base screw 4 <1>
+										1309 container
+											1310 image
+											1311 image
+											1312 text M3 captured cover nut 3 <1>
+										1313 container
+											1314 image
+											1315 image
+											1316 text M3 front washer cover 3 <1>
+										1317 container
+											1318 image
+											1319 image
+											1320 text M3 flat washer motor base 2 <1>
+										1330 container
+											1331 image
+											1332 image
+											1333 text M3 flat washer motor base 4 <1>
+										1334 container
+											1335 image
+											1336 image
+											1337 text M3x40 cover-extension through-bolt 2 <1>
+										1338 container
+											1339 image
+											1340 image
+											1341 text M3x8 motor-base screw 1 <1>
+										1342 container
+											1343 image
+											1344 image
+											1345 text M3x8 motor-base screw 3 <1>
+										1346 container
+											1347 image
+											1348 image
+											1349 text M3 captured cover nut 4 <1>
+										1350 container
+											1351 image
+											1352 image
+											1353 text M3 front washer cover 4 <1>
+										1354 container
+											1355 image
+											1356 image
+											1357 text M3 rear washer cover 1 <1>
+										1358 container
+											1359 image
+											1360 image
+											1361 text M3 rear washer cover 2 <1>
+										1362 container
+											1363 image
+											1364 image
+											1365 text M3x40 cover-extension through-bolt 4 <1>
+										1366 container
+											1367 image
+											1368 image
+											1369 text M3 rear washer cover 3 <1>
+										1370 container
+											1371 image
+											1372 image
+											1373 text M3 rear washer cover 4 <1>
+										1374 container
+											1375 image
+											1376 image
+											1377 text BOUGHT CPA-317-N metal collet and backplate - clearance envelope <1>
+										1378 container
+											1379 image
+											1380 image
+											1381 text R10 duct extension - 28 mm, four M3x40 through-bolts <1>
+										1382 container
+											1383 image
+											1384 image
+											1385 text BOUGHT CPA-317-N washer - 1.5 mm reference <1>
+										1386 container
+											1387 image
+											1388 image
+											1389 text BOUGHT M6 prop nut - AF10 reference <1>
+										1390 container
+											1391 image
+											1392 text Mate features (3)
+										1393 container
+											1394 image
+											1395 image
+											1396 text Group 1
+										1397 container
+											1398 image
+											1399 image
+											1400 text Group 2
+										1401 container
+											1402 image
+											1403 image
+											1404 text Revolute 1
+								1179 image
+								1064 container viewerdiv
+									1167 image canvas
+									1405 button
+										1406 image
+								1072 container
+									1186 image
+									1187 image
+									1188 image
+									1189 image
+									1190 image
+									1191 image
+							1407 container operation-dialog
+								1408 container
+									1409 text Animate mate
+									1410 button
+								1411 content list
+									1412 container
+										1413 text Mate DOF to animate
+										1414 content list
+											1415 container
+												1416 text ⟳ - z - Revolute 1 ×
+									1417 container
+										1418 text Start value
+										1419 text field (settable) 0 deg
+									1420 container
+										1421 text End value
+										1422 text field (settable) 360 deg
+									1423 container
+										1424 text Steps
+										1425 text field (settable) 300
+									1435 container
+										1436 text Playback type
+										1437 container Select box activate
+											1438 text Single
+										1439 pop up button Description: Select box focus, ID: focusser-3
+									1431 image
+									1432 container
+										1433 text Current value
+										1440 text field (disabled) 360 deg
+								1434 link cad.onshape.com/help/index.htm#cshid=animate_mate
+						978 container os-tab-bar
+							979 container
+								980 container
+									981 image
+									982 text Part Studio 1
+								983 container
+									984 image
+									985 text Thruster print fit
+								986 container
+									987 image
+									988 text Thruster-A2212-fit-check.step
+								989 container
+									990 image
+									991 text R10 thruster - metal collet and extended duct
+								992 container
+									993 image
+									994 text Nozzle R5 - verified manifold print mesh
+								995 container
+									996 image
+									997 text Nozzle R5 - verified manifold print mesh.stl
+								998 container
+									999 image
+									1000 text R10 parts - metal collet and duct extension
+								1001 container
+									1002 image
+									1003 text Assembly 1
+		1441 container Play, ID: tooltip994529
+			1442 text Play
+
+The focused UI element is 1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R10 thruster - metal collet and extended duct, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/19f580305ee8d4219aed16cb/e/7d8ed648695214607ccb8d84

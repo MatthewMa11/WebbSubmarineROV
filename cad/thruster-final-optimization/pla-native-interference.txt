@@ -1,0 +1,402 @@
+Browser tab: 1, Title: "Frame Structure | Thruster assembly - A2212 fit check", URL: "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553".
+0 AXWebArea Frame Structure | Thruster assembly - A2212 fit check, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			5 text Frame Structure Main
+			6 image
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			18 button (disabled) Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 container
+					33 container
+						566 container osToolbar
+							567 container
+								568 container
+									569 image
+									570 text Insert
+								571 button Search tools… alt/⌥ c
+									572 text Search tools… 
+									573 text alt/⌥
+									574 text c
+						43 container content-div
+							575 container
+								576 container assembly-tree
+									577 pop up button (collapsed) Secondary Actions: Expand
+									578 text field (settable)
+									579 button filter-flat-list-view
+										580 image
+									581 text Instances (39)
+									584 container
+										585 container
+											586 image
+											587 text Thruster assembly - A2212 fit check
+										608 container
+											609 image
+											610 image
+											611 text Nozzle - enclosed 10 mm wire hole, rounded 12 mm mounts <1>
+										612 container
+											613 image
+											614 image
+											615 text Propeller - A2212 drive keys, 18 mm M3 pattern <1>
+										616 container
+											617 image
+											618 image
+											619 text M3x8 socket propeller screw 1 <1>
+										620 container
+											621 image
+											622 image
+											623 text M3x8 socket propeller screw 2 <1>
+										624 container
+											625 image
+											626 image
+											627 text M3x8 socket propeller screw 3 <1>
+										628 container
+											629 image
+											630 image
+											631 text M3x8 socket propeller screw 4 <1>
+										632 container
+											633 image
+											634 image
+											635 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										636 container
+											637 image
+											638 image
+											639 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										640 container
+											641 image
+											642 image
+											643 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										644 container
+											645 image
+											646 image
+											647 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										648 container
+											649 image
+											650 image
+											651 text M4 hex nut AF7x3.2 - 1 <1>
+										652 container
+											653 image
+											654 image
+											655 text M4 hex nut AF7x3.2 - 2 <1>
+										656 container
+											657 image
+											658 image
+											659 text M4 hex nut AF7x3.2 - 3 <1>
+										660 container
+											661 image
+											662 image
+											663 text M4 hex nut AF7x3.2 - 4 <1>
+										664 container
+											665 image
+											666 image
+											667 text M4x12 socket mounting bolt 1 <1>
+										668 container
+											669 image
+											670 image
+											671 text M4x12 socket mounting bolt 2 <1>
+										672 container
+											673 image
+											674 image
+											675 text M4x12 socket mounting bolt 3 <1>
+										676 container
+											677 image
+											678 image
+											679 text M4x12 socket mounting bolt 4 <1>
+										680 container
+											681 image
+											682 image
+											683 text M3 captured cover nut 1 <1>
+										684 container
+											685 image
+											686 image
+											687 text M3 captured cover nut 2 <1>
+										688 container
+											689 image
+											690 image
+											691 text M3 flat washer cover 1 <1>
+										692 container
+											693 image
+											694 image
+											695 text M3 flat washer cover 2 <1>
+										696 container
+											697 image
+											698 image
+											699 text M3 flat washer motor base 1 <1>
+										700 container
+											701 image
+											702 image
+											703 text M3 flat washer motor base 3 <1>
+										704 container
+											705 image
+											706 image
+											707 text M3x8 cover retention bolt 1 <1>
+										708 container
+											709 image
+											710 image
+											711 text M3x8 cover retention bolt 3 <1>
+										712 container
+											713 image
+											714 image
+											715 text M3x8 motor-base screw 2 <1>
+										716 container
+											717 image
+											718 image
+											719 text M3x8 motor-base screw 4 <1>
+										720 container
+											721 image
+											722 image
+											723 text M3 captured cover nut 3 <1>
+										724 container
+											725 image
+											726 image
+											727 text M3 flat washer cover 3 <1>
+										728 container
+											729 image
+											730 image
+											731 text M3 flat washer motor base 2 <1>
+										732 container
+											733 image
+											734 image
+											735 text M3 flat washer motor base 4 <1>
+										736 container
+											737 image
+											738 image
+											739 text M3x8 cover retention bolt 2 <1>
+										740 container
+											741 image
+											742 image
+											743 text M3x8 motor-base screw 1 <1>
+										779 container
+											780 image
+											781 image
+											782 text M3x8 motor-base screw 3 <1>
+										783 container
+											784 image
+											785 text Mate features (3)
+										786 container
+											787 image
+											788 image
+											789 text Group 1
+										790 container
+											791 image
+											792 image
+											793 text Group 2
+										794 container
+											795 image
+											796 image
+											797 text Revolute 1
+								744 image
+								745 container viewerdiv
+									746 image canvas
+									881 button
+										882 image
+								754 container
+									755 image
+									756 image
+									757 image
+									758 image
+									759 image
+									760 image
+							274 container
+								275 image
+								276 text Thruster-A2212-PLA-complete.step
+								277 text STEP file
+								278 text File size: 3 MB
+								279 text Uploaded 10:09 pm Oct 15 2026
+								280 button Update…, ID: updateBlobButton
+								281 button Download, ID: downloadBlobButton
+							550 container
+								551 image
+								552 text Nozzle-PLA-complete.stl
+								553 text STL file
+								554 pop up button (collapsed, settable) Value: Millimeter, ID: import-units, Secondary Actions: Expand
+									555 menu
+										556 Centimeter
+										557 Foot
+										558 Inch
+										559 Meter
+										560 (selected) Millimeter
+										561 Yard
+								562 text File size: 22 MB
+								563 text Uploaded 10:12 pm Oct 15 2026
+								564 button Update…, ID: updateBlobButton
+								565 button Download, ID: downloadBlobButton
+							763 container interference-detection-dialog
+								764 container
+									765 text Interference detection
+									766 button
+								767 content list
+									800 container Instances to analyze A2212 reference rotor <1> × A2212 reference stator base <1> × Front cover - original geometry <1> × Motor insert - 23.2 mm envelope, matching M3 pilots <1> × Nozzle - enclosed 10 mm wire hole, rounded 12 mm mounts <1> × Propeller - A2212 drive keys, 18 mm M3 pattern <1> × M3x8 socket propeller screw 1 <1> × M3x8 socket propeller screw 2 <1> × M3x8 socket propeller screw 3 <1> × M3x8 socket propeller screw 4 <1> × M4 flat washer 9x4.3x0.8 - 1 <1> × M4 flat washer 9x4.3x0.8 - 2 <1> × M4 flat washer 9x4.3x0.8 - 3 <1> × M4 flat washer 9x4.3x0.8 - 4 <1> × M4 hex nut AF7x3.2 - 1 <1> × M4 hex nut AF7x3.2 - 2 <1>
+										891 container
+											892 text Instances to analyze
+											893 content list
+												894 container
+													895 text A2212 reference rotor <1> ×
+												896 container
+													897 text A2212 reference stator base <1> ×
+												898 container
+													899 text Front cover - original geometry <1> ×
+												900 container
+													901 text Motor insert - 23.2 mm envelope, matching M3 pilots <1> ×
+												902 container
+													903 text Nozzle - enclosed 10 mm wire hole, rounded 12 mm mounts <1> ×
+												904 container
+													905 text Propeller - A2212 drive keys, 18 mm M3 pattern <1> ×
+												906 container
+													907 text M3x8 socket propeller screw 1 <1> ×
+												908 container
+													909 text M3x8 socket propeller screw 2 <1> ×
+												910 container
+													911 text M3x8 socket propeller screw 3 <1> ×
+												912 container
+													913 text M3x8 socket propeller screw 4 <1> ×
+												914 container
+													915 text M4 flat washer 9x4.3x0.8 - 1 <1> ×
+												916 container
+													917 text M4 flat washer 9x4.3x0.8 - 2 <1> ×
+												918 container
+													919 text M4 flat washer 9x4.3x0.8 - 3 <1> ×
+												920 container
+													921 text M4 flat washer 9x4.3x0.8 - 4 <1> ×
+												922 container
+													923 text M4 hex nut AF7x3.2 - 1 <1> ×
+												924 container
+													925 text M4 hex nut AF7x3.2 - 2 <1> ×
+												926 container
+													927 text M4 hex nut AF7x3.2 - 3 <1> ×
+												928 container
+													929 text M4 hex nut AF7x3.2 - 4 <1> ×
+												930 container
+													931 text M4x12 socket mounting bolt 1 <1> ×
+												932 container
+													933 text M4x12 socket mounting bolt 2 <1> ×
+												934 container
+													935 text M4x12 socket mounting bolt 3 <1> ×
+												936 container
+													937 text M4x12 socket mounting bolt 4 <1> ×
+												938 container
+													939 text M3 captured cover nut 1 <1> ×
+												940 container
+													941 text M3 captured cover nut 2 <1> ×
+												942 container
+													943 text M3 flat washer cover 1 <1> ×
+												944 container
+													945 text M3 flat washer cover 2 <1> ×
+												946 container
+													947 text M3 flat washer motor base 1 <1> ×
+												948 container
+													949 text M3 flat washer motor base 3 <1> ×
+												950 container
+													951 text M3x8 cover retention bolt 1 <1> ×
+												952 container
+													953 text M3x8 cover retention bolt 3 <1> ×
+												954 container
+													955 text M3x8 motor-base screw 2 <1> ×
+												956 container
+													957 text M3x8 motor-base screw 4 <1> ×
+												958 container
+													959 text M3 captured cover nut 3 <1> ×
+												960 container
+													961 text M3 flat washer cover 3 <1> ×
+												962 container
+													963 text M3 flat washer motor base 2 <1> ×
+												964 container
+													965 text M3 flat washer motor base 4 <1> ×
+												966 container
+													967 text M3x8 cover retention bolt 2 <1> ×
+												968 container
+													969 text M3x8 motor-base screw 1 <1> ×
+												970 container
+													971 text M3x8 motor-base screw 3 <1> ×
+									770 container
+										771 checkbox (settable, integer) Description: Include standard content, Value: 0
+										772 text Include standard content
+									773 container
+										774 checkbox (settable, integer) Description: Show top level only, Value: 0
+										775 text Show top level only
+									776 container
+										777 text Interferences
+										880 content list
+											885 text M3x8 socket propeller screw 4 <1> and Motor insert - 23.2 mm envelope, matching M3 pilots <1>
+											886 text M3x8 socket propeller screw 1 <1> and Motor insert - 23.2 mm envelope, matching M3 pilots <1>
+											887 text Motor insert - 23.2 mm envelope, matching M3 pilots <1> and M3x8 socket propeller screw 2 <1>
+											888 text Motor insert - 23.2 mm envelope, matching M3 pilots <1> and M3x8 socket propeller screw 3 <1>
+								778 link cad.onshape.com/help/index.htm#cshid=interference_detection
+						221 container os-tab-bar
+							222 container
+								502 container
+									503 image
+									504 text Part Studio 1
+								505 container
+									506 image
+									507 text Part Studio 2
+								508 container
+									509 image
+									510 text A2212 corrected parts
+								511 container
+									512 image
+									513 text Nozzle-PLA-complete.stl
+								514 container
+									515 image
+									516 text Thruster assembly - A2212 fit check
+								517 container
+									518 image
+									519 text Thruster-A2212-PLA-complete.step
+								520 container
+									521 image
+									522 text T200.STEP (1)
+								523 container
+									524 image
+									525 text T200-CORE_T200-CORE-STD.STEP
+								526 container
+									527 image
+									528 text T200-ASM-STATOR-POTTED-R1B.STEP
+								529 container
+									530 image
+									531 text T200-ASM-STATOR-BASE-ORING_Pubilc .STEP
+								532 container
+									533 image
+									534 text T200-NOZZLE.STEP
+								535 container
+									536 image
+									537 text T200 parts
+								538 container
+									539 image
+									540 text Part Studio 3
+								541 container
+									542 image
+									543 text Assembly 1
+								544 container
+									545 image
+									546 text CAD 导入
+								547 container
+									548 image
+									549 text Thruster print fit
+		889 container M3x8 motor-base screw 3 <1>, ID: tooltip955023
+			890 text M3x8 motor-base screw 3 <1>
+
+The focused UI element is 800 container Instances to analyze A2212 reference rotor <1> × A2212 reference stator base <1> × Front cover - original geometry <1> × Motor insert - 23.2 mm envelope, matching M3 pilots <1> × Nozzle - enclosed 10 mm wire hole, rounded 12 mm mounts <1> × Propeller - A2212 drive keys, 18 mm M3 pattern <1> × M3x8 socket propeller screw 1 <1> × M3x8 socket propeller screw 2 <1> × M3x8 socket propeller screw 3 <1> × M3x8 socket propeller screw 4 <1> × M4 flat washer 9x4.3x0.8 - 1 <1> × M4 flat washer 9x4.3x0.8 - 2 <1> × M4 flat washer 9x4.3x0.8 - 3 <1> × M4 flat washer 9x4.3x0.8 - 4 <1> × M4 hex nut AF7x3.2 - 1 <1> × M4 hex nut AF7x3.2 - 2 <1>

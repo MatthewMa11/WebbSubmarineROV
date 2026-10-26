@@ -1,0 +1,100 @@
+[
+  {
+    "check": "native assembly keeps six mechanical bodies and forty fasteners",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "cover geometry and position unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "propeller geometry and position unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 3.141030902042985e-08,
+      "area_delta_mm2": 4.025241651106626e-08,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "insert geometry and position unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and position unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and position unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "all forty hardware geometries and positions unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "wire holder material removed from the nozzle",
+    "passed": true,
+    "detail": {
+      "removed_material_mm3": 6023.687470580422
+    }
+  },
+  {
+    "check": "nozzle outside the holder ring and added posts is unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 6.5338099375367165e-09,
+      "area_delta_mm2": 0.0013780151712126099
+    }
+  },
+  {
+    "check": "continuous propeller rotation envelope retains clearance",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.449484762212245,
+        "cover": 0.9999000000000002,
+        "stator": 2.9999
+      }
+    }
+  },
+  {
+    "check": "nozzle STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 507342
+    }
+  },
+  {
+    "check": "rear wire-holder ring is absent through every angle",
+    "passed": true,
+    "detail": {
+      "obstructed_probes": 0,
+      "probe_count": 6480
+    }
+  }
+]

@@ -1,0 +1,66 @@
+R7 EXTERNAL COLLAR THRUSTER - PROTOTYPE
+
+Purpose
+The four original solid drive keys match the reference rotor's four openings.
+They transmit torque. The split sleeve and threaded collar grip the outside of
+the rotating motor bell to resist axial separation. The jam ring is tightened
+against the collar to resist the collar backing off. There is no internal
+spacer and no external clamp bolt, nut, or washer in this attachment.
+
+This is a new attachment method. It does not use the old four propeller screws.
+The frame, cap, motor-base screws and stationary mounting hardware are retained.
+
+Print and test the small sleeve coupon plus collar and jam ring first, on the
+same P1S, PLA Basic, orientation, layer height and extrusion settings intended
+for the full part. Print at 100% scale in millimetres. Thread axis should be
+vertical; keep support material off the threads and clean the lead-ins. Start
+with 0.16 mm layers and at least five walls. Confirm in the slicer that the
+thread crests and collet fingers have continuous extrusion paths. Do not use
+scaling to correct a tight thread because it changes the motor pattern too.
+The new files in the print folder have the axis vertical and their base at
+Z=0. The fan has its broad front hub face down. The test coupon has a shorter
+connecting back ring and tests thread/bore fit only; its flex and grip strength
+do not represent the full fan. Do not install the coupon in the thruster.
+
+Assembly
+1. With the motor unpowered and outside the frame, confirm the bare motor
+   rotates freely. Leave it outside while fitting and locking the fan so both
+   rings are accessible.
+2. From the smaller, free rear end of the propeller sleeve, thread on the main
+   collar FIRST and advance it toward the blades. Then thread on the thin jam
+   ring so it sits behind the collar. The rings cannot pass one another. Keep
+   both loose while fitting the fan over the bell.
+3. Seat all four drive keys evenly in the reference rotor openings. The fan
+   must sit squarely and fully against its locating interface. The keys are
+   not screw threads; do not force screws into them or reinstall the spacer.
+4. Hand-tighten the main collar until the sleeve grips the bell and the fan
+   cannot be pulled off or rocked. Hold the collar and counter-tighten the
+   jam ring against it. Do not drive the collar hard against its travel stop.
+   If the fan still slips or rocks, stop and correct the fit; more force may
+   crack the printed sleeve or distort the motor bell.
+5. With the front cap removed, insert the locked motor/fan unit through the
+   front opening and seat the motor base in the existing centering cup. Install
+   the four motor-base screws through the rear access pockets and tighten them
+   evenly without bottoming in the motor. Fit the unchanged cap and its existing
+   through-bolts. Route wires away from all rotating parts. Turn the fan through
+   several full revolutions by hand and check every blade tip, not one angle.
+
+Physical acceptance before powered operation
+The printed fit, actual bell diameter, PLA creep, pull-off force, motor heating,
+balance, fatigue and operating speed have not been measured or certified by
+CAD. Reject the print if it cracks, rubs, has rough or distorted blades, or
+loses its grip. Check axial pull and rotational slip by hand on the real motor,
+mark the two rings to observe loosening, and reassess after initial testing.
+A clear CAD assembly is not a guarantee of a secure physical joint or thrust.
+
+STEP limitation: two tiny blade-tip sliver faces in the propeller and the
+cap/nozzle import-validity flags are inherited from the unchanged baseline.
+The new sleeve faces and both rings pass the local B-rep checks, and delivered
+STLs are closed manifold meshes. The complete legacy STEP is not advertised as
+globally kernel-valid.
+
+Nozzle-R6p1-flat-motor-boss.stl and Front-cap-R4-unchanged.stl are existing parts;
+if you already have them, the R7 coupling itself does not require reprinting
+those two parts. The small sleeve coupon is a test piece, not an assembly part.
+The existing-parts-unchanged subfolder contains the original frame/cap meshes
+with their original orientation; use the successful settings from your print.

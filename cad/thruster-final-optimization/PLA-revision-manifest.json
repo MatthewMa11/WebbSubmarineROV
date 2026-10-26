@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "printer": "Bambu Lab P1S",
+  "material": "PLA Basic",
+  "cad_checks_passed": 35,
+  "cad_checks_total": 35,
+  "native_assembly_solids": 39,
+  "modeled_screws": 15,
+  "added_hardware_solids": 17,
+  "native_rotation_degrees": 360,
+  "native_interference_pairs": [
+    "885 text M3x8 socket propeller screw 4 <1> and Motor insert - 23.2 mm envelope, matching M3 pilots <1>",
+    "886 text M3x8 socket propeller screw 1 <1> and Motor insert - 23.2 mm envelope, matching M3 pilots <1>",
+    "887 text Motor insert - 23.2 mm envelope, matching M3 pilots <1> and M3x8 socket propeller screw 2 <1>",
+    "888 text Motor insert - 23.2 mm envelope, matching M3 pilots <1> and M3x8 socket propeller screw 3 <1>"
+  ],
+  "unintended_interference_pairs": 0,
+  "closed_print_meshes": 10,
+  "full_part_meshes": 4,
+  "fit_test_meshes": 6,
+  "gray_cover_geometry_changed": false,
+  "physical_validation": "NOT TESTED",
+  "files": {
+    "full-print-parts\\Front-cover-original-final-audit.stl": "4d7a4fbb6d5754e11af8d019e4b9f6f530618648694adb82dabc6a2ed07f0d29",
+    "full-print-parts\\Motor-insert-M3-pilots.stl": "5bf25d36a8f80fc6601aa9b737782f6b5b6ec38c1fdd317e99ed46717062e2a3",
+    "full-print-parts\\Nozzle-PLA-complete.stl": "e37c22e567c41bfd557e90088a37030df841d8b07a28dac8f2b85db759b0a2e5",
+    "full-print-parts\\Propeller-M3x8-socket-head.stl": "38afc1fde807c7e11dca6d7f20db6a52b67c6cb8aea5dc9a1ce357d128c9df52",
+    "fit-check-first\\A-motor-guide-drive-keys.stl": "3bc087febbb5d4d8c7705793b8b11fdab55b6b2bba3377814f044261e117811c",
+    "fit-check-first\\B-motor-insert.stl": "545123c6c037d418c9c5ca4668166e2d4f4df97e55c3b85fbc03884d4117ade8",
+    "fit-check-first\\C-M4-mount-pad.stl": "eae73415400fcedf6df90cc0abaf0caba27673da733b88274136fc262659f5a8",
+    "fit-check-first\\D-shaft-bore-3p5mm.stl": "2e6ff46001cba94cf7c9df099e1e0cd683895b75cad5ee92f1b2f58a1db4a284",
+    "fit-check-first\\E-cover-captive-nut-seat.stl": "dd1858ead76cb14a7c79a27fa4b3e18be7ae33ac4569d2f0cf53592467a87efb",
+    "fit-check-first\\F-motor-base-washer-seats.stl": "770aadb2f71052d111fa79143a1a58720248814a41f8972242b9806f53d2f6fd"
+  }
+}

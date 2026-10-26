@@ -1,0 +1,88 @@
+R11 - ACTUAL ONSHAPE MOTOR AND METAL ADAPTER
+
+Use this R11 fan with the actual adapter represented in your Motor document.
+It supersedes R10's generic CPA-317-N / 6 mm-stud design. Do not mix their fans.
+The metal motor, collet/threaded shaft, collar and bullet nut are native linked
+copies from your saved Onshape source. They are not printed parts and have not
+been resized, rebuilt or simplified. Use a physical adapter matching this CAD;
+a different commercially sold A2212 adapter may have different dimensions.
+
+What remains unchanged
+The R6.1 frame, R4 cap and existing 28 mm duct extension retain their geometry
+and assembly positions. No internal motor spacer, printed shaft clamp,
+printed compression collar or jam ring has returned. The optional cross
+mounting plate is unused because the existing frame already mounts the motor;
+installing that plate in this layout would collide with the frame. Source
+straight wire solids are omitted; route the flexible real wires through the
+existing rear openings and keep them out of all rotating parts.
+
+Fan fit
+The stud clearance bore is 5.1 mm diameter, with a 6.2 mm diameter x 0.35 mm
+rear shoulder relief. The flat hub is 7.14506 mm thick, matching the collar-to-
+bullet-nut gap in your source assembly. The actual thread envelope is about
+4.83 mm diameter. This is a clearance bore, not a printed thread. The collar's
+broad flat flange faces the fan; its narrower tapered sleeve faces the motor.
+The bullet nut's flat base faces the fan and its rounded nose faces forward.
+The nut and collar clamp the hub while the collet grips the motor shaft.
+
+PRINT folder - millimetres, 100% scale
+1. TEST-FIRST-R11-5p1-bore.stl: the exact central hub section, print first.
+2. Fan-R11-actual-adapter.stl: revised fan, relieved rear hub face down.
+3. Duct-extension-R10-28mm.stl: same extension as R10; reuse if already printed.
+4. OPTIONAL-unchanged-frame-cap: unchanged existing frame and cap, optional.
+Only these polymer parts are supplied as printable STL files. Source metal
+CAD remains in the Onshape assembly and reference STEP, not in PRINT.
+
+Fit check before the full fan
+Use the actual motor and complete matching metal adapter. The test hub must
+slide onto the stud, clear the shoulder, and sit flat between the collar and
+bullet nut without rocking. Confirm full collet engagement on the real shaft,
+and full nut engagement. The adapter's real seating position must match the
+Onshape layout; do not partially engage the shaft to obtain cap clearance.
+Printer variation, shaft variants and a different adapter need a physical
+fit check even when their product names are the same.
+
+Assembly, power disconnected and cap/extension removed
+1. Assemble the actual metal collet and collar on the motor shaft in the same
+   orientation as the linked CAD. Follow the adapter maker's tightening and
+   engagement instructions. It must clear the stationary motor body.
+2. Slide the fan onto the stud, with its larger shallow bore relief facing
+   the motor/collar. Seat it flat on the broad collar flange.
+3. Screw on the matching bullet nut, flat base toward the fan. Hold the metal
+   bell/adapter rather than the blades while tightening. Do not crush the PLA.
+   Check that the fan cannot twist independently or pull off by hand.
+4. Fit the motor/fan assembly into the frame from the front and route wires
+   through the existing rear openings. Install all four M3x8 motor-base bolts
+   with TWO 0.5 mm M3 washers beneath EACH head (eight washers total). This
+   avoids bottoming in the actual source model's shallow blind holes. The CAD
+   gives 2 mm nominal engagement and 0.3876 mm blind-bottom margin; check real
+   screws, washers and motor holes before tightening. Tighten evenly.
+5. Install the four captive cover nuts and rear washers. Fit the unchanged
+   28 mm extension and cap; use the four M3x40 cover bolts with front washers.
+   M3x40 bolts are longer than the photographed 6-20 mm assortment. Reuse the
+   four M4 corner mounting bolt/washer/nut sets where mounting the thruster.
+6. Turn by hand through several complete revolutions. Check every blade tip,
+   bell, stud, nut and wire. There must be no rubbing or axial looseness.
+7. Qualify with a restrained, brief low-speed run; check balance and retention
+   again, including the intended direction or reversal. No powered test has
+   been performed here. CAD does not guarantee collet grip, PLA creep, thrust,
+   dynamic balance or water sealing.
+
+Bambu P1S / PLA Basic starting settings
+0.4 mm nozzle, 0.16 mm layers, 5 walls, 6 top/bottom layers; solid hub and bolt
+bosses. Inspect blade undersides in the slicer and support where necessary.
+Keep supports out of the stud bore. Remove all support residue, especially
+from tips and duct surfaces. Do not scale the whole fan to fix a hole.
+
+Verification evidence
+48 modeled solids; fixed group44 and rotating group4. The original motor is
+one fused imported CAD reference, so the fan/adapter revolute demonstrates
+shaft-axis motion without pretending the source contains a separate rotor.
+Four actual source bodies preserve volume, surface area and face fingerprints
+under the measured rigid poses. Frame/cap/extension preservation, planar hub
+contact, thread/shoulder clearance, base screw alignment/depth and continuous
+360-degree rotation envelope are checked independently of the native display.
+Native printed-structure interference analysis returns No interferences.
+Pre-existing collet grip/thread contacts in the actual source remain present
+and are recorded in source-contact-report.json; they are not blade collisions.
+The STL meshes are closed, manifold, one connected part each and sized in mm.

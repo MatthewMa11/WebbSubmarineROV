@@ -1,0 +1,82 @@
+R12 - ONE-PIECE FRAME AND OUTER DUCT
+
+The former gray frame and blue 28mm outer duct are now one connected printed
+housing. A continuous internal seam web replaces their mating clearance; it
+adds about2,512mm3 of material outside the rotating envelope. The housing has
+one CAD body and one closed connected print mesh. Installed outside dimensions
+remain unchanged. Do not install the old frame or separate extension with it.
+The fan stays separate so it can spin; the gold cap remains removable for access.
+Actual motor, collet, collar, bullet nut and all40 fastener bodies retain their
+R11 geometry and placement. No printed spacer or clamp has been reintroduced.
+
+PRINT folder - millimetres,100% scale
+- Housing-R12-one-piece.stl: NEW, replaces BOTH old frame and outer extension.
+  Oriented with the rear flat central motor boss down; footprint101.591mm
+  square, height77mm. The outer shell/spokes start above the plate and need
+  supports beneath overhanging areas. Inspect in Bambu Studio before printing.
+- Fan-R11-actual-adapter.stl: exact unchanged R11 fan. Reuse an existing R11 fan.
+- Cap-R4-UNCHANGED.stl: exact unchanged cap. Reuse it if already printed.
+- TEST-FIRST-R11-5p1-bore.stl: unchanged adapter fit-check hub; print this first
+  if the matching metal adapter has not yet passed a physical fit check.
+There is no separate duct-extension STL or old-frame STL in this kit.
+
+P1S / PLA Basic starting setup
+0.4mm nozzle,0.16mm layers,5 walls,6 top/bottom layers; solid motor/bolt bosses.
+Use a brim if needed and support the floating outer rim, struts and other
+undersides from the build plate. Keep supports out of through-holes where
+possible. Remove all support residue from the motor seat, duct bore and bolt
+seats. Do not scale the housing or fan to correct a hole. The larger single
+print removes the alignment joint but requires more support planning.
+
+Hardware stays the R11 hardware
+Four M3x8 motor-base bolts with TWO0.5mm M3 washers per head. Four M3x40 cap
+through-bolts, four front washers, four rear washers and four captured M3 nuts.
+The long M3x40 screws were already required by R11; the photographed6-20mm
+assortment does not contain them. Four M4 corner bolt/washer/nut sets remain
+for attaching the complete thruster to its external mount.
+
+Assembly, power disconnected
+1. Prepare the matching actual metal motor/adapter and R11 fan on the bench.
+   Put the collar's broad flange toward the fan, with its narrow tapered sleeve
+   toward the motor. Fit the fan's6.2mm shallow rear recess toward the collar.
+   Its5.1mm through-bore slides over the source adapter's roughly4.83mm stud.
+   Install the bullet nut flat base against the hub and nose pointing forward.
+   Follow the adapter maker's grip/engagement instructions; hold the metal bell
+   rather than the blades while tightening. Check slip/pull-off by hand.
+2. With the gold cap off, insert the motor/fan through the new housing's front
+   opening. The former extension is already integral, so no seam alignment or
+   separate extension installation is needed. Route the real flexible wires
+   through the unchanged rear openings, away from all rotating parts.
+3. Secure the motor base with all four M3x8 bolts and two washers under EACH
+   head. Tighten evenly. R11's2mm nominal engagement and0.3876mm modeled blind-
+   bottom margin remain unchanged; confirm real screws/holes before tightening.
+4. Put the captured cap nuts and rear washers in their existing seats before
+   closing. Position the unchanged cap and insert the four M3x40 bolts with
+   front washers through the cap and one-piece housing. Tighten in a cross
+   pattern. The original fastener paths and clearance pockets remain open.
+5. Turn several complete revolutions by hand. Inspect every tip, motor bell,
+   collet/nut, wire and surface for rubbing and axial play. The fan must not
+   slip independently on the adapter. Recheck after a restrained low-speed run.
+
+Verification and limits
+R12 contains47 solids: fixed43, rotating4 (fan and three adapter pieces).
+All other46 bodies match R11 geometry/poses. Independent full-turn housing
+clearance is3.23mm; no housing overlap with fan, cap, motor or40 fasteners was
+found. Native printed-structure interference analysis is clear and the native
+0..360-degree revolute animation remains available. A conservative continuous
+axial insertion corridor also contains all five motor/fan/adapter bodies and
+clears the housing plus20 retained fasteners with the cap and installation
+fasteners removed. Existing collet/thread
+contacts remain as documented in R11; they are not blade-clearance defects.
+
+The housing STL is closed, manifold and one connected component. Export
+cleanup excludes only two microscopic four-triangle fragments, total volume
+3.1e-8mm3, with no resampling of the functional surface. Original frame/duct
+surface samples away from the intentionally replaced joint agree within0.02mm.
+The inherited imported frame/cap STEP representations have pre-existing
+cross-reader topology faults, so this kit supplies the native Onshape link and
+verified print STLs, not a certified interchange STEP model.
+
+CAD clearance and a good mesh do not test physical collet grip, printed
+strength, PLA creep, balance, thrust, reversal performance or water sealing.
+Keep the motor and adapter fit/retention qualification from R11.

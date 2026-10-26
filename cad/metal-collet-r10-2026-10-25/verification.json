@@ -1,0 +1,298 @@
+[
+  {
+    "check": "45 assembly solids, printed clamp removed",
+    "passed": true,
+    "detail": {
+      "total": 45
+    }
+  },
+  {
+    "check": "unchanged cap translated forward by 28 mm",
+    "passed": true,
+    "detail": {
+      "cap_candidates": 1
+    }
+  },
+  {
+    "check": "separate 28 mm duct extension",
+    "passed": true,
+    "detail": {
+      "extension_candidates": 1
+    }
+  },
+  {
+    "check": "nine modeled bodies and thirty-six stationary fasteners",
+    "passed": true,
+    "detail": {
+      "parts": [
+        "cap",
+        "extension",
+        "fan",
+        "stator",
+        "rotor",
+        "adapter",
+        "frame",
+        "washer",
+        "nut"
+      ],
+      "hardware": 36
+    }
+  },
+  {
+    "check": "frame preserves all face fingerprints at required placement",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 2.473825588822365e-10,
+      "area_delta_mm2": 2.9103830456733704e-11,
+      "bounds_delta_mm": 0.0,
+      "face_count": 679,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "frame preservation check detects a 0.1 mm placement error",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "rotor preserves all face fingerprints at required placement",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0,
+      "face_count": 20,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "rotor preservation check detects a 0.1 mm placement error",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "stator preserves all face fingerprints at required placement",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0,
+      "face_count": 22,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "stator preservation check detects a 0.1 mm placement error",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "cap preserves all face fingerprints at required placement",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 9.458744898438454e-11,
+      "area_delta_mm2": 6.366462912410498e-12,
+      "bounds_delta_mm": 9.947598300641403e-14,
+      "face_count": 81,
+      "face_fingerprints_match": true
+    }
+  },
+  {
+    "check": "cap preservation check detects a 0.1 mm placement error",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "fan and extension B-rep valid",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "6.2 mm axial prop bore and 6.5 mm flat hub",
+    "passed": true,
+    "detail": {
+      "bore_surface_bounds": [
+        [
+          [
+            -3.1000001,
+            24.549999899999996,
+            -3.1000001
+          ],
+          [
+            3.1000001,
+            30.550000100000002,
+            3.1000001
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "check": "fan clears M6 stud with 0.1 mm radial nominal allowance",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "hub thickness below published 10.5 mm maximum",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "no printed spacer in motor interior",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "no old rotor vent drive keys or printed shaft clamp",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all new parts have zero nominal assembly penetration",
+    "passed": true,
+    "detail": {
+      "clashes_mm3": []
+    }
+  },
+  {
+    "check": "continuous full-turn envelope contains all new rotating geometry",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": {
+        "fan": 0.0,
+        "adapter": 0.0,
+        "washer": 0.0,
+        "nut": 0.0,
+        "fan at +3mm": 0.0,
+        "adapter at +3mm": 0.0,
+        "washer at +3mm": 0.0,
+        "nut at +3mm": 0.0
+      }
+    }
+  },
+  {
+    "check": "full-turn envelope clears fixed structure",
+    "passed": true,
+    "detail": {
+      "clearance_mm": {
+        "frame": 3.5729396637622086,
+        "cap": 3.6299999999999955,
+        "stator": 22.59233940963175,
+        "extension": 3.229999999999997
+      }
+    }
+  },
+  {
+    "check": "full-turn envelope clears all stationary fasteners",
+    "passed": true,
+    "detail": {
+      "minimum_mm": 7.43
+    }
+  },
+  {
+    "check": "four M3x40 cover bolts retain original tip plane",
+    "passed": true,
+    "detail": {
+      "count": 4,
+      "bounds": [
+        [
+          [
+            41.659999899999995,
+            12.4999999,
+            -2.8400000999999997
+          ],
+          [
+            47.340000100000005,
+            55.5000001,
+            2.8400000999999997
+          ]
+        ],
+        [
+          [
+            -47.340000100000005,
+            12.4999999,
+            -2.8400000999999997
+          ],
+          [
+            -41.659999899999995,
+            55.5000001,
+            2.8400000999999997
+          ]
+        ],
+        [
+          [
+            -2.8400000999999997,
+            12.4999999,
+            41.659999899999995
+          ],
+          [
+            2.8400000999999997,
+            55.5000001,
+            47.340000100000005
+          ]
+        ],
+        [
+          [
+            -2.8400000999999997,
+            12.4999999,
+            -47.340000100000005
+          ],
+          [
+            2.8400000999999997,
+            55.5000001,
+            -41.659999899999995
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "check": "all extension M3 through-bores are clear",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "new extension has print relief for 0.2 mm lateral variation",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "cover bolt shafts span full 2.4 mm captive-nut thread",
+    "passed": true,
+    "detail": {}
+  }
+]

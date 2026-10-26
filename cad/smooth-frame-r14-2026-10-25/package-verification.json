@@ -1,0 +1,16 @@
+{
+  "file": "R14-Smooth-Frame-Print-Kit.zip",
+  "bytes": 13526821,
+  "entries": 24,
+  "crc_valid": true,
+  "all_entries_match_verified_sources": true,
+  "print_files": [
+    "Housing-R14-smooth-frame.stl",
+    "Cone-R13-concave.stl",
+    "TEST-FIRST/Joint-Housing-R14.stl",
+    "TEST-FIRST/Joint-Cone-R13.stl",
+    "Fan-R11-actual-adapter.stl",
+    "TEST-FIRST-R11-5p1-bore.stl"
+  ],
+  "sha256": "f26497122d734f83af8dbbd34d58e356b7b87de6fcc95017674709b3de2eae7e"
+}

@@ -1,0 +1,261 @@
+Browser tab: 5, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84".
+0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84
+	1 container
+		2 image
+		3 container
+			4 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			5 text A2212 R8 - M3 axle-clamp fan - separate design R13 - concave cone and short-bolt joints
+			6 image
+			35 text M
+			7 button Explore Onshape
+				8 image
+				9 text Explore Onshape
+			10 button Description: Notifications, ID: user-notification-status
+				11 container
+					12 image
+					13 container 9+ unread notifications
+						14 text 9+
+			15 link Navigates you to Action items page in a new window.
+			16 link Navigates you to Onshape app store in a new window.
+			17 link Navigates you to Onshape Learning Center in a new window.
+			18 button Share
+			19 container Help menu
+			20 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				21 text Matthew Ma
+		22 container model-body
+			23 container
+				24 image
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 container
+					33 container
+						36 container osToolbar
+							37 container
+								38 container
+									39 image
+									40 text Insert
+								41 button Search tools… alt/⌥ c
+									42 text Search tools… 
+									43 text alt/⌥
+									44 text c
+						34 container content-div
+							45 container
+								46 container assembly-tree
+									47 pop up button (collapsed) Secondary Actions: Expand
+									48 text field (settable)
+									49 button filter-flat-list-view
+										50 image
+									51 text Instances (47)
+									54 container
+										55 container
+											56 image
+											57 text R13 thruster - concave cone and M3x12 joints
+										142 container
+											143 image
+											144 image
+											145 text M3 flat washer motor base 3 <1>
+										146 container
+											147 image
+											148 image
+											149 text R13 M3x12 cone bolt 1 <1>
+										150 container
+											151 image
+											152 image
+											153 text R13 M3x12 cone bolt 3 <1>
+										154 container
+											155 image
+											156 image
+											157 text M3x8 motor-base screw 2 <1>
+										158 container
+											159 image
+											160 image
+											161 text M3x8 motor-base screw 4 <1>
+										162 container
+											163 image
+											164 image
+											165 text M3 captured cover nut 3 <1>
+										166 container
+											167 image
+											168 image
+											169 text M3 front washer cover 3 <1>
+										170 container
+											171 image
+											172 image
+											173 text M3 flat washer motor base 2 <1>
+										174 container
+											175 image
+											176 image
+											177 text M3 flat washer motor base 4 <1>
+										178 container
+											179 image
+											180 image
+											181 text R13 M3x12 cone bolt 2 <1>
+										241 container
+											242 image
+											243 image
+											244 text M3x8 motor-base screw 1 <1>
+										245 container
+											246 image
+											247 image
+											248 text M3x8 motor-base screw 3 <1>
+										249 container
+											250 image
+											251 image
+											252 text M3 captured cover nut 4 <1>
+										253 container
+											254 image
+											255 image
+											256 text M3 front washer cover 4 <1>
+										257 container
+											258 image
+											259 image
+											260 text M3 rear washer cover 1 <1>
+										261 container
+											262 image
+											263 image
+											264 text M3 rear washer cover 2 <1>
+										265 container
+											266 image
+											267 image
+											268 text R13 M3x12 cone bolt 4 <1>
+										269 container
+											270 image
+											271 image
+											272 text M3 rear washer cover 3 <1>
+										273 container
+											274 image
+											275 image
+											276 text M3 rear washer cover 4 <1>
+										277 container
+											278 image
+											279 image
+											280 text M3 second motor-base washer 1 (R11) <1>
+										281 container
+											282 image
+											283 image
+											284 text M3 second motor-base washer 2 (R11) <1>
+										285 container
+											286 image
+											287 image
+											288 text M3 second motor-base washer 3 (R11) <1>
+										289 container
+											290 image
+											291 image
+											292 text M3 second motor-base washer 4 (R11) <1>
+										293 container
+											294 image
+											295 image
+											296 text ACTUAL A2212 motor - original fused CAD reference <1>
+										297 container
+											298 image
+											299 image
+											300 text ACTUAL motor bullet nut - Motor source <1>
+										301 container
+											302 image
+											303 image
+											304 text ACTUAL motor collet thread - Motor source <1>
+										305 container
+											306 image
+											307 image
+											308 text ACTUAL motor prop collar - Motor source <1>
+										309 container
+											310 image
+											311 text Mate features (3)
+										312 container
+											313 image
+											314 image
+											315 text Group 1
+										316 container
+											317 image
+											318 image
+											319 text Group 2
+										320 container
+											321 image
+											322 image
+											323 text Revolute 1
+								182 image
+								183 container viewerdiv
+									184 image canvas
+									324 button
+										325 image
+								192 container
+									193 image
+									194 image
+									195 image
+									196 image
+									197 image
+									198 image
+							326 container operation-dialog
+								327 container
+									328 text Animate mate
+									329 button
+								330 content list
+									331 container
+										332 text Mate DOF to animate
+										333 content list
+											334 container
+												335 text ⟳ - z - Revolute 1 ×
+									336 container
+										337 text Start value
+										338 text field (settable) 0 deg
+									339 container
+										340 text End value
+										341 text field (settable) 360 deg
+									342 container
+										343 text Steps
+										344 text field (settable) 300
+									345 container
+										346 text Playback type
+										347 container Select box activate
+											348 text Reciprocate
+										349 pop up button Description: Select box focus, ID: focusser-1
+									350 image
+									351 container
+										352 text Current value
+										354 text field (disabled) 294 deg
+								353 link cad.onshape.com/help/index.htm#cshid=animate_mate
+						199 container os-tab-bar
+							200 container
+								201 container
+									202 image
+									203 text Part Studio 1
+								204 container
+									205 image
+									206 text Thruster print fit
+								207 container
+									208 image
+									209 text Thruster-A2212-fit-check.step
+								210 container
+									211 image
+									212 text R13 thruster - concave cone and M3x12 joints
+									213 text M
+								214 container
+									215 image
+									216 text R11-actual-Motor-source-stage
+								217 container
+									218 image
+									219 text Nozzle R5 - verified manifold print mesh
+								220 container
+									221 image
+									222 text Nozzle R5 - verified manifold print mesh.stl
+								223 container
+									224 image
+									225 text R13 parts - concave cone and short-bolt joints
+								226 container
+									227 image
+									228 text R11 native Motor source - linked originals
+								229 container
+									230 image
+									231 text Assembly 1
+								232 container
+									233 image
+									234 text CAD Imports
+		355 container Play, ID: tooltip519698
+			356 text Play
+
+The focused UI element is 0 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R13 thruster - concave cone and M3x12 joints, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/9692a2577c76c0b80fbde875/e/7d8ed648695214607ccb8d84

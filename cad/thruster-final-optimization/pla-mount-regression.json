@@ -1,0 +1,229 @@
+{
+  "file": "cad/thruster-final-optimization/Thruster-A2212-PLA-complete.step",
+  "checks": [
+    {
+      "check": "0 degree pad: eight 4.5 mm clearance holes are open",
+      "pass": true,
+      "details": {
+        "obstruction_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "0 degree pad: four M4 nuts fit their pockets",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "0 degree pad: four M4x12 corner bolt shafts fit",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "0 degree pad: flat bracket support is present",
+      "pass": true,
+      "details": {
+        "material_fraction": 1.0
+      }
+    },
+    {
+      "check": "90 degree pad: eight 4.5 mm clearance holes are open",
+      "pass": true,
+      "details": {
+        "obstruction_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "90 degree pad: four M4 nuts fit their pockets",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "90 degree pad: four M4x12 corner bolt shafts fit",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "90 degree pad: flat bracket support is present",
+      "pass": true,
+      "details": {
+        "material_fraction": 1.0
+      }
+    },
+    {
+      "check": "180 degree pad: eight 4.5 mm clearance holes are open",
+      "pass": true,
+      "details": {
+        "obstruction_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "180 degree pad: four M4 nuts fit their pockets",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "180 degree pad: four M4x12 corner bolt shafts fit",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "180 degree pad: flat bracket support is present",
+      "pass": true,
+      "details": {
+        "material_fraction": 1.0
+      }
+    },
+    {
+      "check": "270 degree pad: eight 4.5 mm clearance holes are open",
+      "pass": true,
+      "details": {
+        "obstruction_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "270 degree pad: four M4 nuts fit their pockets",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "270 degree pad: four M4x12 corner bolt shafts fit",
+      "pass": true,
+      "details": {
+        "overlap_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "270 degree pad: flat bracket support is present",
+      "pass": true,
+      "details": {
+        "material_fraction": 1.0
+      }
+    },
+    {
+      "check": "all sixteen potential corner bolt and nut positions clear the full propeller sweep",
+      "pass": true,
+      "details": {
+        "minimum_clearance_mm": 2.9956315706615047
+      }
+    },
+    {
+      "check": "all sixteen potential corner nuts clear one another",
+      "pass": true,
+      "details": {
+        "minimum_clearance_mm": 1.9170962313452389
+      }
+    },
+    {
+      "check": "four outer mounting faces are equally spaced from the motor axis",
+      "pass": true,
+      "details": {
+        "bounds_mm": [
+          [
+            -50.79554340972901,
+            -41.025000135679,
+            -50.79554340972901
+          ],
+          [
+            50.79554340972901,
+            26.5000001,
+            50.79554340972901
+          ]
+        ]
+      }
+    }
+  ],
+  "mounts": 4,
+  "holes_per_mount": 8,
+  "simultaneous_corner_bolts_per_pad": 4,
+  "native_assembly_bolts": "four M4 bolts on the original pad; other three pads provide alternate mounting options"
+}

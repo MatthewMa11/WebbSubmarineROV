@@ -1,0 +1,8 @@
+Revision,Check,Status,Evidence_or_next_step
+Original print,Blade rub,FAILED,User video and photos supplied 17 October 2026
+Original print,Spacer insertion,FAILED,User reports rough tight insertion into motor
+R2,Spacer slips in fully and sits level,NOT TESTED,Print the 22.6 mm spacer first
+R2,All four motor-base screws seat evenly,NOT TESTED,Check actual motor thread depth and use washers
+R2,Propeller is level and hand-spins freely,NOT TESTED,Several full turns without and with gray cover
+R2,Wires stay clear of rotating parts,NOT TESTED,Route through rear annular window and secure cable
+R2,Low-power restrained water test,NOT TESTED,Check vibration current rub and loosening

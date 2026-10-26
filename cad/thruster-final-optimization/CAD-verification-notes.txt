@@ -1,0 +1,31 @@
+CAD qualification scope - 15 October 2026
+
+The approved revision preserves the gray cover, propeller, insert and motor
+reference exactly. Only localized nozzle screw access/retention features and
+17 added hardware solids changed. Both the actual native exported positions
+and independent conservative hardware envelopes were checked.
+
+39 solids yield 741 possible pairs. The only positive overlaps are the four
+modeled M3 major-diameter shafts in the printed insert's 2.6 mm thread pilots.
+Helical threads and their strength are not modeled. Native Onshape interference
+detection independently reports the same four pairs and no others.
+
+Continuous coaxial enclosing volumes contain the seven moving bodies and are
+clear of all stationary bodies. This covers angles between animation frames.
+The front portion uses a tighter axial envelope so clearance of the cover
+retention nuts and pins is established without assuming the whole 19 mm-deep
+propeller is a solid disk at every radius. A native 360-degree animation passed.
+
+The inherited original nozzle/cover toroidal end-cap surfaces may trigger
+boundary warnings when STEP is imported into OCCT. Native geometry was not
+changed to satisfy that second kernel. Native Onshape regeneration and every
+delivered STL's independent closed-edge/orientation tests pass.
+
+Fit pieces A/B/C are full-scale crops of the native printable meshes. D/E/F are
+explicit nominal gauges copying the relevant bore, nut-pocket and motor-base
+seat dimensions; they omit the curved outer shell and are not replacement parts.
+They are not an FEA test, a balancing test or a guarantee of printer accuracy.
+
+Physical fit, winding clearance, actual motor variants, shaft runout, print
+strength, fastener loosening, water performance and durability remain untested.
+See physical-fit-record.csv: every physical check is correctly marked NOT TESTED.

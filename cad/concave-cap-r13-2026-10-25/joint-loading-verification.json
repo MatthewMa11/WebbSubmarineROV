@@ -1,0 +1,40 @@
+{
+  "check": "continuous outward swept nut and washer loading paths",
+  "passed": true,
+  "cap_and_cover_bolts_removed": true,
+  "radial_stroke_mm": 20,
+  "joints": [
+    {
+      "joint": 1,
+      "passed": true,
+      "conflicts": [],
+      "nut_gauge_AF_mm": 5.7,
+      "washer_gauge_OD_mm": 7.2,
+      "loading_stack_offset_y_mm": -0.25
+    },
+    {
+      "joint": 2,
+      "passed": true,
+      "conflicts": [],
+      "nut_gauge_AF_mm": 5.7,
+      "washer_gauge_OD_mm": 7.2,
+      "loading_stack_offset_y_mm": -0.25
+    },
+    {
+      "joint": 3,
+      "passed": true,
+      "conflicts": [],
+      "nut_gauge_AF_mm": 5.7,
+      "washer_gauge_OD_mm": 7.2,
+      "loading_stack_offset_y_mm": -0.25
+    },
+    {
+      "joint": 4,
+      "passed": true,
+      "conflicts": [],
+      "nut_gauge_AF_mm": 5.7,
+      "washer_gauge_OD_mm": 7.2,
+      "loading_stack_offset_y_mm": -0.25
+    }
+  ]
+}

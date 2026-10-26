@@ -1,0 +1,5 @@
+R12 - one-piece frame and duct - print fit
+Version: 46cfeee110ebcedd02908155
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/46cfeee110ebcedd02908155/e/7d8ed648695214607ccb8d84
+Workspace: ce5746ad029eef06ab8599f6
+R11 saved version75c1dcfd63b352df99b31e2f is preserved.

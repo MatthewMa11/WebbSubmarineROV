@@ -1,0 +1,65 @@
+A2212 thruster R4 - front cover through-bolt joints
+Millimetres. Import STLs at 100% scale.
+
+Reprint the R4 nozzle and R4 front cover together. Their cover mounting tabs
+have changed. Keep the R2 71 mm propeller and 22.6 mm motor insert; both are
+included for convenience. Do not print the reference motor or metal fasteners.
+
+COVER HARDWARE (four identical joints)
+4 x M3 x 12 mm socket cap screws, length measured below the head
+8 x M3 flat washers, nominal OD 7 / ID 3.2 / thickness 0.5 mm
+4 x M3 hex nuts, nominal AF 5.5 / thickness 2.4 mm
+2.5 mm Allen key
+
+The holes are 3.4 mm clearance holes, not printed screw threads. Nut pockets
+are 5.9 mm across flats. Cover tabs are rounded, with flat washer/clamping
+lands. Each screw clamps 5 mm cover tab + 3 mm nozzle seat + two washers
+and a full 2.4 mm nut. Nominal thread projection is 0.6 mm beyond the nut.
+
+ASSEMBLY ORDER
+1. Remove support material and burrs from holes, flat lands and T-slots.
+2. Before fitting the cover, slide one rear washer into each upper side slot
+   from inside the nozzle, then slide a nut into the hex pocket below it.
+3. Seat the cover tabs in the four nozzle sockets. Fit a front washer and
+   M3x12 screw at each joint. Start all four screws loosely before tightening
+   in opposite pairs. Tighten by hand only; do not crush the PLA tabs.
+4. Disconnect power and turn the propeller through a full revolution. Check
+   the complete circumference, motor alignment, and shaft end clearance.
+   Resolve any contact before applying power.
+
+OTHER HARDWARE RETAINED
+4 x M3x8 propeller screws (no washers in the modeled recesses)
+4 x M3x8 motor-base screws + 4 x M3 flat washers
+4 x M4x12 frame bolts + 4 x M4 flat washers + 4 x M4 nuts
+
+The motor coupling, 22.6 mm insert, 71 mm blade sweep, motor-centering cup
+and continuous rear wire ring retain their R3 geometry and placement.
+The cover's dome and central shaft bore are unchanged. Only its outer
+mounting tabs and their local washer/tool access have been revised.
+
+PRINT / FIT
+Use the Bambu P1S PLA Basic profile, 0.16 mm layers and six walls as prototype
+starting settings. Support the nozzle tab pocket roofs as needed;
+remove supports completely from nut and washer insertion slots. Inspect the
+slicer preview before printing. Keep supports off the propeller drive seats
+where possible. Deburr the blade tips and duct wall without changing the hub.
+Printed holes and real motor dimensions can vary. CAD clearance and mesh
+checks do not guarantee physical fit or powered performance. Confirm nut,
+washer and motor fit and free rotation on the actual parts before use.
+
+Validation evidence and the native assembly STEP are included in this package.
+
+FINAL CAD / EXPORT CHECKS
+30 independent native geometry and mesh checks passed. All four STL files
+are single closed manifold bodies. The actual 46-body assembly contains all
+16 cover-joint fasteners at their checked positions. The original seven-part
+rotating group remains separate from the 39-part stationary group.
+The native assembly completed 360 degrees of motion. Native interference
+analysis reports only four intentional propeller screw / printed-pilot contacts.
+Full continuous blade-envelope gaps: nozzle 2.4495 mm; front cover 1.0000 mm;
+reference stator 3.0000 mm. Nut engagement is 2.4 mm, with 0.6 mm bolt projection.
+Nut and washer loading paths and front Allen-key access are unobstructed.
+These are CAD results; this R4 revision has not been physically printed/tested.
+
+Native assembly:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553

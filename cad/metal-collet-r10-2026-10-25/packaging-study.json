@@ -1,0 +1,51 @@
+{
+  "status": "layout conflict; not a print-ready revision",
+  "adapter": "Innov8tive Designs CPA-317-N",
+  "source": "https://innov8tivedesigns.com/collet-style-prop-adapter-with-hex-nut-for-3-17mm-motor-shafts.html",
+  "published": {
+    "motor_shaft_mm": 3.17,
+    "prop_stud_mm": 6,
+    "thread": "M6x1.0",
+    "overall_length_mm": 25,
+    "usable_stud_mm": 17,
+    "backplate_and_washer_diameter_mm": 15.5,
+    "maximum_hub_thickness_mm": 10.5,
+    "nut_wrench_mm": 10
+  },
+  "study_assumptions": {
+    "adapter_rear_y_mm": 16.3,
+    "stud_start_y_mm": 24.3,
+    "stud_end_y_mm": 41.3,
+    "hub_thickness_mm": 6.5
+  },
+  "stud_intersection_with_unchanged_cap_mm3": 377.71761173191766,
+  "intersection_bounds_mm": [
+    [
+      -3.0,
+      24.2999999,
+      -3.0
+    ],
+    [
+      3.0,
+      41.3,
+      3.0
+    ]
+  ],
+  "current_cap_bounds_mm": [
+    [
+      -49.5000001,
+      18.9999999,
+      -49.5000001
+    ],
+    [
+      49.5000001,
+      50.0250001356785,
+      49.5000001
+    ]
+  ],
+  "limitations": [
+    "Product page is dimensional documentation, not manufacturer CAD.",
+    "Actual collet engagement depth and taper must be checked on purchased adapter.",
+    "Moving the cap requires additional duct/joint design; not authorized by this study."
+  ]
+}

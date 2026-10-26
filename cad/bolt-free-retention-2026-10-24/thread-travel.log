@@ -1,0 +1,3 @@
+{'check': 'ring 0 follows 2 mm pitch for further 0.15 mm free travel', 'passed': True, 'overlap_mm3': 0.0}
+{'check': 'ring 1 follows 2 mm pitch for further 0.15 mm free travel', 'passed': True, 'overlap_mm3': 0.0}
+[{'check': 'ring outer envelope clears blade roots through estimated clamp travel', 'passed': True, 'overlap_mm3': 0.0, 'gap_mm': 0.3815072906367299, 'maximum_front_y_mm': 3.35}, {'check': 'estimated bell contact occurs before the travel stop', 'passed': True, 'estimated_additional_advance_mm': 0.8333333333333334, 'estimated_front_y_mm': 3.3333334333410933, 'stop_y_mm': 3.6, 'warning': 'Geometric estimate; elastic grip and actual motor diameter need physical testing'}]

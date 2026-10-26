@@ -1,0 +1,119 @@
+A2212 THRUSTER - P1S / PLA BASIC REVISION
+15 October 2026
+CAD verified. Physical motor, printed fit and powered water testing are pending.
+
+WHAT CHANGED
+Only the nozzle's fastener access and retention seats changed. The gray cover,
+propeller, motor insert and motor reference retain their geometry and placement.
+Four motor-base access pockets are now diameter 7.6 with rounded entrances and
+flat washer seats. The kit's socket heads and M3 flat washers fit these pockets.
+Three cover bosses now have recessed washer seats and AF5.8 captive-nut pockets.
+The actual cover has three 4 mm blind holes, not through-holes. M3x8 bolts locked
+by nuts captured in the nozzle act as retention pins in these existing holes.
+Their tips stop approximately 0.996 short of the blind-hole floors. Do not
+substitute longer bolts or force threads into the unchanged cover.
+
+The native assembly contains 39 solids: six mechanical bodies and 33 hardware
+parts. The original eight screws are retained; seven further screws complete
+the modeled motor-base and cover retention. All screw sizes are in your kit.
+
+FILES
+full-print-parts/ contains the four complete production-shape STL files.
+fit-check-first/ contains six smaller test pieces, already placed at Z=0.
+All STL dimensions are millimetres and scale is 100 percent. Do not print the
+steel hardware or reference motor. The STEP is the complete native assembly.
+fit-check-preview.png identifies pieces A through F.
+These are fit checks, not substitute parts for a powered thruster.
+
+PRINT THE FIT CHECKS FIRST
+A: Actual motor hub mating surfaces with short blade-root stubs. Check the
+   actual bell seat, all four drive keys, screw-head access and 18 mm pattern.
+B: Actual motor insert, including the four M3 pilots. Check it sits level in
+   the real rotor without force. Prepare the pilots for M3x0.5 threads gently.
+C: Actual mounting-pad crop. Check four CORNER M4 bolts, washers and nuts.
+   The other holes are alternative positions; eight nuts do not fit at once.
+D: A nominal 3.5 mm x 15 mm shaft-bore gauge. The real 3.175 mm shaft must pass
+   and turn freely. It represents the unchanged cover bore, not a new cover.
+E: A nominal replica of the captive nut, washer and bolt seat, including the
+   actual 0.15 rounds. Check the M3 nut slides in and seats without cracking it.
+F: A nominal motor-base seating gauge with the actual 19 x 16 mm hole pattern,
+   5 mm mounting thickness, 7.6 pockets and 3.3 bores. The curved access tunnel
+   is omitted. M3x8 plus the 0.5 washer projects 2.5 beyond the mounting face.
+A/B/C retain native mating geometry; D/E/F are dimensionally matched gauges.
+
+P1S / PLA BASIC STARTING SETUP
+Assumes the stock 0.4 nozzle; select your actual installed nozzle in Bambu Studio.
+Use the PLA Basic filament preset and the correct preset for your actual plate.
+Keep the preset temperatures and cooling as the starting point.
+Use 0.16 layers, six walls and six top/bottom layers. Start outer walls around
+60 mm/s for the fit-sensitive prototype. These are engineering starting settings,
+not a physically qualified print process or a guarantee of strength.
+Use 100 percent infill for the propeller and insert; start with 50 percent gyroid
+for the nozzle and cover. Use matching settings on their corresponding gauges.
+Do not globally scale the model or blindly add hole compensation. Measure a
+failed fit first; changing every hole can weaken the insert's threaded pilots.
+The complete STL files retain the assembly axes. Orient them before slicing:
+- Nozzle: its flat M4 mounting pad is a possible build face. Preview supports
+  throughout the duct, motor cradle and wire collar before committing the print.
+- Propeller: front screw-seat face on the plate, motor axis vertical; support
+  blade overhangs as needed while keeping mating seats and holes clean.
+- Insert: flat ring face down, bore axes vertical.
+- Cover: rear feet down with motor axis vertical; support floating underside
+  regions as needed. Keep the central shaft bore clear of support residue.
+Inspect the slicer preview for unsupported islands and incomplete thin walls.
+Main-part support cleanup and horizontal holes still need checking even when
+a vertically printed gauge fits. Gauges cannot prove every print orientation.
+
+ASSEMBLE AND CHECK WITHOUT POWER
+1. Seat the three M3 cover nuts in the nozzle before installing the cover.
+2. Attach the stator base using four M3x8 screws and four 0.5 flat washers.
+   The reference has 3 mm-deep M3 holes: modeled engagement is 2.5 with 0.5 tip
+   margin. Verify your motor's real threads and depth before tightening.
+3. Install the inner adapter level. Use four M3x8 propeller screws without
+   washers. Modeled pilot engagement is 3, with 1.4 tip margin. Tighten evenly
+   and gently in PLA; no pull-out strength or tightening torque was validated.
+4. Hand-turn the rotor before fitting the cover. There must be no winding rub;
+   the reference CAD omits the winding volume.
+5. Fit the unchanged cover and its three M3x8 retention bolts with flat washers.
+   Nuts lock the bolts in the nozzle. The pins retain the cover; they are not
+   through-bolts clamping a nut behind its blind-hole floors. Check cover seating,
+   centering and movement while hand-turning through several full revolutions.
+6. Install the four corner M4x12 frame bolts, 0.8 washers and ordinary M4 nuts.
+   The actual vehicle bracket is not modeled. Inward insertion must be 8.0 to
+   13.5: bolt length minus external bracket/washer stack. The modeled M4x12 and
+   0.8 washer permit up to 3.2 additional bracket thickness.
+
+GO / NO-GO BEFORE POWER
+The propeller must turn without touching the nozzle, cover, wires or fasteners.
+The motor seat and insert must fit without forcing the bell or rubbing windings.
+The cover must remain centered and secure, and the shaft must turn freely after
+the cover is installed. Its nominal radial clearance is only 0.1625 per side.
+If any check fails, stop and record the measured fit in physical-fit-record.csv.
+Do not force it or assume CAD alignment removes print error or motor runout.
+After the hand-spin checks pass, use a restrained, guarded water test at low
+throttle, within the actual motor/ESC ratings. Check vibration, current, rubbing
+and fastener loosening before increasing load. Stop on any abnormal result.
+
+WHAT THE VERIFICATION ESTABLISHES
+35 current CAD checks pass: 12 hardware/rotation checks, 19 mounting checks,
+and four wire/head-clearance checks. All 39 native solid positions were checked,
+including all 17 newly added hardware bodies. Native Onshape interference
+analysis reports only the four intentional M3-to-insert pilot contacts. The
+native revolute animation completed 360 degrees with the hardware present.
+All ten delivered STL files are single closed, consistently oriented meshes,
+with no bad edges or degenerate triangles.
+Conservative propeller clearance remains at least 0.55 to the nozzle, about 1
+to the cover and 2 above the screw heads. The enclosed wire route remains 10 mm
+with a nominal 4 mm wall. Motor guide radial fit is 0.20; insert fit is 0.25.
+The drive keys have assembly clearance and are not a zero-backlash coupling.
+
+Operational reliability, printed strength, balance, thrust and durability are
+not established by CAD alone. Your motor is unavailable for fit testing until
+after printing, so no honest operational guarantee can be issued at this stage.
+
+Native assembly:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/51ff5b1cdf93eadbe7b0e553
+Stored native STEP:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/4d5e23c6702169feebb87a2e
+Stored nozzle STL:
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/7894404abcffe2e9912f76a3

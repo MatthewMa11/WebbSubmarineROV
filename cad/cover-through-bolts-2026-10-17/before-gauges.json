@@ -1,0 +1,304 @@
+[
+  {
+    "check": "six mechanical parts and all forty fasteners are present",
+    "passed": false,
+    "detail": {
+      "actual_solids": 39
+    }
+  },
+  {
+    "check": "four continuous M3 shafts pass both parts",
+    "passed": false,
+    "detail": {
+      "blocked_mm3": [
+        39.30145510252658,
+        40.12252614513517,
+        39.30145510252183,
+        61.0873829573996
+      ]
+    }
+  },
+  {
+    "check": "both washers bear on full flat annular plastic lands",
+    "passed": false,
+    "detail": {
+      "missing_land_mm3": [
+        0.21375396415024933,
+        0.0,
+        0.21375396415024933,
+        0.0,
+        0.21375396415024933,
+        0.0,
+        0.21375396415024928,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "both parts meet at four broad flat clamping faces",
+    "passed": false,
+    "detail": {
+      "missing_contact_land_mm3": [
+        0.25829306364660154,
+        0.2920835557397503,
+        0.23069095259183778,
+        0.29208355573976974,
+        0.2582920725754734,
+        0.2920835557397872,
+        0.2194015026702702,
+        0.2418096248859795
+      ]
+    }
+  },
+  {
+    "check": "all cover fasteners fit without plastic interference",
+    "passed": false,
+    "detail": {
+      "overlap_mm3": [
+        42.029165006261955,
+        0.0,
+        15.22101640664254,
+        0.0,
+        6.65326038485886,
+        0.0,
+        18.14433164286928,
+        0.0,
+        37.445400987365765,
+        1.7648738906756936,
+        42.02900042286774,
+        0.0,
+        15.22101640664254,
+        0.0,
+        6.653260384858862,
+        0.0,
+        18.14433164287075,
+        0.0,
+        38.26647202997647,
+        1.7648738906735189,
+        42.02900042286815,
+        0.0,
+        15.22101640664254,
+        0.0,
+        6.653260384858862,
+        0.0,
+        18.144331642869293,
+        0.0,
+        37.44540098736711,
+        1.7648738906753807,
+        42.02900042286672,
+        0.0,
+        15.22101640664254,
+        0.0,
+        6.653260384858861,
+        0.0,
+        18.144331642869275,
+        0.0,
+        53.94200633404777,
+        7.054196246586342
+      ]
+    }
+  },
+  {
+    "check": "all sixteen cover hardware instances occupy their checked positions",
+    "passed": false,
+    "detail": {
+      "positions": [
+        {
+          "joint": 0,
+          "part": "nut",
+          "matches": []
+        },
+        {
+          "joint": 0,
+          "part": "rear",
+          "matches": []
+        },
+        {
+          "joint": 0,
+          "part": "front",
+          "matches": []
+        },
+        {
+          "joint": 0,
+          "part": "head",
+          "matches": []
+        },
+        {
+          "joint": 1,
+          "part": "nut",
+          "matches": []
+        },
+        {
+          "joint": 1,
+          "part": "rear",
+          "matches": []
+        },
+        {
+          "joint": 1,
+          "part": "front",
+          "matches": []
+        },
+        {
+          "joint": 1,
+          "part": "head",
+          "matches": []
+        },
+        {
+          "joint": 2,
+          "part": "nut",
+          "matches": []
+        },
+        {
+          "joint": 2,
+          "part": "rear",
+          "matches": []
+        },
+        {
+          "joint": 2,
+          "part": "front",
+          "matches": []
+        },
+        {
+          "joint": 2,
+          "part": "head",
+          "matches": []
+        },
+        {
+          "joint": 3,
+          "part": "nut",
+          "matches": []
+        },
+        {
+          "joint": 3,
+          "part": "rear",
+          "matches": []
+        },
+        {
+          "joint": 3,
+          "part": "front",
+          "matches": []
+        },
+        {
+          "joint": 3,
+          "part": "head",
+          "matches": []
+        }
+      ]
+    }
+  },
+  {
+    "check": "nuts and rear washers have continuous insertion paths and front Allen-key access",
+    "passed": false,
+    "detail": {
+      "obstruction_mm3": [
+        89.14065305138932,
+        24.718731942369146,
+        0.0,
+        89.14030979472373,
+        24.71873194237486,
+        0.0,
+        89.14040013981297,
+        24.714465889742893,
+        0.0,
+        89.14030979472254,
+        24.718731942371186,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "four nut pockets resist a twenty degree nut rotation",
+    "passed": true,
+    "detail": {
+      "blocking_mm3": [
+        41.63101775265597,
+        41.63109592845596,
+        41.63109592845536,
+        41.63109592845707
+      ]
+    }
+  },
+  {
+    "check": "M3x12 fully spans plastic, washers and nuts with 0.6 mm protrusion",
+    "passed": true,
+    "detail": {
+      "bolt_mm": 12,
+      "nut_engagement_mm": 2.4,
+      "protrusion_mm": 0.6
+    }
+  },
+  {
+    "check": "continuous blade rotation envelope clears all stationary parts",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.449484762212245,
+        "cover": 0.9999000000000002,
+        "stator": 2.9999
+      }
+    }
+  },
+  {
+    "check": "no cover-nozzle material interference outside intended face contacts",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "motor rotor continuous envelope clears the fixed nozzle",
+    "passed": true,
+    "detail": {
+      "clearance_mm": 3.1061824238124616
+    }
+  },
+  {
+    "check": "propeller geometry and placement remain unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "insert geometry and placement remain unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement remain unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement remain unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "cover central geometry remains unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "nozzle central geometry remains unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "motor centering cup, motor seats and 360 degree rear wire ring are unchanged",
+    "passed": true,
+    "detail": {}
+  }
+]

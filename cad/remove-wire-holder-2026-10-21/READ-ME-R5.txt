@@ -1,0 +1,21 @@
+R5 - rear wire holder removed, 21 October 2026
+
+Nozzle-no-wire-holder-R5.stl replaces the R4 nozzle only.
+STL units are millimetres; import at 100% scale.
+Keep the R4 front cover, R2 71 mm propeller and R2 22.6 mm motor insert.
+All hardware, mounting holes and body positions are unchanged.
+
+Removed the rear R28..33 annular wire-holder ring and the four added
+2.5 mm-radius support posts. Original motor supports, centering cup,
+four cover through-bolt joints and four side mounting pads are retained.
+
+All 12 focused geometry/mesh checks passed against the native R5 STEP
+and STL. Material outside the removed holder/post regions is unchanged.
+All five other mechanical bodies and forty hardware bodies are unchanged.
+The exported nozzle is one closed connected manifold body. The full
+propeller rotation envelope retains its previous clearance. Native
+interference analysis reports only the four intentional propeller-screw
+contacts with the printed spacer pilots.
+
+Thruster-no-wire-holder-R5.step contains the complete 46-part assembly.
+The CAD checks do not substitute for checking fit on the printed parts.

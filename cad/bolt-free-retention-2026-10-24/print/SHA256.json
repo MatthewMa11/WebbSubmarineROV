@@ -1,0 +1,17 @@
+{
+  "Compression-collar-R7.stl": "73325822a512a8b3a25f0153da91dce39f10e0467c2117ea8d15c5f7dd3630e4",
+  "existing-parts-unchanged/Front-cap-R4-unchanged.stl": "142c8970e07da5700a46d1efef0280b13152f812bf0a0f6a3a9dd59a4fe79287",
+  "existing-parts-unchanged/Nozzle-R6p1-flat-motor-boss.stl": "0d9866d5c0fba995940eb6acb3e8a7ea5b8976e32f85214dd8e5b9661a76956a",
+  "Jam-ring-R7.stl": "db3bda22bf47b87b72fda5661e15608d60177133b224ac8dee81ffd2c9e52def",
+  "Onshape-R7.txt": "586e9fdf14d0813bab1381df628691e1b44b5363e7c6ad3d59144a7e31638d12",
+  "Propeller-R7-bolt-free.stl": "cf4c9b8fbfc26cfd5cfdc062f4e2b0666c12983ab616069a68e7b388a139752f",
+  "READ-ME.txt": "6bcdcbe5d48eee3d0286c70fcd2fef9a58a3a6b7530f21114de8a48f0de45177",
+  "reference/design-status.json": "a13c06ff882573b3593f219d54b5f9aed9be631826278d0a890b01e85b3c9446",
+  "reference/ENGINEERING-NOTES.txt": "047c794358caf94b6186ab7ce4dc84dffb66cce4e8b4fd9f8eaa8a054a634315",
+  "reference/print-mesh-checks.json": "2eda53810633ce7b99f75bdee24424b2aedb2d30736a8f13e6b15f06a32dc7dc",
+  "reference/structure-audit.json": "5ad586499bddd1b4885131c5a6f97441907ff8454c911275a4a06c7cb9584a5e",
+  "reference/thread-travel.json": "2b61516cba768af26eaf35d9ab8c00b51fd7c83648cd6ef9d4c10b96667cd5c3",
+  "reference/Thruster-R7-bolt-free.step": "2a888f45184a1614b0b6aaab6497b9c5516296fb8a664947ef123da265abc59b",
+  "reference/verification.json": "a982d13109cf2c3dbecafe49372fe71d6c5420fc893e416bb993f58c3e5e3efc",
+  "TEST-FIRST-external-sleeve-R7.stl": "cba7a8a3e27713bbf531c9d29bdb0eb9a84e8e3121875f4fc9f8e251f9bb933a"
+}

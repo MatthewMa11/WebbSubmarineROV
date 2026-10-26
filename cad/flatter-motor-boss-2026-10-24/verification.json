@@ -1,0 +1,138 @@
+[
+  {
+    "check": "five mechanical bodies and all forty-two fasteners retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "propeller geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 1.6370904631912708e-10,
+      "area_delta_mm2": 1.8189894035458565e-12,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "rotor geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "stator geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "cover geometry and placement unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0,
+      "area_delta_mm2": 0.0,
+      "bounds_delta_mm": 0.0
+    }
+  },
+  {
+    "check": "all forty-two fastener shapes and locations unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "nozzle outside the local rear-tip relief is unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.00014347417163662612,
+      "area_delta_mm2": 8.003553375601768e-11
+    }
+  },
+  {
+    "check": "rear projection shortened by approximately twelve millimetres",
+    "passed": true,
+    "detail": {
+      "old_tip_Y_mm": -42.050000183240606,
+      "new_tip_Y_mm": -30.0000001,
+      "reduction_mm": 12.050000083240604
+    }
+  },
+  {
+    "check": "broad flat rear face replaces the rounded dome",
+    "passed": true,
+    "detail": {
+      "flat_face_area_mm2": [
+        449.2791653898763
+      ]
+    }
+  },
+  {
+    "check": "one millimetre external rim fillet is present",
+    "passed": true,
+    "detail": {
+      "round_face_count": 1
+    }
+  },
+  {
+    "check": "all four 7.6 mm motor screw access passages remain open",
+    "passed": true,
+    "detail": {
+      "blocked_gauge_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "motor seats, structural floor and centering cup remain unchanged",
+    "passed": true,
+    "detail": {
+      "volume_delta_mm3": 0.0027922434419451747,
+      "area_delta_mm2": 7.366907084360719e-11
+    }
+  },
+  {
+    "check": "at least seven millimetres of central rear cap thickness retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "existing fasteners do not penetrate the revised nozzle",
+    "passed": true,
+    "detail": {
+      "unexpected": []
+    }
+  },
+  {
+    "check": "continuous propeller rotation envelope retains its clearance",
+    "passed": true,
+    "detail": {
+      "gaps_mm": {
+        "nozzle": 2.449484762212245,
+        "cover": 0.9999000000000002,
+        "stator": 2.9999
+      }
+    }
+  },
+  {
+    "check": "stationary nozzle clears motor rotor and propeller",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "revised nozzle STL is one closed manifold body",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "components": 1,
+      "triangles": 522546
+    }
+  }
+]

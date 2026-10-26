@@ -1,0 +1,28 @@
+PASS seven mechanical parts and thirty-six metal fasteners
+FAIL propeller and both custom-thread rings are valid solid B-reps
+PASS nozzle geometry and placement unchanged from flat-boss R6.1
+PASS cover geometry and placement unchanged from flat-boss R6.1
+PASS rotor geometry and placement unchanged from flat-boss R6.1
+PASS stator geometry and placement unchanged from flat-boss R6.1
+PASS all thirty-six stationary fasteners retain their original geometry and poses
+PASS four 5.5 mm drive keys retain the exact 18 mm motor pattern
+PASS no printed part enters the former internal motor-spacer region
+PASS no propeller ears remain beyond the 43 mm central sleeve envelope
+PASS ring 0 thread clears the unloaded sleeve
+PASS ring 0 clears rotor
+PASS ring 0 clears stator
+PASS ring 0 clears nozzle
+PASS ring 0 clears cover
+PASS ring 1 thread clears the unloaded sleeve
+PASS ring 1 clears rotor
+PASS ring 1 clears stator
+PASS ring 1 clears nozzle
+PASS ring 1 clears cover
+PASS collar and jam ring meet without penetrating
+PASS rotating propeller does not penetrate the motor or stationary frame
+PASS full-turn envelope contains fan and both printed rings
+PASS continuous 360-degree envelope clears all stationary mechanical parts
+PASS blade tips and front motor-coupling geometry outside the sleeve revision are unchanged
+PASS Propeller-R7-bolt-free.stl is one closed manifold body
+PASS Compression-collar-R7.stl is one closed manifold body
+PASS Jam-ring-R7.stl is one closed manifold body

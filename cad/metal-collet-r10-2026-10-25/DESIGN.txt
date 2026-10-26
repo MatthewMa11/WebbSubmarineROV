@@ -1,0 +1,40 @@
+R10 metal-collet fan revision
+Approved: use a documented normal metal collet adapter; retain frame/cap shapes;
+move unchanged cap forward and add a duct extension; no internal motor spacer.
+
+Selected bought part: Innov8tive Designs CPA-317-N, 3.17 mm input / M6x1 stud,
+25 mm overall, 17 mm usable stud, 15.5 mm backplate and washer, max hub 10.5 mm.
+Source: https://innov8tivedesigns.com/collet-style-prop-adapter-with-hex-nut-for-3-17mm-motor-shafts.html
+
+Proposed CAD: 6.2 mm clearance bore in a flat 6.5 mm fan hub; no printed jaws,
+drive keys, internal spacer, collar or jam ring. Adapter backplate at Y24.3,
+fan Y24.3..30.8, stud ends Y41.3. Outer blade profiles translate from R9 by
+11.5 mm. Preserve blade radial size and root blend. Both clamping faces flat.
+
+Cap moves +28 mm with shape unchanged, giving nominal 6.7 mm axial clearance
+from adapter stud to cap rear plane. New 28 mm duct extension, four M3x40
+through-bolts with existing washers/captive nuts. Frame unchanged in place.
+New extension locating pockets are enlarged with a nine-copy 0.4 mm X/Z grid
+spanning +/-0.4 mm, above the unchanged Y19 bearing plane. Verify zero frame
+penetration at 0.2 mm lateral offsets in 24 directions (15-degree intervals).
+An explicit R40 rear mouth to Y23.5, tapering to R38.8 at Y26.5, clears the
+thin inherited R39 lip features that discrete-copy relief alone could miss.
+All four R5 bolt-bearing columns are preserved; lead-in edges rounded0.2mm.
+The M3x40 screws are additional purchased hardware, not assumed in the user's
+existing 6..20 mm assortment. Adapter hardware is metal, not printed.
+
+CAD adapter is a clearance/reference model, not a manufacturer machining model:
+backplate/body bounded by published OD and 8 mm derived rear length; collet
+taper and actual shaft insertion depth are not published. The complete rotating
+envelope accommodates 0..3 mm forward movement of the whole adapter/fan stack,
+leaving 3.63 mm minimum axial cap clearance including 0.07 mm allowance.
+A physical fit check must measure actual usable bore depth and installed metal
+backplate plane: accept Y24.3..27.3 only with the collet fully engaged on the
+actual shaft. Short/partial grip is not accepted just because the cap clears.
+This must be checked on the purchased adapter before printing/final assembly.
+No asserted guarantee of clamp force, PLA fatigue life, thrust or watertightness.
+
+Checks: unchanged frame; translated-identical cap; one-piece valid fan/extension;
+adapter stack/bore/hub thickness; no old clamp or internal spacer; zero assembly
+intersections; conservative full-turn envelope; fastener engagement and access;
+native assembly groups/revolute; manifold millimetre STLs; export/package match.

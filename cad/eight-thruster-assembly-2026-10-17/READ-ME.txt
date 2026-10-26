@@ -1,0 +1,41 @@
+EIGHT-THRUSTER ROV LAYOUT - 17 October 2026
+
+Four complete A2212 motor/propeller/nozzle subassemblies point outward at
+45 degrees to the horizontal X/Y axes. Four further subassemblies have
+vertical shafts, arranged as two up and two down on opposite diagonals.
+
+Source: the saved 39-body R3 centering-cup assembly. All original parts,
+motor references and fasteners are retained. This is an independent layout
+snapshot; later edits to the single-thruster design do not update this file.
+
+Open ROV8-native.step for the assembly with the original Onshape STEP
+geometry entities preserved. The root contains eight thruster occurrences,
+each with 39 parts: 312 solid instances total. Coordinates and size use mm.
+The native source STEP uses metres internally; importing normally converts
+it to the document's display units without scaling.
+
+Horizontal shaft origins: (+/-190, +/-75, 0) mm.
+Vertical shaft origins: (+/-75, +/-170, 0) mm.
+Overall envelope: approximately 488 x 446 x 108 mm.
+All 28 pairs of conservative boxes around the complete thrusters have
+positive separation; the smallest box-to-box gap is 18.7867 mm. This is
+a conservative thruster-to-thruster clearance, not a frame-mount check.
+
+No vehicle frame or connection brackets have been added. The mounting pads
+and original fasteners remain part of each thruster. Motor pointing direction
+does not establish actual thrust direction or ESC reversibility.
+
+assembly-verification.json records placements, axes, STEP read-back and
+pairwise spacing. thruster-positions.csv lists all eight placements. Strict
+OCCT B-rep checks flag pre-existing source surfaces; this placement task
+preserves those source entities and does not claim to repair them.
+The visualization is a CAD preview, not a physical prototype test.
+
+ONSHAPE ASSEMBLY
+https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a5d7d6ceb47806c41268442a/e/26220555ff84e0d8bfb7ef07
+Native import completed. Eight subassembly instances have reference designators
+H1-H4, V1 UP, V2 DOWN, V3 UP, V4 DOWN. A rigid Group includes all eight, and
+H1 is locked at its current position. Nozzle, motor and original hardware
+positions are preserved. Onshape flags inherited source geometry faults in
+the imported R3 cover and propeller. This assembly is a layout deliverable;
+the source geometry faults have not been repaired as part of this task.

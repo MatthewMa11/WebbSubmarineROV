@@ -1,0 +1,59 @@
+[
+  {
+    "check": "nominal 0.125 mm closing travel reaches shaft without jaw collision",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "taking up bore clearance does not penetrate reference rotor",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "closed nominal jaws contact the axle without penetrating it",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "M3x16 provides complete 2.4 mm nut engagement and 1.2 mm protrusion",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "small lower-jaw test coupon is a valid solid",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "test coupon remains one connected solid",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "Fan-R9-forward-fan.stl is one closed manifold mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "regions": 1,
+      "triangles": 49238
+    }
+  },
+  {
+    "check": "Upper-jaw-R9-M3-axle-clamp.stl is one closed manifold mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "regions": 1,
+      "triangles": 35716
+    }
+  },
+  {
+    "check": "TEST-FIRST-R9-lower-jaw.stl is one closed manifold mesh",
+    "passed": true,
+    "detail": {
+      "bad_edges": 0,
+      "regions": 1,
+      "triangles": 9152
+    }
+  }
+]

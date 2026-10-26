@@ -1,0 +1,93 @@
+[
+  {
+    "check": "the centering cover is integrated into the existing 39-body assembly",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "all rotating components, motor and gray cover retain their R2 geometry and position",
+    "passed": true,
+    "detail": {
+      "comparisons": {
+        "propeller": {
+          "volume_difference_mm3": 1.9699655240401626e-09,
+          "area_difference_mm2": 7.275957614183426e-12,
+          "bounds_difference_mm": 0.0
+        },
+        "insert": {
+          "volume_difference_mm3": 0.0,
+          "area_difference_mm2": 0.0,
+          "bounds_difference_mm": 0.0
+        },
+        "rotor": {
+          "volume_difference_mm3": 0.0,
+          "area_difference_mm2": 0.0,
+          "bounds_difference_mm": 0.0
+        },
+        "stator": {
+          "volume_difference_mm3": 0.0,
+          "area_difference_mm2": 0.0,
+          "bounds_difference_mm": 0.0
+        },
+        "cover": {
+          "volume_difference_mm3": 0.0,
+          "area_difference_mm2": 0.0,
+          "bounds_difference_mm": 0.0
+        }
+      }
+    }
+  },
+  {
+    "check": "a new fixed cup surrounds the motor base above the original seat",
+    "passed": true,
+    "detail": {
+      "new_material_mm3": 933.7650458074913,
+      "old_material_mm3": 0.0
+    }
+  },
+  {
+    "check": "motor-base locator keeps at least 0.35 mm reference slip clearance",
+    "passed": true,
+    "detail": {
+      "minimum_clearance_mm": 0.8875203139603786,
+      "nominal_locator_diameter_mm": 28.5
+    }
+  },
+  {
+    "check": "the fixed cup is clear of all rotating mechanical parts",
+    "passed": true,
+    "detail": {
+      "clearances_mm": {
+        "propeller": 3.25,
+        "rotor": 3.106321098861517,
+        "insert": 13.155222008003701
+      }
+    }
+  },
+  {
+    "check": "the new stationary cup clears the motor bell continuous rotation envelope",
+    "passed": true,
+    "detail": {
+      "minimum_gap_mm": 3.1061824238124616
+    }
+  },
+  {
+    "check": "all four rounded wire slots clear a full 9 by 2.6 mm bundle gauge",
+    "passed": true,
+    "detail": {
+      "obstruction_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "no fastener size or position changed",
+    "passed": true,
+    "detail": {
+      "hardware_count": 33
+    }
+  }
+]

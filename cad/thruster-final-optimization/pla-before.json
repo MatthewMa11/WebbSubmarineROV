@@ -1,0 +1,479 @@
+{
+  "file": "C:/Users/ROG/OneDrive/Documents/ChatGPT/robotic FTC 2026-2027/cad/frame-fit-check/Thruster-A2212-final-audit.step",
+  "checks": [
+    {
+      "check": "complete assembly has 39 solids including all requested retention hardware",
+      "pass": false,
+      "details": {
+        "solid_count": 22
+      }
+    },
+    {
+      "check": "four motor socket screws and M3 washers fit the revised access pockets",
+      "pass": false,
+      "details": {
+        "overlap_mm3": {
+          "motor_screw_head_0": 17.11162686557288,
+          "motor_screw_shaft_0": 0.0,
+          "motor_washer_0": 9.424777960769365,
+          "motor_screw_head_1": 17.11162686557288,
+          "motor_screw_shaft_1": 0.0,
+          "motor_washer_1": 9.424777960769365,
+          "motor_screw_head_2": 17.11162686557286,
+          "motor_screw_shaft_2": 0.0,
+          "motor_washer_2": 9.20569619970602,
+          "motor_screw_head_3": 17.111626865572866,
+          "motor_screw_shaft_3": 0.0,
+          "motor_washer_3": 9.205696199706814
+        }
+      }
+    },
+    {
+      "check": "three cover bolt stacks clear the recessed nozzle seats",
+      "pass": false,
+      "details": {
+        "overlap_mm3": {
+          "cover_screw_head_0": 8.39292188531416,
+          "cover_screw_shaft_0": 0.0,
+          "cover_washer_0": 14.965762051752016,
+          "cover_nut_0": 42.346277962816586,
+          "cover_screw_head_1": 8.392921853697787,
+          "cover_screw_shaft_1": 0.0,
+          "cover_washer_1": 14.965762003538329,
+          "cover_nut_1": 42.346277916196236,
+          "cover_screw_head_2": 8.392921842557197,
+          "cover_screw_shaft_2": 0.0,
+          "cover_washer_2": 14.965761986218926,
+          "cover_nut_2": 42.346277906645454
+        }
+      }
+    },
+    {
+      "check": "motor and cover hardware has no unintended body overlap",
+      "pass": true,
+      "details": {
+        "unexpected": []
+      }
+    },
+    {
+      "check": "M3x8 motor screws have 2.5 mm engagement and 0.5 mm blind-hole margin",
+      "pass": true,
+      "details": {
+        "engagement_mm": 2.5,
+        "tip_y_mm": -8.5,
+        "blind_bottom_y_mm": -8,
+        "washer_thickness_mm": 0.5
+      }
+    },
+    {
+      "check": "all seven new washers bear on adequate flat nozzle seats",
+      "pass": false,
+      "details": {
+        "support": [
+          {
+            "washer": "motor_washer_0",
+            "supported_area_mm2": 18.935949719512482
+          },
+          {
+            "washer": "motor_washer_1",
+            "supported_area_mm2": 18.935949719512486
+          },
+          {
+            "washer": "motor_washer_2",
+            "supported_area_mm2": 20.036539367322057
+          },
+          {
+            "washer": "motor_washer_3",
+            "supported_area_mm2": 20.03653936732207
+          },
+          {
+            "washer": "cover_washer_0",
+            "supported_area_mm2": 5.183627878423105
+          },
+          {
+            "washer": "cover_washer_1",
+            "supported_area_mm2": 5.183627878423138
+          },
+          {
+            "washer": "cover_washer_2",
+            "supported_area_mm2": 5.183627878423147
+          }
+        ]
+      }
+    },
+    {
+      "check": "M3x8 cover retention bolts fully engage captured nuts and stop before blind-hole floors",
+      "pass": true,
+      "details": {
+        "tip_radius_mm": 41.75,
+        "nut_inner_radius_mm": 45,
+        "blind_floor_radius_mm": 40.754,
+        "blind_floor_margin_mm": 0.996,
+        "retention_pin_insertion_mm": 2.004,
+        "note": "Nuts are captured in the nozzle, not in the unchanged cover. The three cover holes are blind; these are locking retention pins, not through-bolts that clamp the cover."
+      }
+    },
+    {
+      "check": "refined continuous envelopes contain all seven moving components",
+      "pass": true,
+      "details": {
+        "moving_count": 7,
+        "outside_mm3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "check": "complete rotating group stays clear through every angle with all fasteners installed",
+      "pass": true,
+      "details": {
+        "minimum_gap_mm": 0.16240000000000007,
+        "clearances": [
+          {
+            "part": "cover",
+            "envelope": 0,
+            "gap_mm": 2.020647423475951
+          },
+          {
+            "part": "cover",
+            "envelope": 1,
+            "gap_mm": 0.9999000000000002
+          },
+          {
+            "part": "cover",
+            "envelope": 2,
+            "gap_mm": 22.9999
+          },
+          {
+            "part": "cover",
+            "envelope": 3,
+            "gap_mm": 0.16240000000000007
+          },
+          {
+            "part": "stator",
+            "envelope": 0,
+            "gap_mm": 2.9999
+          },
+          {
+            "part": "stator",
+            "envelope": 1,
+            "gap_mm": 22.4999
+          },
+          {
+            "part": "stator",
+            "envelope": 2,
+            "gap_mm": 0.9999000000000002
+          },
+          {
+            "part": "stator",
+            "envelope": 3,
+            "gap_mm": 27.024282668925736
+          },
+          {
+            "part": "nozzle",
+            "envelope": 0,
+            "gap_mm": 0.5505751847947367
+          },
+          {
+            "part": "nozzle",
+            "envelope": 1,
+            "gap_mm": 13.422063915744877
+          },
+          {
+            "part": "nozzle",
+            "envelope": 2,
+            "gap_mm": 5.9999
+          },
+          {
+            "part": "nozzle",
+            "envelope": 3,
+            "gap_mm": 30.17140225064125
+          },
+          {
+            "part": "hardware_1",
+            "envelope": 0,
+            "gap_mm": 13.729831697128688
+          },
+          {
+            "part": "hardware_1",
+            "envelope": 1,
+            "gap_mm": 31.23389410683101
+          },
+          {
+            "part": "hardware_1",
+            "envelope": 2,
+            "gap_mm": 37.24233799360679
+          },
+          {
+            "part": "hardware_1",
+            "envelope": 3,
+            "gap_mm": 53.67992935504255
+          },
+          {
+            "part": "hardware_2",
+            "envelope": 0,
+            "gap_mm": 3.1698469244902063
+          },
+          {
+            "part": "hardware_2",
+            "envelope": 1,
+            "gap_mm": 24.80912701128599
+          },
+          {
+            "part": "hardware_2",
+            "envelope": 2,
+            "gap_mm": 26.545531570661517
+          },
+          {
+            "part": "hardware_2",
+            "envelope": 3,
+            "gap_mm": 44.9134671114995
+          },
+          {
+            "part": "hardware_3",
+            "envelope": 0,
+            "gap_mm": 6.681855677818286
+          },
+          {
+            "part": "hardware_3",
+            "envelope": 1,
+            "gap_mm": 26.007020395080385
+          },
+          {
+            "part": "hardware_3",
+            "envelope": 2,
+            "gap_mm": 30.231755677818285
+          },
+          {
+            "part": "hardware_3",
+            "envelope": 3,
+            "gap_mm": 47.537214772942306
+          },
+          {
+            "part": "hardware_4",
+            "envelope": 0,
+            "gap_mm": 13.729831697128692
+          },
+          {
+            "part": "hardware_4",
+            "envelope": 1,
+            "gap_mm": 31.233894106831016
+          },
+          {
+            "part": "hardware_4",
+            "envelope": 2,
+            "gap_mm": 37.24233799360679
+          },
+          {
+            "part": "hardware_4",
+            "envelope": 3,
+            "gap_mm": 53.67992935504256
+          },
+          {
+            "part": "hardware_5",
+            "envelope": 0,
+            "gap_mm": 6.681855677818284
+          },
+          {
+            "part": "hardware_5",
+            "envelope": 1,
+            "gap_mm": 26.007020395080385
+          },
+          {
+            "part": "hardware_5",
+            "envelope": 2,
+            "gap_mm": 30.231755677818285
+          },
+          {
+            "part": "hardware_5",
+            "envelope": 3,
+            "gap_mm": 47.537214772942306
+          },
+          {
+            "part": "hardware_6",
+            "envelope": 0,
+            "gap_mm": 3.1698469244902046
+          },
+          {
+            "part": "hardware_6",
+            "envelope": 1,
+            "gap_mm": 24.80912701128599
+          },
+          {
+            "part": "hardware_6",
+            "envelope": 2,
+            "gap_mm": 26.545531570661513
+          },
+          {
+            "part": "hardware_6",
+            "envelope": 3,
+            "gap_mm": 44.9134671114995
+          },
+          {
+            "part": "hardware_7",
+            "envelope": 0,
+            "gap_mm": 13.692437993606791
+          },
+          {
+            "part": "hardware_7",
+            "envelope": 1,
+            "gap_mm": 27.017814788714453
+          },
+          {
+            "part": "hardware_7",
+            "envelope": 2,
+            "gap_mm": 37.709946480030425
+          },
+          {
+            "part": "hardware_7",
+            "envelope": 3,
+            "gap_mm": 50.804755810611276
+          },
+          {
+            "part": "hardware_8",
+            "envelope": 0,
+            "gap_mm": 13.692437993606788
+          },
+          {
+            "part": "hardware_8",
+            "envelope": 1,
+            "gap_mm": 27.017814788714453
+          },
+          {
+            "part": "hardware_8",
+            "envelope": 2,
+            "gap_mm": 37.709946480030425
+          },
+          {
+            "part": "hardware_8",
+            "envelope": 3,
+            "gap_mm": 50.804755810611276
+          },
+          {
+            "part": "hardware_9",
+            "envelope": 0,
+            "gap_mm": 2.995631570661512
+          },
+          {
+            "part": "hardware_9",
+            "envelope": 1,
+            "gap_mm": 18.006222839312276
+          },
+          {
+            "part": "hardware_9",
+            "envelope": 2,
+            "gap_mm": 27.46527457482877
+          },
+          {
+            "part": "hardware_9",
+            "envelope": 3,
+            "gap_mm": 40.89840916386037
+          },
+          {
+            "part": "hardware_10",
+            "envelope": 0,
+            "gap_mm": 2.9956315706615158
+          },
+          {
+            "part": "hardware_10",
+            "envelope": 1,
+            "gap_mm": 18.006222839312276
+          },
+          {
+            "part": "hardware_10",
+            "envelope": 2,
+            "gap_mm": 27.46527457482876
+          },
+          {
+            "part": "hardware_10",
+            "envelope": 3,
+            "gap_mm": 40.89840916386037
+          },
+          {
+            "part": "hardware_11",
+            "envelope": 0,
+            "gap_mm": 6.681855677818286
+          },
+          {
+            "part": "hardware_11",
+            "envelope": 1,
+            "gap_mm": 20.66872360453381
+          },
+          {
+            "part": "hardware_11",
+            "envelope": 2,
+            "gap_mm": 30.81735831925249
+          },
+          {
+            "part": "hardware_11",
+            "envelope": 3,
+            "gap_mm": 44.14676251253681
+          },
+          {
+            "part": "hardware_12",
+            "envelope": 0,
+            "gap_mm": 6.681855677818284
+          },
+          {
+            "part": "hardware_12",
+            "envelope": 1,
+            "gap_mm": 20.66872360453381
+          },
+          {
+            "part": "hardware_12",
+            "envelope": 2,
+            "gap_mm": 30.81735831925249
+          },
+          {
+            "part": "hardware_12",
+            "envelope": 3,
+            "gap_mm": 44.14676251253681
+          }
+        ]
+      }
+    },
+    {
+      "check": "gray cover, motor and rotating printed parts retain geometry and placement",
+      "pass": true,
+      "details": {
+        "comparisons": {
+          "cover": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "max_bounds_delta_mm": 0.0
+          },
+          "propeller": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "max_bounds_delta_mm": 0.0
+          },
+          "insert": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "max_bounds_delta_mm": 0.0
+          },
+          "rotor": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "max_bounds_delta_mm": 0.0
+          },
+          "stator": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "max_bounds_delta_mm": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "physical_validation_pending": true,
+  "printer": "Bambu Lab P1S",
+  "material": "PLA Basic",
+  "nominal_shaft_clearance_per_side_mm": 0.1625
+}

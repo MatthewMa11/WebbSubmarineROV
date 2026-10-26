@@ -1,0 +1,228 @@
+Browser tab: 2, Title: "A2212 R8 - M3 axle-clamp fan - separate design | R11 thruster - actual Motor models", URL: "https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/75c1dcfd63b352df99b31e2f/e/7d8ed648695214607ccb8d84".
+1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R11 thruster - actual Motor models, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/75c1dcfd63b352df99b31e2f/e/7d8ed648695214607ccb8d84
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			6 text A2212 R8 - M3 axle-clamp fan - separate design R11 - actual Motor models - 5.1mm fan
+			1073 image
+			8 button Explore Onshape
+				9 image
+				10 text Explore Onshape
+			11 button Description: Notifications, ID: user-notification-status
+				12 container
+					13 image
+					14 container 9+ unread notifications
+						15 text 9+
+			16 link Navigates you to Action items page in a new window.
+			17 link Navigates you to Onshape app store in a new window.
+			18 link Navigates you to Onshape Learning Center in a new window.
+			1074 button Share
+			20 container Help menu
+			21 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				22 text Matthew Ma
+		23 container model-body
+			24 container
+				25 image
+				1075 image
+				28 image
+				29 image
+				1076 image
+				31 image
+				32 image
+				1077 container
+					1078 container
+						1080 container
+							1081 text Versions are view only. Viewing R11 - actual Motor models - 5.1mm fan.
+							1082 button Return to R11 - actual Onshape motor hardware
+							1083 link cad.onshape.com/help/index.htm#cshid=versionshistorymanager
+						1079 container content-div
+							1084 container
+								1085 container assembly-tree
+									1086 pop up button (collapsed) Secondary Actions: Expand
+									1087 text field (settable)
+									1088 button filter-flat-list-view
+										1089 image
+									1090 text Instances (48)
+									1091 container
+										1092 container
+											1093 image
+											1094 text R11 thruster - actual Motor models
+										1095 container
+											1096 image
+											1097 image
+											1098 text Origin
+										1099 container
+											1100 image
+											1101 image
+											1102 text Front cover - four M3 through-bolt tabs (R4) <1>
+										1103 container
+											1104 image
+											1105 image
+											1106 text R6.1 nozzle - flatter rear motor boss <1>
+										1107 container
+											1108 image
+											1109 image
+											1110 text R11 fan - actual adapter, 5.1 bore, 7.145 hub <1>
+										1111 container
+											1112 image
+											1113 image
+											1114 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										1115 container
+											1116 image
+											1117 image
+											1118 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										1119 container
+											1120 image
+											1121 image
+											1122 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										1123 container
+											1124 image
+											1125 image
+											1126 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										1127 container
+											1128 image
+											1129 image
+											1130 text M4 hex nut AF7x3.2 - 1 <1>
+										1131 container
+											1132 image
+											1133 image
+											1134 text M4 hex nut AF7x3.2 - 2 <1>
+										1135 container
+											1136 image
+											1137 image
+											1138 text M4 hex nut AF7x3.2 - 3 <1>
+										1139 container
+											1140 image
+											1141 image
+											1142 text M4 hex nut AF7x3.2 - 4 <1>
+										1143 container
+											1144 image
+											1145 image
+											1146 text M4x12 socket mounting bolt 1 <1>
+										1147 container
+											1148 image
+											1149 image
+											1150 text M4x12 socket mounting bolt 2 <1>
+										1151 container
+											1152 image
+											1153 image
+											1154 text M4x12 socket mounting bolt 3 <1>
+										1155 container
+											1156 image
+											1157 image
+											1158 text M4x12 socket mounting bolt 4 <1>
+										1159 container
+											1160 image
+											1161 image
+											1162 text M3 captured cover nut 1 <1>
+										1163 container
+											1164 image
+											1165 image
+											1166 text M3 captured cover nut 2 <1>
+										1167 container
+											1168 image
+											1169 image
+											1170 text M3 front washer cover 1 <1>
+										1171 container
+											1172 image
+											1173 image
+											1174 text M3 front washer cover 2 <1>
+										1175 container
+											1176 image
+											1177 image
+											1178 text M3 flat washer motor base 1 <1>
+										1179 container
+											1180 image
+											1181 image
+											1182 text M3 flat washer motor base 3 <1>
+										1183 container
+											1184 image
+											1185 image
+											1186 text M3x40 cover-extension through-bolt 1 <1>
+										1187 container
+											1188 image
+											1189 image
+											1190 text M3x40 cover-extension through-bolt 3 <1>
+										1191 container
+											1192 image
+											1193 image
+											1194 text M3x8 motor-base screw 2 <1>
+										1195 container
+											1196 image
+											1197 image
+											1198 text M3x8 motor-base screw 4 <1>
+										1199 container
+											1200 image
+											1201 image
+											1202 text M3 captured cover nut 3 <1>
+										1203 container
+											1204 image
+											1205 image
+											1206 text M3 front washer cover 3 <1>
+										1207 container
+											1208 image
+											1209 image
+											1210 text M3 flat washer motor base 2 <1>
+										1211 container
+											1212 image
+											1213 image
+											1214 text M3 flat washer motor base 4 <1>
+										1215 container
+											1216 image
+											1217 image
+											1218 text M3x40 cover-extension through-bolt 2 <1>
+								1219 image
+								1220 container viewerdiv
+									1221 image canvas
+									1222 container
+										1223 button
+											1224 image
+										1225 button
+											1226 image
+										1227 button
+											1228 image
+								1229 container
+									1230 image
+									1231 image
+									1232 image
+									1233 image
+									1234 image
+									1235 image
+						1236 container os-tab-bar
+							1237 container
+								1238 container
+									1239 image
+									1240 text Part Studio 1
+								1241 container
+									1242 image
+									1243 text Thruster print fit
+								1244 container
+									1245 image
+									1246 text Thruster-A2212-fit-check.step
+								1247 container
+									1248 image
+									1249 text R11 thruster - actual Motor models
+								1250 container
+									1251 image
+									1252 text R11-actual-Motor-source-stage
+								1253 container
+									1254 image
+									1255 text Nozzle R5 - verified manifold print mesh
+								1256 container
+									1257 image
+									1258 text Nozzle R5 - verified manifold print mesh.stl
+								1259 container
+									1260 image
+									1261 text R11 parts - actual motor and metal hardware
+								1262 container
+									1263 image
+									1264 text R11 native Motor source - linked originals
+								1265 container
+									1266 image
+									1267 text Assembly 1
+								1268 container
+									1269 image
+									1270 text CAD Imports
+
+The focused UI element is 1 AXWebArea A2212 R8 - M3 axle-clamp fan - separate design | R11 thruster - actual Motor models, URL: cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/75c1dcfd63b352df99b31e2f/e/7d8ed648695214607ccb8d84

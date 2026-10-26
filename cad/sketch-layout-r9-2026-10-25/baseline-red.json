@@ -1,0 +1,26 @@
+[
+  {
+    "check": "old motor-bell cup removed",
+    "passed": false,
+    "detail": {
+      "rear_cup_material_mm3": 5083.950159602292
+    }
+  },
+  {
+    "check": "blades are ahead of motor face and behind cap",
+    "passed": false,
+    "detail": {
+      "blade_tip_y_bounds_mm": [
+        5.338025896214805,
+        11.378318130520038
+      ]
+    }
+  },
+  {
+    "check": "46 assembly bodies retained",
+    "passed": true,
+    "detail": {
+      "bodies": 46
+    }
+  }
+]

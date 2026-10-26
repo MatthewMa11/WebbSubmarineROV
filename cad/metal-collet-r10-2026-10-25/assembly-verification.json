@@ -1,0 +1,54 @@
+[
+  {
+    "check": "constrained assembly exactly matches all 45 Part Studio placements",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "bench-built motor/fan/collet fit through continuous insertion corridor",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "only twenty stationary fasteners remain during motor insertion",
+    "passed": true,
+    "detail": {
+      "remaining": 20
+    }
+  },
+  {
+    "check": "continuous insertion corridor clears frame and retained fasteners",
+    "passed": true,
+    "detail": {
+      "largest_overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "18 mm OD nut socket has a straight path with cap off",
+    "passed": true,
+    "detail": {
+      "largest_overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "straight key access exists above all four M3x40 heads",
+    "passed": true,
+    "detail": {
+      "overlaps_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -1,0 +1,402 @@
+Browser tab: 1, Title: "Frame Structure | R7 thruster - bolt-free collar and jam ring", URL: "https://cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553".
+1 AXWebArea Frame Structure | R7 thruster - bolt-free collar and jam ring, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553
+	2 container
+		3 image
+		4 container
+			5 link Description: The Onshape logo., Value: cad.onshape.com/documents
+			6 text Frame Structure R7 - bolt-free collar and jam ring
+			7 image
+			8 button Explore Onshape
+				9 image
+				10 text Explore Onshape
+			11 button Description: Notifications, ID: user-notification-status
+				12 container
+					13 image
+					14 container 9+ unread notifications
+						15 text 9+
+			16 link Navigates you to Action items page in a new window.
+			17 link Navigates you to Onshape app store in a new window.
+			18 link Navigates you to Onshape Learning Center in a new window.
+			19 button (disabled) Share
+			20 container Help menu
+			21 pop up button (collapsed) Matthew Ma, Secondary Actions: Expand
+				22 text Matthew Ma
+		23 container model-body
+			24 container
+				25 image
+				26 image
+				27 image
+				28 image
+				29 image
+				30 image
+				31 image
+				32 image
+				33 container
+					34 container
+						36 container osToolbar
+							37 container
+								38 container
+									39 image
+									40 text Insert
+								41 button Search tools… alt/⌥ c
+									42 text Search tools… 
+									43 text alt/⌥
+									44 text c
+						35 container content-div
+							45 container
+								46 container assembly-tree
+									47 pop up button (collapsed) Secondary Actions: Expand
+									48 text field (settable)
+									49 button filter-flat-list-view
+										50 image
+									651 text Instances (43)
+									54 container
+										55 container
+											56 image
+											727 text R7 thruster - bolt-free collar and jam ring
+										878 container
+											879 image
+											880 image
+											881 text Origin
+										882 container
+											883 image
+											884 image
+											885 text A2212 reference rotor <1>
+										886 container
+											887 image
+											888 image
+											889 text A2212 reference stator base <1>
+										890 container
+											891 image
+											892 image
+											893 text Front cover - four M3 through-bolt tabs (R4) <1>
+										894 container
+											895 image
+											896 image
+											897 text R6.1 nozzle - flatter rear motor boss <1>
+										898 container
+											899 image
+											900 image
+											901 text R7 propeller - bolt-free external collet, original drive keys <1>
+										902 container
+											903 image
+											904 image
+											905 text M4 flat washer 9x4.3x0.8 - 1 <1>
+										906 container
+											907 image
+											908 image
+											909 text M4 flat washer 9x4.3x0.8 - 2 <1>
+										910 container
+											911 image
+											912 image
+											913 text M4 flat washer 9x4.3x0.8 - 3 <1>
+										914 container
+											915 image
+											916 image
+											917 text M4 flat washer 9x4.3x0.8 - 4 <1>
+										918 container
+											919 image
+											920 image
+											921 text M4 hex nut AF7x3.2 - 1 <1>
+										453 container
+											454 image
+											455 image
+											456 text M4 hex nut AF7x3.2 - 2 <1>
+										448 container
+											449 image
+											450 image
+											451 text M4 hex nut AF7x3.2 - 3 <1>
+										443 container
+											444 image
+											445 image
+											446 text M4 hex nut AF7x3.2 - 4 <1>
+										425 container
+											426 image
+											427 image
+											428 text M4x12 socket mounting bolt 1 <1>
+										119 container
+											120 image
+											121 image
+											122 text M4x12 socket mounting bolt 2 <1>
+										123 container
+											124 image
+											125 image
+											126 text M4x12 socket mounting bolt 3 <1>
+										127 container
+											128 image
+											129 image
+											130 text M4x12 socket mounting bolt 4 <1>
+										131 container
+											132 image
+											133 image
+											134 text M3 captured cover nut 1 <1>
+										135 container
+											136 image
+											137 image
+											138 text M3 captured cover nut 2 <1>
+										139 container
+											140 image
+											141 image
+											142 text M3 front washer cover 1 <1>
+										143 container
+											144 image
+											145 image
+											146 text M3 front washer cover 2 <1>
+										147 container
+											148 image
+											149 image
+											150 text M3 flat washer motor base 1 <1>
+										151 container
+											152 image
+											153 image
+											154 text M3 flat washer motor base 3 <1>
+										155 container
+											156 image
+											157 image
+											158 text M3x12 cover through-bolt 1 <1>
+										159 container
+											160 image
+											161 image
+											162 text M3x12 cover through-bolt 3 <1>
+										163 container
+											164 image
+											165 image
+											166 text M3x8 motor-base screw 2 <1>
+										167 container
+											168 image
+											169 image
+											170 text M3x8 motor-base screw 4 <1>
+										171 container
+											172 image
+											173 image
+											174 text M3 captured cover nut 3 <1>
+										175 container
+											176 image
+											177 image
+											178 text M3 front washer cover 3 <1>
+										179 container
+											180 image
+											181 image
+											182 text M3 flat washer motor base 2 <1>
+										183 container
+											184 image
+											185 image
+											186 text M3 flat washer motor base 4 <1>
+										187 container
+											188 image
+											189 image
+											190 text M3x12 cover through-bolt 2 <1>
+										191 container
+											192 image
+											193 image
+											194 text M3x8 motor-base screw 1 <1>
+										195 container
+											196 image
+											197 image
+											198 text M3x8 motor-base screw 3 <1>
+										199 container
+											200 image
+											201 image
+											202 text M3 captured cover nut 4 <1>
+										203 container
+											204 image
+											205 image
+											206 text M3 front washer cover 4 <1>
+								207 image
+								208 container viewerdiv
+									209 image canvas
+									922 button
+										923 image
+								217 container
+									218 image
+									219 image
+									220 image
+									221 image
+									222 image
+									223 image
+							924 container interference-detection-dialog
+								925 container
+									926 text Interference detection
+									927 button
+								928 content list
+									929 container
+										930 text Instances to analyze
+										931 content list
+											932 container
+												933 text R7 thruster - bolt-free collar and jam ring ×
+									934 container
+										935 checkbox (settable, integer) Description: Include standard content, Value: 0
+										936 text Include standard content
+									937 container
+										938 checkbox (settable, integer) Description: Show top level only, Value: 0
+										939 text Show top level only
+									940 container
+										941 text Interferences
+										943 content list
+											944 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											945 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											946 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											947 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											948 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											949 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											950 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											951 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											952 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											953 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											954 text R7 compression collar - external printed thread <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											955 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											956 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											957 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											958 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											959 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											960 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+											961 text R7 jam ring - counter tighten against collar <1> and R7 propeller - bolt-free external collet, original drive keys <1>
+								942 link cad.onshape.com/help/index.htm#cshid=interference_detection
+						224 container os-tab-bar
+							225 container
+								734 container
+									735 image
+									736 text Part Studio 1
+								737 container
+									738 image
+									739 text Part Studio 2
+								740 container
+									741 image
+									742 text A2212 corrected parts
+								743 container
+									744 image
+									745 text Propeller-R7-bolt-free.stl
+								746 container
+									747 image
+									748 text Nozzle-R6p1-flat-motor-boss.stl
+								749 container
+									750 image
+									751 text Propeller-R6-FINAL-integral-M3-clamp.stl
+								752 container
+									753 image
+									754 text DRAFT superseded - Propeller-R6-trial.stl
+								755 container
+									756 image
+									757 text Nozzle R5 - verified manifold print mesh.stl
+								758 container
+									759 image
+									760 text Nozzle R5 - verified manifold print mesh
+								761 container
+									762 image
+									763 text Nozzle-no-wire-holder-R5.stl
+								764 container
+									765 image
+									766 text ROV - easy assembly - five panels
+								767 container
+									768 image
+									769 text Thruster R3
+								770 container
+									771 image
+									772 text Easy frame and removable electronics pod
+								773 container
+									774 image
+									775 text ROV-easy-assembly parts
+								776 container
+									777 image
+									778 text A2212-R4-final-print-parts.zip
+								779 container
+									780 image
+									781 text Thruster-R4-native-parts.step
+								782 container
+									783 image
+									784 text A2212-R4-nozzle-and-cover.zip
+								785 container
+									786 image
+									787 text Nozzle-centering-cup-R3.stl
+								788 container
+									789 image
+									790 text A2212-physical-revision-2026-10-17.zip
+								791 container
+									792 image
+									793 text Nozzle-PLA-complete.stl
+								794 container
+									795 image
+									796 text R7 thruster - bolt-free collar and jam ring
+								797 container
+									798 image
+									799 text Thruster-R6p1-flat-motor-boss.step
+								800 container
+									801 image
+									802 text Thruster-R6-FINAL-spacer-free-assembly.step
+								803 container
+									804 image
+									805 text DRAFT superseded - Thruster-R6-trial.step
+								806 container
+									807 image
+									808 text Thruster-no-wire-holder-R5.step
+								809 container
+									810 image
+									811 text Thruster-cover-through-bolts-R4-verified.step
+								812 container
+									813 image
+									814 text Thruster-cover-through-bolts-R4.step
+								815 container
+									816 image
+									817 text ROV - 8 thrusters - 4 diagonal + 4 vertical
+								818 container
+									819 image
+									820 text ROV - laser-cut frame and electronics cylinder
+								821 container
+									822 image
+									823 text A2212 R3 - 3 mm frame mounts
+								824 container
+									825 image
+									826 text Laser-cut frame and electronics pod
+								827 container
+									828 image
+									829 text ROV-frame-and-cylinder parts
+								830 container
+									831 image
+									832 text A2212 complete thruster - R3
+								833 container
+									834 image
+									835 text ROV8-native parts
+								836 container
+									837 image
+									838 text Thruster-centering-cup-R3.step
+								839 container
+									840 image
+									841 text Thruster-physical-fit-R2-2026-10-17.step
+								842 container
+									843 image
+									844 text Thruster-A2212-PLA-complete.step
+								845 container
+									846 image
+									847 text T200.STEP (1)
+								848 container
+									849 image
+									850 text T200-CORE_T200-CORE-STD.STEP
+								851 container
+									852 image
+									853 text T200-ASM-STATOR-POTTED-R1B.STEP
+								854 container
+									855 image
+									856 text T200-ASM-STATOR-BASE-ORING_Pubilc .STEP
+								857 container
+									858 image
+									859 text T200-NOZZLE.STEP
+								860 container
+									861 image
+									862 text T200 parts
+								863 container
+									864 image
+									865 text Part Studio 3
+								866 container
+									867 image
+									868 text Assembly 1
+								869 container
+									870 image
+									871 text CAD 导入
+								872 container
+									873 image
+									874 text Thruster print fit
+								875 container
+									876 image
+									877 text R6 source geometry - frame and cap
+
+The focused UI element is 1 AXWebArea Frame Structure | R7 thruster - bolt-free collar and jam ring, URL: cad.onshape.com/documents/80535e3f457f805ec76c4df1/w/a7e338b31063b1177578abb2/e/51ff5b1cdf93eadbe7b0e553

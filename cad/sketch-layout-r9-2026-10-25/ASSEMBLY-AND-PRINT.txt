@@ -1,0 +1,99 @@
+R9 - USER'S SKETCH LAYOUT - FORWARD FAN / AXLE CLAMP
+
+Separate Onshape design, R9 workspace:
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/w/f840c75829657ff4af820013/e/7d8ed648695214607ccb8d84
+Saved version: R9 - sketch layout - forward fan - bench assembly
+https://cad.onshape.com/documents/743ab214882a2e3f8cf7645e/v/22f92fdd7289c8541ee5c673/e/7d8ed648695214607ccb8d84
+
+LAYOUT
+From the front: fixed cap, rotating fan, motor, fixed rear motor support.
+The existing frame surrounds them. Frame, cap, motor and stationary fastener
+geometry/placement are preserved. The fan no longer has a deep cup wrapped
+around the motor bell. The existing outer blade profiles move8.0 mm forward
+and meet a new flat R20 hub with rounded blade roots. The main hub's forward
+face is atY19.3. The full outer blade profile is retained beyondR27.01;
+their plane sits ahead of motor faceY14. The pitch gives the blades axial
+depth; leading edges may lie alongside the motor face but clear its body
+radially. Inner roots taper into the hub, keeping the cap's center clear.
+
+AXLE ATTACHMENT
+The four existing solid5.5 mm keys on the18 mm pattern carry torque from
+the matching motor face. The two-jaw M3 axle clamp retains the fan axially.
+No motor insert/spacer, external compression collar or jam ring is used.
+The cap stays attached to the frame and does not rotate with the fan.
+
+NEW CLAMP HARDWARE
+2 x M3x16 socket cap screws (5.68 mm nominal head diameter,3 mm head height).
+2 x ordinary M3 nuts (5.5 mm across flats,2.4 mm thick).
+Install the two screws in opposite directions, as modeled. Broad printed
+pad faces support the hardware without washers. Each screw has about1.2 mm
+nominal protrusion beyond the nut. The8.6 mm access wells provide local CAD
+clearance for an8.4 mm OD hollow nut driver. Tighten the clamp outside the
+frame; the frame obstructs a long straight driver after installation.
+Check your actual tool. Reuse the existing motor-base/frame/cap hardware
+in the order below.
+
+INSTALLATION
+1.Work on the bench with the motor outside the frame. Remove the front cap
+  from the frame and withdraw its four motor-base screws and washers so
+  their tips do not protrude into the motor seat.
+2.With the removable upper jaw off, slide the fan onto the projecting shaft
+  and align all four drive keys with their matching motor-face openings.
+  Seat all keys evenly. Do not force a key into a mismatched opening.
+3.Put the upper jaw in its matching rectangular seat. Its larger pilot
+  relief faces the motor; its smaller shaft groove faces the shaft tip/cap.
+4.Still outside the frame, fit the twoM3x16 bolts in opposite directions and
+  add the twoM3 nuts to the outer bearing faces. Tighten alternately in small
+  increments. A long driver can approach these nuts before frame insertion.
+5.The fan should resist a firm hand pull and twist while a small jaw gap
+  remains. Stop if the jaws bottom out before gripping or if plastic bends
+  or cracks; that printed fit needs correction, not additional tightening.
+6.Hold the motor's fixed base and turn the fan by hand through a complete
+  turn. Check retention again. Keep the wires clear of the rotating blades.
+7.Insert the assembled fan and motor through the frame's open front, keeping
+  their axis centered and the motor-base screw pattern aligned. Feed the
+  wires through the existing route and seat the motor gently. Do not force
+  it or pinch the wires. The cap is still off during this step.
+8.Install the four existing motor-base screws with their washers through
+  the rear access pockets and tighten evenly into the motor's fixed base.
+  Turn the fan by hand again. Then refit the unchanged cap using its existing
+  through-bolts/nuts and repeat the complete hand turn. Nothing should rub.
+
+TEST PRINT / P1S PLA BASIC
+Print TEST-FIRST-R9-lower-jaw.stl together with the upper jaw first, using
+the same profile intended for the fan. It duplicates the actual shaft bore
+and clamp bolt positions without printing the complete fan. It does not
+test blade roots, drive-key engagement, dynamic balance or powered thrust.
+
+All STL files are millimetres. Import at100% without scaling.
+PRINT folder files have been oriented and placed onZ=0:
+-Fan: forward side down; motor axis vertical. The pitched blades project
+ slightly ahead of the hub, so use supports below the hub and blade
+ overhangs. Remove support residue without damaging the blades.
+-Upper jaw: shaft-tip-facing flat end down; its axle axis vertical.
+-Small lower-jaw test coupon: flat lower bearing face down as supplied.
+-Frame/cap: unchanged copies; use the previous printing orientations.
+Starting profile:0.16 mm layers,6walls, upper jaw100% infill. Validate these
+settings with the test print. They are not a tested production profile.
+
+PHYSICAL LIMITS
+CAD checks:46bodyassembly,7partrotatinggroup, nativeNoInterferences and
+completed360degreeanimation. Continuous conservative sweep clears the cap
+by0.699 mm, frame by3.249 mm and all stationaryfasteners by5.43 mm.
+Outer blade STL surfaces agree with the reference after8 mm translation
+within0.02 mm at107,278sampledpoints (max0.016965 mm). This is mesh-surface
+fidelity, not a physical printer accuracy claim. Old invalid STEP tip faces
+make scalar mass/Boolean profile comparisons unreliable; those diagnostics
+are retained in the verification report. The complete final fan B-rep is valid.
+
+Reference shaft diameter3.175 mm; nominal printed clamp bore3.30 mm.
+Straight shaft contact length3.05 mm, Y16.25..19.30; joint gap0.30 mm.
+Nominal geometric closing travel about0.125 mm. Pilot relief diameter9.6 mm
+for the9 mm reference motor pilot. Actual printing/motor tolerances matter.
+The cap has a3.5 mm reference shaft passage; check it is free on the actual
+shaft after printing. Do not treat the cap as a shaft bearing.
+
+This is a fit-test prototype. Rigid CAD checks cannot establish clamp force,
+pull-off capacity, key/root strength, tightening torque, fatigue, PLA creep,
+nut loosening, lifetime, safe speed or powered balance. Validate fit and
+retention physically and recheck after the first controlled run.

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "Cone-R13-concave.stl",
+    "triangles": 111536,
+    "components": 1,
+    "bad_edges": 0,
+    "bounds_mm": [
+      -49.5,
+      49.5,
+      47.0,
+      78.0,
+      -49.5,
+      49.5
+    ]
+  },
+  {
+    "file": "Housing-R13-short-bolt.stl",
+    "triangles": 607526,
+    "components": 3,
+    "bad_edges": 0,
+    "bounds_mm": [
+      -50.7955436706543,
+      50.7955436706543,
+      -30.0,
+      47.79999923706055,
+      -50.7955436706543,
+      50.7955436706543
+    ]
+  }
+]

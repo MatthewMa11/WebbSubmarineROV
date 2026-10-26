@@ -1,0 +1,208 @@
+[
+  {
+    "check": "47 assembly solids retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "cone has inward spherical bowlR13 atY43",
+    "passed": true,
+    "detail": {
+      "count": 1
+    }
+  },
+  {
+    "check": "inner recess accepts18mm-diameter by4mm clearance gauge",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": 0.0
+    }
+  },
+  {
+    "check": "four M3x12 cover bolts replace40mm bolts",
+    "passed": true,
+    "detail": {
+      "count": 4
+    }
+  },
+  {
+    "check": "four nuts and four rear washers sit in front-access seats",
+    "passed": true,
+    "detail": {
+      "nuts": 4,
+      "washers": 4
+    }
+  },
+  {
+    "check": "housing has0.8mm locating pilots",
+    "passed": true,
+    "detail": {
+      "maxY": 47.800000100000005
+    }
+  },
+  {
+    "check": "other33 motor fan metal adapter and fastener bodies unchanged",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "outside cone bounding dimensions retained",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "obsolete center passage closed below bowl",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "complete rotation clears cone by5mm and housing by3mm",
+    "passed": true,
+    "detail": {
+      "clearance_mm": {
+        "cap": 6.089870739561727,
+        "housing": 3.230000000000004
+      }
+    }
+  },
+  {
+    "check": "metal-adapter tolerance space increased",
+    "passed": true,
+    "detail": {
+      "old_clearance_mm": 1.7723404151048996,
+      "new_clearance_mm": 6.089870739561727
+    }
+  },
+  {
+    "check": "cone and housing clear all45 other installed bodies",
+    "passed": true,
+    "detail": {
+      "conflicts": []
+    }
+  },
+  {
+    "check": "cone pilots and bearing seats have no penetration",
+    "passed": true,
+    "detail": {}
+  },
+  {
+    "check": "2.7mm housing roof is solid around every bolt",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "4mm cone material remains over locating sockets",
+    "passed": true,
+    "detail": {
+      "escaped_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "all four screw heads have straight key access",
+    "passed": true,
+    "detail": {
+      "overlap_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  {
+    "check": "captured nuts cannot rotate30 degrees",
+    "passed": true,
+    "detail": {
+      "rotation_overlap_mm3": [
+        0.6689352484925006,
+        0.6689352484925123,
+        0.668935248492536,
+        0.6689352484925117
+      ]
+    }
+  },
+  {
+    "check": "full nut engagement and two-thread tip projection",
+    "passed": true,
+    "detail": {
+      "nut_engagement_mm": 2.4,
+      "tip_projection_mm": 0.9,
+      "housing_roof_mm": 2.7
+    }
+  },
+  {
+    "check": "four pilots and sockets give0.2mm radial and axial relief",
+    "passed": true,
+    "detail": {
+      "pilot_axes": [
+        [
+          -44.5,
+          0.0
+        ],
+        [
+          0.0,
+          -44.5
+        ],
+        [
+          0.0,
+          44.5
+        ],
+        [
+          44.5,
+          0.0
+        ]
+      ],
+      "socket_axes": [
+        [
+          -44.5,
+          0.0
+        ],
+        [
+          0.0,
+          -44.5
+        ],
+        [
+          0.0,
+          44.5
+        ],
+        [
+          44.5,
+          0.0
+        ]
+      ],
+      "radial_relief_mm": 0.2,
+      "axial_relief_mm": 0.2
+    }
+  },
+  {
+    "check": "four rear washers bear flat on pocket roofs",
+    "passed": true,
+    "detail": {
+      "contact_mm2": [
+        28.30574980884407,
+        28.30574980884403,
+        28.30574980884403,
+        28.30574980884407
+      ]
+    }
+  },
+  {
+    "check": "cone rests on four bearing seats, not on pilots",
+    "passed": true,
+    "detail": {
+      "contact_area_mm2": 103.27215452898761
+    }
+  }
+]
