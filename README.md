@@ -20,7 +20,7 @@ Earlier revision folders are historical snapshots. Their hardware stacks and pri
 
 ## Files and downloads
 
-FeatureScript, Python scripts, design notes, verification reports, bills of materials, cutting outlines, and selected CAD screenshots are browsable in their original project paths. The [CAD archive index](archives/README.md) provides every original CAD revision file, including STL, STEP, BREP, all original images, and original print ZIP packages, in ordinary ZIP downloads. Each archive preserves the original `cad/` paths; extract all archives for a revision into the same project root to restore that revision completely.
+FeatureScript, Python scripts, design notes, verification reports, bills of materials, cutting outlines, and selected CAD screenshots are browsable in their original project paths. The [CAD archive index](archives/README.md) provides every original CAD revision file, including STL, STEP, BREP, all original images, and original print ZIP packages, in ordinary ZIP downloads attached to the [CAD development release](https://github.com/MatthewMa11/WebbSubmarineROV/releases/tag/cad-archive-2026-10-26). Each archive preserves the original `cad/` paths; extract all archives for a revision into the same project root to restore that revision completely.
 
 Large geometry is packaged into downloads rather than displayed as individual GitHub files. This preserves historical exports and duplicate print bundles while keeping the repository useful to browse. [The file inventory](archives/file-inventory.csv) maps each original CAD file to its archive and SHA-256 checksum. [The archive manifest](archives/archive-manifest.json) records download sizes and checksums.
 
@@ -31,4 +31,3 @@ The root `rov_*.fs` files and chassis progress notes preserve the earlier chassi
 Start from the instructions associated with the chosen revision, record real measurements and print settings, and keep the small fit-test results with the parts they describe. When a design changes, save the reason, the affected interfaces, and the evidence supporting the change. CAD interference results, mesh checks, and assembly animations should remain distinct from physical fit, retention, thrust, durability, and underwater tests.
 
 Project import and journal date: **October 26, 2026**. Historical dates in the journals come from the saved project records; this GitHub import does not recreate earlier Git commits.
-

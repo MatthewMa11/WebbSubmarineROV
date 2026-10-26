@@ -7,308 +7,352 @@
       "revision": "actual-onshape-motor-r11-2026-10-25",
       "files": 38,
       "bytes": 18760082,
-      "sha256": "221811c4b33d123d788ec02d2236402d4fb55dbbbd9f8c04b4ae5b3d79a91845"
+      "sha256": "221811c4b33d123d788ec02d2236402d4fb55dbbbd9f8c04b4ae5b3d79a91845",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/actual-onshape-motor-r11-2026-10-25-archive-01.zip"
     },
     {
       "archive": "actual-onshape-motor-r11-2026-10-25-archive-02.zip",
       "revision": "actual-onshape-motor-r11-2026-10-25",
       "files": 20,
       "bytes": 15429712,
-      "sha256": "bd2f69528bbce1e6574e7d713dfc31bf3c0909df771828e3fc8f2ea564d2bc47"
+      "sha256": "bd2f69528bbce1e6574e7d713dfc31bf3c0909df771828e3fc8f2ea564d2bc47",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/actual-onshape-motor-r11-2026-10-25-archive-02.zip"
     },
     {
       "archive": "bolt-free-retention-2026-10-24-archive-01.zip",
       "revision": "bolt-free-retention-2026-10-24",
       "files": 16,
       "bytes": 20823025,
-      "sha256": "924c204e23c6f8a81faa0db9a0eef07098bd43d6a7dee773db559cfd894b0bfe"
+      "sha256": "924c204e23c6f8a81faa0db9a0eef07098bd43d6a7dee773db559cfd894b0bfe",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/bolt-free-retention-2026-10-24-archive-01.zip"
     },
     {
       "archive": "bolt-free-retention-2026-10-24-archive-02.zip",
       "revision": "bolt-free-retention-2026-10-24",
       "files": 16,
       "bytes": 14963144,
-      "sha256": "8e6cfb2c6bd9c9f0840334cb713ee1e8264ed56e8f0c605af14db136919871d3"
+      "sha256": "8e6cfb2c6bd9c9f0840334cb713ee1e8264ed56e8f0c605af14db136919871d3",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/bolt-free-retention-2026-10-24-archive-02.zip"
     },
     {
       "archive": "bolt-free-retention-2026-10-24-archive-03.zip",
       "revision": "bolt-free-retention-2026-10-24",
       "files": 33,
       "bytes": 16851620,
-      "sha256": "6f5549ddccf5e878d27e670a01be1986775026a81110f72cafbd727825881be5"
+      "sha256": "6f5549ddccf5e878d27e670a01be1986775026a81110f72cafbd727825881be5",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/bolt-free-retention-2026-10-24-archive-03.zip"
     },
     {
       "archive": "concave-cap-r13-2026-10-25-archive-01.zip",
       "revision": "concave-cap-r13-2026-10-25",
       "files": 31,
       "bytes": 16592529,
-      "sha256": "df2f29486bac16086475f169ef0033b0b01550c9a9b667d7bcab99b749705044"
+      "sha256": "df2f29486bac16086475f169ef0033b0b01550c9a9b667d7bcab99b749705044",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/concave-cap-r13-2026-10-25-archive-01.zip"
     },
     {
       "archive": "concave-cap-r13-2026-10-25-archive-02.zip",
       "revision": "concave-cap-r13-2026-10-25",
       "files": 8,
       "bytes": 12300075,
-      "sha256": "3a137a9e7c6e95961fe7ee6ba23ce256241726d3136943776c5408b38bf135ae"
+      "sha256": "3a137a9e7c6e95961fe7ee6ba23ce256241726d3136943776c5408b38bf135ae",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/concave-cap-r13-2026-10-25-archive-02.zip"
     },
     {
       "archive": "concave-cap-r13-2026-10-25-archive-03.zip",
       "revision": "concave-cap-r13-2026-10-25",
       "files": 8,
       "bytes": 14477032,
-      "sha256": "5cbb78e8431327efb5a84de7b987139efd3c4632d7860f43b14cc8a69e596384"
+      "sha256": "5cbb78e8431327efb5a84de7b987139efd3c4632d7860f43b14cc8a69e596384",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/concave-cap-r13-2026-10-25-archive-03.zip"
     },
     {
       "archive": "cover-through-bolts-2026-10-17-archive-01.zip",
       "revision": "cover-through-bolts-2026-10-17",
       "files": 14,
       "bytes": 15314100,
-      "sha256": "9de13b0c2986f10471adf06948ae236c9d29a94ca33bccf73d16ad3255600aa6"
+      "sha256": "9de13b0c2986f10471adf06948ae236c9d29a94ca33bccf73d16ad3255600aa6",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/cover-through-bolts-2026-10-17-archive-01.zip"
     },
     {
       "archive": "cover-through-bolts-2026-10-17-archive-02.zip",
       "revision": "cover-through-bolts-2026-10-17",
       "files": 3,
       "bytes": 10897392,
-      "sha256": "17a7db3fdca97d69e70334dde70dfe4a2e0c3d3a869eb667c13b5ad1be3ac2d3"
+      "sha256": "17a7db3fdca97d69e70334dde70dfe4a2e0c3d3a869eb667c13b5ad1be3ac2d3",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/cover-through-bolts-2026-10-17-archive-02.zip"
     },
     {
       "archive": "cover-through-bolts-2026-10-17-archive-03.zip",
       "revision": "cover-through-bolts-2026-10-17",
       "files": 4,
       "bytes": 13126721,
-      "sha256": "5309fec51dfbb1f3e40e6b96913274bfd6c51a402696e3237bdf3e50ab3d22fd"
+      "sha256": "5309fec51dfbb1f3e40e6b96913274bfd6c51a402696e3237bdf3e50ab3d22fd",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/cover-through-bolts-2026-10-17-archive-03.zip"
     },
     {
       "archive": "cover-through-bolts-2026-10-17-archive-04.zip",
       "revision": "cover-through-bolts-2026-10-17",
       "files": 14,
       "bytes": 14275129,
-      "sha256": "4671afdfb3c6f9edb1525552ff42cbaece01ef0734a96034ee4246bc3ba52d80"
+      "sha256": "4671afdfb3c6f9edb1525552ff42cbaece01ef0734a96034ee4246bc3ba52d80",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/cover-through-bolts-2026-10-17-archive-04.zip"
     },
     {
       "archive": "easy-assembly-2026-10-18-archive-01.zip",
       "revision": "easy-assembly-2026-10-18",
       "files": 137,
       "bytes": 3628244,
-      "sha256": "cf10608da92a3d30c6c9f77aa95d48bebf005a1bd57e7963bba3fa9aea32536e"
+      "sha256": "cf10608da92a3d30c6c9f77aa95d48bebf005a1bd57e7963bba3fa9aea32536e",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/easy-assembly-2026-10-18-archive-01.zip"
     },
     {
       "archive": "eight-thruster-assembly-2026-10-17-archive-01.zip",
       "revision": "eight-thruster-assembly-2026-10-17",
       "files": 52,
       "bytes": 7265710,
-      "sha256": "7357073338fa5cd3e0e2ddda31a6c0e5e7425f1bb1077a1079b5341f622ee6d2"
+      "sha256": "7357073338fa5cd3e0e2ddda31a6c0e5e7425f1bb1077a1079b5341f622ee6d2",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/eight-thruster-assembly-2026-10-17-archive-01.zip"
     },
     {
       "archive": "flatter-motor-boss-2026-10-24-archive-01.zip",
       "revision": "flatter-motor-boss-2026-10-24",
       "files": 9,
       "bytes": 14891123,
-      "sha256": "a326eda3a54df3d352c2ffc8c571af2e3a585bc5030d541e2f55c6e9cfc2e140"
+      "sha256": "a326eda3a54df3d352c2ffc8c571af2e3a585bc5030d541e2f55c6e9cfc2e140",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/flatter-motor-boss-2026-10-24-archive-01.zip"
     },
     {
       "archive": "flatter-motor-boss-2026-10-24-archive-02.zip",
       "revision": "flatter-motor-boss-2026-10-24",
       "files": 7,
       "bytes": 13763186,
-      "sha256": "e52ff5bbd22a7c2df3e621057e0b9611d2ef6f01d2528a203d37ee1679da8e0d"
+      "sha256": "e52ff5bbd22a7c2df3e621057e0b9611d2ef6f01d2528a203d37ee1679da8e0d",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/flatter-motor-boss-2026-10-24-archive-02.zip"
     },
     {
       "archive": "laser-frame-electronics-2026-10-17-archive-01.zip",
       "revision": "laser-frame-electronics-2026-10-17",
       "files": 229,
       "bytes": 5898685,
-      "sha256": "9de16a45b4fb15d6252f6160b7fe6db209344f12ce8ff35babe0d482245fa5ca"
+      "sha256": "9de16a45b4fb15d6252f6160b7fe6db209344f12ce8ff35babe0d482245fa5ca",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/laser-frame-electronics-2026-10-17-archive-01.zip"
     },
     {
       "archive": "metal-collet-r10-2026-10-25-archive-01.zip",
       "revision": "metal-collet-r10-2026-10-25",
       "files": 28,
       "bytes": 12497718,
-      "sha256": "e325e688e466f34de3c8fa5c461ee0552495ba27817e5f7d82212ba0bdc75cd5"
+      "sha256": "e325e688e466f34de3c8fa5c461ee0552495ba27817e5f7d82212ba0bdc75cd5",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/metal-collet-r10-2026-10-25-archive-01.zip"
     },
     {
       "archive": "metal-collet-r10-2026-10-25-archive-02.zip",
       "revision": "metal-collet-r10-2026-10-25",
       "files": 9,
       "bytes": 9294765,
-      "sha256": "6463fb4c3151f6eda61097cb89e59ab5b5179e80644531fb4c5e9c5127c091bb"
+      "sha256": "6463fb4c3151f6eda61097cb89e59ab5b5179e80644531fb4c5e9c5127c091bb",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/metal-collet-r10-2026-10-25-archive-02.zip"
     },
     {
       "archive": "metal-collet-r10-2026-10-25-archive-03.zip",
       "revision": "metal-collet-r10-2026-10-25",
       "files": 7,
       "bytes": 13300629,
-      "sha256": "c6698816fb81d0da75aa65c64d6294a800a2af85f674ea013c4dc14794b9c0e6"
+      "sha256": "c6698816fb81d0da75aa65c64d6294a800a2af85f674ea013c4dc14794b9c0e6",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/metal-collet-r10-2026-10-25-archive-03.zip"
     },
     {
       "archive": "motor-centering-cover-2026-10-17-archive-01.zip",
       "revision": "motor-centering-cover-2026-10-17",
       "files": 15,
       "bytes": 12118331,
-      "sha256": "41071dfa8995934b84594916df2604410b6ee64d1e634dccf628156351839d4a"
+      "sha256": "41071dfa8995934b84594916df2604410b6ee64d1e634dccf628156351839d4a",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/motor-centering-cover-2026-10-17-archive-01.zip"
     },
     {
       "archive": "motor-centering-cover-2026-10-17-archive-02.zip",
       "revision": "motor-centering-cover-2026-10-17",
       "files": 5,
       "bytes": 19135979,
-      "sha256": "765fb6bc4957cfafe0957d958ca116914adf34d46773214cb0260a3f33677820"
+      "sha256": "765fb6bc4957cfafe0957d958ca116914adf34d46773214cb0260a3f33677820",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/motor-centering-cover-2026-10-17-archive-02.zip"
     },
     {
       "archive": "motor-centering-cover-2026-10-17-archive-03.zip",
       "revision": "motor-centering-cover-2026-10-17",
       "files": 7,
       "bytes": 3672122,
-      "sha256": "7ae6886b5c8edf85cba6ae91d56acc928da9ae1071fc49b93c58d422381026e0"
+      "sha256": "7ae6886b5c8edf85cba6ae91d56acc928da9ae1071fc49b93c58d422381026e0",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/motor-centering-cover-2026-10-17-archive-03.zip"
     },
     {
       "archive": "one-piece-housing-r12-2026-10-25-archive-01.zip",
       "revision": "one-piece-housing-r12-2026-10-25",
       "files": 20,
       "bytes": 20957849,
-      "sha256": "4e411123dd160d5738c86771780197ed61b3c819a574991feff9ae47cc9ebc5a"
+      "sha256": "4e411123dd160d5738c86771780197ed61b3c819a574991feff9ae47cc9ebc5a",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/one-piece-housing-r12-2026-10-25-archive-01.zip"
     },
     {
       "archive": "one-piece-housing-r12-2026-10-25-archive-02.zip",
       "revision": "one-piece-housing-r12-2026-10-25",
       "files": 14,
       "bytes": 14242142,
-      "sha256": "12860a5ee21c7db4b3f330e67c2c1257129ecb149e6deda2a11f3497d778b93f"
+      "sha256": "12860a5ee21c7db4b3f330e67c2c1257129ecb149e6deda2a11f3497d778b93f",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/one-piece-housing-r12-2026-10-25-archive-02.zip"
     },
     {
       "archive": "one-piece-housing-r12-2026-10-25-archive-03.zip",
       "revision": "one-piece-housing-r12-2026-10-25",
       "files": 6,
       "bytes": 13308285,
-      "sha256": "e2e20abc44b9a9ce5a81b7c26e8efcb9f1de1f263b52e7a52e4db20be1325f75"
+      "sha256": "e2e20abc44b9a9ce5a81b7c26e8efcb9f1de1f263b52e7a52e4db20be1325f75",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/one-piece-housing-r12-2026-10-25-archive-03.zip"
     },
     {
       "archive": "print-revision-2026-10-17-archive-01.zip",
       "revision": "print-revision-2026-10-17",
       "files": 1,
       "bytes": 11237990,
-      "sha256": "b8a0ea93fea8c30870075919bc1e689ef8ab30ec7c9df6e059427dae8164e028"
+      "sha256": "b8a0ea93fea8c30870075919bc1e689ef8ab30ec7c9df6e059427dae8164e028",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/print-revision-2026-10-17-archive-01.zip"
     },
     {
       "archive": "print-revision-2026-10-17-archive-02.zip",
       "revision": "print-revision-2026-10-17",
       "files": 18,
       "bytes": 20902747,
-      "sha256": "779d05e11f6526fc743c935e31acb4a7be2e58dbfbb046c1d01b37e4298723c3"
+      "sha256": "779d05e11f6526fc743c935e31acb4a7be2e58dbfbb046c1d01b37e4298723c3",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/print-revision-2026-10-17-archive-02.zip"
     },
     {
       "archive": "print-revision-2026-10-17-archive-03.zip",
       "revision": "print-revision-2026-10-17",
       "files": 16,
       "bytes": 12633669,
-      "sha256": "7db96955b833c9371a3336488a464709189766135b1de05d1cd18dc3197d1582"
+      "sha256": "7db96955b833c9371a3336488a464709189766135b1de05d1cd18dc3197d1582",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/print-revision-2026-10-17-archive-03.zip"
     },
     {
       "archive": "remove-wire-holder-2026-10-21-archive-01.zip",
       "revision": "remove-wire-holder-2026-10-21",
       "files": 11,
       "bytes": 9897830,
-      "sha256": "4190a6f6289923ffb0860de263e50ba3682e042bc915f7194e1f5c846061dcf1"
+      "sha256": "4190a6f6289923ffb0860de263e50ba3682e042bc915f7194e1f5c846061dcf1",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/remove-wire-holder-2026-10-21-archive-01.zip"
     },
     {
       "archive": "shaft-clamp-r8-2026-10-25-archive-01.zip",
       "revision": "shaft-clamp-r8-2026-10-25",
       "files": 26,
       "bytes": 15774877,
-      "sha256": "dd37d3adf370e696795dda8b07babea00c6f7efb9103fcc81ff4a45d335cc91b"
+      "sha256": "dd37d3adf370e696795dda8b07babea00c6f7efb9103fcc81ff4a45d335cc91b",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/shaft-clamp-r8-2026-10-25-archive-01.zip"
     },
     {
       "archive": "shaft-clamp-r8-2026-10-25-archive-02.zip",
       "revision": "shaft-clamp-r8-2026-10-25",
       "files": 11,
       "bytes": 15127394,
-      "sha256": "745a23d272cad72975b4fbc994fb334b53b0b68f93c462a12082fc1b9452c904"
+      "sha256": "745a23d272cad72975b4fbc994fb334b53b0b68f93c462a12082fc1b9452c904",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/shaft-clamp-r8-2026-10-25-archive-02.zip"
     },
     {
       "archive": "sketch-layout-r9-2026-10-25-archive-01.zip",
       "revision": "sketch-layout-r9-2026-10-25",
       "files": 34,
       "bytes": 14386017,
-      "sha256": "b30e925ccc90dd30c24d80c9f7810acf427080d11e85342b8546bc08a043d546"
+      "sha256": "b30e925ccc90dd30c24d80c9f7810acf427080d11e85342b8546bc08a043d546",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/sketch-layout-r9-2026-10-25-archive-01.zip"
     },
     {
       "archive": "sketch-layout-r9-2026-10-25-archive-02.zip",
       "revision": "sketch-layout-r9-2026-10-25",
       "files": 12,
       "bytes": 13901022,
-      "sha256": "9f1372ca4dd74e28cc21c1dc7be3847ed5f13d2f79a507d51fd065396cf4f448"
+      "sha256": "9f1372ca4dd74e28cc21c1dc7be3847ed5f13d2f79a507d51fd065396cf4f448",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/sketch-layout-r9-2026-10-25-archive-02.zip"
     },
     {
       "archive": "smooth-frame-r14-2026-10-25-archive-01.zip",
       "revision": "smooth-frame-r14-2026-10-25",
       "files": 27,
       "bytes": 14841829,
-      "sha256": "0c0fcc62528d62f37985f0f0f5db34aa5ecd6f7e9b3b65277b58e2802c79f0a6"
+      "sha256": "0c0fcc62528d62f37985f0f0f5db34aa5ecd6f7e9b3b65277b58e2802c79f0a6",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/smooth-frame-r14-2026-10-25-archive-01.zip"
     },
     {
       "archive": "smooth-frame-r14-2026-10-25-archive-02.zip",
       "revision": "smooth-frame-r14-2026-10-25",
       "files": 10,
       "bytes": 10730670,
-      "sha256": "255e5d32af5b4235787f6e902b1e7d5db6f2e92c5058e99ed243ae0fc329fd50"
+      "sha256": "255e5d32af5b4235787f6e902b1e7d5db6f2e92c5058e99ed243ae0fc329fd50",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/smooth-frame-r14-2026-10-25-archive-02.zip"
     },
     {
       "archive": "smooth-frame-r14-2026-10-25-archive-03.zip",
       "revision": "smooth-frame-r14-2026-10-25",
       "files": 7,
       "bytes": 12701276,
-      "sha256": "9ed3232cce9c5bfecd7a43f3f941349e15bb90951c73b54e9fa11a6401db1c3b"
+      "sha256": "9ed3232cce9c5bfecd7a43f3f941349e15bb90951c73b54e9fa11a6401db1c3b",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/smooth-frame-r14-2026-10-25-archive-03.zip"
     },
     {
       "archive": "spacer-free-design-2026-10-23-archive-01.zip",
       "revision": "spacer-free-design-2026-10-23",
       "files": 19,
       "bytes": 15176827,
-      "sha256": "924dffb41f105993ed2f1c386c5c53cc32805b85e0cc7f2366ea2d50743c76a6"
+      "sha256": "924dffb41f105993ed2f1c386c5c53cc32805b85e0cc7f2366ea2d50743c76a6",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/spacer-free-design-2026-10-23-archive-01.zip"
     },
     {
       "archive": "spacer-free-design-2026-10-23-archive-02.zip",
       "revision": "spacer-free-design-2026-10-23",
       "files": 8,
       "bytes": 13900403,
-      "sha256": "40e4fd2b13911d4807e7c425ef8ce225e1bd2b0acfe724b94a2f84a8e439fd10"
+      "sha256": "40e4fd2b13911d4807e7c425ef8ce225e1bd2b0acfe724b94a2f84a8e439fd10",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/spacer-free-design-2026-10-23-archive-02.zip"
     },
     {
       "archive": "thruster-final-optimization-archive-01.zip",
       "revision": "thruster-final-optimization",
       "files": 3,
       "bytes": 14708652,
-      "sha256": "fc287b483f8624eeb63b88e145867dfa04e7bfb48c16eff63ab7bf90ca36663e"
+      "sha256": "fc287b483f8624eeb63b88e145867dfa04e7bfb48c16eff63ab7bf90ca36663e",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/thruster-final-optimization-archive-01.zip"
     },
     {
       "archive": "thruster-final-optimization-archive-02.zip",
       "revision": "thruster-final-optimization",
       "files": 5,
       "bytes": 20871020,
-      "sha256": "da3ae1f4e508dd412da77209df80dfb311fa3851cdf7877f7cbe7ce5d475de06"
+      "sha256": "da3ae1f4e508dd412da77209df80dfb311fa3851cdf7877f7cbe7ce5d475de06",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/thruster-final-optimization-archive-02.zip"
     },
     {
       "archive": "thruster-final-optimization-archive-03.zip",
       "revision": "thruster-final-optimization",
       "files": 15,
       "bytes": 15734272,
-      "sha256": "69d460998fcf974d018f125d885207cbb5016ceba71e493ec414ee0242ccbae7"
+      "sha256": "69d460998fcf974d018f125d885207cbb5016ceba71e493ec414ee0242ccbae7",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/thruster-final-optimization-archive-03.zip"
     },
     {
       "archive": "thruster-final-optimization-archive-04.zip",
       "revision": "thruster-final-optimization",
       "files": 5,
       "bytes": 11802460,
-      "sha256": "715645b8425f2d43710a09d3ad49d84ca7af2d84a60e19ed257a92fb3da9302f"
+      "sha256": "715645b8425f2d43710a09d3ad49d84ca7af2d84a60e19ed257a92fb3da9302f",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/thruster-final-optimization-archive-04.zip"
     },
     {
       "archive": "thruster-final-optimization-archive-05.zip",
       "revision": "thruster-final-optimization",
       "files": 22,
       "bytes": 14444179,
-      "sha256": "d7fd2f92eb92cb0f15dfeeab742794c8803fec996bc4e7851d4b7ce82c5a6e70"
+      "sha256": "d7fd2f92eb92cb0f15dfeeab742794c8803fec996bc4e7851d4b7ce82c5a6e70",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/thruster-final-optimization-archive-05.zip"
     }
   ],
   "convenience_downloads": [
@@ -316,7 +360,9 @@
       "path": "R14-Smooth-Frame-Print-Kit.zip",
       "source": "cad/smooth-frame-r14-2026-10-25/R14-Smooth-Frame-Print-Kit.zip",
       "bytes": 13526821,
-      "sha256": "f26497122d734f83af8dbbd34d58e356b7b87de6fcc95017674709b3de2eae7e"
+      "sha256": "f26497122d734f83af8dbbd34d58e356b7b87de6fcc95017674709b3de2eae7e",
+      "download_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/download/cad-archive-2026-10-26/R14-Smooth-Frame-Print-Kit.zip"
     }
-  ]
+  ],
+  "release_url": "https://github.com/MatthewMa11/WebbSubmarineROV/releases/tag/cad-archive-2026-10-26"
 }
