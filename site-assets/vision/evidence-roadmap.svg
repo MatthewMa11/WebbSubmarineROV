@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="920" viewBox="0 0 720 920" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
-<title id="title">2026 build and dive goals</title>
-<desc id="desc">Complete the robot before or shortly after Thanksgiving, November 26, 2026. Begin the first water trial after assembly. By December 31, aim to dive at least 20 meters below the surface. These are target milestones, subject to test results.</desc>
+<title id="title">2026–27 build and dive goals</title>
+<desc id="desc">Complete the robot before or shortly after Thanksgiving, November 26, 2026. Begin the first water trial after assembly. Before summer break at the end of the 2026–27 school year, aim to dive at least 20 meters below the surface. These are target milestones, subject to test results.</desc>
 <rect width="720" height="920" fill="#f2f0e6"/>
 <text x="32" y="42" font-size="15" font-weight="700" letter-spacing="1.5" fill="#486068">WEBB / VISION &amp; PURPOSE</text>
-<text x="32" y="90" font-size="36" font-weight="700" fill="#102c35">2026 build &amp; dive goals</text>
+<text x="32" y="90" font-size="33" font-weight="700" fill="#102c35">2026–27 build &amp; dive goals</text>
 <text x="32" y="128" font-size="24" fill="#486068">Build the robot. Test it. Go deeper.</text>
 <path d="M65 212V676" stroke="#177d79" stroke-width="4"/>
 <circle cx="65" cy="212" r="29" fill="#102c35"/>
@@ -23,7 +23,7 @@
 <circle cx="65" cy="676" r="29" fill="#177d79"/>
 <text x="65" y="685" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">03</text>
 <rect x="112" y="637" width="576" height="200" rx="16" fill="#102c35"/>
-<text x="138" y="671" font-size="19" font-weight="700" fill="#b5e9df">BY DECEMBER 31, 2026</text>
+<text x="138" y="671" font-size="19" font-weight="700" fill="#b5e9df">BEFORE SUMMER BREAK · 2027</text>
 <text x="138" y="721" font-size="42" font-weight="700" fill="#fff">20 m or deeper</text>
 <text x="138" y="767" font-size="25" fill="#fff">Aim to dive at least 20 meters</text>
 <text x="138" y="805" font-size="25" fill="#fff">below the water’s surface.</text>
