@@ -92,6 +92,7 @@ for (const journal of journals) {
   const other = journals.find(j => j !== journal);
   const browse = journals.map(j => `<a href="${j.slug}.html"${j === journal ? ' aria-current="page"' : ''}>${escape(j.label)}</a>`).join('\n');
   const contents = toc.length ? `<details class="contents" open><summary>On this page</summary><nav aria-label="Journal contents">${toc.map(h => `<a href="#${h.id}">${escape(h.label)}</a>`).join('\n')}</nav></details>` : '';
+  const readingMinutes = Math.max(1, Math.ceil(source.split(/\s+/).length / 220));
   const html = `<!doctype html>
 <html lang="en">
 <head>
@@ -99,17 +100,20 @@ for (const journal of journals) {
   <meta name="description" content="${escape(journal.description)}"><meta name="theme-color" content="#102c35">
   <title>${escape(journal.label)} | Webb Submarine ROV</title>
   <link rel="stylesheet" href="../site-assets/site.css"><link rel="stylesheet" href="../site-assets/journals.css">
+  <script src="../site-assets/site.js" defer></script>
 </head>
 <body class="reader-page" id="top">
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
   <a class="skip-link" href="#journal-content">Skip to journal</a>
   <header class="site-header"><div class="header-inner shell">
     <a class="wordmark" href="../index.html" aria-label="Webb Submarine ROV home"><span>WEBB <span class="wordmark-sub">SUBMARINE ROV</span></span></a>
-    <nav aria-label="Main navigation"><a href="../index.html">Club home</a><a href="../index.html#journal">All journals</a><a href="../index.html#downloads">Design files ↗</a></nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" aria-label="Main navigation"><a href="../index.html">Club home</a><a href="../index.html#journal">All journals</a><a href="../index.html#downloads">Design files ↗</a></nav>
   </div></header>
   <main>
     <div class="reader-hero shell">
       <a class="back-home" href="../index.html">← Back to club home</a>
-      <p class="eyebrow">${journal.category} / OCTOBER 2026</p>
+      <p class="eyebrow">${journal.category} <span class="meta-divider" aria-hidden="true">/</span> ${readingMinutes} MIN READ</p>
       <h1>${escape(title)}</h1><p class="reader-intro">${escape(journal.description)}</p>
     </div>
     <div class="reader-layout shell">

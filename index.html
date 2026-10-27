@@ -10,6 +10,7 @@
   <meta property="og:type" content="website">
   <title>Webb Submarine ROV — Built to explore</title>
   <link rel="stylesheet" href="site-assets/site.css">
+  <script src="site-assets/site.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -23,7 +24,8 @@
         </svg>
         <span>WEBB <span class="wordmark-sub">SUBMARINE ROV</span></span>
       </a>
-      <nav aria-label="Main navigation">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">+</span></button>
+      <nav id="main-nav" aria-label="Main navigation">
         <a href="#project">The project</a>
         <a href="#journal">Journals</a>
         <a href="#mission">Our vision</a>
@@ -37,31 +39,30 @@
       <div class="shell hero-grid">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> UNDERWATER ROBOTICS / IN DEVELOPMENT</p>
-          <h1 id="hero-title">Built to<br><em>explore.</em><br>Designed<br>to learn.</h1>
+          <h1 id="hero-title">Built to <em>explore.</em><br>Designed to learn.</h1>
           <p class="hero-intro">We’re the Webb Submarine ROV club. We’re developing an underwater robot—and learning how to turn an idea into something that works.</p>
-          <div class="hero-journals">
-            <p>READ OUR JOURNALS</p>
-            <a href="journals/motor-and-fan-cad-development.html"><span>Motor &amp; fan CAD journal</span><span aria-hidden="true">→</span></a>
-            <a href="journals/club-mission-and-museum-vision.html"><span>Club &amp; museum vision journal</span><span aria-hidden="true">→</span></a>
+          <div class="hero-actions">
+            <a class="button button-cyan" href="#project">Explore the project <span aria-hidden="true">↓</span></a>
+            <a class="button button-outline" href="#journal">Read the journals <span aria-hidden="true">↗</span></a>
           </div>
-          <a class="button button-cyan" href="#project">Explore the project <span aria-hidden="true">↓</span></a>
+          <p class="hero-note">Student-led engineering. Shared discoveries.</p>
         </div>
 
         <figure class="hero-model">
-          <div class="model-topline"><span>01 / THRUSTER ASSEMBLY</span><span>R14</span></div>
-          <div class="cad-window">
-            <img src="cad/smooth-frame-r14-2026-10-25/R14-complete-assembly.png" alt="CAD view of the R14 thruster housing with its retained concave cone, fan and mounting hardware." width="1280" height="720" fetchpriority="high">
+          <div class="model-topline"><span>THE VEHICLE / CAD SNAPSHOT</span><span>OCT 18</span></div>
+          <div class="cad-window vehicle-window">
+            <img src="cad/easy-assembly-2026-10-18/easy-assembly-preview.png" alt="CAD render of the club’s five-panel ROV frame, eight thruster positions and electronics tube." width="1500" height="1040" fetchpriority="high">
             <span class="image-cross cross-top" aria-hidden="true">+</span>
             <span class="image-cross cross-bottom" aria-hidden="true">+</span>
           </div>
           <figcaption>
-            <span class="model-caption-title">A closer look at what we’re building.</span>
-            <span>The current thruster assembly, shown in CAD.</span>
+            <span class="model-caption-title">A shared idea, taking shape.</span>
+            <span>October 18 vehicle model · newer thruster revisions developed separately.</span>
           </figcaption>
-          <div class="model-specs" aria-label="Current thruster configuration">
-            <div><span>HOUSING</span><strong>R14</strong></div>
-            <div><span>CONE</span><strong>R13</strong></div>
-            <div><span>FAN</span><strong>R11</strong></div>
+          <div class="model-specs" aria-label="Vehicle model overview">
+            <div><strong>8</strong><span>THRUSTERS</span></div>
+            <div><strong>5</strong><span>FRAME PANELS</span></div>
+            <div><strong>CAD</strong><span>DESIGN STAGE</span></div>
           </div>
         </figure>
       </div>
@@ -111,18 +112,21 @@
         </div>
         <div class="journal-grid">
           <a class="journal-entry" href="journals/motor-and-fan-cad-development.html">
+            <div class="entry-image"><img src="cad/smooth-frame-r14-2026-10-25/R14-complete-assembly.png" alt="The R14 thruster design in Onshape" width="1280" height="720" loading="lazy"></div>
             <div class="entry-top"><span>ENGINEERING JOURNAL</span><span aria-hidden="true">→</span></div>
             <h3>Motor &amp; fan<br>CAD journal</h3>
             <p>Follow the changes in motor fit, retention, housing design and assembly access—from the PLA baseline through R14.</p>
             <div class="entry-bottom"><span>READ THE JOURNAL</span><span>01</span></div>
           </a>
           <a class="journal-entry" href="journals/club-mission-and-museum-vision.html">
+            <div class="entry-image"><img src="site-assets/vision/noaa-deep-discoverer.jpg" alt="NOAA Deep Discoverer underwater, an example of scientific ROV exploration" width="1920" height="1080" loading="lazy"></div>
             <div class="entry-top"><span>CLUB JOURNAL</span><span aria-hidden="true">→</span></div>
             <h3>Club &amp; museum<br>vision journal</h3>
             <p>What the club does, what we’re learning, and our vision for sharing the project with the museum and its community.</p>
             <div class="entry-bottom"><span>READ THE JOURNAL</span><span>02</span></div>
           </a>
         </div>
+        <p class="image-credit">Exploration example: NOAA, public domain. <a href="https://www.fws.gov/media/rov-deep-discoverer">Photo source ↗</a></p>
       </div>
     </section>
 
