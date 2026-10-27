@@ -42,10 +42,6 @@ Alongside the fossil-search mission, we want to help visitors discover how under
 
 Visitors could compare two versions of a part or predict how thruster placement changes movement. Museum staff would help choose activities that suit their visitors and space.
 
-![Museum display concept with three stations: see the design, compare unpowered parts, and predict movement](../../site-assets/vision/museum-display-concept.png)
-
-**A possible museum display:** see the design, compare parts, and try an idea. The format would be developed with museum staff.
-
 ## Finding fossils underwater
 
 We want the ROV to help the museum search underwater for fossils, from lake beds to the ocean floor. Three planned features support that mission:
@@ -76,8 +72,10 @@ These features are development goals. We will build and test them with the vehic
 
 Next, we need to check printed fits, assemble the parts, and test the controls before evaluating the vehicle in water. We will record the results in our [physical fit record](../../cad/thruster-final-optimization/physical-fit-record.csv).
 
-![Roadmap from current CAD records to future physical fit checks, controls and water testing, and a museum contribution](../../site-assets/vision/evidence-roadmap.png)
+We aim to finish building the robot before or shortly after Thanksgiving (November 26, 2026), then begin our first water trial. By the end of 2026, our goal is to dive at least 20 meters below the surface.
 
-**Our next steps:** assemble and test the vehicle, develop the lights, cameras, and robotic arm, then work toward fossil-search missions with the museum.
+![2026 timeline: complete the robot before or shortly after Thanksgiving on November 26, begin the first water trial after assembly, and aim to dive at least 20 meters below the surface by December 31](../../site-assets/vision/evidence-roadmap.png)
+
+**Our build and dive targets:** finish the robot around Thanksgiving, run our first test in water, and work toward a depth of 20 meters or more by year-end. These are goals; timing and achievable depth will depend on the results of our tests.
 
 Success means helping the museum discover and study underwater fossils while sharing the engineering and discoveries with others.

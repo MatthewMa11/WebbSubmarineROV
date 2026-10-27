@@ -1,1 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="780" viewBox="0 0 720 780" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif"><title id="title">From a model to a demonstration</title><desc id="desc">Current CAD evidence leads to future physical fit checks, control and water tests, and a museum contribution shaped by staff needs. Later stages are not completed milestones.</desc><rect x="0" y="0" width="720" height="780" rx="0" fill="#f2f0e6" stroke="none"/><text x="32" y="40" font-size="14" fill="#486068" font-weight="700">WEBB / VISION &amp; PURPOSE</text><text x="32" y="83" font-size="30" fill="#102c35" font-weight="700">From a model to a demonstration</text><text x="32" y="120" font-size="20" fill="#486068" font-weight="400">A proposed path · progress depends on evidence</text><rect x="32" y="151" width="656" height="121" rx="14" fill="#102c35" stroke="none"/><text x="52" y="186" font-size="22" fill="#fff" font-weight="700">01</text><text x="100" y="186" font-size="23" fill="#fff" font-weight="700">DESIGN RECORDS</text><text x="100" y="219" font-size="20" fill="#fff" font-weight="400">CAD, drawings and geometry checks</text><text x="100" y="250" font-size="17" fill="#b5e9df" font-weight="400">Current evidence</text><path d="M64 276 v12 m-5 -5 l5 5 5 -5" stroke="#177d79" stroke-width="2" fill="none"/><rect x="32" y="292" width="656" height="121" rx="14" fill="#fff" stroke="none"/><text x="52" y="327" font-size="22" fill="#102c35" font-weight="700">02</text><text x="100" y="327" font-size="23" fill="#102c35" font-weight="700">FIT &amp; ASSEMBLY</text><text x="100" y="360" font-size="20" fill="#102c35" font-weight="400">Print coupons; check hardware and access</text><text x="100" y="391" font-size="17" fill="#486068" font-weight="400">Next physical checks</text><path d="M64 417 v12 m-5 -5 l5 5 5 -5" stroke="#177d79" stroke-width="2" fill="none"/><rect x="32" y="433" width="656" height="121" rx="14" fill="#fff" stroke="none"/><text x="52" y="468" font-size="22" fill="#102c35" font-weight="700">03</text><text x="100" y="468" font-size="23" fill="#102c35" font-weight="700">CONTROL &amp; WATER TESTS</text><text x="100" y="501" font-size="20" fill="#102c35" font-weight="400">Verify operation and record results</text><text x="100" y="532" font-size="17" fill="#486068" font-weight="400">To be demonstrated</text><path d="M64 558 v12 m-5 -5 l5 5 5 -5" stroke="#177d79" stroke-width="2" fill="none"/><rect x="32" y="574" width="656" height="121" rx="14" fill="#fff" stroke="none"/><text x="52" y="609" font-size="22" fill="#102c35" font-weight="700">04</text><text x="100" y="609" font-size="23" fill="#102c35" font-weight="700">MUSEUM CONTRIBUTION</text><text x="100" y="642" font-size="20" fill="#102c35" font-weight="400">Match a display or task to staff needs</text><text x="100" y="673" font-size="17" fill="#486068" font-weight="400">Future, with museum input</text><text x="32" y="748" font-size="20" fill="#486068" font-weight="400">Revisit the design whenever a check reveals a problem.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="920" viewBox="0 0 720 920" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif">
+<title id="title">2026 build and dive goals</title>
+<desc id="desc">Complete the robot before or shortly after Thanksgiving, November 26, 2026. Begin the first water trial after assembly. By December 31, aim to dive at least 20 meters below the surface. These are target milestones, subject to test results.</desc>
+<rect width="720" height="920" fill="#f2f0e6"/>
+<text x="32" y="42" font-size="15" font-weight="700" letter-spacing="1.5" fill="#486068">WEBB / VISION &amp; PURPOSE</text>
+<text x="32" y="90" font-size="36" font-weight="700" fill="#102c35">2026 build &amp; dive goals</text>
+<text x="32" y="128" font-size="24" fill="#486068">Build the robot. Test it. Go deeper.</text>
+<path d="M65 212V676" stroke="#177d79" stroke-width="4"/>
+<circle cx="65" cy="212" r="29" fill="#102c35"/>
+<text x="65" y="221" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">01</text>
+<rect x="112" y="173" width="576" height="200" rx="16" fill="#fff"/>
+<text x="138" y="207" font-size="19" font-weight="700" fill="#177d79">BEFORE OR SHORTLY AFTER</text>
+<text x="138" y="247" font-size="30" font-weight="700" fill="#102c35">Thanksgiving · Nov 26</text>
+<text x="138" y="292" font-size="27" font-weight="700" fill="#102c35">Complete the robot build</text>
+<text x="138" y="333" font-size="24" fill="#486068">Finish assembly and check controls.</text>
+<circle cx="65" cy="444" r="29" fill="#102c35"/>
+<text x="65" y="453" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">02</text>
+<rect x="112" y="405" width="576" height="200" rx="16" fill="#fff"/>
+<text x="138" y="439" font-size="19" font-weight="700" fill="#177d79">AFTER THE BUILD</text>
+<text x="138" y="480" font-size="32" font-weight="700" fill="#102c35">First water trial</text>
+<text x="138" y="525" font-size="25" fill="#102c35">Run our first test in water.</text>
+<text x="138" y="565" font-size="24" fill="#486068">Observe how the robot responds.</text>
+<circle cx="65" cy="676" r="29" fill="#177d79"/>
+<text x="65" y="685" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">03</text>
+<rect x="112" y="637" width="576" height="200" rx="16" fill="#102c35"/>
+<text x="138" y="671" font-size="19" font-weight="700" fill="#b5e9df">BY DECEMBER 31, 2026</text>
+<text x="138" y="721" font-size="42" font-weight="700" fill="#fff">20 m or deeper</text>
+<text x="138" y="767" font-size="25" fill="#fff">Aim to dive at least 20 meters</text>
+<text x="138" y="805" font-size="25" fill="#fff">below the water’s surface.</text>
+<text x="32" y="887" font-size="22" fill="#486068">Target milestones · timing depends on test results</text>
+</svg>
