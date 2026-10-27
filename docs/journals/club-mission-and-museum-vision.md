@@ -28,10 +28,6 @@ The frame work shows how our design has developed. An early chassis established 
 
 **Project design — simplified assembly, October 18.** The open frame and tube straps show the intended access for assembly and maintenance. Tube protection and the full vehicle still require physical validation.
 
-![Bar graph comparing frame panels, 8 before and 5 after, and frame joint bolts, 24 before and 8 after](../../site-assets/vision/frame-simplification.png)
-
-**Design graph — fewer frame parts and joints.** Both pairs use the same zero-based count scale. Values come from the [October 18 assembly notes](../../cad/easy-assembly-2026-10-18/READ-ME.txt); they measure design simplification, not strength or assembly time.
-
 Much of the recent work has focused on a single thruster assembly. Its housing, motor attachment, fan, and removable cone have gone through several revisions. The October 25 smooth-frame revision removed obsolete crescent mounts and smoothed the outside of the housing while retaining the current working joints. The [assembly and print guide](../../cad/smooth-frame-r14-2026-10-25/ASSEMBLY-AND-PRINT.txt) includes small test pieces so that important fits can be checked before printing a complete replacement. The design checks support the shape and assembly clearances in the model; they do not establish real thrust, strength, or underwater durability. Earlier whole-vehicle snapshots also remain separate from these newer thruster revisions, so bringing the parts together is still an integration task.
 
 ![Onshape view of the R14 thruster assembly showing its smooth outer housing, propeller and front cone](../../cad/smooth-frame-r14-2026-10-25/R14-complete-assembly.png)
@@ -53,6 +49,14 @@ Visitors could compare two versions of a part or predict how thruster placement 
 ## A future window underwater
 
 In time, a tested ROV could help the museum view or document underwater environments. A camera system remains a future idea. Any activity would depend on the museum’s needs and what the vehicle can reliably do.
+
+![Little Hercules ROV illuminating the rocky seafloor, seen from above](../../site-assets/vision/noaa-little-hercules.jpg)
+
+**Little Hercules — exploring the seafloor.** A real research ROV offers inspiration for underwater observation. Photo: NOAA Okeanos Explorer Program, Mid-Cayman Rise Expedition 2011; [public domain](https://commons.wikimedia.org/wiki/File:Expl275272745x800x800.jpg).
+
+![Yellow and blue Jason ROV entering the ocean during launch from R/V Atlantis](../../site-assets/vision/rov-jason-launch.jpg)
+
+**Jason — heading underwater.** This professional ROV is shown launching from R/V Atlantis. Credit: University of Washington, V19. Image from work supported by the U.S. National Science Foundation [Ocean Observatories Initiative](https://oceanobservatories.org/image-gallery/).
 
 ## Turning the vision into evidence
 
