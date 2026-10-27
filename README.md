@@ -2,7 +2,7 @@
 
 The Webb Submarine ROV club is developing a remotely operated underwater vehicle while learning mechanical design, fabrication, electronics, programming, and testing. Our vision is to turn that work into useful science and engineering experiences for the museum and its community.
 
-**Club website:** [matthewma11.github.io/WebbSubmarineROV](https://matthewma11.github.io/WebbSubmarineROV/)
+**Club website:** [WebbSubmarineROV](https://matthewma11.github.io/WebbSubmarineROV/)
 
 ## Project journals
 
