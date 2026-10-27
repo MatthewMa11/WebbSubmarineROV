@@ -56,6 +56,14 @@ We want the ROV to help the museum search underwater for fossils, from lake beds
 
 These features are development goals. We will build and test them with the vehicle, then work with museum staff to plan searches that suit its capabilities.
 
+![PIVOT ROV on a dock, showing its open frame, thrusters, and forward-reaching robotic gripper](../../site-assets/vision/pivot-rov-example.jpg)
+
+**PIVOT ROV — inspiration for underwater work.** The open frame and robotic gripper show how tools can fit around an underwater vehicle. This example helps us think about the layout and reach of our planned robotic arm. Reference image supplied for this journal.
+
+![Yellow CHASING M2 ROV underwater with a front camera, illuminated lights, and an extended robotic gripper](../../site-assets/vision/chasing-m2-rov-example.jpg)
+
+**CHASING M2 — lights, camera, and a robotic arm together.** This example illustrates the combination we want to develop for fossil searches: lighting the area, seeing possible finds, and reaching toward them with a gripper. Both reference vehicles are examples for our vision, separate from our club’s ROV. Reference image supplied for this journal.
+
 ![Little Hercules ROV illuminating the rocky seafloor, seen from above](../../site-assets/vision/noaa-little-hercules.jpg)
 
 **Little Hercules — exploring the seafloor.** A real research ROV offers inspiration for underwater observation. Photo: NOAA Okeanos Explorer Program, Mid-Cayman Rise Expedition 2011; [public domain](https://commons.wikimedia.org/wiki/File:Expl275272745x800x800.jpg).
