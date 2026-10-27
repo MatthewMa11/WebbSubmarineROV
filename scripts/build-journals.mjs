@@ -11,7 +11,7 @@ const repo = 'https://github.com/MatthewMa11/WebbSubmarineROV';
 const escape = value => String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const journals = [
   { slug: 'motor-and-fan-cad-development', label: 'Motor & fan CAD journal', category: 'ENGINEERING JOURNAL', description: 'The motor and fan development story, from the PLA baseline through R14. Every revision includes supporting images and explanations.' },
-  { slug: 'club-mission-and-museum-vision', label: 'Club & museum vision journal', category: 'CLUB JOURNAL', description: 'What the club does, what we are learning, and our vision for helping the museum share science and exploration.' }
+  { slug: 'club-mission-and-museum-vision', label: 'Club & museum vision journal', category: 'CLUB JOURNAL', description: 'Our vision for helping the museum find fossils in oceans, lakes, and other underwater environments with planned lights, cameras, and a robotic arm.' }
 ];
 fs.mkdirSync(path.join(root, 'journals'), { recursive: true });
 fs.mkdirSync(path.join(root, 'site-assets/diagrams'), { recursive: true });

@@ -6,7 +6,7 @@
 
 We learn engineering by building an underwater robot together. Our remotely operated vehicle (ROV) brings mechanical design, electronics, programming, and testing into one project.
 
-Our goal is to build something useful, understand how it works, and share what we learn with the museum and its community.
+Our goal is to help the museum find fossils in oceans, lakes, and other underwater environments. We are developing an ROV with planned lights, cameras, and a robotic arm to support fossil searches and share discoveries with the museum’s community.
 
 ![NOAA Deep Discoverer ROV underwater, with lights illuminating the surrounding water](../../site-assets/vision/noaa-deep-discoverer.jpg)
 
@@ -38,7 +38,7 @@ This kind of work is what the club does in concrete terms: take a design problem
 
 ## Bringing engineering into the museum
 
-We want to help visitors discover how underwater robots work. A small display could combine CAD images, unpowered printed parts, and simple explanations of our design choices.
+Alongside the fossil-search mission, we want to help visitors discover how underwater robots work. A small display could combine CAD images, unpowered printed parts, and simple explanations of our design choices.
 
 Visitors could compare two versions of a part or predict how thruster placement changes movement. Museum staff would help choose activities that suit their visitors and space.
 
@@ -46,9 +46,15 @@ Visitors could compare two versions of a part or predict how thruster placement 
 
 **A possible museum display:** see the design, compare parts, and try an idea. The format would be developed with museum staff.
 
-## A future window underwater
+## Finding fossils underwater
 
-In time, a tested ROV could help the museum view or document underwater environments. A camera system remains a future idea. Any activity would depend on the museum’s needs and what the vehicle can reliably do.
+We want the ROV to help the museum search underwater for fossils, from lake beds to the ocean floor. Three planned features support that mission:
+
+- **Lights** to illuminate the search area and help reveal possible fossils.
+- **Cameras** to give operators a live view and record finds for the museum to study.
+- **A robotic arm** to help inspect and carefully retrieve selected specimens under the museum’s guidance.
+
+These features are development goals. We will build and test them with the vehicle, then work with museum staff to plan searches that suit its capabilities.
 
 ![Little Hercules ROV illuminating the rocky seafloor, seen from above](../../site-assets/vision/noaa-little-hercules.jpg)
 
@@ -64,6 +70,6 @@ Next, we need to check printed fits, assemble the parts, and test the controls b
 
 ![Roadmap from current CAD records to future physical fit checks, controls and water testing, and a museum contribution](../../site-assets/vision/evidence-roadmap.png)
 
-**Our next steps:** move from CAD to physical testing, then use the results to guide museum activities. A small unpowered display could start sooner.
+**Our next steps:** assemble and test the vehicle, develop the lights, cameras, and robotic arm, then work toward fossil-search missions with the museum.
 
-Success means building carefully, explaining what we learn, and making it useful to others.
+Success means helping the museum discover and study underwater fossils while sharing the engineering and discoveries with others.
