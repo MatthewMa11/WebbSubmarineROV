@@ -26,11 +26,11 @@ This section summarizes the ROV project journal from December 2023 through May 2
 
 ## Key progress
 
-- **Chassis and propulsion:** The team developed a compact, modular plate-and-cage chassis with vectored horizontal thrusters and vertical thrusters for six-degree-of- freedom motion. The layout evolved to reduce blocked water flow, improve forward thrust, protect add-ons, and simplify maintenance. Six-millimeter polycarbonate plates were ordered and assembled.
+- **Chassis and propulsion:** The team developed a compact, modular plate-and-cage chassis with vectored horizontal thrusters and vertical thrusters for six-degree-of-freedom motion. The layout evolved to reduce blocked water flow, improve forward thrust, protect add-ons, and simplify maintenance. Six-millimeter polycarbonate plates were ordered and assembled.
 
 - **Thrusters and propellers:** Brushless-motor housings were repeatedly refined with thinner fins, heat-set inserts, better motor offsets, and smaller propeller diameters. Custom clockwise and counterclockwise propellers were designed from airfoil and blade-pitch research, then printed and evaluated. By spring 2025, the brushless-motor wiring had been completed.
 
-- **Electronics and pressure housing:** The acrylic electronics tube gained removable endcaps, an internal tray, separate battery packaging, connector space, and modular mounting. After several seal iterations, the team moved toward standards-based O- ring geometry, custom-length O-rings, lead-ins, grease, tighter measured tolerances, and epoxy-sealed wire penetrations.
+- **Electronics and pressure housing:** The acrylic electronics tube gained removable endcaps, an internal tray, separate battery packaging, connector space, and modular mounting. After several seal iterations, the team moved toward standards-based O-ring geometry, custom-length O-rings, lead-ins, grease, tighter measured tolerances, and epoxy-sealed wire penetrations.
 
 - **Camera and lighting:** A pan-tilt camera module was redesigned from a large dome that obstructed two thrusters into a compact 4.5-inch package. A pressure check, mounting plate, clamp ring, and O-ring seal were developed, and the module was mounted to the frame in January 2025. Waterproof LED housings used epoxy potting; late-stage work included a custom right-angle mini-USB cable.
 
@@ -40,15 +40,15 @@ This section summarizes the ROV project journal from December 2023 through May 2
 
 ## Past challenges and design responses
 
-- **Waterproof sealing was the dominant technical challenge. Early endcaps either compressed the O-rings so much that insertion was difficult or held them too loosely, allowing displacement and leakage. A roughly two-foot-deep, 20-minute test produced internal condensation. The response was to consult an expert, adopt Parker handbook guidance, revise groove geometry and lead-ins, use custom O-ring stock and grease, and reprint the caps with measured rather than nominal tube dimensions. In March 2025, the groove was narrowed by 0.75 mm and cap diameter reduced by 1.5 mm after checking the real tube.**
+- Waterproof sealing was the dominant technical challenge. Early endcaps either compressed the O-rings so much that insertion was difficult or held them too loosely, allowing displacement and leakage. A roughly two-foot-deep, 20-minute test produced internal condensation. The response was to consult an expert, adopt Parker handbook guidance, revise groove geometry and lead-ins, use custom O-ring stock and grease, and reprint the caps with measured rather than nominal tube dimensions. In March 2025, the groove was narrowed by 0.75 mm and cap diameter reduced by 1.5 mm after checking the real tube.
 
-- **Integration exposed major packaging conflicts. The first camera dome blocked two thrusters, the arm competed with the camera for front-of-vehicle space, and the first electronics tray left too little room for wiring. The team responded by shrinking and inverting the camera turret, reconsidering manipulator placement, separating battery packaging, and redesigning the tray and master assembly.**
+- Integration exposed major packaging conflicts. The first camera dome blocked two thrusters, the arm competed with the camera for front-of-vehicle space, and the first electronics tray left too little room for wiring. The team responded by shrinking and inverting the camera turret, reconsidering manipulator placement, separating battery packaging, and redesigning the tray and master assembly.
 
-- **Underwater actuation created a cost-versus-reliability tradeoff. Field-oriented-control motors and commercial waterproof servos were technically attractive but pushed the arm toward an estimated cost of roughly $850 and still raised seal and corrosion concerns. The team reduced the manipulator's degrees of freedom and relied more on the ROV's own six-axis motion for positioning.**
+- Underwater actuation created a cost-versus-reliability tradeoff. Field-oriented-control motors and commercial waterproof servos were technically attractive but pushed the arm toward an estimated cost of roughly $850 and still raised seal and corrosion concerns. The team reduced the manipulator's degrees of freedom and relied more on the ROV's own six-axis motion for positioning.
 
-- **Fabrication quality repeatedly limited progress. Ender 3 prints suffered from failed jobs, stringing, weak overhangs, and propeller trailing-edge defects. The team moved critical prints to a Bambu X1C, developed custom dense supports for the camera clamp, tuned PETG for sealing components, revised parts to reduce overhangs, strengthened layer orientation, and used repeated tolerance prints.**
+- Fabrication quality repeatedly limited progress. Ender 3 prints suffered from failed jobs, stringing, weak overhangs, and propeller trailing-edge defects. The team moved critical prints to a Bambu X1C, developed custom dense supports for the camera clamp, tuned PETG for sealing components, revised parts to reduce overhangs, strengthened layer orientation, and used repeated tolerance prints.
 
-- **Schedule and coordination slowed integration. Much of the early period was spent on CAD and isolated prototypes, while software, internal wiring, epoxy sealing, and full - system testing remained late-stage tasks. A spring 2025 planning meeting reset responsibilities and prioritized ordering, assembly, wiring, waterproofing, and an in - water test.**
+- Schedule and coordination slowed integration. Much of the early period was spent on CAD and isolated prototypes, while software, internal wiring, epoxy sealing, and full-system testing remained late-stage tasks. A spring 2025 planning meeting reset responsibilities and prioritized ordering, assembly, wiring, waterproofing, and an in-water test.
 
 ## MAY 2025 — Status at the end of the record
 
