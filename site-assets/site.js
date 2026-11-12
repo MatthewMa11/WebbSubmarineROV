@@ -51,7 +51,7 @@
       for (const entry of entries) {
         if (!entry.isIntersecting) continue;
         observer.unobserve(entry.target);
-        if (reduced.matches) continue;
+        if (reduced.matches || document.documentElement.classList.contains('motion-paused')) continue;
         const animation = entry.target.animate([
           { opacity: 0.25, transform: 'translateY(18px)' },
           { opacity: 1, transform: 'translateY(0)' }
@@ -64,6 +64,7 @@
     const stopMotion = () => animations.forEach(animation => animation.cancel());
     reduced.addEventListener('change', () => { if (reduced.matches) stopMotion(); });
     window.addEventListener('beforeprint', stopMotion);
+    window.addEventListener('rov-motion-change', () => { if (document.documentElement.classList.contains('motion-paused')) stopMotion(); });
   }
 
   const article = document.querySelector('.journal-content');
