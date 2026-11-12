@@ -9,6 +9,14 @@ The Webb Submarine ROV club is developing a remotely operated underwater vehicle
 - [Motor and fan CAD development journal](docs/journals/motor-and-fan-cad-development.md) — a detailed retrospective of the PLA baseline and R2–R14, including the reasons for changes, motor and adapter fit, retention mechanisms, housings, assembly access, and remaining physical checks.
 - [Club mission and museum vision](docs/journals/club-mission-and-museum-vision.md) — what the club does, what we are learning, and how the project could serve museum education and future staff-directed work.
 
+## Overall journal and buying list
+
+- [Read the overall project journal on the website](https://matthewma11.github.io/WebbSubmarineROV/journals/overall-project-journal.html) or [open the original PDF](downloads/rov-journal.pdf). The nine-page source includes earlier development and recent motor-control entries through November 7.
+- [Read the movement-module buying list on the website](https://matthewma11.github.io/WebbSubmarineROV/resources/parts-to-buy.html) or [download the original Excel workbook](downloads/rov-movement-module-8-motors.xlsx).
+- [Open the live Google Sheet](https://docs.google.com/spreadsheets/d/17dbXic_-cqCcyHlMcdPFjAtkF8hnMJh7JqnrQvZKGOg/edit?gid=820#gid=820). The [repository buying-list record](docs/procurement/README.md) and website tables preserve the November 11, 2026 snapshot, including both budget options and all compatibility/price notes.
+
+The uploaded PDF and Excel files are unchanged originals. The live Sheet may change independently of the dated repository and website snapshot.
+
 ## Start with the current design
 
 The latest recorded thruster configuration is **R14 housing + R13 concave cone + R11 fan**, fitted to the actual motor and metal adapter used in the R11 source model. It is a CAD and fabrication development configuration; the saved records do not establish successful powered-water operation.

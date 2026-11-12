@@ -1,0 +1,60 @@
+/* Shared document and purchasing readers. Existing home-page design is retained. */
+.resource-hero { padding-top: 42px; padding-bottom: 50px; border-bottom: 1px solid var(--line-dark); }
+.back-link { display:inline-block; margin-bottom:36px; font-size:14px; text-decoration:underline; text-underline-offset:4px; }
+.resource-hero > .eyebrow { color:var(--teal); margin-bottom:22px; }
+.resource-hero h1 { font-size:clamp(39px,5vw,72px); line-height:1.08; max-width:1000px; letter-spacing:-.04em; }
+.resource-intro { max-width:800px; font-size:19px; line-height:1.7; margin-top:26px; color:#486068; }
+.resource-actions { display:flex; flex-wrap:wrap; align-items:center; gap:14px 24px; margin:30px 0 20px; }
+.source-note { color:#486068; font-size:13px; line-height:1.8; max-width:1050px; margin:18px 0; }
+.source-note a,.resource-next a { text-decoration:underline; text-underline-offset:4px; }
+.resource-section { padding-top:46px; padding-bottom:50px; }
+.resource-section .section-heading { margin-bottom:20px; }
+.resource-section h2 { font-size:clamp(29px,3.5vw,44px); }
+.record-timeline { display:grid; grid-template-columns:1fr 1fr; gap:32px 52px; margin-top:30px; }
+.record-timeline article { border-top:1px solid var(--line-dark); padding-top:22px; }
+.record-timeline .eyebrow { color:var(--teal); }
+.record-timeline h3 { font-size:25px; margin:10px 0 14px; }
+.record-timeline article > p:last-child { color:#486068; max-width:540px; }
+.journal-pdf { display:block; width:100%; height:850px; height:min(850px,85vh); min-height:460px; background:#e5e8e3; border:1px solid var(--line-dark); margin:26px 0; }
+.budget-summary { display:grid; grid-template-columns:1fr 1fr; gap:40px; margin:40px 0 24px; }
+.budget-summary > div { border-top:2px solid var(--ink); padding-top:18px; }
+.budget-summary span { font:11px/1.6 var(--mono); letter-spacing:.04em; }
+.budget-summary strong { display:block; font-size:52px; color:var(--teal); line-height:1.3; margin:8px 0; }
+.budget-summary p { font-size:15px; color:#486068; }
+.resource-jumps { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:28px; }
+.resource-jumps a { color:var(--teal); font-size:15px; text-decoration:underline; text-underline-offset:4px; }
+.budget-section { scroll-margin-top:100px; }
+.budget-intro { max-width:1000px; font-size:18px; }
+.budget-scroll { width:100%; overflow-x:auto; border:1px solid var(--line-dark); margin-top:24px; background:#fff; }
+.budget-table { width:100%; min-width:1230px; border-collapse:collapse; font-size:14px; line-height:1.7; }
+.budget-table thead { color:var(--cream); background:var(--ink); }
+.budget-table th,.budget-table td { text-align:left; padding:15px 14px; vertical-align:top; border-bottom:1px solid var(--line-dark); }
+.budget-table th:first-child { width:220px; min-width:220px; }
+.budget-table td:last-child { min-width:350px; }
+.budget-table td:nth-child(2),.budget-table td:nth-child(3),.budget-table td:nth-child(4) { white-space:nowrap; font-variant-numeric:tabular-nums; }
+.budget-table td:nth-child(6) { min-width:145px; }
+.budget-table td a { color:var(--teal); text-decoration:underline; text-underline-offset:3px; white-space:nowrap; }
+.budget-table tbody tr:nth-child(even) { background:#f4f6f0; }
+.budget-table .budget-total { background:#e3efe8; font-weight:600; }
+.budget-table .budget-total th { border-top:2px solid var(--line-dark); }
+.resource-next { font-size:19px; }
+.resource-page .site-footer { margin-top:35px; }
+@media(max-width:760px) {
+ .resource-hero { padding-top:26px; padding-bottom:32px; }
+ .back-link { margin-bottom:25px; }
+ .resource-intro { font-size:17px; }
+ .resource-section { padding-top:32px; padding-bottom:32px; }
+ .record-timeline { grid-template-columns:1fr; gap:25px; }
+ .resource-actions { align-items:stretch; flex-direction:column; }
+ .resource-actions .button { width:100%; }
+ .budget-summary { grid-template-columns:1fr; gap:24px; margin-top:30px; }
+ .budget-summary strong { font-size:45px; }
+ .journal-pdf { min-height:460px; height:70vh; }
+}
+@media print {
+ .resource-actions,.back-link,.resource-jumps,.site-header,.site-footer { display:none; }
+ .journal-pdf { height:800px; }
+ .budget-scroll { overflow:visible; border:0; }
+ .budget-table { min-width:0; font-size:9px; }
+ .budget-table th:first-child,.budget-table td:last-child,.budget-table td:nth-child(6) { min-width:0; }
+}

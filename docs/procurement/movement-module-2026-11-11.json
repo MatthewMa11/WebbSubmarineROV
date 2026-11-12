@@ -1,0 +1,358 @@
+{
+  "spreadsheetId": "17dbXic_-cqCcyHlMcdPFjAtkF8hnMJh7JqnrQvZKGOg",
+  "url": "https://docs.google.com/spreadsheets/d/17dbXic_-cqCcyHlMcdPFjAtkF8hnMJh7JqnrQvZKGOg/edit?gid=820#gid=820",
+  "snapshotDate": "2026-11-11",
+  "sheets": [
+    {
+      "name": "Movement Module",
+      "gid": 820,
+      "values": [
+        [
+          "ROV Movement Module — 8 Motors"
+        ],
+        [
+          "Movement only; 8 motors already owned ($0 new motor purchase), Pi and laptop reused. USD. Quantities are purchase quantities."
+        ],
+        [
+          "Item",
+          "Unit price USD",
+          "Buy quantity",
+          "Line total USD",
+          "Link",
+          "Price basis",
+          "Notes"
+        ],
+        [
+          "E-clip replacement set — 5 clips",
+          "$1.09",
+          "2",
+          "$2.18",
+          "https://www.altitudehobbies.com/products/replacement-e-clip-set-fits-suppo-2208-2212-series",
+          "Verified seller price",
+          "2 packs = 10 clips: 8 needed + 2 spares. Listed for Suppo 2212 / 3.17mm shafts; QWinOut fit NOT confirmed. Verify groove and clip thickness before ordering."
+        ],
+        [
+          "5V 6A regulator",
+          "$32.00",
+          "1",
+          "$32.00",
+          "https://bluerobotics.com/store/comm-control-power/control/bec-5v6a-r1/",
+          "Verified seller price",
+          "7–26V input; use 3S candidate battery. Do not power Pi directly from battery."
+        ],
+        [
+          "3S 5000–5200mAh LiPo, XT60",
+          "$34.99",
+          "1",
+          "$34.99",
+          "https://zeeebattery.com/products/zeee-3s-lipo-battery-5200mah-11-1v-50c-xt60",
+          "Displayed price; variant check",
+          "Seller displays US starting price $34.99; confirm XT60 single-pack variant at checkout. Confirm motor/ESC voltage and combined current before purchase."
+        ],
+        [
+          "3S LiPo balance charger / leads",
+          "$46.69",
+          "1",
+          "$46.69",
+          "https://www.amazon.com/Xiangtat-B6ACneo-Charger-Battery-Batteries/dp/B0FN6Q4RT8/ref=sr_1_5?dib=eyJ2IjoiMSJ9.B4QtaOiPeXuaSQZTmP_4yw_sVAcZHIRq-1jYIKBdQQdb38UZlmhAfPjkowe7F4WwrSVTcvviCQ5qsfJUXOSPxFhQGXpAyB9PUOfFertdGEWtCFdthPsjxsVVZOBctMy_LFXlFEPQlMs9BpXquu3HmHzi6-YC_F5QH9ojj3UsxjXSRbW3wRypWqQmhNUNxVX_xSBNJ5Gij36lXMbfsqNTsogLV4R5cn_ylf14fZ84iFADjEYTsm56YDA8369dbjDdg2sna-8bLaLldrAPVmy_ngJNJWLT_3GVvL9uq0PMZ70.HaR11sDZOG37tvpRkKzawEPI6FHVSuu8n8a-jB5TKaw&dib_tag=se&hvadid=814206675252&hvdev=c&hvexpln=67&hvlocphy=9031212&hvnetw=g&hvocijid=1792897283029360369--&hvqmt=e&hvrand=1792897283029360369&hvtargid=kwd-2300614096048&hydadcr=4093_13623922&keywords=b6acneo+charger&mcid=decbe3bfc50538828d7a720fbddf3a7d&qid=1792707365&sr=8-5",
+          "Live Amazon price",
+          "Live Amazon listing checked Oct 22: $46.69, seller Lotus Mall. Third-party Xiangtat-branded B6ACneo listing; authenticity not independently verified. AC cable listed; extensions may cost extra."
+        ],
+        [
+          "Gamepad",
+          "$19.99",
+          "1",
+          "$19.99",
+          "https://www.logitechg.com/en-us/shop/p/f310-gamepad.940-000110",
+          "Verified seller price",
+          "Optional purchase: keyboard can be used; confirm laptop OS support."
+        ],
+        [
+          "Ethernet cable — 100 ft",
+          "$37.09",
+          "1",
+          "$37.09",
+          "https://www.monoprice.com/product?p_id=2119",
+          "Verified seller price",
+          "Bench/prototype cable; not submarine-depth rated. Use existing short cable for bench test to save."
+        ],
+        [
+          "USB-to-Ethernet adapter",
+          "$8.90",
+          "1",
+          "$8.90",
+          "https://www.amazon.com/dp/B00YUU3KC6",
+          "Unverified retained estimate",
+          "Buy only if laptop lacks Ethernet; USB-A connector."
+        ],
+        [
+          "Female-to-female jumper wire pack",
+          "$6.89",
+          "1",
+          "$6.89",
+          "https://www.amazon.com/dp/B07GD312VG",
+          "Unverified retained estimate",
+          "Pi I2C, grounds and low-current signals only."
+        ],
+        [
+          "Pico H motor-control bridge + watchdog + USB cable",
+          "$10.00",
+          "1",
+          "$10.00",
+          "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+          "Budget allowance",
+          "Pi USB/UART commands → Pico generates 8 ESC signals (DShot where required). Custom bridge/watchdog firmware needed; test 3D reversing, arming and command-loss shutdown. Programming adapter/passthrough for ESC setup may cost extra."
+        ],
+        [
+          "Tecunite servo-extension cable pack — 20 leads",
+          "$8.99",
+          "2",
+          "$17.98",
+          "https://www.amazon.com/TecUnite-Extension-Connectors-Connection-Control/dp/B07C18BXDV/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.henqeSlyks8_DD7EcNcmNU3yurtVpQ8_dl7B5t223en8VuyjnczqiiU7VphovBnvIUklQXX9VesIFqQlp-R_SawmC1PMTKKaKA_IffBxAT9Ofcry7yM744g1XDlCa0dByFp4bPfnlZ8rrrGUK6Bmj5rm6xfCR64JvxSZ0TU3DLW5iKKW_QLK6nxR4HG91rQ6sh7RaE1DFJnyN-unYzpC4DYRKR6yc_G8Mfk7Ok11nLnZ8NgHtuMZAKx5q4SEKXKIPV6jyY3QAPsL2Y78-rkjSshVSqOXPZY4G1ihwcuANO8.rS-RAI1wG23kSWXyDvcJdmwKD7Sz1VP4Wd98sS8fVsA&dib_tag=se&keywords=servo+extension+cable&qid=1792650319&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+          "Live Amazon pack price",
+          "$8.99 per 20-lead pack; buy quantity 2 = 40 leads for $17.98. 3-pin servo connectors do not directly fit 8-pin JST-SH ESC ports; actual ESC harness pinout still needs confirmation."
+        ],
+        [
+          "Matek PDB-HEX power distribution board",
+          "$26.40",
+          "1",
+          "$26.40",
+          "https://www.aliexpress.us/item/3256805956235938.html?src=google&src=google&albch=shopping&acnt=708-803-3821&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256805956235938&ds_e_product_merchant_id=5089697500&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19108282527&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=19108284222&gbraid=0AAAAAD6I-hHXQTTv1Gn2vSc6IFTBWy5uy&gclid=Cj0KCQjw6ObWBhDDARIsAFdfcUgvXr5ljpaj-N4DZ9_enBSA3FCZSjl8rNtkkyLswaqVDGhw7SbcyT4aAnuOEALw_wcB&gatewayAdapt=glo2usa",
+          "Live new-shopper offer",
+          "Live AliExpress offer $26.40, new shoppers, max 1 per shopper. Struck-through $90.62 is not a confirmed returning-customer checkout price. Eligibility/tax may change total."
+        ],
+        [],
+        [
+          "XT60 connector pigtail pack — 6 pieces",
+          "$9.98",
+          "1",
+          "$9.98",
+          "https://www.amazon.com/Hiteuoms-XT60-Connector-Plug-Cable/dp/B0DB1LBGSH/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.lpoZKamCym30r7iXZnoNoGzFlTHxSwTT2X3bm5Br2YY17smj6Vo_t3cnIueU1g5OTSq_mTG-5y6UG6VBHadd1HNylPfp7-qnJ0cUo4tZ-XGe7tRYSFYOunlBX6T-PSF5EXXwzJw1jDR8DAVJSK4WpGAXGkjOcUxoiqEK1uUQmQWXi46XLJFsxhE_s1qcwJyFZDh50QdgZtWFAhYGSjIl9MauA0zH28i1PaQdWp0qRPmrEcpyvc0Pmsd1sFdyuVxEjnlADQKPkKemqVXrDW4Jkf9JUWOjna484OgDTWHbxTI.fOqGHkTkvqXOtsIyA-YCZuOw7f2gMfH3EbNgO8GuvR0&dib_tag=se&keywords=silicone+wire+XT60+connector&qid=1792707978&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+          "Live Amazon pack price",
+          "Selected 12AWG-wire option, $9.98 for 6 XT60 pigtails, 100mm long. Additional long power wiring or motor connectors not included."
+        ],
+        [
+          "40-pin 2.54mm male header strips",
+          "$1.95",
+          "4",
+          "$7.80",
+          "https://www.sparkfun.com/straight-header-male-pth-0-1in-40-pin.html",
+          "Verified seller price",
+          "4 strips = 160 pins. Signal connections only; not battery/ESC power. Replaces stale already-owned note because revised sheet requests 4 strips."
+        ],
+        [],
+        [],
+        [
+          "TOTAL BEFORE TAX / SHIPPING",
+          null,
+          null,
+          "$260.89",
+          null,
+          null,
+          "Recalculated using checked listing prices plus remaining marked estimates. Tax/shipping/surcharges extra; PDB price assumes new-shopper eligibility. No purchase made."
+        ],
+        [
+          "Budget cap",
+          "$150.00",
+          null,
+          null,
+          null,
+          null,
+          "Latest requested maximum."
+        ],
+        [
+          "Amount over budget",
+          null,
+          null,
+          "$110.89",
+          null,
+          null,
+          "Total remains above $150; unverified marketplace prices may change."
+        ]
+      ]
+    },
+    {
+      "name": "Movement Budget 150",
+      "gid": 150820,
+      "values": [
+        [
+          "ROV Movement — $150 Bench-Test Budget"
+        ],
+        [
+          "Requires reuse: Pi 4 + suitable 5V/3A USB-C supply, laptop, short Ethernet cable/interface, 8 motors, 2 compatible 4-in-1 ESCs, microSD and assembly supplies. Confirm availability before ordering."
+        ],
+        [
+          "Item",
+          "Unit price USD",
+          "Buy quantity",
+          "Line total USD",
+          "Link",
+          "Price basis",
+          "Notes"
+        ],
+        [
+          "E-clip set — 5 clips",
+          "$1.09",
+          "2",
+          "$2.18",
+          "https://www.altitudehobbies.com/products/replacement-e-clip-set-fits-suppo-2208-2212-series",
+          "Checked listing",
+          "10 clips total; QWinOut shaft-groove fit still unconfirmed."
+        ],
+        [
+          "3S 5200mAh LiPo — XT60",
+          "$34.99",
+          "1",
+          "$34.99",
+          "https://zeeebattery.com/products/zeee-3s-lipo-battery-5200mah-11-1v-50c-xt60",
+          "Displayed starting price",
+          "Confirm US XT60 variant price, motor/ESC 3S support and total current."
+        ],
+        [
+          "B6ACneo-type AC balance charger",
+          "$46.69",
+          "1",
+          "$46.69",
+          "https://www.amazon.com/dp/B0FN6Q4RT8",
+          "Live Amazon price",
+          "Third-party Xiangtat listing; authenticity not independently verified. Includes AC cord per listing. Existing battery leads must reach both ports."
+        ],
+        [
+          "Pico H + USB data cable",
+          "$10.00",
+          "1",
+          "$10.00",
+          "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+          "Combined allowance",
+          "Ready-made board. Custom 8-channel signal generator/watchdog firmware required; verify actual ESC input protocol and reversing."
+        ],
+        [
+          "Female-to-female jumper wire pack",
+          "$6.89",
+          "1",
+          "$6.89",
+          "https://www.amazon.com/dp/B07GD312VG",
+          "Retained estimate",
+          "Signal/ground wiring only; not motor power."
+        ],
+        [
+          "40-pin 2.54mm male headers",
+          "$1.95",
+          "4",
+          "$7.80",
+          "https://www.sparkfun.com/straight-header-male-pth-0-1in-40-pin.html",
+          "Checked listing",
+          "4 strips per your revised list; optional if all required headers are already installed."
+        ],
+        [
+          "XT60 12AWG pigtail pack — 6 pieces",
+          "$9.98",
+          "1",
+          "$9.98",
+          "https://www.amazon.com/dp/B0DB1LBGSH",
+          "Live Amazon price",
+          "DIY soldered battery split to 2 ESCs. Use supplied ESC signal harnesses; preserve pinouts and sufficient wire gauge."
+        ],
+        [
+          "MIDI / AMI fuse holder",
+          "$6.32",
+          "1",
+          "$6.32",
+          "https://coachcontrols.com/index.php?main_page=product_info&products_id=88",
+          "Checked listing",
+          "Main positive feed near battery. Fuse and ring terminals separate."
+        ],
+        [
+          "MIDI fuse",
+          "$3.00",
+          "1",
+          "$3.00",
+          "https://coachcontrols.com/index.php?main_page=product_info&products_id=88",
+          "Allowance; holder link",
+          "Select actual fuse rating after load/current and wiring check; not based on ESC peak rating."
+        ],
+        [
+          "Power wire, ring terminals, signal breakout materials",
+          "$10.00",
+          "1",
+          "$10.00",
+          null,
+          "Allowance; select after ESC model",
+          "DIY power harness replaces PDB. Use motor leads and JST-SH harnesses supplied with existing ESCs; no servo-extension pack required if supplied leads reach."
+        ],
+        [
+          "Keyboard control / existing short Ethernet",
+          "$0.00",
+          "0",
+          "$0.00",
+          null,
+          "Required reuse",
+          "No gamepad, 100-ft cable or adapter purchase. Laptop must already have Ethernet or a suitable adapter."
+        ],
+        [
+          "Existing Pi USB-C power supply",
+          "$0.00",
+          "0",
+          "$0.00",
+          null,
+          "Required reuse, not verified owned",
+          "Bench-test Pi separately from battery using suitable 5V/3A supply. No onboard regulator in this budget; required later for self-contained ROV."
+        ],
+        [
+          "Existing 8 motors + 2 four-in-one ESCs",
+          "$0.00",
+          "0",
+          "$0.00",
+          null,
+          "Already owned",
+          "Confirm ESC models, 3S voltage and reversible firmware before battery use; do not assume DShot telemetry equals reverse thrust."
+        ],
+        [
+          "Existing microSD, ties, heat-shrink and crimps",
+          "$0.00",
+          "0",
+          "$0.00",
+          null,
+          "Already owned",
+          "Reuse your confirmed supplies."
+        ],
+        [
+          "PARTS SUBTOTAL",
+          null,
+          null,
+          "$137.85",
+          null,
+          null,
+          "USD; mixed checked prices and allowances."
+        ],
+        [
+          "Reserve for tax/shipping/price variation",
+          null,
+          null,
+          "$12.15",
+          null,
+          null,
+          "Reserve is a cap, not a verified shipping quote. If checkout exceeds $150, do not order all items."
+        ],
+        [
+          "TOTAL BUDGET",
+          null,
+          null,
+          "$150.00",
+          null,
+          null,
+          "$150 cap; parts availability, tax and shipping not guaranteed."
+        ],
+        [
+          "LIMITATIONS",
+          null,
+          null,
+          null,
+          null,
+          null,
+          "Bench movement control only. Camera/sensors/sonar, waterproofing and standalone battery-powered Pi operation excluded. No custom controller PCB, but custom firmware/software and soldering are required."
+        ]
+      ]
+    }
+  ]
+}
