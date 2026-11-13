@@ -14,6 +14,8 @@
 <link rel="stylesheet" href="site-assets/cyberpunk.css">
 <link rel="stylesheet" href="site-assets/ocean.css">
 <script src="site-assets/ocean.js" defer></script>
+<link rel="stylesheet" href="site-assets/ocean-lab.css">
+<script src="site-assets/marine-home.js" defer></script>
 </head>
 <body class="ocean-home">
 <div class="ambient-ocean" aria-hidden="true"></div>
@@ -30,7 +32,7 @@
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">+</span></button>
       <nav id="main-nav" aria-label="Main navigation">
-        <a href="#project">The project</a>
+        <a href="#project">The project</a><a href="explore.html">Ocean lab</a>
         <a href="#journal">Journals</a>
         <a href="#mission">Our vision</a>
         <a class="nav-download" href="#downloads">Files &amp; parts <span aria-hidden="true">↗</span></a>
@@ -113,7 +115,7 @@
   </g>
 </svg>
 </div></div>
-    <canvas class="ocean-particles" aria-hidden="true"></canvas>
+    <div class="home-ripple" aria-hidden="true"></div><canvas class="ocean-particles" aria-hidden="true"></canvas>
   </div>
   <div class="hero-inner shell">
     <div class="hero-copy">
@@ -121,14 +123,14 @@
       <h1 id="hero-title"><span class="hero-line">Built to <em>explore.</em></span><span class="hero-line hero-last">Designed to learn.</span></h1>
       <p class="hero-intro">We’re building an underwater robot to help the museum find fossils. Follow the ideas, experiments, and small breakthroughs taking us beneath the surface.</p>
       <div class="hero-actions">
-        <a class="button button-cyan" href="#project">Meet the ROV <span aria-hidden="true">↓</span></a>
+        <a class="button button-cyan" href="explore.html">Enter the ocean lab <span aria-hidden="true">↓</span></a>
         <a class="button button-outline" href="journals/overall-project-journal.html">Explore the journal <span aria-hidden="true">↗</span></a>
       </div>
       <p class="hero-note">Student-led engineering. Shared discoveries.</p>
     </div>
     <div class="ocean-hero-footer">
       <a class="scroll-cue" href="#project"><span aria-hidden="true"></span> Scroll to dive</a>
-      <p class="scene-caption"><strong>BEYOND THE WORKSHOP</strong>A glimpse of the world we’re building for.</p>
+      <div class="hero-play"><button id="whale-ripple" type="button">Make a ripple ◎</button><span class="hero-play-status" id="whale-response" role="status">Explore what’s below the surface.</span></div>
     </div>
   </div>
 </section>
@@ -138,7 +140,12 @@
   <a href="#mission"><span class="journey-number">03</span><span><strong>The purpose</strong><span class="journey-label">Fossils · Exploration · Learning</span></span><span class="journey-arrow" aria-hidden="true">↘</span></a>
 </nav>
 
-    <section class="project section-cream" id="project" aria-labelledby="project-title">
+    <section class="marine-gateway" aria-labelledby="marine-gateway-title"><div class="shell"><p class="eyebrow">THE OCEAN LAB / THREE WAYS TO EXPLORE</p><h2>Don’t just look.<br>Dive into it.</h2><p>Go from the surface to the deep, try a fossil-search mission, and paint a little light into the ocean.</p><div class="marine-gateway-grid">
+<a href="explore.html#depth"><span>01 / DISCOVER ↗</span><strong>Take a virtual dive.</strong><p>Change depth, watch the light fade, and log illustrated marine encounters.</p></a>
+<a href="explore.html#helm"><span>02 / PILOT ↗</span><strong>Take the ROV helm.</strong><p>Scan a fictional seabed, steer toward contacts, and document three finds.</p></a>
+<a href="explore.html#glow"><span>03 / CREATE ↗</span><strong>Paint with ocean light.</strong><p>Draw drifting glows, shape the current, and make the deep your canvas.</p></a>
+</div></div></section>
+<section class="project section-cream" id="project" aria-labelledby="project-title">
       <div class="shell">
         <div class="section-heading">
           <p class="eyebrow">01 / THE PROJECT</p>
