@@ -1,15 +1,5 @@
-import {depthInfo,newMission,moveRov,scanMission,nearbyFind,recordFind,FIND_SPOTS} from './rov-explorer-model.mjs';
+import {newMission,moveRov,scanMission,nearbyFind,recordFind,FIND_SPOTS} from './rov-game-model.mjs';
 const $=selector=>document.querySelector(selector);
-const views=['isometric','top','side'];let activeView='isometric';
-function showView(view){activeView=view;$('#rov-preview-image').src='site-assets/rov-views/rov-'+view+'.png';$('#rov-preview-image').alt='The club’s actual vehicle CAD assembly, '+view+' view';$('#view-caption').textContent=view[0].toUpperCase()+view.slice(1)+' view · click to change angle';document.querySelectorAll('[data-rov-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.rovView===view)));}
-document.querySelectorAll('[data-rov-view]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.rovView)));
-$('#vehicle-preview').addEventListener('click',()=>showView(views[(views.indexOf(activeView)+1)%views.length]));
-const colors=[['#0d6980','#052540'],['#173450','#07182c'],['#101c36','#030916'],['#17152b','#020710']];
-const zoneCopy=['Sunlight supports photosynthesis in the upper ocean. This learning view uses 200 m as the sunlight-zone boundary.','Sunlight becomes faint between about 200 and 1,000 m. This is the twilight zone.','Below about 1,000 m, sunlight no longer reaches this part of the ocean. This is the midnight zone.','At about 4,000 m, this learning view reaches the edge of the abyssal zone. The club’s depth ambition remains a long-term goal, not a verified vehicle rating.'];
-function updateDepth(value){const info=depthInfo(value);$('#depth-range').value=String(info.depth);$('#depth-range').setAttribute('aria-valuetext',`${info.depth} meters, ${info.zone}, approximately ${info.pressure} atmospheres`);$('#depth-value').textContent=info.depth.toLocaleString('en-US');$('#depth-output').textContent=info.depth.toLocaleString('en-US')+' m';$('#pressure-value').textContent='~'+info.pressure+' atm';$('#zone-name').textContent=info.zone;$('#zone-copy').textContent=zoneCopy[info.band];$('#depth-stage').style.setProperty('--water-top',colors[info.band][0]);$('#depth-stage').style.setProperty('--water-bottom',colors[info.band][1]);$('#depth-stage').style.setProperty('--ray-light',info.band===0?'.8':info.band===1?'.2':'0');document.querySelectorAll('[data-depth-preset]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.depthPreset)===info.depth)));}
-$('#depth-range').addEventListener('input',e=>updateDepth(e.target.value));document.querySelectorAll('[data-depth-preset]').forEach(b=>b.addEventListener('click',()=>updateDepth(b.dataset.depthPreset)));
-$('#lamp-toggle').addEventListener('click',()=>{const on=$('#lamp-toggle').getAttribute('aria-pressed')!=='true';$('#lamp-toggle').setAttribute('aria-pressed',String(on));$('#depth-stage').classList.toggle('lamp-on',on);$('#lamp-toggle').textContent=on?'Headlamp on':'Headlamp off';});
-updateDepth(50);showView('isometric');
 let mission=newMission();
 let lastNear=null;
 let thrustTimer=0;

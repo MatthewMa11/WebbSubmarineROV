@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="site-assets/cyberpunk.css">
 <link rel="stylesheet" href="site-assets/ocean.css">
 <script src="site-assets/ocean.js" defer></script>
-<link rel="stylesheet" href="site-assets/rov-explorer.css">
 </head>
 <body class="ocean-home">
 <div class="ambient-ocean" aria-hidden="true"></div>
@@ -31,7 +30,7 @@
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">+</span></button>
       <nav id="main-nav" aria-label="Main navigation">
-        <a href="#project">The project</a><a href="explore.html">ROV explorer</a>
+        <a href="#project">The project</a>
         <a href="#journal">Journals</a>
         <a href="#mission">Our vision</a>
         <a class="nav-download" href="#downloads">Files &amp; parts <span aria-hidden="true">↗</span></a>
@@ -44,7 +43,76 @@
   <div class="ocean-scene" aria-hidden="true">
     <div class="ocean-glow"></div><div class="ocean-rays"></div>
     <div class="sonar-rings"><i></i><i></i><i></i></div>
-    <div class="rov-hero-depth"><img src="site-assets/rov-views/rov-isometric.png" alt="The club’s actual submarine ROV CAD assembly" width="1200" height="900" fetchpriority="high"></div>
+    <div class="whale-depth"><div class="whale-approach"><svg class="whale-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="whale-body" x1=".22" y1="1" x2=".65" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#03101f"/><stop offset=".35" stop-color="#092b41"/>
+      <stop offset=".7" stop-color="#15536b"/><stop offset=".92" stop-color="#32818b"/><stop offset="1" stop-color="#85d8d1"/>
+    </linearGradient>
+    <linearGradient id="whale-belly" x1="0" y1="0" x2=".2" y2="1">
+      <stop stop-color="#103749" stop-opacity="0"/><stop offset="1" stop-color="#89bec5" stop-opacity=".46"/>
+    </linearGradient>
+    <linearGradient id="whale-fin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#21556e"/><stop offset=".4" stop-color="#0c2c45"/><stop offset="1" stop-color="#080f25"/>
+    </linearGradient>
+    <linearGradient id="whale-rim" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#40e5d9" stop-opacity="0"/><stop offset=".48" stop-color="#76fff1" stop-opacity=".4"/>
+      <stop offset=".8" stop-color="#a7ffef"/><stop offset="1" stop-color="#6bece7" stop-opacity=".2"/>
+    </linearGradient>
+    <radialGradient id="whale-head-glow" cx=".8" cy=".12" r=".8">
+      <stop stop-color="#88ece4" stop-opacity=".27"/><stop offset="1" stop-color="#2a9bb1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="whale-rose" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fd68dd" stop-opacity="0"/><stop offset=".5" stop-color="#af64df" stop-opacity=".28"/><stop offset="1" stop-color="#fd68dd" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="whale-grain" width="31" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="8" r=".8" fill="#b1f9ff" opacity=".17"/><circle cx="17" cy="23" r=".5" fill="#b1f9ff" opacity=".13"/>
+      <path d="m24 4 2 1M9 19l3 1" stroke="#b1f9ff" opacity=".08"/>
+    </pattern>
+    <path id="whale-silhouette" d="M179 224C251 222 287 211 331 191C394 158 451 132 512 119C548 111 579 100 626 94C710 78 801 87 875 113C925 130 972 160 991 193C1003 212 990 233 967 241C929 253 896 270 849 283C789 302 714 306 643 292C572 278 513 263 450 252C362 236 280 234 180 244Z"/>
+    <clipPath id="whale-body-clip"><use href="#whale-silhouette"/></clipPath>
+  </defs>
+  <g class="whale-cruise">
+    <g class="whale-tail">
+      <path d="M195 225C153 211 113 169 49 150C54 185 89 222 137 234C90 249 65 278 57 313C107 303 158 276 195 246Z" fill="url(#whale-fin)" stroke="#49a4b0" stroke-opacity=".32"/>
+      <path d="M57 159C85 181 119 205 164 228M66 302C98 281 126 259 164 242" fill="none" stroke="#62d7d4" stroke-opacity=".3" stroke-width="1.4"/>
+      <path d="M181 222C221 222 271 216 313 209L314 238C264 234 219 238 181 246Z" fill="url(#whale-body)"/>
+    </g>
+    <path d="M792 254C817 268 854 307 873 345C829 343 788 317 753 278Z" fill="#0b263e" stroke="#47849c" stroke-opacity=".22"/>
+    <path d="M493 126C506 111 503 86 490 71C523 72 541 98 561 110Z" fill="#216175"/>
+    <use href="#whale-silhouette" fill="url(#whale-body)"/>
+    <g clip-path="url(#whale-body-clip)">
+      <path d="M336 212C488 235 615 239 770 219C859 208 932 211 1004 213L1027 346L313 312Z" fill="url(#whale-belly)"/>
+      <ellipse cx="779" cy="146" rx="290" ry="139" fill="url(#whale-head-glow)"/>
+      <path d="M287 241C476 244 655 324 869 284" fill="none" stroke="url(#whale-rose)" stroke-width="19"/>
+      <use href="#whale-silhouette" fill="url(#whale-grain)"/>
+      <g fill="none" stroke="#8dd6d8" stroke-opacity=".23" stroke-width="1.1">
+        <path d="M958 233C905 248 857 274 777 287"/><path d="M931 238C877 255 831 278 754 289"/>
+        <path d="M906 241C852 260 810 282 730 289"/><path d="M878 245C831 265 784 282 705 286"/>
+        <path d="M847 249C803 269 756 284 682 281"/><path d="M818 251C776 271 727 280 656 275"/>
+      </g>
+      <path d="M402 199C521 152 665 120 803 139" stroke="#7ddad9" stroke-opacity=".08" stroke-width="22" fill="none"/>
+    </g>
+    <path d="M246 218C361 194 418 140 512 119C548 111 579 100 626 94C710 78 801 87 875 113C925 130 972 160 991 193" fill="none" stroke="url(#whale-rim)" stroke-width="2.2"/>
+    <path d="M991 215C946 223 901 229 856 238C819 244 777 247 738 245" fill="none" stroke="#011421" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M981 218C940 224 898 231 860 239" fill="none" stroke="#9cdbd8" stroke-opacity=".28" stroke-width="1.1"/>
+    <ellipse cx="935" cy="181" rx="7" ry="5.5" fill="#021320"/>
+    <path d="M930 180C932 176 937 176 941 180" stroke="#94fff0" stroke-opacity=".67" stroke-width="1.5" fill="none"/>
+    <circle cx="936" cy="181" r="1.5" fill="#b8fff3"/>
+    <path d="m821 109 19 5" stroke="#051b29" stroke-width="3.4" stroke-linecap="round"/>
+    <g fill="#9dc9d2" opacity=".43">
+      <circle cx="963" cy="213" r="2.2"/><circle cx="947" cy="218" r="2"/><circle cx="929" cy="223" r="1.8"/>
+      <circle cx="970" cy="204" r="1.5"/><circle cx="914" cy="228" r="1.9"/><circle cx="894" cy="233" r="1.6"/>
+    </g>
+    <g class="whale-flipper">
+      <path d="M755 253C741 290 700 344 653 386C621 414 578 430 547 422C563 392 587 354 616 321L676 246C704 235 733 241 755 253Z" fill="url(#whale-fin)"/>
+      <path d="M753 254C729 307 665 380 610 407C584 420 568 422 549 421" stroke="#78d3d4" stroke-opacity=".42" stroke-width="1.6" fill="none"/>
+      <path d="M683 260C651 313 603 378 565 410" stroke="#346383" stroke-opacity=".43" stroke-width="1.4" fill="none"/>
+      <path d="M725 250C696 275 681 303 662 324" stroke="#a6ddd6" stroke-opacity=".12" stroke-width="7" fill="none"/>
+    </g>
+  </g>
+</svg>
+</div></div>
     <canvas class="ocean-particles" aria-hidden="true"></canvas>
   </div>
   <div class="hero-inner shell">

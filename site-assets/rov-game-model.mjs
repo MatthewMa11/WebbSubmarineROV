@@ -1,10 +1,4 @@
-// Educational depth estimates and fictional mission state; no hardware connection.
-export function depthInfo(value) {
-  const number=Number(value);
-  const depth=Math.max(0,Math.min(4000,Number.isFinite(number)?Math.round(number):0));
-  const band=depth<200?0:depth<1000?1:depth<4000?2:3;
-  return {depth,band,zone:['Sunlight','Twilight','Midnight','Abyss edge'][band],pressure:Math.round(1+depth/10)};
-}
+// Fictional search-game state; controls do not connect to hardware.
 export const FIND_SPOTS=Object.freeze([
   Object.freeze({id:'spiral',name:'Spiral shell impression',x:25,y:30}),
   Object.freeze({id:'leaf',name:'Leaf impression',x:75,y:35}),
