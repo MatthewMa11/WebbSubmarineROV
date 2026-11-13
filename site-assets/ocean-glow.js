@@ -8,11 +8,22 @@
   const palettes={lagoon:[88,255,223],abyss:[112,173,255],violet:[224,133,255]};
   let palette='lagoon',current=20,width=0,height=0,frame=0,last=0,visible=false,painting=false,lastPaint=0,blooms=0;
   let particles=[];
+  let flowTime=0;
   const canRun=()=>visible&&particles.length>0&&!root.classList.contains('motion-paused')&&document.visibilityState!=='hidden';
   function draw() {
     context.fillStyle='#040d1c';context.fillRect(0,0,width,height);
     for(let i=0;i<24;i++) {
       context.fillStyle=i%3===0?'#153a4a':'#10283e';context.beginPath();context.arc(((i*137.9)%1)*width,((i*93.71)%1)*height,1.2,0,Math.PI*2);context.fill();
+    }
+    // Quiet, stylized jelly silhouettes keep the water marine even before painting.
+    for(let i=0;i<3;i++) {
+      const x=width*(.2+i*.3),y=height*(.29+(i%2)*.26)+Math.sin(flowTime*.6+i)*7,r=17+i*5;
+      context.fillStyle='#538ba30c';context.strokeStyle='#5cb4c322';context.lineWidth=1;
+      context.beginPath();context.moveTo(x-r,y);context.bezierCurveTo(x-r,y-r*1.6,x+r,y-r*1.6,x+r,y);context.quadraticCurveTo(x,y+r*.35,x-r,y);context.fill();context.stroke();
+      for(let j=0;j<4;j++) {
+        const tx=x-r*.65+j*r*.43;
+        context.beginPath();context.moveTo(tx,y+3);context.bezierCurveTo(tx+12,y+18,tx-10,y+36,tx+Math.sin(flowTime+j)*5,y+55);context.stroke();
+      }
     }
     context.globalCompositeOperation='lighter';
     for(const p of particles) {
@@ -31,6 +42,7 @@
     const elapsed=now-last;
     if(elapsed>=1000/30) {
       const dt=Math.min(elapsed,80)/1000;last=now;
+      flowTime+=dt;
       particles=particles.filter(p=>p.life>0);
       for(const p of particles) {p.x+=(p.vx+current*.25)*dt;p.y+=p.vy*dt;p.life-=dt;}
       draw();

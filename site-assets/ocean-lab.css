@@ -89,6 +89,8 @@
 .mission-pad [data-steer="right"] { grid-column:3; grid-row:2; }
 .mission-pad [data-steer="down"] { grid-column:2; grid-row:3; }
 .mission-pad [data-scan] { grid-column:2; grid-row:2; color:var(--cyan); }
+.mission-map .mission-pad { position:absolute; bottom:16px; left:16px; z-index:5; margin:0; padding:8px; background:#051321c9; border:1px solid #4a7b8d3b; }
+.map-record { display:none; }
 .mission-actions { display:flex; gap:8px; flex-wrap:wrap; margin-top:15px; }
 .mission-actions .button { width:100%; justify-content:center; font-size:10px; gap:8px; }
 .mission-actions .lab-tool { flex:1; }
@@ -170,6 +172,9 @@ html.motion-on .dumbo-fin { animation:dumbo-fin 3.2s ease-in-out infinite; trans
  .mission-map { min-height:390px; }
  .mission-panel { border-left:0; border-top:1px solid #3d496a; padding:25px 22px; }
  .mission-pad { grid-template-columns:repeat(3,54px); grid-template-rows:repeat(3,42px); }
+ .mission-map .mission-pad { left:8px; bottom:8px; padding:6px; grid-template-columns:repeat(3,39px); grid-template-rows:repeat(3,38px); }
+ .map-record { display:block; position:absolute; z-index:5; bottom:16px; right:12px; width:145px; min-height:40px; font-size:9px; }
+ .mission-map .map-compass { bottom:68px; right:24px; }
  .mission-actions .button { min-height:44px; }
  .mission-target span { font-size:7px; max-width:75px; }
  .rov-marker { width:43px; height:54px; }

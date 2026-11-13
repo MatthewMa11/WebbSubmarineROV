@@ -78,6 +78,7 @@ function renderMission() {
   }
   const near=nearbyFind(mission);
   $('#record-find').disabled=!near;
+  $('#map-record').disabled=!near;
   $('#record-find').textContent=near?'Document '+near.name:'Document a find';
   $('#export-mission').disabled=!mission.recorded.length;
   $('#mission-complete').hidden=mission.recorded.length!==3;
@@ -109,11 +110,13 @@ $('#mission-map').addEventListener('keydown',event=>{
   if(direction) {event.preventDefault();steer(...directions[direction]);}
   else if(key===' ') {event.preventDefault();if(!event.repeat)scan();}
 });
-$('#record-find').addEventListener('click',()=>{
+function documentFind() {
   const find=nearbyFind(mission);if(!find)return;
   mission=recordFind(mission);renderMission();
   $('#mission-status').textContent=mission.recorded.length===3?'Mission complete. All three fictional finds are documented.':find.name+' documented. Keep exploring for the remaining finds.';
-});
+}
+$('#record-find').addEventListener('click',documentFind);
+$('#map-record').addEventListener('click',documentFind);
 $('#reset-mission').addEventListener('click',()=>{
   mission=newMission();lastNear=null;renderMission();
   clearTimeout(scanTimer);$('#sonar-wave').classList.remove('is-scanning');
