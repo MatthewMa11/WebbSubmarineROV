@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webb Submarine ROV has moved</title>
+  <link rel="canonical" href="https://webbrov.pages.dev/">
+  <script>
+    (() => {
+      const prefix = '/WebbSubmarineROV';
+      const path = window.location.pathname;
+      const suffix = path === prefix ? '/' : path.startsWith(prefix + '/') ? path.slice(prefix.length) : path;
+      const destination = new URL('https://webbrov.pages.dev/');
+      destination.pathname = suffix;
+      destination.search = window.location.search;
+      destination.hash = window.location.hash;
+      window.location.replace(destination.href);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=https://webbrov.pages.dev/"></noscript>
+</head>
+<body>
+  <p>This page has moved to <a href="https://webbrov.pages.dev/">the Webb Submarine ROV website</a>.</p>
+</body>
+</html>

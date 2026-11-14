@@ -1,44 +1,25 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#080d18"><meta name="description" content="Pilot the club’s actual submarine ROV CAD in a fictional fossil-search training game."><title>ROV search mission — Webb Submarine ROV</title>
-<link rel="stylesheet" href="site-assets/site.css"><link rel="stylesheet" href="site-assets/cyberpunk.css"><link rel="stylesheet" href="site-assets/ocean.css"><link rel="stylesheet" href="site-assets/rov-game.css">
-<script src="site-assets/site.js" defer></script><script src="site-assets/ocean.js" defer></script><script src="site-assets/rov-game.js" type="module"></script></head><body class="game-page"><div class="ambient-ocean" aria-hidden="true"></div><a class="skip-link" href="#main">Skip to the search game</a><header class="site-header">
-    <div class="header-inner shell">
-      <a class="wordmark" href="index.html#top" aria-label="Webb Submarine ROV home">
-        <svg class="brand-mark" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-          <circle cx="22" cy="22" r="18" stroke="currentColor" stroke-width="1.5"/>
-          <circle cx="22" cy="22" r="4" fill="currentColor"/>
-          <path d="M22 18C12 17 10 9 16 7C23 5 28 11 24 18M25 24C32 17 40 20 39 26C37 33 29 34 25 26M19 25C22 35 16 40 11 36C6 31 8 23 17 23" fill="currentColor"/>
-        </svg>
-        <span>WEBB <span class="wordmark-sub">SUBMARINE ROV</span></span>
-      </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu <span aria-hidden="true">+</span></button>
-      <nav id="main-nav" aria-label="Main navigation">
-        <a href="index.html#project">The project</a>
-        <a href="index.html#journal">Journals</a>
-        <a href="index.html#mission">Our vision</a>
-        <a href="explore.html">ROV game</a><a class="nav-download" href="index.html#downloads">Files &amp; parts <span aria-hidden="true">↗</span></a>
-      </nav>
-    </div>
-  </header><svg class="lab-symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><symbol id="find-spiral" viewBox="0 0 40 40"><path d="M32 24C37 9 15 3 8 17C1 33 27 41 30 23C32 12 16 11 14 21C12 29 24 31 25 23C26 18 19 17 19 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol><symbol id="find-leaf" viewBox="0 0 40 40"><path d="M9 32C0 9 23 3 34 5C36 20 28 38 9 32ZM7 35L31 8M12 28L11 18M17 22L29 22M22 17L22 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol><symbol id="find-bone" viewBox="0 0 40 40"><path d="M13 13L8 8L4 13L10 19L8 29L14 34L20 27L27 34L33 28L29 20L36 14L31 8L25 13Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="5" fill="none" stroke="currentColor" stroke-width="2"/></symbol></defs></svg><main class="game-main shell" id="main"><section class="lab-section" id="helm" aria-labelledby="helm-title">
-<div class="lab-heading"><div><p class="eyebrow">THE ROV HELM</p><h1 id="helm-title">Your first search mission.</h1></div><p>Ping the seabed, steer toward a contact, and document three finds. A fictional training map inspired by the museum mission.</p></div>
-<div class="mission-grid"><div class="mission-map" id="mission-map" tabindex="0" role="group" aria-label="ROV training area" aria-describedby="mission-instructions">
- <svg class="map-terrain" viewBox="0 0 800 500" preserveAspectRatio="none" aria-hidden="true"><g fill="none" stroke="#376078" stroke-width="1"><path d="M-40 170C120 10 254 280 405 100S700-30 870 120M-40 200C120 40 254 310 405 130S700 0 870 150M-40 230C120 70 254 340 405 160S700 30 870 180M-40 260C120 100 254 370 405 190S700 60 870 210M-40 290C120 130 254 400 405 220S700 90 870 240M-40 320C120 160 254 430 405 250S700 120 870 270"/></g><g fill="#112b3d" stroke="#2a4c5f"><path d="M80 332L115 298L164 310L176 350L134 366Z"/><path d="M580 359L614 330L650 354L644 383L604 392Z"/><path d="M320 80L346 57L376 76L371 101L338 113Z"/></g></svg>
- <div class="mission-map-label"><span>FICTIONAL TRAINING MAP</span><span id="mission-coordinates">X 50 / Y 82</span></div>
- <div class="mission-target" data-map-find="spiral" style="left:25%;top:30%" hidden><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#find-spiral"/></svg><span>Spiral shell</span></div>
- <div class="mission-target" data-map-find="leaf" style="left:75%;top:35%" hidden><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#find-leaf"/></svg><span>Leaf impression</span></div>
- <div class="mission-target" data-map-find="bone" style="left:65%;top:75%" hidden><svg viewBox="0 0 40 40" aria-hidden="true"><use href="#find-bone"/></svg><span>Vertebra fragment</span></div>
- <div class="sonar-wave" id="sonar-wave" aria-hidden="true"></div>
- <div class="rov-marker" id="rov-marker" aria-hidden="true"><div class="rov-vehicle"><div class="rov-headlamp"></div><img src="site-assets/rov-views/rov-top.png" alt="" width="512" height="512"></div></div>
- <div class="mission-pad" role="group" aria-label="Steer the ROV"><button class="lab-tool" type="button" data-steer="up" aria-label="Steer up">↑</button><button class="lab-tool" type="button" data-steer="left" aria-label="Steer left">←</button><button class="lab-tool" type="button" data-steer="right" aria-label="Steer right">→</button><button class="lab-tool" type="button" data-steer="down" aria-label="Steer down">↓</button><button class="lab-tool" type="button" data-scan aria-label="Ping sonar">◎</button></div><button class="lab-tool map-record" type="button" id="map-record" disabled>Document nearby find</button><div class="map-compass" aria-hidden="true">N<br>↑</div>
-</div><aside class="mission-panel" aria-label="Mission controls"><p class="eyebrow">TRAINING OBJECTIVE</p><h3>Find. Approach.<br>Document.</h3><p id="mission-instructions">Click the map to focus it, then use arrow keys or WASD to steer and Space to scan. On touch, tap the arrow buttons. Approach a revealed find until the document button activates.</p>
- <ul class="mission-checklist"><li data-check-find="spiral">Spiral shell impression</li><li data-check-find="leaf">Leaf impression</li><li data-check-find="bone">Vertebra fragment</li></ul>
- <div class="mission-score"><span id="mission-count">0 / 3 documented</span><span id="mission-scans">0 scans</span></div>
- 
- <div class="mission-actions"><button class="button button-cyan" type="button" data-scan>Scan the seabed</button><button class="button button-outline" type="button" id="record-find" disabled>Document a find</button><button class="lab-tool" type="button" id="mission-lights" aria-pressed="true">Lights on</button><button class="lab-tool" type="button" id="reset-mission">Reset mission</button><button class="lab-tool" type="button" id="export-mission" disabled>Save training log ↓</button></div>
- <div class="mission-status" id="mission-status" role="status">New mission. Ping sonar, then steer toward a contact.</div>
-</aside></div>
-<div class="mission-complete" id="mission-complete" hidden>Mission complete. All three fictional finds are documented. <a href="journals/club-mission-and-museum-vision.html">Read the real museum vision →</a></div>
-<p class="lab-footnote">This is a stylized browser game. The map, contacts, specimens, and steering are illustrative; the controls do not connect to the club’s ROV. The real project’s development is recorded in the <a href="journals/overall-project-journal.html">overall journal</a>.</p>
-</section></main><footer class="site-footer">
-    <div class="shell footer-top"><p>WEBB<br><span>SUBMARINE ROV</span></p><a class="text-link" href="https://github.com/MatthewMa11/WebbSubmarineROV">Explore the repository <span aria-hidden="true">↗</span></a></div>
-    <div class="shell footer-bottom"><span>Learning through underwater engineering.</span><span>PROJECT RECORD · OCTOBER 26, 2026</span><a href="index.html#top">Back to the surface <span aria-hidden="true">↑</span></a></div>
-  </footer><button class="motion-toggle" type="button" aria-pressed="false" hidden><span class="motion-icon" aria-hidden="true">Ⅱ</span><span class="motion-label">Pause scene</span></button></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webb Submarine ROV has moved</title>
+  <link rel="canonical" href="https://webbrov.pages.dev/explore.html">
+  <script>
+    (() => {
+      const prefix = '/WebbSubmarineROV';
+      const path = window.location.pathname;
+      const suffix = path === prefix ? '/' : path.startsWith(prefix + '/') ? path.slice(prefix.length) : path;
+      const destination = new URL('https://webbrov.pages.dev/');
+      destination.pathname = suffix;
+      destination.search = window.location.search;
+      destination.hash = window.location.hash;
+      window.location.replace(destination.href);
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0;url=https://webbrov.pages.dev/explore.html"></noscript>
+</head>
+<body>
+  <p>This page has moved to <a href="https://webbrov.pages.dev/explore.html">the Webb Submarine ROV website</a>.</p>
+</body>
+</html>
